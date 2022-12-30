@@ -1,3 +1,5 @@
+tester12
+
 1. [Install Docker](https://docs.docker.com/get-docker/) on your machine.
 1. M1 MAC support for linux/amd64 platform `docker buildx build --platform linux/amd64 -t nextjs-docker-dev . --load`
 1. Run your container: `docker run -p 3000:3000 nextjs-docker-dev`
@@ -11,9 +13,6 @@ Other commands:
 `docker rmi IMAGE ID`
 `docker load -i nextjs-docker-dev.tar`
 `docker-compose up -d`
-
-
-
 
 1. Build your container: `docker build -t backend-docker .`.
 1. Run your container: `docker run -p 5000:5000 backend-docker`.
