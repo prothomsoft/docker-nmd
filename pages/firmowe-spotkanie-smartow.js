@@ -3,63 +3,63 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0001.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0003.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0002.jpg", height: 566 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0006.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0004.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0009.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0005.jpg", height: 526 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0007.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0008.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0010.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0011.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0013.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0014.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0015.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0016.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0018.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0019.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0020.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0021.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0024.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0025.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0026.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0027.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0028.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0029.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0030.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0031.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0032.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0033.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0034.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0035.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0036.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0037.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0038.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0039.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0040.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0041.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0042.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0043.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0044.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0045.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0047.jpg", height: 382 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0048.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0049.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0050.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0046.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/09/impreza_smartow_0051.jpg", height: 762 }
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0001.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0003.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0002.webp", height: 566 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0006.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0004.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0009.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0005.webp", height: 526 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0007.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0008.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0010.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0011.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0013.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0014.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0015.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0016.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0018.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0019.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0020.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0021.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0024.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0025.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0026.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0027.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0028.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0029.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0030.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0031.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0032.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0033.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0034.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0035.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0036.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0037.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0038.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0039.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0040.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0041.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0042.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0043.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0044.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0045.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0047.webp", height: 382 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0048.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0049.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0050.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0046.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/09/impreza_smartow_0051.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "impreza_smartow.jpg"}
+                    slide={process.env.staticImagesPath + "impreza_smartow.webp"}
                     images={images}
                     headTitle={"Fotograf na event firmowy Kraków, impreza plenerowa Chochołowy Dwór"}
                     headDescription={
@@ -80,7 +80,7 @@ const BlogPageComponent = () => {
                     leadNames={"SMARTRECRUITERS"}
                     leadTitle={"FOTOGRAF NA EVENT FIRMOWY KRAKÓW, IMPREZA PLENEROWA CHOCHOŁOWY DWÓR"}
                     leadUrl={"/fotograf-na-event-firmowy-krakow"}
-                    leadImage={process.env.staticImagesPath + "fotograf_na_event_firmowy_krakow.jpg"}
+                    leadImage={process.env.staticImagesPath + "fotograf_na_event_firmowy_krakow.webp"}
                 />
             
         );

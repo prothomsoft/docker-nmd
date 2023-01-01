@@ -3,45 +3,45 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_001.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_002.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_003.jpg", height: 851 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_013.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_005.jpg", height: 851 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_032.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_007.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_008.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_014.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_010.jpg", height: 851 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_012.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_006.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_031.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_015.jpg", height: 851 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_017.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_019.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_020.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_021.jpg", height: 852 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_023.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_025.jpg", height: 851 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_027.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_028.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_029.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_026.jpg", height: 852 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_030.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_033.jpg", height: 526 },
-            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_016.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_001.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_002.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_004.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_003.webp", height: 851 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_013.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_005.webp", height: 851 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_032.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_007.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_009.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_008.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_014.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_010.webp", height: 851 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_012.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_006.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_031.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_015.webp", height: 851 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_011.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_017.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_018.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_019.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_020.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_021.webp", height: 852 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_022.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_023.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_024.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_025.webp", height: 851 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_027.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_028.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_029.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_026.webp", height: 852 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_030.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_033.webp", height: 526 },
+            { imageSrc: "/static/blog/2019/08/sesja_narzeczenska_w_krakowie_016.webp", height: 763 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_narzeczenska_klasztor_w_tyncu.jpg"}
+                    slide={process.env.staticImagesPath + "sesja_narzeczenska_klasztor_w_tyncu.webp"}
                     images={images}
                     headTitle={"Park Mogilany, buziaki skąpane w promieniach słońca"}
                     headDescription={"Mury Opactwa Tynieckiego, zieleń Parku w Mogilanach i moc buziaków skąpanych w promieniach zachodzącego słońca. Sesja narzeczeńska Teresy i Andrzeja w Krakowie. Zapraszam na bloga."}
@@ -62,7 +62,7 @@ const BlogPageComponent = () => {
                     leadNames={"ANNA i PIOTR"}
                     leadTitle={"BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"}
                     leadUrl={"/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"}
-                    leadImage={process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"}
+                    leadImage={process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.webp"}
                 />
             
         );

@@ -10,7 +10,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
 const Index = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.jpg";
+  const pageImage = process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("lg"));
 
@@ -24,7 +24,7 @@ const Index = () => {
       leadTitle="FOTOGRAF ŚLUBNY W KRAKOWIE"
       leadUrl="/plener-slubny-na-rynku-w-krakowie"
       leadImage={pageImage}
-      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath + "ogrod_botaniczny.jpg"}
+      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.webp" : process.env.staticImagesPath + "ogrod_botaniczny.webp"}
       menuNames=""
       menuTitle="">
       <Container sx={{ pb: 3 }}>
@@ -62,7 +62,7 @@ const Index = () => {
         <ImageCardGrid />
       </Container>
 
-      <ParallaxImageFooter leadImage={process.env.staticImagesPath + "sesja_slubna_jesienia.jpg"} leadUrl="" height="70vh" />
+      <ParallaxImageFooter leadImage={process.env.staticImagesPath + "sesja_slubna_jesienia.webp"} leadUrl="" height="70vh" />
 
       <Container sx={{ py: 3 }}>
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">

@@ -7,7 +7,7 @@ import ClientList from "../components/clientList";
 
 const BlogListComponent = ({ posts }) => {
 
-  const pageImage = process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.jpg";
+  const pageImage = process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.webp";
 
   return (
     <LayoutSitePage

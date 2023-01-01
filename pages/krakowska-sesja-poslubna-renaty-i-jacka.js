@@ -3,33 +3,33 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
 
         let images = [
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_0033.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_002.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_003.jpg", height: 852 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_005.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_006.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_007.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_009.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_010.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_011.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_014.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_015.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_017.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_018.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_019.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_021.jpg", height: 762 }
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_0033.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_002.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_003.webp", height: 852 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_004.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_005.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_006.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_007.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_008.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_009.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_010.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_011.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_012.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_013.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_014.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_015.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_016.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_017.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_018.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_019.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_020.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_021.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "krakowska_sesja_poslubna_renaty_i_jacka_start.jpg"}
+                    slide={process.env.staticImagesPath + "krakowska_sesja_poslubna_renaty_i_jacka_start.webp"}
                     images={images}
                     headTitle={"Krakowska sesja ślubna Renaty i Jacka"}
                     headDescription={"Wszystkich, którym debata przedwyborcza podniosła ciśnienia , serdecznie zapraszam na mojego bloga i wpis plenerowy Renaty i Jacka."}
@@ -50,7 +50,7 @@ const BlogPageComponent = () => {
                     leadNames={"IWONA I MARCIN"}
                     leadTitle={"SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA"}
                     leadUrl={"/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja"}
-                    leadImage={process.env.staticImagesPath + "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.webp"}
                 />
             
         );

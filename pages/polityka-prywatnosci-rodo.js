@@ -9,7 +9,7 @@ import { useTheme } from '@mui/material/styles';
 
 const PageComponent = () => {
 
-    const pageImage = process.env.staticImagesPath + "plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg";
+    const pageImage = process.env.staticImagesPath + "plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.webp";
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.up('md'));
 

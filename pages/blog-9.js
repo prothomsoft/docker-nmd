@@ -9,7 +9,7 @@ import { posts } from "../components/posts";
 
 const Blog = () => {  
 
-  const pageImage = process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.jpg";
+  const pageImage = process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.webp";
   const currentPage = 9;
   const itemsPerPage = 20;
   const offset = (currentPage - 1) * itemsPerPage;

@@ -3,42 +3,42 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
  
         let images = [
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0001.jpg", height: 762 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0002.jpg", height: 852 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0003.jpg", height: 762 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0004.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0005.jpg", height: 762 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0027.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0006.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0007.jpg", height: 764 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0029.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0009.jpg", height: 913 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0010.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0012.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0014.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0016.jpg", height: 852 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0017.jpg", height: 762 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0018.jpg", height: 852 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0022.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0020.jpg", height: 526 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0025.jpg", height: 526 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0026.jpg", height: 762 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0028.jpg", height: 526 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0019.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0030.jpg", height: 762 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0001.webp", height: 762 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0002.webp", height: 852 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0003.webp", height: 762 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0004.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0005.webp", height: 762 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0027.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0006.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0007.webp", height: 764 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0029.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0009.webp", height: 913 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0010.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0012.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0013.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0014.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0016.webp", height: 852 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0017.webp", height: 762 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0018.webp", height: 852 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0008.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0022.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0020.webp", height: 526 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0024.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0025.webp", height: 526 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0026.webp", height: 762 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0028.webp", height: 526 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0019.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/05/sesja_zdjeciowa_rynek_w_krakowie_0030.webp", height: 762 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.jpg"}
+                    slide={process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.webp"}
                     images={images}
                     headTitle={"Plener ślubny na Rynku w Krakowie"}
                     headDescription={
@@ -61,7 +61,7 @@ const BlogPageComponent = () => {
                     leadNames={"MARLENA i ADAM"}
                     leadTitle={"SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNE NA ROMANTYCZNE KADRY"}
                     leadUrl={"/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry"}
-                    leadImage={process.env.staticImagesPath + "/marlena_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "/marlena_start.webp"}
                 />
             
         );

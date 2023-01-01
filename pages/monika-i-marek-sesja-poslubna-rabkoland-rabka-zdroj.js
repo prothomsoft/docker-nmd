@@ -3,33 +3,33 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
  
         let images = [
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0008.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0001.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0002.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0003.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0014.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0005.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0006.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0007.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0011.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0021.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0013.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0012.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0015.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0016.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0017.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0018.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0020.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0019.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0022.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0008.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0001.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0002.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0003.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0014.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0005.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0006.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0007.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0011.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0021.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0013.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0012.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0015.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0016.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0017.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0018.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0020.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0019.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rabkoland_0022.webp", height: 762 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "monika_i_marek_sesja_poslubna_rabkoland_rabka_zdroj_start.jpg"}
+                    slide={process.env.staticImagesPath + "monika_i_marek_sesja_poslubna_rabkoland_rabka_zdroj_start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna Rabkoland - Rabka Zdrój"}
                     headDescription={"Czy magiczne miasteczko Rabkoland to miejsce odpowiednie na sesję ślubną? Koniecznie sprawdźcie na moim blogu. Zapraszam w imieniu Marka i Moniki."}
@@ -50,7 +50,7 @@ const BlogPageComponent = () => {
                     leadNames={"IWONA I MARCIN"}
                     leadTitle={"SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA"}
                     leadUrl={"/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja"}
-                    leadImage={process.env.staticImagesPath + "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.webp"}
                 />
             
         );

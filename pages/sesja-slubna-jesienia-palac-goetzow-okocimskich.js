@@ -3,52 +3,52 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0001.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0003.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0002.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0027.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0006.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0030.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0025.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0010.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0014.jpg", height: 527 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0017.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0019.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0021.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0023.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0040.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0015.jpg", height: 527 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0005.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0031.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0028.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0032.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0029.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0039.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0034.jpg", height: 762 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0035.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0037.jpg", height: 527 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0033.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0036.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0042.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0026.jpg", height: 762 }
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0001.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0003.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0002.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0027.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0006.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0018.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0030.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0025.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0008.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0010.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0014.webp", height: 527 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0013.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0016.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0017.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0024.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0019.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0021.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0023.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0040.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0015.webp", height: 527 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0005.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0031.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0028.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0032.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0029.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0039.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0034.webp", height: 762 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0035.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0037.webp", height: 527 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0033.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0036.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0042.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0026.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_slubna_jesienia.jpg"}
+                    slide={process.env.staticImagesPath + "sesja_slubna_jesienia.webp"}
                     images={images}
                     headTitle={"Sesja ślubna jesienią, Pałac Goetzów Okocimskich"}
                     headDescription={"Sesję ślubną Izy i Arka zaplanowaliśmy w Gabinecie Kurii Metropolitarnej w Krakowie, gdzie kilka miesięcy wcześniej urzędował Janusz Gajos. Zapraszam na bloga."}
@@ -69,7 +69,7 @@ const BlogPageComponent = () => {
                     leadNames={"DAJANA i SYLWESTER"}
                     leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE - ŚLUBNA SESJA ZDJĘCIOWA - DAJANA i SYLWESTER"}
                     leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
-                    leadImage={process.env.staticImagesPath + "ogrod_botaniczny.jpg"}
+                    leadImage={process.env.staticImagesPath + "ogrod_botaniczny.webp"}
                 />
             
         );

@@ -7,20 +7,20 @@ import Image from "next/image";
 import Link from "next/link";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import fotograf_slubny_krakow_2 from "../public/static/portfolio/fotograf_slubny_krakow_2.jpg";
-import fotograf_slubny_krakow_11 from "../public/static/portfolio/fotograf_slubny_krakow_11.jpg";
-import fotograf_slubny_krakow_12 from "../public/static/portfolio/fotograf_slubny_krakow_12.jpg";
-import fotograf_slubny_krakow_14 from "../public/static/portfolio/fotograf_slubny_krakow_14.jpg";
-import fotograf_slubny_krakow_16 from "../public/static/portfolio/fotograf_slubny_krakow_16.jpg";
-import fotograf_slubny_krakow_20 from "../public/static/portfolio/fotograf_slubny_krakow_20.jpg";
-import fotograf_slubny_krakow_21 from "../public/static/portfolio/fotograf_slubny_krakow_21.jpg";
-import przysiega_w_kosciele_tokarnia from "../public/static/portfolio/przysiega_w_kosciele_tokarnia.jpg";
-import fotograf_slubny_krakow_4 from "../public/static/portfolio/fotograf_slubny_krakow_4.jpg";
-import wesele_strazackie_tokarnia from "../public/static/portfolio/wesele_strazackie_tokarnia.jpg";
-import fotografia_slubna_krakow_44 from "../public/static/portfolio/fotografia_slubna_krakow_44.jpg";
+import fotograf_slubny_krakow_2 from "../public/static/portfolio/fotograf_slubny_krakow_2.webp";
+import fotograf_slubny_krakow_11 from "../public/static/portfolio/fotograf_slubny_krakow_11.webp";
+import fotograf_slubny_krakow_12 from "../public/static/portfolio/fotograf_slubny_krakow_12.webp";
+import fotograf_slubny_krakow_14 from "../public/static/portfolio/fotograf_slubny_krakow_14.webp";
+import fotograf_slubny_krakow_16 from "../public/static/portfolio/fotograf_slubny_krakow_16.webp";
+import fotograf_slubny_krakow_20 from "../public/static/portfolio/fotograf_slubny_krakow_20.webp";
+import fotograf_slubny_krakow_21 from "../public/static/portfolio/fotograf_slubny_krakow_21.webp";
+import przysiega_w_kosciele_tokarnia from "../public/static/portfolio/przysiega_w_kosciele_tokarnia.webp";
+import fotograf_slubny_krakow_4 from "../public/static/portfolio/fotograf_slubny_krakow_4.webp";
+import wesele_strazackie_tokarnia from "../public/static/portfolio/wesele_strazackie_tokarnia.webp";
+import fotografia_slubna_krakow_44 from "../public/static/portfolio/fotografia_slubna_krakow_44.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.jpg";
+  const pageImage = process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 

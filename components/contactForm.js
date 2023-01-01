@@ -9,10 +9,10 @@ import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Link from "next/link";
 import Image from "next/image";
-import wesele_z_klasa from "../public/icons/wesele_z_klasa.jpg";
-import instagram_icon from "../public/icons/instagram_icon.jpg";
-import facebook_icon from "../public/icons/facebook_icon.jpg";
-import slub_na_glowie from "../public/icons/slub_na_glowie.jpg";
+import wesele_z_klasa from "../public/icons/wesele_z_klasa.webp";
+import instagram_icon from "../public/icons/instagram_icon.webp";
+import facebook_icon from "../public/icons/facebook_icon.webp";
+import slub_na_glowie from "../public/icons/slub_na_glowie.webp";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 

@@ -9,11 +9,11 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.jpg";
-import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg";
+import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.webp";
+import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.jpg";
+  const pageImage = process.env.staticImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 

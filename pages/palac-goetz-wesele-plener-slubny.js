@@ -3,35 +3,35 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
     let images = [
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_001.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_002.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_003.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_020.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_012.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_008.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_016.jpg", height: 805 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_006.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_024.jpg", height: 594 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_011.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_014.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_017.jpg", height: 526 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_018.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_015.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_023.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_009.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_022.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_005.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_004.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_007.jpg", height: 763 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_013.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_021.jpg", height: 527 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_019.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_010.jpg", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_001.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_002.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_003.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_020.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_012.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_008.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_016.webp", height: 805 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_006.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_024.webp", height: 594 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_011.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_014.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_017.webp", height: 526 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_018.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_015.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_023.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_009.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_022.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_005.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_004.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_007.webp", height: 763 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_013.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_021.webp", height: 527 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_019.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/03/palac_goetz_sesja_slubna_010.webp", height: 763 },
     ];
 
     return (
         <BlogPageComponentNew
-            slide={process.env.staticImagesPath + "sesja_slubna_palac_goetza.jpg"}
+            slide={process.env.staticImagesPath + "sesja_slubna_palac_goetza.webp"}
             images={images}
             headTitle={"Pałac Goetz, miejsce na wesele i plener ślubny marzeń"}
             headDescription={"Zapraszam Was do Brzeska. Pałac Goetz, miejsce na eleganckie wesele i plener ślubny marzeń. Serdecznie zapraszam na bloga..."}
@@ -52,7 +52,7 @@ const BlogPageComponent = () => {
             leadNames={"TERESA i ANDRZEJ"}
             leadTitle={"PLENER ŚLUBNY W KRAKOWSKIM OGRODZIE BOTANICZNYM"}
             leadUrl={"/plener-slubny-w-krakowskim-ogrodzie-botanicznym"}
-            leadImage={process.env.staticImagesPath + "plener_slubny_krakowski_ogrod_botaniczny.jpg"}
+            leadImage={process.env.staticImagesPath + "plener_slubny_krakowski_ogrod_botaniczny.webp"}
         />
     );
 };

@@ -3,36 +3,36 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0010.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0003.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0006.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0007.jpg", height: 402 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0005.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0001.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0009.jpg", height: 851 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0013.jpg", height: 527 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0014.jpg", height: 527 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0019.jpg", height: 805 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0021.jpg", height: 762 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0024.jpg", height: 383 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0002.jpg", height: 763 }
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0010.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0003.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0006.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0007.webp", height: 402 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0018.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0008.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0005.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0016.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0001.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0009.webp", height: 851 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0013.webp", height: 527 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0014.webp", height: 527 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0019.webp", height: 805 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0021.webp", height: 762 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0024.webp", height: 383 },
+            { imageSrc: "/static/blog/2018/08/slubna_sesja_palac_goetza_brzesko_okocim_0002.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "palac_goetza_brzesko.jpg"}
+                    slide={process.env.staticImagesPath + "palac_goetza_brzesko.webp"}
                     images={images}
                     headTitle={"Pałac Goetza Brzesko, ślubna sesja zdjęciowa, Pałac Goetz"}
                     headDescription={"Pałac Goetza Brzesko, ślubna sesja zdjęciowa Magdaleny i Łukasza. Sala ślubna na wymarzone wesele pod Krakowem. Zapraszam do oglądania."}
@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
                     leadNames={"MARTA i MARCIN"}
                     leadTitle={"WESELE POD KRAKOWEM, FIRST LOOK NA DACHU WIEŻOWCA"}
                     leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
-                    leadImage={process.env.staticImagesPath + "restauracja_tiffany_wola_filpowska.jpg"}
+                    leadImage={process.env.staticImagesPath + "restauracja_tiffany_wola_filpowska.webp"}
                 />
             
         );

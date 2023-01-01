@@ -3,47 +3,47 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0001.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0003.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0030.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0002.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0005.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0006.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0013.jpg", height: 595 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0014.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0019.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0025.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0026.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0027.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0028.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0029.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0010.jpg", height: 850 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0036.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0031.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0032.jpg", height: 762 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0033.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0035.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0034.jpg", height: 763 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0037.jpg", height: 762 },
-            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0001.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0003.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0030.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0002.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0005.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0006.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0008.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0013.webp", height: 595 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0014.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0019.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0018.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0025.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0024.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0026.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0027.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0028.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0029.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0010.webp", height: 850 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0036.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0031.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0032.webp", height: 762 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0033.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0035.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0034.webp", height: 763 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0037.webp", height: 762 },
+            { imageSrc: "/static/blog/2018/05/plener_slubny_lomnicki_staw_0012.webp", height: 763 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg"}
+                    slide={process.env.staticImagesPath + "plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.webp"}
                     images={images}
                     headTitle={"Plener ślubny Słowacja, Łomnicki Staw, Szczyrbskie Pleso."}
                     headDescription={"Plener ślubny Słowacja, Łomnicki Staw, Szczyrbskie Pleso. Zapraszam do oglądania."}
@@ -64,7 +64,7 @@ const BlogPageComponent = () => {
                     leadNames={"NATALIA i PIOTR"}
                     leadTitle={"HOTEL MARGERITA, MAGICZNY WYSTRÓJ SALI WESELNEJ W KRAKOWIE"}
                     leadUrl={"/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie"}
-                    leadImage={process.env.staticImagesPath + "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.jpg"}
+                    leadImage={process.env.staticImagesPath + "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.webp"}
                 />
             
         );

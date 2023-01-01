@@ -3,47 +3,47 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0001.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0002.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0003.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0007.jpg", height: 851 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0033.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0008.jpg", height: 805 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0010.jpg", height: 566 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0011.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0014.jpg", height: 383 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0018.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0028.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0019.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0020.jpg", height: 527 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0022.jpg", height: 805 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0035.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0005.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0025.jpg", height: 526 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0026.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0027.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0029.jpg", height: 850 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0006.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0034.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0030.jpg", height: 762 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0032.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0031.jpg", height: 763 },
-            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0024_1.jpg", height: 763 }
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0001.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0002.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0003.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0013.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0007.webp", height: 851 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0033.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0008.webp", height: 805 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0010.webp", height: 566 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0011.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0014.webp", height: 383 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0018.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0028.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0016.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0019.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0020.webp", height: 527 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0022.webp", height: 805 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0035.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0024.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0005.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0025.webp", height: 526 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0026.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0027.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0029.webp", height: 850 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0006.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0034.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0030.webp", height: 762 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0032.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0031.webp", height: 763 },
+            { imageSrc: "/static/blog/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0024_1.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"}
+                    slide={process.env.staticImagesPath + "pomysl_na_sesje_slubna_zimowa_w_krakowie.webp"}
                     images={images}
                     headTitle={"Pomysł na sesję zimową w Krakowie - Dwór Jana Matejki"}
                     headDescription={
@@ -66,7 +66,7 @@ const BlogPageComponent = () => {
                     leadNames={"KAROLINA i MATEUSZ"}
                     leadTitle={"ZIELONE WZGÓRZE KONIUSZA, TAK W PROMIENIACH SŁOŃCA"}
                     leadUrl={"/zielone-wzgorze-koniusza-tak-w-promieniach-slonca"}
-                    leadImage={process.env.staticImagesPath + "zielone_wzgorze_koniusza.jpg"}
+                    leadImage={process.env.staticImagesPath + "zielone_wzgorze_koniusza.webp"}
                 />
             
         );

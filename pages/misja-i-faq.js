@@ -10,13 +10,13 @@ import FaqAccordion2 from "../components/faqAccordion2";
 import FaqAccordion3 from "../components/faqAccordion3";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio from "../public/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg";
-import fotograf_slubny_krakow_1 from "../public/static/portfolio/fotograf_slubny_krakow_1.jpg";
-import fotograf_slubny_krakow_22 from "../public/static/portfolio/fotograf_slubny_krakow_22.jpg";
-import sesja_plenerowa_kasprowy from "../public/static/portfolio/sesja_plenerowa_kasprowy.jpg";
+import sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio from "../public/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.webp";
+import fotograf_slubny_krakow_1 from "../public/static/portfolio/fotograf_slubny_krakow_1.webp";
+import fotograf_slubny_krakow_22 from "../public/static/portfolio/fotograf_slubny_krakow_22.webp";
+import sesja_plenerowa_kasprowy from "../public/static/portfolio/sesja_plenerowa_kasprowy.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.jpg";
+  const pageImage = process.env.staticImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 

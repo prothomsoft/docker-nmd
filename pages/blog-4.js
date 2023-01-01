@@ -9,7 +9,7 @@ import { posts } from "../components/posts";
 
 const Blog = () => {  
 
-  const pageImage = process.env.staticImagesPath + "dom_weselny_euforia_myslenice_1.jpg";
+  const pageImage = process.env.staticImagesPath + "dom_weselny_euforia_myslenice_1.webp";
   const currentPage = 4;
   const itemsPerPage = 20;
   const offset = (currentPage - 1) * itemsPerPage;

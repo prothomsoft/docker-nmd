@@ -3,43 +3,43 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0001.jpg", height: 852 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0003.jpg", height: 566 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0035.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0006.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0009.jpg", height: 851 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0010.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0026.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0012.jpg", height: 850 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0033.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0013.jpg", height: 762 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0014.jpg", height: 527 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0005.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0032.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0025.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0028.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0031.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0030.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0029.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0034.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0027.jpg", height: 763 },
-            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0002.jpg", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0016.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0001.webp", height: 852 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0003.webp", height: 566 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0035.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0006.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0008.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0009.webp", height: 851 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0010.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0026.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0012.webp", height: 850 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0018.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0033.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0013.webp", height: 762 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0014.webp", height: 527 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0005.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0032.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0025.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0028.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0031.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0030.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0029.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0034.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0027.webp", height: 763 },
+            { imageSrc: "/static/blog/2020/08/plener_slubny_w_niepolomicach_0002.webp", height: 763 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_plenerowa_niepolomice.jpg"}
+                    slide={process.env.staticImagesPath + "sesja_plenerowa_niepolomice.webp"}
                     images={images}
                     headTitle={"Plener ślubny Zamek Królewski w Niepołomicach, Czarny Staw - Basia i Marcin"}
                     headDescription={"123"}
@@ -60,7 +60,7 @@ const BlogPageComponent = () => {
                     leadNames={"NATALIA i KACPER"}
                     leadTitle={"WESELE EUFORIA MYŚLENICE, PLENER ŚLUBNY DWÓR MOGILANY"}
                     leadUrl={"/wesele-euforia-myslenice-plener-slubny-dwor-mogilany"}
-                    leadImage={process.env.staticImagesPath + "fotograf_slubny_wesele_mogilany_krakow.jpg"}
+                    leadImage={process.env.staticImagesPath + "fotograf_slubny_wesele_mogilany_krakow.webp"}
                 />
             
         );

@@ -3,35 +3,35 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0002.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0001.jpg", height: 851 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0018.jpg", height: 339 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0003.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0014.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0005.jpg", height: 762 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0006.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0008.jpg", height: 805 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0010.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0013.jpg", height: 806 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0015.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0023.jpg", height: 527 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0016.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0017.jpg", height: 527 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0021.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0019.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0020.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0022.jpg", height: 763 }
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0002.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0001.webp", height: 851 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0018.webp", height: 339 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0003.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0014.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0005.webp", height: 762 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0006.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0008.webp", height: 805 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0010.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0013.webp", height: 806 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0015.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0023.webp", height: 527 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0016.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0017.webp", height: 527 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0021.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0019.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0020.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_0022.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_start.jpg"}
+                    slide={process.env.staticImagesPath + "sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_start.webp"}
                     images={images}
                     headTitle={"Sesja zdjęciowa Zakrzówek, Skałki Twardowskiego Kraków"}
                     headDescription={"Skałki Twardowskiego w Krakowie i sesja zdjęciowa Justyny i Damiana. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej."}
@@ -52,7 +52,7 @@ const BlogPageComponent = () => {
                     leadNames={"ANIA i MICHAŁ"}
                     leadTitle={"DOM WESELNY MARION - WESELE TARNÓW i ZDJĘCIA ŚLUBNE"}
                     leadUrl={"/dom-weselny-marion-wesele-tarnow-i-zdjecia-slubne"}
-                    leadImage={process.env.staticImagesPath + "dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_start.webp"}
                 />
             
         );

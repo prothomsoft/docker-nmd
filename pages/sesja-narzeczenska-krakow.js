@@ -5,19 +5,19 @@ import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import fotograf_slubny_krakow_3 from "../public/static/portfolio/fotograf_slubny_krakow_3.jpg";
-import fotograf_slubny_krakow_7 from "../public/static/portfolio/fotograf_slubny_krakow_7.jpg";
-import fotograf_slubny_krakow_9 from "../public/static/portfolio/fotograf_slubny_krakow_9.jpg";
-import fotograf_slubny_krakow_10 from "../public/static/portfolio/fotograf_slubny_krakow_10.jpg";
-import fotograf_slubny_krakow_13 from "../public/static/portfolio/fotograf_slubny_krakow_13.jpg";
-import fotograf_slubny_krakow_19 from "../public/static/portfolio/fotograf_slubny_krakow_19.jpg";
-import sesja_narzeczenska_sebastian from "../public/static/portfolio/sesja_narzeczenska_sebastian.jpg";
-import sesja_narzeczenska_1 from "../public/static/portfolio/sesja_narzeczenska_1.jpg";
-import sesja_narzeczenska_2 from "../public/static/portfolio/sesja_narzeczenska_2.jpg";
+import fotograf_slubny_krakow_3 from "../public/static/portfolio/fotograf_slubny_krakow_3.webp";
+import fotograf_slubny_krakow_7 from "../public/static/portfolio/fotograf_slubny_krakow_7.webp";
+import fotograf_slubny_krakow_9 from "../public/static/portfolio/fotograf_slubny_krakow_9.webp";
+import fotograf_slubny_krakow_10 from "../public/static/portfolio/fotograf_slubny_krakow_10.webp";
+import fotograf_slubny_krakow_13 from "../public/static/portfolio/fotograf_slubny_krakow_13.webp";
+import fotograf_slubny_krakow_19 from "../public/static/portfolio/fotograf_slubny_krakow_19.webp";
+import sesja_narzeczenska_sebastian from "../public/static/portfolio/sesja_narzeczenska_sebastian.webp";
+import sesja_narzeczenska_1 from "../public/static/portfolio/sesja_narzeczenska_1.webp";
+import sesja_narzeczenska_2 from "../public/static/portfolio/sesja_narzeczenska_2.webp";
 
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg";
+  const pageImage = process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 

@@ -3,38 +3,38 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0001.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0004.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0002.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0003.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0005.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0006.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0009.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0010.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0008.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0014.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0015.jpg", height: 851 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0016.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0018.jpg", height: 762 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0019.jpg", height: 764 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0025.jpg", height: 763 },
-            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0026.jpg", height: 763 }
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0001.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0004.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0002.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0003.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0005.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0006.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0009.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0010.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0008.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0013.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0014.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0015.webp", height: 851 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0016.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0018.webp", height: 762 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0019.webp", height: 764 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0024.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0025.webp", height: 763 },
+            { imageSrc: "/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0026.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "agata_i_mateusz_dwor_w_tomaszowicach_zamek_w_korzkwi_i_ojcow_start.jpg"}
+                    slide={process.env.staticImagesPath + "agata_i_mateusz_dwor_w_tomaszowicach_zamek_w_korzkwi_i_ojcow_start.webp"}
                     images={images}
                     headTitle={"Sesja zdjęciowa Dwór Tomaszowice"}
                     headDescription={"Promienie zachodzącego słońca i trzy podkrakowskie miejsca plenerowe: Dwór w Tomaszowicach, zamki w Korzkwi i Ojcowie. Zapraszam na plener Agaty i Mateusza."}
@@ -55,7 +55,7 @@ const BlogPageComponent = () => {
                     leadNames={"IWONA I MARCIN"}
                     leadTitle={"SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA"}
                     leadUrl={"/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja"}
-                    leadImage={process.env.staticImagesPath + "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.webp"}
                 />
             
         );

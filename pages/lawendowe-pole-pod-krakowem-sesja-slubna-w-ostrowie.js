@@ -3,38 +3,38 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
 
         let images = [
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0001.jpg", height: 762 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0025.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0002.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0019.jpg", height: 851 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0003.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0010.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0005.jpg", height: 762 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0006.jpg", height: 851 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0008.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0026.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0011.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0022.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0014.jpg", height: 850 },
-            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0024.jpg", height: 763 }
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0001.webp", height: 762 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0025.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0002.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0019.webp", height: 851 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0003.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0010.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0005.webp", height: 762 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0006.webp", height: 851 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0008.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0026.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0013.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0011.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0016.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0018.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0022.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0014.webp", height: 850 },
+            { imageSrc: "/static/blog/2017/06/lawendowe_pole_pod_krakowem_0024.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "lawendowe_pole_pod_krakowem_sesja_slubna_w_ostrowie_start.jpg"}
+                    slide={process.env.staticImagesPath + "lawendowe_pole_pod_krakowem_sesja_slubna_w_ostrowie_start.webp"}
                     images={images}
                     headTitle={"Lawendowe pole pod Krakowem"}
                     headDescription={"Lawendowe pole pod Krakowem i sesja zdjęciowa Karoliny i Dawida. Miejsce magiczne i wymarzone na zdjęcia. Serdecznie zapraszam na bloga. Miłego oglądania."}
@@ -55,7 +55,7 @@ const BlogPageComponent = () => {
                     leadNames={"KAROLINA i DAWID"}
                     leadTitle={"DOM WESELNY POD KASZTANAMI IGOŁOMIA"}
                     leadUrl={"/dom-weselny-pod-kasztanami-igolomia"}
-                    leadImage={process.env.staticImagesPath + "dom_weselny_pod_kasztanami_igolomia_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "dom_weselny_pod_kasztanami_igolomia_start.webp"}
                 />
             
         );

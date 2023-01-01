@@ -3,51 +3,51 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0000.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0001.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0002.jpg", height: 790 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0003.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0004.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0005.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0006.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0007.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0008.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0009.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0010.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0011.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0012.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0013.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0014.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0015.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0016.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0017.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0018.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0019.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0020.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0021.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0022.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0023.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0024.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0025.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0026.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0027.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0028.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0029.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0030.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0031.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0032.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0033.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0034.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0035.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0036.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0037.jpg", height: 763 },
-            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0038.jpg", height: 763 }
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0000.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0001.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0002.webp", height: 790 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0003.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0004.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0005.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0006.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0007.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0008.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0009.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0010.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0011.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0012.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0013.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0014.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0015.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0016.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0017.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0018.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0019.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0020.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0021.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0022.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0023.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0024.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0025.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0026.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0027.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0028.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0029.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0030.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0031.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0032.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0033.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0034.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0035.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0036.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0037.webp", height: 763 },
+            { imageSrc: "/static/blog/2014/09/ulubione_wakacyjne_kadry_0038.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "ulubione_wakacyjne_kadry_start.jpg"}
+                    slide={process.env.staticImagesPath + "ulubione_wakacyjne_kadry_start.webp"}
                     images={images}
                     headTitle={"Zdjęcia rodzinne Kraków"}
                     headDescription={"Kilka zdjęć z wakacji, na które w tym roku udaliśmy się do Wrocławia. Piękne miasto i mój ulubiony Ostrów Tumski oraz Ogród Japoński. Miłego oglądania."}
@@ -68,7 +68,7 @@ const BlogPageComponent = () => {
                     leadNames={"KAROLINA i BARTEK"}
                     leadTitle={"ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA"}
                     leadUrl={"/zdjecia-slubne-restauracja-stek-skawina"}
-                    leadImage={process.env.staticImagesPath + "zdjecia_slubne_restauracja_stek_skawina_start.jpg"}
+                    leadImage={process.env.staticImagesPath + "zdjecia_slubne_restauracja_stek_skawina_start.webp"}
                 />
             
         );

@@ -5,27 +5,27 @@ import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import ogrod_botaniczny from "../public/static/portfolio/ogrod_botaniczny.jpg";
-import portfolio_0002 from "../public/static/portfolio/portfolio_0002.jpg";
-import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
-import portfolio_0014 from "../public/static/portfolio/portfolio_0014.jpg";
-import portfolio_0008 from "../public/static/portfolio/portfolio_0008.jpg";
-import portfolio_0009 from "../public/static/portfolio/portfolio_0009.jpg";
-import portfolio_300 from "../public/static/portfolio/portfolio_300.jpg";
-import sesja_zdjeciowa_krakow_5_portfolio from "../public/static/portfolio/sesja_zdjeciowa_krakow_5_portfolio.jpg";
-import chan_kristina_sesja_slubna_krakow from "../public/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg";
-import sesja_zdjeciowa_palac_goetzow_brzesko from "../public/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.jpg";
-import plener_slubny_konie from "../public/static/portfolio/plener_slubny_konie.jpg";
-import plener_slubny_w_gorach from "../public/static/portfolio/plener_slubny_w_gorach.jpg";
-import plener_slubny_slowacja from "../public/static/portfolio/plener_slubny_slowacja.jpg";
-import portfolio_0003 from "../public/static/portfolio/portfolio_0003.jpg";
-import sesja_zdjeciowa_szczyrbskie from "../public/static/portfolio/sesja_zdjeciowa_szczyrbskie.jpg";
-import portfolio_2021_1 from "../public/static/portfolio/portfolio_2021_1.jpg";
-import fotograf_slubny_krakow_17 from "../public/static/portfolio/fotograf_slubny_krakow_17.jpg";
+import ogrod_botaniczny from "../public/static/portfolio/ogrod_botaniczny.webp";
+import portfolio_0002 from "../public/static/portfolio/portfolio_0002.webp";
+import plener_0002 from "../public/static/portfolio/plener_0002.webp";
+import portfolio_0014 from "../public/static/portfolio/portfolio_0014.webp";
+import portfolio_0008 from "../public/static/portfolio/portfolio_0008.webp";
+import portfolio_0009 from "../public/static/portfolio/portfolio_0009.webp";
+import portfolio_300 from "../public/static/portfolio/portfolio_300.webp";
+import sesja_zdjeciowa_krakow_5_portfolio from "../public/static/portfolio/sesja_zdjeciowa_krakow_5_portfolio.webp";
+import chan_kristina_sesja_slubna_krakow from "../public/static/portfolio/chan_kristina_sesja_slubna_krakow.webp";
+import sesja_zdjeciowa_palac_goetzow_brzesko from "../public/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.webp";
+import plener_slubny_konie from "../public/static/portfolio/plener_slubny_konie.webp";
+import plener_slubny_w_gorach from "../public/static/portfolio/plener_slubny_w_gorach.webp";
+import plener_slubny_slowacja from "../public/static/portfolio/plener_slubny_slowacja.webp";
+import portfolio_0003 from "../public/static/portfolio/portfolio_0003.webp";
+import sesja_zdjeciowa_szczyrbskie from "../public/static/portfolio/sesja_zdjeciowa_szczyrbskie.webp";
+import portfolio_2021_1 from "../public/static/portfolio/portfolio_2021_1.webp";
+import fotograf_slubny_krakow_17 from "../public/static/portfolio/fotograf_slubny_krakow_17.webp";
 
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.jpg";
+  const pageImage = process.env.staticImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 

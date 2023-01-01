@@ -6,10 +6,10 @@ import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import wakacje_bukowina from "../public/static/portfolio/wakacje_bukowina.jpg";
+import wakacje_bukowina from "../public/static/portfolio/wakacje_bukowina.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_park_mogilany.jpg";
+  const pageImage = process.env.staticImagesPath + "plener_slubny_park_mogilany.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 

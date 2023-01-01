@@ -3,42 +3,42 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
     let images = [
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0001.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0002.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0003.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0008.jpg", height: 852 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0005.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0006.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0007.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0029.jpg", height: 852 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0009.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0032.jpg", height: 527 },     
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0016.jpg", height: 762 }, 
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0030.jpg", height: 526 }, 
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0011.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0012.jpg", height: 762 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0013.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0014.jpg", height: 527 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0015.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0010.jpg", height: 762 },       
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0017.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0018.jpg", height: 526 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0025.jpg", height: 851 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0027.jpg", height: 527 }, 
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0020.jpg", height: 852 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0021.jpg", height: 526 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0022.jpg", height: 852 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0023.jpg", height: 526 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0024.jpg", height: 851 },      
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0026.jpg", height: 526 },      
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0028.jpg", height: 526 },
-        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0004.jpg", height: 851 }       
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0001.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0002.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0003.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0008.webp", height: 852 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0005.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0006.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0007.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0029.webp", height: 852 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0009.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0032.webp", height: 527 },     
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0016.webp", height: 762 }, 
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0030.webp", height: 526 }, 
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0011.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0012.webp", height: 762 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0013.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0014.webp", height: 527 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0015.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0010.webp", height: 762 },       
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0017.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0018.webp", height: 526 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0025.webp", height: 851 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0027.webp", height: 527 }, 
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0020.webp", height: 852 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0021.webp", height: 526 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0022.webp", height: 852 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0023.webp", height: 526 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0024.webp", height: 851 },      
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0026.webp", height: 526 },      
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0028.webp", height: 526 },
+        { imageSrc: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0004.webp", height: 851 }       
        
     ];
 
     return (
         <BlogPageComponentNew
-            slide={process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg"}
+            slide={process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp"}
             images={images}
             headTitle={"Brzoskwinia ogród, wesele w plenerze, sesja narzeczeńska"}
             headDescription={"Sesja narzeczeńska w Brzoskwinia Ogród, wesele w plenerze, ślubna sesja zdjęciowa jesienią. Fotografem ślubnym zostałem, żeby robić właśnie takie zdjęcia. Zapraszam na bloga..."}
@@ -59,7 +59,7 @@ const BlogPageComponent = () => {
             leadNames={"KAMILA i ADRIAN"}
             leadTitle={"FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"}
             leadUrl={"/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"}
-            leadImage={process.env.staticImagesPath + "fotograf_na_slub_rabka_zdroj_start.jpg"}
+            leadImage={process.env.staticImagesPath + "fotograf_na_slub_rabka_zdroj_start.webp"}
         />
     );
 };
