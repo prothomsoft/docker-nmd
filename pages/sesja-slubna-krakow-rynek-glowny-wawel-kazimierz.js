@@ -3,36 +3,36 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0014.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0002.webp", height: 851 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0003.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0005.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0006.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0007.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0024.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0016.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0010.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0012.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0017.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0018.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0019.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0022.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0025.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/04/sesja_slubna_krakow_0021.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0014.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0002.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0003.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0005.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0006.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0007.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0024.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0016.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0010.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0012.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0017.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0018.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0019.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0022.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0025.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/04/sesja_slubna_krakow_0021.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz-start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz-start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna Kraków, Rynek Główny, Wawel, Kazimierz"}
                     headDescription={
@@ -55,7 +55,7 @@ const BlogPageComponent = () => {
                     leadNames={"EWELINA i KAMIL"}
                     leadTitle={"HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA"}
                     leadUrl={"/hotel-tadeusz-uszew-i-goralska-sala-weselna"}
-                    leadImage={process.env.staticImagesPath + "hotel_tadeusz_uszew_i_goralska_sala_weselna_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "hotel_tadeusz_uszew_i_goralska_sala_weselna_start.webp"}
                 />
             
         );

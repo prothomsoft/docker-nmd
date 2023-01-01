@@ -3,38 +3,38 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0033.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0001.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0003.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0004.webp", height: 850 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0007.webp", height: 850 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0028.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0013.webp", height: 850 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0020.webp", height: 850 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0014.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0040.webp", height: 805 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0029.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0023.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0031.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0027.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0006.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0022.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0033.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0001.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0003.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0004.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0007.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0028.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0013.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0020.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0014.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0040.webp", height: 805 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0029.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0023.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0031.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0027.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0022.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "willa_decjusza_krakow_slub_cywilny_sesja_zdjeciowa_1.webp"}
+                    slide={process.env.staticS3ImagesPath + "willa_decjusza_krakow_slub_cywilny_sesja_zdjeciowa_1.webp"}
                     images={images}
                     headTitle={"Willa Decjusza Kraków, Ślub Cywilny, Sesja Zdjęciowa"}
                     headDescription={
@@ -57,7 +57,7 @@ const BlogPageComponent = () => {
                     leadNames={"MARTA i MICHAŁ"}
                     leadTitle={"JAK ZAPLANOWAĆ I ZORGANIZOWAĆ WYMARZONY ŚLUB W ZIMIE"}
                     leadUrl={"/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie"}
-                    leadImage={process.env.staticImagesPath + "slub_zima.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "slub_zima.webp"}
                 />
             
         );

@@ -3,29 +3,29 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0003.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0002.webp", height: 851 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0013.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0004.webp", height: 852 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0006.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0007.webp", height: 852 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0008.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0011.webp", height: 852 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0014.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0015.webp", height: 850 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0016.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0017.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0003.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0002.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0013.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0004.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0007.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0008.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0011.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0014.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0015.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0016.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0017.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "zuza_i_jarek_sesja_poslubna_kopiec_kosciuszki_i_wawel_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "zuza_i_jarek_sesja_poslubna_kopiec_kosciuszki_i_wawel_start.webp"}
                     images={images}
                     headTitle={"Sesja zdjęciowa Kopiec Kościuszki"}
                     headDescription={"Kraków i jego najbardziej znane miejsce na plener czyli Kopiec Kościuszki i Wawel. Sesja ślubna Zuzy i Jarka. Zapraszam do oglądania."}
@@ -46,7 +46,7 @@ const BlogPageComponent = () => {
                     leadNames={"MONIKA i RAFAŁ"}
                     leadTitle={"ZDJĘCIA ŚLUBNE KRAKÓW, RESTAURACJA CHOCHOŁOWY DWÓR"}
                     leadUrl={"/monika-i-rafal-zdjecia-slubne-krakow-restauracja-chocholowy-dwor"}
-                    leadImage={process.env.staticImagesPath + "monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_start.webp"}
                 />
             
         );

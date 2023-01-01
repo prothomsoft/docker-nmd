@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const PageComponent = () => {
 
-  const pageImage = process.env.staticImagesPath + "sesja_slubna_jesienia.webp";
+  const pageImage = process.env.staticS3ImagesPath + "sesja_slubna_jesienia.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up('md'));
 

@@ -8,7 +8,7 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1140, 1920]
   },
   env: {
-    staticImagesPath: "/static/"
+    staticS3ImagesPath: "https://sk99foto.s3.eu-west-3.amazonaws.com/static/"
   }
 }
 

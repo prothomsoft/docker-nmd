@@ -5,19 +5,19 @@ import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import fotograf_slubny_krakow_3 from "../public/static/portfolio/fotograf_slubny_krakow_3.webp";
-import fotograf_slubny_krakow_7 from "../public/static/portfolio/fotograf_slubny_krakow_7.webp";
-import fotograf_slubny_krakow_9 from "../public/static/portfolio/fotograf_slubny_krakow_9.webp";
-import fotograf_slubny_krakow_10 from "../public/static/portfolio/fotograf_slubny_krakow_10.webp";
-import fotograf_slubny_krakow_13 from "../public/static/portfolio/fotograf_slubny_krakow_13.webp";
-import fotograf_slubny_krakow_19 from "../public/static/portfolio/fotograf_slubny_krakow_19.webp";
-import sesja_narzeczenska_sebastian from "../public/static/portfolio/sesja_narzeczenska_sebastian.webp";
-import sesja_narzeczenska_1 from "../public/static/portfolio/sesja_narzeczenska_1.webp";
-import sesja_narzeczenska_2 from "../public/static/portfolio/sesja_narzeczenska_2.webp";
+const fotograf_slubny_krakow_3 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_3.webp";
+const fotograf_slubny_krakow_7 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_7.webp";
+const fotograf_slubny_krakow_9 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_9.webp";
+const fotograf_slubny_krakow_10 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_10.webp";
+const fotograf_slubny_krakow_13 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_13.webp";
+const fotograf_slubny_krakow_19 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_19.webp";
+const sesja_narzeczenska_sebastian = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_sebastian.webp";
+const sesja_narzeczenska_1 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_1.webp";
+const sesja_narzeczenska_2 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_2.webp";
 
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp";
+  const pageImage = process.env.staticS3ImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -48,7 +48,7 @@ const PageComponent = () => {
           sesja odzwierciedlała Wasze wnętrza i w pełni Wam pasowała. Kilka z nich znajdziecie poniżej.
         </Typography>
 
-        <Image alt="Dekoracja sali weselnej w stylu rustykalnym" src={fotograf_slubny_krakow_19} style={{width: '100%', height: 'auto'}} />
+        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_19} width={1140} height={852}  style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           WYBÓR MIEJSCA NA SESJĘ NARZECZEŃSKĄ
@@ -63,7 +63,7 @@ const PageComponent = () => {
           przedstawię Wam kilka moich sugestii i na ich podstawie coś wspólnie ustalimy.
         </Typography>
 
-        <Image alt="samochód ślubny tesla" src={fotograf_slubny_krakow_10} style={{width: '100%', height: 'auto'}} />
+        <Image alt="odpowiedni ubiór na sesję narzeczeńską w Krakowie" src={fotograf_slubny_krakow_10} width={1140} height={764} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ODPOWIEDNI STRÓJ
@@ -76,7 +76,7 @@ const PageComponent = () => {
           makijaż nie są koniecznością, ale mogą zwiększyć Waszą pewność siebie i ułatwić przygotowanie się w dniu sesji zdjęciowej.
         </Typography>
 
-        <Image alt="sesja ślubna w Krakowie" src={sesja_narzeczenska_2} style={{width: '100%', height: 'auto'}} />
+        <Image alt="sesja narzeczeńska w Krakowie" src={sesja_narzeczenska_2} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
@@ -89,7 +89,7 @@ const PageComponent = () => {
           Zachęcam i zdecydowanie warto się na taki makijaż przedślubny zdecydować.
         </Typography>
 
-        <Image alt="Ogromne możliwości w fotografii ślubnej" src={fotograf_slubny_krakow_13} style={{width: '100%', height: 'auto'}} />
+        <Image alt="jak przygotować się do sesji narzeczeńskiej" src={fotograf_slubny_krakow_13} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CO ZE SOBĄ ZABRAĆ?
@@ -102,7 +102,7 @@ const PageComponent = () => {
           się zmieścić wszystko w jednej torbie, żeby ułatwić transport. Zaufaj mi, będziesz zadowolony, że nie trzeba będzie nosić ze sobą więcej rzeczy niż naprawdę potrzeba.
         </Typography>
 
-        <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={fotograf_slubny_krakow_3} style={{width: '100%', height: 'auto'}} />
+        <Image alt="dlaczego warto zdecydować się na sesję narzeczeńską" src={fotograf_slubny_krakow_3} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ZŁOTA GODZINA
@@ -114,7 +114,7 @@ const PageComponent = () => {
           godzinach spotkamy się na wakacjach, a trochę wcześniej późną jesienią.
         </Typography>
 
-        <Image alt="autentyczne emocje w fotografii ślubnej" src={fotograf_slubny_krakow_7} style={{width: '100%', height: 'auto'}} />
+        <Image alt="autentyczne emocje w fotografii ślubnej" src={fotograf_slubny_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CIESZCIE SIĘ CHWILĄ
@@ -127,7 +127,7 @@ const PageComponent = () => {
           robimy zdjęcia dokumentując Waszą miłość. Jeśli skoncentrujecie się na tym i skupicie się na sobie i przyszłych planach ślubnych, wszystko będzie dobrze.
         </Typography>
                 
-        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_sebastian} style={{width: '100%', height: 'auto'}} />
+        <Image alt="sesja narzeczeńska, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_sebastian} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           POGODA W DNIU SESJI NARZECZEŃSKIEJ
@@ -138,14 +138,14 @@ const PageComponent = () => {
           podejmując decyzję, czy sesję byędzie można zrealizować. Jeżeli na horyzoncie pojawi się deszcz lub będzie zimno to umawiamy się na inny dzień i sprawdzanie pogody zaczynamy od początku.
         </Typography>
 
-        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_9} style={{width: '100%', height: 'auto'}} />
+        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_9} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Napisałem już o wszystkich najważniejszych czynnikach, które wpływają na efekt naszej sesji. Przygotujcie się do niej, rozkmińcie ją w szczegółach, tak by sesja narzeczeńska ukazała Waszą
           miłość jak również Was samych jak najlepiej oraz była wspaniałą pamiątką na całe przyszłe życie. Zróbmy to tak, by Wszyscy byli naprawdę zadowoleni. Pozdrawiam i zapraszam.
         </Typography>
 
-        <Image alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_1} style={{width: '100%', height: 'auto'}} />
+        <Image alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_1} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
       </Container>
     </LayoutSitePage>

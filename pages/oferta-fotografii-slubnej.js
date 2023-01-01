@@ -9,11 +9,11 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.webp";
-import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.webp";
+const portret_panny_mlodej = process.env.staticS3ImagesPath + "portfolio/portret_panny_mlodej.webp";
+const pomysl_na_sesje_slubna_zimowa_w_krakowie = process.env.staticS3ImagesPath + "portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.webp";
+  const pageImage = process.env.staticS3ImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -87,7 +87,7 @@ const PageComponent = () => {
           </Grid>
         </Grid>
         <Box sx={{ pt: 2 }}>
-          <Image alt="portert Panny Młodej" src={portret_panny_mlodej} style={{width: '100%', height: 'auto'}}  />
+          <Image alt="oferta fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         </Box>
 
         <Box sx={{ pt: 2, py: 1 }}>
@@ -139,7 +139,7 @@ const PageComponent = () => {
         </Grid>
 
         <Box sx={{ pt: 2 }}>
-          <Image alt="sesja ślubna zimowa w Krakowie" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} style={{width: '100%', height: 'auto'}}  />
+          <Image alt="oferta sesji zdjęciowej" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         </Box>
       </Container>
     </LayoutSitePage>

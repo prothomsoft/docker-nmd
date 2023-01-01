@@ -9,7 +9,7 @@ import { posts } from "../components/posts";
 
 const Blog = () => {  
 
-  const pageImage = process.env.staticImagesPath + "dworzyszcze_wola_reportaz_slubny_pod_krakowem_start.webp";
+  const pageImage = process.env.staticS3ImagesPath + "dworzyszcze_wola_reportaz_slubny_pod_krakowem_start.webp";
   const currentPage = 6;
   const itemsPerPage = 20;
   const offset = (currentPage - 1) * itemsPerPage;

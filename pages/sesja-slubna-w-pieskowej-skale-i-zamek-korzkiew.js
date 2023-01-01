@@ -3,41 +3,41 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0001.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0002.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0016.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0009.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0007.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0006.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0003.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0008.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0012.webp", height: 851 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0013.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0014.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0017.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0019.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0029.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0021.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0031.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0020.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0026.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0025.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0027.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0024.webp", height: 762 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0001.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0002.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0016.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0009.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0007.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0006.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0003.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0008.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0012.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0013.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0014.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0017.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0019.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0029.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0021.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0031.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0020.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0026.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0025.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0027.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/09/sesja_slubna_zamek_pieskowa_skala_0024.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala.webp"}
+                    slide={process.env.staticS3ImagesPath + "plener_slubny_zamek_pieskowa_skala.webp"}
                     images={images}
                     headTitle={"Sesja ślubna Zamek Pieskowa Skała, Zamek Korzkiew"}
                     headDescription={"Zamek Pieskowa Skała, ślubna sesja zdjęciowa Kristiny i Aleksandra. Gonitwa za zachodzącym słońcem i moc emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
@@ -58,7 +58,7 @@ const BlogPageComponent = () => {
                     leadNames={"DAJANA i SYLWESTER"}
                     leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"}
                     leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
-                    leadImage={process.env.staticImagesPath + "ogrod_botaniczny.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "ogrod_botaniczny.webp"}
                 />
             
         );

@@ -3,36 +3,36 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0003.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0001.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0002.webp", height: 464 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0019.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0004.webp", height: 566 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0006.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0007.webp", height: 850 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0026.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0015.webp", height: 850 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0016.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0010.webp", height: 383 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0012.webp", height: 850 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0024.webp", height: 479 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0017.webp", height: 850 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0005.webp", height: 850 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0022.webp", height: 850 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0023.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0025.webp", height: 566 },
-            { imageSrc: "/static/blog/2016/05/plener_poslubny_gora_chelm_0011.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0003.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0001.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0002.webp", height: 464 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0019.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0004.webp", height: 566 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0007.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0026.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0015.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0016.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0010.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0012.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0024.webp", height: 479 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0017.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0005.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0022.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0023.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0025.webp", height: 566 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0011.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_poslubna_magdy_i_mateusza_litwinska_grapa_w-czarnej_gorze_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja_poslubna_magdy_i_mateusza_litwinska_grapa_w-czarnej_gorze_start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna Litwińska Grapa w Czarnej Górze"}
                     headDescription={"Litwińska Grapa w Czarnej Górze - na ten punkt widokowy w okolicach Nowego Targu zapraszam razem z Magdą i Mateuszem."}
@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
                     leadNames={"KAROLINA i BARTEK"}
                     leadTitle={"ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA"}
                     leadUrl={"/zdjecia-slubne-restauracja-stek-skawina"}
-                    leadImage={process.env.staticImagesPath + "zdjecia_slubne_restauracja_stek_skawina_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "zdjecia_slubne_restauracja_stek_skawina_start.webp"}
                 />
             
         );

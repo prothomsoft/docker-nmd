@@ -1,26 +1,16 @@
 import React from 'react';
-import hotel_mercure_kasprowy_zakopane from "../public/static/portfolio/hotel_mercure_kasprowy_zakopane.webp";
-import bazylika_bozego_ciala_krakow_fotoreportaz_slubny from "../public/static/portfolio/bazylika_bozego_ciala_krakow_fotoreportaz_slubny.webp";
-import plener_slubny_slowacja from "../public/static/portfolio/plener_slubny_slowacja.webp";
-import dworzyszcze_wola_reportaz_slubny_pod_krakowem from "../public/static/portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
-import plener_slubny_palac_goetzow_brzesko from "../public/static/portfolio/plener_slubny_palac_goetzow_brzesko.webp";
-import dworek_fantazja_skomielna_biala_fotograf from "../public/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.webp";
-import ogrod_botaniczny from "../public/static/portfolio/ogrod_botaniczny.webp";
-import sesja_narzeczenska_klasztor_w_tyncu from "../public/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.webp";
-import sala_weselna_biala_wilczyca_kocmyrzow from "../public/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.webp";
 import Grid from "@mui/material/Grid";
 import ImageCard from "./imageCard";
 
-import klaudia_przemek_start from "../public/static/portfolio/klaudia_przemek_start.webp";
-import wesele_w_beskidach from "../public/static/portfolio/wesele_w_beskidach.webp";
-import sylwestrowy_slub from "../public/static/portfolio/sylwestrowy_slub.webp";
-import plener_slubny_w_krakowie from "../public/static/portfolio/plener_slubny_w_krakowie.webp";
-import reportaz_slubny_rabka_zdroj from "../public/static/portfolio/reportaz_slubny_rabka_zdroj.webp";
-import sesja_narzeczenska_krakow_33 from "../public/static/portfolio/sesja_narzeczenska_krakow_33.webp";
-import reportaz_slubny_krakow from "../public/static/portfolio/reportaz_slubny_krakow.webp";
-import plener_slubny_na_jurze from "../public/static/portfolio/plener_slubny_na_jurze.webp";
-import sesja_plenerowa_rynek_w_krakowie from "../public/static/portfolio/sesja_plenerowa_rynek_w_krakowie.webp";
-import wesele_rustykalne from "../public/static/portfolio/wesele_rustykalne.webp";
+const klaudia_przemek_start = process.env.staticS3ImagesPath + "portfolio/klaudia_przemek_start.webp";
+const wesele_w_beskidach = process.env.staticS3ImagesPath + "portfolio/wesele_w_beskidach.webp";
+const sylwestrowy_slub = process.env.staticS3ImagesPath + "portfolio/sylwestrowy_slub.webp";
+const plener_slubny_w_krakowie = process.env.staticS3ImagesPath + "portfolio/plener_slubny_w_krakowie.webp";
+const sesja_narzeczenska_krakow_33 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_33.webp";
+const reportaz_slubny_krakow = process.env.staticS3ImagesPath + "portfolio/reportaz_slubny_krakow.webp";
+const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/plener_slubny_na_jurze.webp";
+const sesja_plenerowa_rynek_w_krakowie = process.env.staticS3ImagesPath + "portfolio/sesja_plenerowa_rynek_w_krakowie.webp";
+const wesele_rustykalne = process.env.staticS3ImagesPath + "portfolio/wesele_rustykalne.webp";
 
 
 const ImageCardGrid1 = () => {

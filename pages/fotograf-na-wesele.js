@@ -6,10 +6,10 @@ import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import wakacje_bukowina from "../public/static/portfolio/wakacje_bukowina.webp";
+const wakacje_bukowina = process.env.staticS3ImagesPath + "portfolio/wakacje_bukowina.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_park_mogilany.webp";
+  const pageImage = process.env.staticS3ImagesPath + "plener_slubny_park_mogilany.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -37,7 +37,7 @@ const PageComponent = () => {
           niesamowitą przygodę, która pozwala mi spełniać marzenia. Jestem przekonany, że najlepsze zdjęcia są jeszcze przede mną.
         </Typography>
 
-        <Image alt="fotograf na wesele kraków" src={wakacje_bukowina}  style={{width: '100%', height: 'auto'}} />
+        <Image alt="fotograf na wesele kraków" src={wakacje_bukowina} width={1140} height={762} style={{width: '100%', height: 'auto'}} />
 
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">

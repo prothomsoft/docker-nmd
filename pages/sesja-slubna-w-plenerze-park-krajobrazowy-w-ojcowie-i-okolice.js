@@ -3,35 +3,35 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0003.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0005.webp", height: 805 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0006.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0024.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0009.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0011.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0014.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0012.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0021.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0016.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0018.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0019.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0020.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0022.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0023.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/09/sesja_zdjeciowa_ojcow_0008.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0003.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0005.webp", height: 805 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0006.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0024.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0009.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0011.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0014.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0012.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0021.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0016.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0018.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0019.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0020.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0022.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0023.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/09/sesja_zdjeciowa_ojcow_0008.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna w plenerze Kraków"}
                     headDescription={"Park krajobrazowy w Ojcowie i okolice to świetne miejsce na sesję ślubną w plenerze. Sesja ślubna w plenerze musi się tam udać. Zapraszam na bloga."}
@@ -52,7 +52,7 @@ const BlogPageComponent = () => {
                     leadNames={"OLA i PAWEŁ"}
                     leadTitle={"DWÓR SZLACHECKI SIECIECHOWICE, REPORTAŻ ŚLUBNY MIECHÓW"}
                     leadUrl={"/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow"}
-                    leadImage={process.env.staticImagesPath + "dwor_szlachecki_sieciechowice_reportaz_slubny_miechow_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "dwor_szlachecki_sieciechowice_reportaz_slubny_miechow_start.webp"}
                 />
             
         );

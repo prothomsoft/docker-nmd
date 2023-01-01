@@ -3,45 +3,45 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
  
         let imagesParagraph1 = [
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_001.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_002.webp", height: 851 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_003.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_002.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_003.webp", height: 763 },
         ];
 
-        let imagesParagraph3 = [{ imageSrc: "/static/blog/2019/08/sesja_zdjeciowa_w_krakowie_0001.webp", height: 763 }];
+        let imagesParagraph3 = [{ imageSrc: process.env.staticS3ImagesPath + "blog/2019/08/sesja_zdjeciowa_w_krakowie_0001.webp", height: 763 }];
 
         let imagesParagraph2 = [
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_004.webp", height: 851 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_005.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_004.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_006.webp", height: 763 },
         ];
 
         let imagesParagraph4 = [
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_007.webp", height: 851 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_008.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_009.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_007.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_008.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_009.webp", height: 851 },
         ];
 
         let imagesParagraph5 = [
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_010.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_011.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_010.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_011.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_012.webp", height: 763 },
         ];
 
-        let imagesParagraph6 = [{ imageSrc: "/static/blog/2019/08/sesja_zdjeciowa_w_krakowie_0002.webp", height: 851 }];
+        let imagesParagraph6 = [{ imageSrc: process.env.staticS3ImagesPath + "blog/2019/08/sesja_zdjeciowa_w_krakowie_0002.webp", height: 851 }];
 
         let imagesParagraph7 = [
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_013.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_014.webp", height: 851 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_015.webp", height: 527 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_016.webp", height: 527 },
-            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_013.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_014.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_015.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_016.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_017.webp", height: 763 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "marlena_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "marlena_start.webp"}
                     headTitle={"Sesja ślubna w Krakowie. Miejsca idealne na romantyczne kadry"}
                     headDescription={"Sesja ślubna piękna, romantyczna z niesamowitymi i mającymi to coś w sobie kadrami. Wybierzcie magiczny Kraków. Zapraszam."}
                     headKeywords={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
@@ -87,7 +87,7 @@ const BlogPageComponent = () => {
                     leadNames={"MARLENA i ADAM"}
                     leadTitle={"MIEJSKA SESJA NARZECZEŃSKA, PIĘKNI, MŁODZI i ZAKOCHANI"}
                     leadUrl={"/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani"}
-                    leadImage={process.env.staticImagesPath + "sesja_narzeczenska_krakow_kazimierz.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "sesja_narzeczenska_krakow_kazimierz.webp"}
                 />
             
         );

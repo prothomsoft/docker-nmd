@@ -5,27 +5,27 @@ import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import ogrod_botaniczny from "../public/static/portfolio/ogrod_botaniczny.webp";
-import portfolio_0002 from "../public/static/portfolio/portfolio_0002.webp";
-import plener_0002 from "../public/static/portfolio/plener_0002.webp";
-import portfolio_0014 from "../public/static/portfolio/portfolio_0014.webp";
-import portfolio_0008 from "../public/static/portfolio/portfolio_0008.webp";
-import portfolio_0009 from "../public/static/portfolio/portfolio_0009.webp";
-import portfolio_300 from "../public/static/portfolio/portfolio_300.webp";
-import sesja_zdjeciowa_krakow_5_portfolio from "../public/static/portfolio/sesja_zdjeciowa_krakow_5_portfolio.webp";
-import chan_kristina_sesja_slubna_krakow from "../public/static/portfolio/chan_kristina_sesja_slubna_krakow.webp";
-import sesja_zdjeciowa_palac_goetzow_brzesko from "../public/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.webp";
-import plener_slubny_konie from "../public/static/portfolio/plener_slubny_konie.webp";
-import plener_slubny_w_gorach from "../public/static/portfolio/plener_slubny_w_gorach.webp";
-import plener_slubny_slowacja from "../public/static/portfolio/plener_slubny_slowacja.webp";
-import portfolio_0003 from "../public/static/portfolio/portfolio_0003.webp";
-import sesja_zdjeciowa_szczyrbskie from "../public/static/portfolio/sesja_zdjeciowa_szczyrbskie.webp";
-import portfolio_2021_1 from "../public/static/portfolio/portfolio_2021_1.webp";
-import fotograf_slubny_krakow_17 from "../public/static/portfolio/fotograf_slubny_krakow_17.webp";
+const ogrod_botaniczny = process.env.staticS3ImagesPath + "portfolio/ogrod_botaniczny.webp";
+const portfolio_0002 = process.env.staticS3ImagesPath + "portfolio/portfolio_0002.webp";
+const plener_0002 = process.env.staticS3ImagesPath + "portfolio/plener_0002.webp";
+const portfolio_0014 = process.env.staticS3ImagesPath + "portfolio/portfolio_0014.webp";
+const portfolio_0008 = process.env.staticS3ImagesPath + "portfolio/portfolio_0008.webp";
+const portfolio_0009 = process.env.staticS3ImagesPath + "portfolio/portfolio_0009.webp";
+const portfolio_300 = process.env.staticS3ImagesPath + "portfolio/portfolio_300.webp";
+const sesja_zdjeciowa_krakow_5_portfolio = process.env.staticS3ImagesPath + "portfolio/sesja_zdjeciowa_krakow_5_portfolio.webp";
+const chan_kristina_sesja_slubna_krakow = process.env.staticS3ImagesPath + "portfolio/chan_kristina_sesja_slubna_krakow.webp";
+const sesja_zdjeciowa_palac_goetzow_brzesko = process.env.staticS3ImagesPath + "portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.webp";
+const plener_slubny_konie = process.env.staticS3ImagesPath + "portfolio/plener_slubny_konie.webp";
+const plener_slubny_w_gorach = process.env.staticS3ImagesPath + "portfolio/plener_slubny_w_gorach.webp";
+const plener_slubny_slowacja = process.env.staticS3ImagesPath + "portfolio/plener_slubny_slowacja.webp";
+const portfolio_0003 = process.env.staticS3ImagesPath + "portfolio/portfolio_0003.webp";
+const sesja_zdjeciowa_szczyrbskie = process.env.staticS3ImagesPath + "portfolio/sesja_zdjeciowa_szczyrbskie.webp";
+const portfolio_2021_1 = process.env.staticS3ImagesPath + "portfolio/portfolio_2021_1.webp";
+const fotograf_slubny_krakow_17 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_17.webp";
 
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.webp";
+  const pageImage = process.env.staticS3ImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -52,7 +52,7 @@ const PageComponent = () => {
           przez turystów i pełne historii miasto. Fajnych miejsc na sesję zdjęciową nie trzeba tu poszukiwać długo. Łatwo odnajdziemy każdy styl by uwiecznić w nim Waszą miłość.
         </Typography>
 
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={ogrod_botaniczny} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={ogrod_botaniczny} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           DEFINICJA PLENERU ŚLUBNEGO
@@ -67,7 +67,7 @@ const PageComponent = () => {
           życia.
         </Typography>
 
-        <Image alt="sesja zdjęciowa Kraków" src={portfolio_0002} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja zdjęciowa Kraków" src={portfolio_0002} width={1140} height={851} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           KIEDY ZROBIĆ PLENER ŚLUBNY
@@ -80,14 +80,14 @@ const PageComponent = () => {
           plener ślubny, minęły w oka mgnieniu i stały się dobrym wspomnieniem.
         </Typography>
 
-        <Image alt="plener śłubny Bulwary Wiślane" src={plener_0002} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="plener śłubny Bulwary Wiślane" src={plener_0002} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Kilka zdjęć plenerowych w dniu ślubu? Pozostawianie gości weselnych na sali nie leży w dobrym tonie, jednak gdy w trakcie naszego ślubu, za oknem zauważymy piękny zachód słońca, a sala
           weselna dysponuje małym ogrodem lub ciekawym otoczeniem to warto poświęcić kilka minut na zdjęcia. 
         </Typography>
 
-        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_17} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_17} width={1140} height={849} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Goście na pewno będą wyrozumiali i zrozumieją, a zdjęcia wykonane w ten sposób na pewno
@@ -95,7 +95,7 @@ const PageComponent = () => {
           plenerowych z reportażem ślubnym, co dla niektórych z Was może być niezwykle istotne.
         </Typography>
 
-        <Image alt="sesja ślubna Zamek w Korzkwi" src={portfolio_0014} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja ślubna Zamek w Korzkwi" src={portfolio_0014} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           WSKAZÓWKI I REKOMENDACJE MIEJSC
@@ -106,7 +106,7 @@ const PageComponent = () => {
           Korzkwi. Zachód Krakowa to Zalew w Kryspinowie, Dolina Bolechowicka, Zamek w Przegorzałach, Kopiec Kościuszki i Skałki Twardowskiego. Południe to Park w Mogilanach, Kopiec Kraka i Park
           Bednarskiego. Wschód Krakowa natomiast to industrialne klimaty Nowej Huty oraz Muzeum Lotnictwa na Czyżynach.
         </Typography>
-        <Image alt="oryginalne zdjęcia z pleneru ślubnego" src={portfolio_0008} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="oryginalne zdjęcia z pleneru ślubnego" src={portfolio_0008} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
        
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
@@ -115,35 +115,29 @@ const PageComponent = () => {
           można długo.
         </Typography>
 
-        <Image alt="sesja zdjęciowa Pałac Goetza Brzesko" src={sesja_zdjeciowa_palac_goetzow_brzesko} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja zdjęciowa Pałac Goetza Brzesko" src={sesja_zdjeciowa_palac_goetzow_brzesko} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Przygotowując się do sesji zdjęciowej i szukając odpowiedzi na pytanie gdzie można zrobić sesję fotograficzną w Krakowie, wpiszcie miejsca z powyższego paragrafu, a gwarantuję, że
           znajdziecie coś dla Was. Niezliczona ilość zakątków, ciekawych miejsc tych bardziej znanych i dopiero czekających na odkrycie.
         </Typography>
 
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_2021_1} style={{width: '100%', height: 'auto'}}  />
-        <Image alt="ciekawe miejsca na sesje plenerową w Krakowie" src={plener_slubny_konie} style={{width: '100%', height: 'auto'}}  />
-       
-
-
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_2021_1} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="ciekawe miejsca na sesje plenerową w Krakowie" src={plener_slubny_konie} width={1140} height={555} style={{width: '100%', height: 'auto'}}  />
+     
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Sesja zdjęciowa w Krakowie to przede wszystkim dobry plan w układaniu którego bardzo chętnie Wam pomogę, konsultując logistykę miejsc, podpowiadając pory dnia, które będą najlepsze dla danej
           lokalizacji. Zdjęcia z pleneru mają być niezwykłe i niepowtarzalne dlatego warto poświęcić chwilę na znalezienie odpowiednich rekwizytów, które nadadzą sesji oryginalności.
         </Typography>
 
-        <Image alt="budowanie kreatywności w fotografii ślubnej" src={plener_slubny_slowacja} style={{width: '100%', height: 'auto'}}  />
-       
-        
-
-       
-
+        <Image alt="budowanie kreatywności w fotografii ślubnej" src={plener_slubny_slowacja} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+     
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Warto też przygotować makijaż i fryzurę zbliżone do tego z dnia ślubu . Pamiętajcie też, by koniecznie zabrać ze sobą dobry humor - jest to bardzo ważne.
         </Typography>
 
-        <Image alt="magia fotografii ślubnej" src={portfolio_0009} style={{width: '100%', height: 'auto'}}  />
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_0003} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="magia fotografii ślubnej" src={portfolio_0009} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_0003} width={1140} height={525} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           PASJA I KREATYWNOŚĆ
@@ -154,11 +148,7 @@ const PageComponent = () => {
           przeanalizowaniu moich i istniejacych już w internecie prac innych fotografów ślubnych wykonanych w miejscach lub okolicach miejsc do których się wybieramy.
         </Typography>
 
-        <Image alt="chwila, światło, kadr w fotografii ślubnej" src={portfolio_300} style={{width: '100%', height: 'auto'}} />
-        
-        
-
-        
+        <Image alt="chwila, światło, kadr w fotografii ślubnej" src={portfolio_300} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Budowanie kreatywności, poszukiwanie szczerości i wyjątkowości w kadrze to ciągła praca. Wierzcie mi, że im dalej jestem, tym więcej pracy widzę przed sobą. Każda kolejna sesja zdjęciowa
@@ -166,27 +156,23 @@ const PageComponent = () => {
           pokazywać.
         </Typography>
 
-        <Image alt="sesja zdjęciowa kraków" src={sesja_zdjeciowa_krakow_5_portfolio} style={{width: '100%', height: 'auto'}} />
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={sesja_zdjeciowa_szczyrbskie} />
+        <Image alt="sesja zdjęciowa kraków" src={sesja_zdjeciowa_krakow_5_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={sesja_zdjeciowa_szczyrbskie} width={1140} height={525} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Trzy godziny fotografowania, najczęściej dwa lub trzy wybrane miejsca w Krakowie i okolicach, blisko pięćset zdjęć, z których starannie selekcjonuję blisko sto zdjęć do obróbki graficznej.
           Emocje, emocje i jeszcze raz emocje. Zero ustawek i balast sprzętowy ograniczony do niezbędnego minimum. Osobiście czerpię prawdziwą przyjemność w poszukiwaniu prawdziwych emocji w moich
           zdjęciach, zdobywania Waszego zaufania i odnajdywaniu kadrów w przeróżnych miejscach dzięki niekończącej się magii światła.
         </Typography>
-
         
-        
-        <Image alt="plener ślubny Kopiec Krakusa" src={plener_slubny_w_gorach} style={{width: '100%', height: 'auto'}}  />
-        
-        
+        <Image alt="plener ślubny Kopiec Krakusa" src={plener_slubny_w_gorach} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Plener ślubny w Krakowie to najlepszy moment na upamiętnienie tych najpiękniejszych i najromantyczniejszych chwil na fotografiach. To chwila na oderwanie się od rzeczywistości i wcielenie w
           rolę rozluźnionego modela. Spotkajmy się w Krakowie, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze. Serdecznie zapraszam.
         </Typography>
 
-        <Image alt="sesja ślubna na Rynku Głównym w Krakowie" src={chan_kristina_sesja_slubna_krakow} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja ślubna na Rynku Głównym w Krakowie" src={chan_kristina_sesja_slubna_krakow} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         
       </Container>
     </LayoutSitePage>

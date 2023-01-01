@@ -3,43 +3,43 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0001.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0004.webp", height: 763 },         
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0003.webp", height: 843 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0032.webp", height: 763 },   
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0006.webp", height: 851 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0033.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0019.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0027.webp", height: 763 },        
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0012.webp", height: 805 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0016.webp", height: 527 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0008.webp", height: 763 }, 
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0024.webp", height: 383 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0029.webp", height: 764 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0026.webp", height: 763 },  
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0030.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0031.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0014.webp", height: 353 },  
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0028.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0034.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0002.webp", height: 762 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0001.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0004.webp", height: 763 },         
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0003.webp", height: 843 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0032.webp", height: 763 },   
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0006.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0033.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0019.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0027.webp", height: 763 },        
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0012.webp", height: 805 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0016.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0008.webp", height: 763 }, 
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0024.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0029.webp", height: 764 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0026.webp", height: 763 },  
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0030.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0031.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0014.webp", height: 353 },  
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0028.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0034.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0002.webp", height: 762 }
         ];
 
         return <BlogPageComponentNew
-        slide={process.env.staticImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.webp"}
+        slide={process.env.staticS3ImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.webp"}
         images={images}
         headTitle={"Plener w Beskidach, Sesja ślubna w Beskidzie Śląskim"}
         headDescription={"Plener w Beskidach, Sesja ślubna w Beskidzie Śląskim, Starówka w Bielsku Białej, Szyndzielnia i Klimczok. Zapraszam na sesję ślubną Magdaleny i Jonasza."}
@@ -60,7 +60,7 @@ const BlogPageComponent = () => {
         leadNames={"MARTYNA i MICHAŁ"}
         leadTitle={"PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA"}
         leadUrl={"/plener-slubny-zamek-pieskowa-skala"}
-        leadImage={process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.webp"}
+        leadImage={process.env.staticS3ImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.webp"}
     />
 }
 

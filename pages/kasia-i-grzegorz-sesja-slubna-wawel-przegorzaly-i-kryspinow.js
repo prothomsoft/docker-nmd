@@ -3,37 +3,37 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0003.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0002.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0005.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0006.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0008.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0010.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0011.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0013.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0014.webp", height: 761 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0017.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0019.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0020.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0021.webp", height: 383 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0024.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/08/plener_slubny_krakow_0016.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0003.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0002.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0005.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0006.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0008.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0010.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0011.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0013.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0014.webp", height: 761 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0017.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0019.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0020.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0021.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0024.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/08/plener_slubny_krakow_0016.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "kasia_i_grzegorz_sesja_slubna_wawel_przegorzaly_i_kryspinow_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "kasia_i_grzegorz_sesja_slubna_wawel_przegorzaly_i_kryspinow_start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna Wawel, Przegorzały i Kryspinów"}
                     headDescription={"Miłe popołudnie w fajnych miejscach, dobrych humorach i przy świetnej pogodzie. Plener ślubny Kasi i Grzegorza na Wawelu, Przegorzałach i Kryspinowie."}
@@ -54,7 +54,7 @@ const BlogPageComponent = () => {
                     leadNames={"IWONA i MARCIN"}
                     leadTitle={"WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE"}
                     leadUrl={"/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice"}
-                    leadImage={process.env.staticImagesPath + "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.webp"}
                 />
             
         );

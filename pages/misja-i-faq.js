@@ -10,13 +10,13 @@ import FaqAccordion2 from "../components/faqAccordion2";
 import FaqAccordion3 from "../components/faqAccordion3";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio from "../public/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.webp";
-import fotograf_slubny_krakow_1 from "../public/static/portfolio/fotograf_slubny_krakow_1.webp";
-import fotograf_slubny_krakow_22 from "../public/static/portfolio/fotograf_slubny_krakow_22.webp";
-import sesja_plenerowa_kasprowy from "../public/static/portfolio/sesja_plenerowa_kasprowy.webp";
+const sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio = process.env.staticS3ImagesPath + "portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.webp";
+const fotograf_slubny_krakow_1 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_1.webp";
+const fotograf_slubny_krakow_22 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_22.webp";
+const sesja_plenerowa_kasprowy = process.env.staticS3ImagesPath + "portfolio/sesja_plenerowa_kasprowy.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.webp";
+  const pageImage = process.env.staticS3ImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -40,21 +40,21 @@ const PageComponent = () => {
         <Box sx={{ pb: 2 }}>
           <FaqAccordion />
         </Box>
-        <Image alt="Plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} width={1140} height={764} style={{width: '100%', height: 'auto'}}  />
         <Box sx={{ py: 2 }}>
           <FaqAccordion1 />
         </Box>
-        <Image alt="fotograf na wesele kraków" src={sesja_plenerowa_kasprowy} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="fotograf na wesele kraków" src={sesja_plenerowa_kasprowy} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
 
         <Box sx={{ py: 2 }}>
           <FaqAccordion2 />
         </Box>
 
-        <Image alt="Sesja zdjęciowa w Krakowie" src={sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja zdjęciowa w Krakowie" src={sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Box sx={{ py: 2 }}>
           <FaqAccordion3 />
         </Box>
-        <Image alt="fotograf na wesele kraków" src={fotograf_slubny_krakow_22} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="reportaź ślubny w Krakowie" src={fotograf_slubny_krakow_22} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography align="justify" color="text.secondary" sx={{ py: 2 }}>
           Jeżeli odpowiedzi na często zadawane pytania nie rozwiały Twoich wątpliwości lub pominąłem pytanie, które siedzi w Twojej głowie to napisz do mnie proszę wykorzystując poniższy formularz

@@ -3,36 +3,36 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0003.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0002.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0015.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0019.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0004.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0007.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0005.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0006.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0009.webp", height: 852 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0010.webp", height: 852 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0012.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0014.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0013.webp", height: 851 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0016.webp", height: 527 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0018.webp", height: 806 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0020.webp", height: 526 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0024.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0003.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0002.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0015.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0019.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0004.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0007.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0005.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0006.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0009.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0010.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0012.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0014.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0013.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0016.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0018.webp", height: 806 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0020.webp", height: 526 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0024.webp", height: 762 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "ciekawe_miejsca_na_plener_w_krakowie.webp"}
+                    slide={process.env.staticS3ImagesPath + "ciekawe_miejsca_na_plener_w_krakowie.webp"}
                     images={images}
                     headTitle={"Ciekawe miejsca w Krakowie, pomysł na sesję zdjęciową"}
                     headDescription={"Ciekawe miejsca w Krakowie, pomysł na sesję zdjęciową, sesja ślubna plenerowa gdzie zrobić. Odpowiedzi na te pytania znajdziecie zaglądając na bloga. Zapraszam."}
@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
                     leadNames={"PAULINA i KAMIL"}
                     leadTitle={"REPORTAŻ ŚLUBNY SALA WESELNA BABIE LATO GDÓW, CIEPLUTKO"}
                     leadUrl={"/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko"}
-                    leadImage={process.env.staticImagesPath + "sala_weselna_babie_lato_gdow_1.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "sala_weselna_babie_lato_gdow_1.webp"}
                 />
             
         );

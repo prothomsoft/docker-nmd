@@ -3,36 +3,36 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0001.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0002.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0024.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0005.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0006.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0013.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0009.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0012.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0014.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0015.webp", height: 762 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0016.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0017.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0019.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0026.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0020.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0021.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0001.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0002.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0024.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0005.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0013.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0009.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0012.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0014.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0015.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0016.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0017.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0019.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0026.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0020.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/08/sesja_zdjeciowa_park_w_mogilanach_0021.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_zdjeciowa_park_w_mogilanach_zakrzowek_i_kazimierz_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja_zdjeciowa_park_w_mogilanach_zakrzowek_i_kazimierz_start.webp"}
                     images={images}
                     headTitle={"Sesja zdjęciowa Park w Mogilanach"}
                     headDescription={"Park w Mogilanach, Zakrzówek i Kazimierz to jedna z tras plenerowych, które polecam na sesje zdjęciowe w Krakowie. Sprawdźcie na moim blogu."}
@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
                     leadNames={"KINGA i JULIEN"}
                     leadTitle={"ŚLUB CYWILNY i WESELE W PLENERZE - WITKOWA CHATA KRAKÓW"}
                     leadUrl={"/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow"}
-                    leadImage={process.env.staticImagesPath + "slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.webp"}
                 />
             
         );

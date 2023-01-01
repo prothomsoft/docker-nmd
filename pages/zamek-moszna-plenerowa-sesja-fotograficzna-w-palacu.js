@@ -3,32 +3,32 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0021.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0002.webp", height: 851 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0005.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0006.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0016.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0011.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0012.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0013.webp", height: 852 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0014.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0017.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0004.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0009.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0003.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0019.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0015.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0021.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0002.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0005.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0006.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0016.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0011.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0012.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0013.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0014.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0017.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0004.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0009.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0003.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0019.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0015.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "zamek_moszna_sesja_slubna.webp"}
+                    slide={process.env.staticS3ImagesPath + "zamek_moszna_sesja_slubna.webp"}
                     images={images}
                     headTitle={"Zamek Moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
                     headDescription={"Zamek Moszna, plenerowa ślubna sesja zdjęciowa Aleksandry i Grzegorza. Pałac z przepięknym ogrodem często wybierany na sesje ślubne. Zapraszam do oglądania."}
@@ -49,7 +49,7 @@ const BlogPageComponent = () => {
                     leadNames={"DAJANA i SYLWESTER"}
                     leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA W OGRODZIE"}
                     leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
-                    leadImage={process.env.staticImagesPath + "ogrod_botaniczny.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "ogrod_botaniczny.webp"}
                 />
             
         );

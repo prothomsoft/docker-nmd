@@ -13,7 +13,7 @@ const ImageCard = (props) => {
       <Link href={props.linkhref} passHref>
         <CardActionArea>        
             <CardMedia>
-                <Image src={props.imgsrc} alt={props.imgalt} style={{width: '100%', height: 'auto'}} />
+                <Image src={props.imgsrc} alt={props.imgalt} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
             </CardMedia>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

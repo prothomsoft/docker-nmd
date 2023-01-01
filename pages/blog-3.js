@@ -9,7 +9,7 @@ import { posts } from "../components/posts";
 
 const Blog = () => {  
 
-  const pageImage = process.env.staticImagesPath + "fotograf_na_slub_rabka_zdroj_start.webp";
+  const pageImage = process.env.staticS3ImagesPath + "fotograf_na_slub_rabka_zdroj_start.webp";
   const currentPage = 3;
   const itemsPerPage = 20;
   const offset = (currentPage - 1) * itemsPerPage;

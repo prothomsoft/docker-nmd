@@ -3,40 +3,40 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
  
         let images = [
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0002.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0003.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0004.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0006.webp", height: 851 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0027.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0009.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0011.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0012.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0028.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0014.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0015.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0016.webp", height: 850 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0018.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0019.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0026.webp", height: 762 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0024.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0002.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0003.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0004.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0006.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0027.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0009.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0011.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0012.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0028.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0014.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0015.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0016.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0018.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0019.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0026.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/ogrod_botaniczny_w_krakowie_sesja_zdjeciowa_0024.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "ogrod_botaniczny.webp"}
+                    slide={process.env.staticS3ImagesPath + "ogrod_botaniczny.webp"}
                     images={images}
                     headTitle={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków"}
                     headDescription={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Dajany i Sylwestra. Sierpniowe słońce i ogrom emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
@@ -57,7 +57,7 @@ const BlogPageComponent = () => {
                     leadNames={"MARTA i MARCIN"}
                     leadTitle={"WESELE POD KRAKOWEM, FIRST LOOK NA DACHU WIEŻOWCA"}
                     leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
-                    leadImage={process.env.staticImagesPath + "restauracja_tiffany_wola_filpowska.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "restauracja_tiffany_wola_filpowska.webp"}
                 />
             
         );

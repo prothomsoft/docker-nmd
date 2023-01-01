@@ -3,46 +3,46 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0001.webp", height: 762 },
 
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0016.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0004.webp", height: 567 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0003.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0026.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0006.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0007.webp", height: 527 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0032.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0012.webp", height: 527 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0021.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0017.webp", height: 806 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0019.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0024.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0014.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0027.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0028.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0029.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0018.webp", height: 527 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0030.webp", height: 762 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0031.webp", height: 763 },
-            { imageSrc: "/static/blog/2020/06/sesja_plenerowa_pieniny_0033.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0016.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0004.webp", height: 567 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0003.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0026.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0007.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0032.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0012.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0021.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0017.webp", height: 806 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0019.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0024.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0014.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0027.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0028.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0029.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0018.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0030.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0031.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2020/06/sesja_plenerowa_pieniny_0033.webp", height: 762 },
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_slubna_pieniny.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja_slubna_pieniny.webp"}
                     images={images}
                     headTitle={"Plener ślubny Pieniny, Szczawnica, Wysoki Wierch"}
                     headDescription={"Plener ślubny Pieniny, podróż kolejką linową na Palenicę w Szczawnicy i dwie godziny spaceru niebieskim szlakiem. Serdecznie zapraszam na Wysoki Wierch."}
@@ -63,7 +63,7 @@ const BlogPageComponent = () => {
                     leadNames={"PATRYCJA i KRZYSZTOF"}
                     leadTitle={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE"}
                     leadUrl={"/plener-slubny-na-rynku-w-krakowie"}
-                    leadImage={process.env.staticImagesPath + "/plener_slubny_na_rynku_w_krakowie.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "/plener_slubny_na_rynku_w_krakowie.webp"}
                 />
             
         );

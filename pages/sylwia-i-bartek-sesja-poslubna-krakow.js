@@ -3,38 +3,38 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0003.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0005.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0006.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0007.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0009.webp", height: 526 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0008.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0023.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0011.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0013.webp", height: 526 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0014.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0016.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0015.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0018.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0019.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0021.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0024.webp", height: 383 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0026.webp", height: 851 },
-            { imageSrc: "/static/blog/2016/06/sesja_poslubna_krakow_0010.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0003.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0005.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0006.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0007.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0009.webp", height: 526 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0008.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0023.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0011.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0013.webp", height: 526 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0014.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0016.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0015.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0018.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0019.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0021.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0024.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0026.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0010.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sylwia_i_bartek_sesja_poslubna_krakow_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sylwia_i_bartek_sesja_poslubna_krakow_start.webp"}
                     images={images}
                     headTitle={"Zdjęcia ślubne na Rynku w Krakowie"}
                     headDescription={"Wtorkowe popołudnie z gwarantowaną pogodą i białymi chmurkami spędziliśmy z Sylwią i Barkiem spacerując po Krakowie. Miłego oglądania."}
@@ -55,7 +55,7 @@ const BlogPageComponent = () => {
                     leadNames={"KAROLINA i BARTEK"}
                     leadTitle={"SESJA ZDJĘCIOWA DWÓR TOMASZOWICE, OPERA, KAZIMIERZ"}
                     leadUrl={"/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz"}
-                    leadImage={process.env.staticImagesPath + "sesja_zdjeciowa_dwor_tomaszowice_krakow_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "sesja_zdjeciowa_dwor_tomaszowice_krakow_start.webp"}
                 />
             
         );

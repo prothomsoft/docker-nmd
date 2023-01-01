@@ -3,39 +3,39 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
   
         let images = [
-            { imageSrc: "/static/blog/2016/06/99FOTOPL_SPP_066.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0001.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/99FOTOPL_SPP_101.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0020.webp", height: 527 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0003.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0004.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0005.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0009.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0007.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0008.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/99FOTOPL_SPP_076.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0012.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0014.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0015.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0016.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0017.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0018.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0021.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0024.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0025.webp", height: 527 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0019.webp", height: 762 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0026.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0027.webp", height: 763 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0028.webp", height: 852 },
-            { imageSrc: "/static/blog/2016/06/plener_slubny_krakow_0002.webp", height: 762 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/99FOTOPL_SPP_066.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0001.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/99FOTOPL_SPP_101.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0020.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0003.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0004.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0005.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0009.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0007.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0008.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/99FOTOPL_SPP_076.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0012.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0014.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0015.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0016.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0017.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0018.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0021.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0024.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0025.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0019.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0026.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0027.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0028.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2016/06/plener_slubny_krakow_0002.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "natalia_i_darek_sesja_slubna_krakow_i_pieskowa_skala_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "natalia_i_darek_sesja_slubna_krakow_i_pieskowa_skala_start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna Pieskowa Skała"}
                     headDescription={"Pachnący nowością po remoncie Zamek w Pieskowej Skale oraz gram Kazimierza. Serdecznie zapraszam na plener ślubny Natalii i Darka. Miłego oglądania."}
@@ -56,7 +56,7 @@ const BlogPageComponent = () => {
                     leadNames={"ALINA i JANUSZ"}
                     leadTitle={"ZDJĘCIA ŚLUBNE JORDANÓW, DWOREK FANTAZJA"}
                     leadUrl={"/alina-i-janusz-zdjecia-slubne-jordanow-dworek-fantazja"}
-                    leadImage={process.env.staticImagesPath + "alina_i_janusz_zdjecia_slubne_jordanow_dworek_fantazja_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "alina_i_janusz_zdjecia_slubne_jordanow_dworek_fantazja_start.webp"}
                 />
             
         );

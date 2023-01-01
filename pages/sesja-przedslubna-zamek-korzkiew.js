@@ -3,45 +3,45 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_001.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0003.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0008.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0006.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0011.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0005.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0014.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0015.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0016.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0019.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0022.webp", height: 850 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0024.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0026.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0027.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0029.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0028.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0030.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0031.webp", height: 763 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0032.webp", height: 383 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0033.webp", height: 527 },
-            { imageSrc: "/static/blog/2017/07/sesja_narzeczenska_krakow_0013.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_001.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0003.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0008.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0006.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0011.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0005.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0014.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0015.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0016.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0019.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0022.webp", height: 850 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0024.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0026.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0027.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0029.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0028.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0030.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0031.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0032.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0033.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2017/07/sesja_narzeczenska_krakow_0013.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_narzeczenska_krakow_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja_narzeczenska_krakow_start.webp"}
                     images={images}
                     headTitle={"Sesja przedślubna w Krakowie"}
                     headDescription={"Sesja przedślubna Kingi Maćka. Ciekawe i najlepsze miejsce plenerowe na sesję zdjęciową. Kraków i okolice. Serdecznie zapraszam."}
@@ -62,7 +62,7 @@ const BlogPageComponent = () => {
                     leadNames={"KAROLINA i DAWID"}
                     leadTitle={"LAWENDOWE POLE POD KRAKOWEM, SESJA ŚLUBNA W OSTROWIE"}
                     leadUrl={"/lawendowe-pole-pod-krakowem-sesja-slubna-w-ostrowie"}
-                    leadImage={process.env.staticImagesPath + "lawendowe_pole_pod_krakowem_sesja_slubna_w_ostrowie_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "lawendowe_pole_pod_krakowem_sesja_slubna_w_ostrowie_start.webp"}
                 />
             
         );

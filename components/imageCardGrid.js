@@ -1,15 +1,15 @@
 import React from 'react';
-import hotel_mercure_kasprowy_zakopane from "../public/static/portfolio/hotel_mercure_kasprowy_zakopane.webp";
-import bazylika_bozego_ciala_krakow_fotoreportaz_slubny from "../public/static/portfolio/bazylika_bozego_ciala_krakow_fotoreportaz_slubny.webp";
-import plener_slubny_slowacja from "../public/static/portfolio/plener_slubny_slowacja.webp";
-import dworzyszcze_wola_reportaz_slubny_pod_krakowem from "../public/static/portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
-import plener_slubny_palac_goetzow_brzesko from "../public/static/portfolio/plener_slubny_palac_goetzow_brzesko.webp";
-import dworek_fantazja_skomielna_biala_fotograf from "../public/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.webp";
-import ogrod_botaniczny from "../public/static/portfolio/ogrod_botaniczny.webp";
-import sesja_narzeczenska_klasztor_w_tyncu from "../public/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.webp";
-import sala_weselna_biala_wilczyca_kocmyrzow from "../public/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.webp";
 import Grid from "@mui/material/Grid";
 import ImageCard from "../components/imageCard";
+const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/hotel_mercure_kasprowy_zakopane.webp";
+const bazylika_bozego_ciala_krakow_fotoreportaz_slubny = process.env.staticS3ImagesPath + "portfolio/bazylika_bozego_ciala_krakow_fotoreportaz_slubny.webp";
+const plener_slubny_slowacja = process.env.staticS3ImagesPath + "portfolio/plener_slubny_slowacja.webp";
+const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
+const plener_slubny_palac_goetzow_brzesko = process.env.staticS3ImagesPath + "portfolio/plener_slubny_palac_goetzow_brzesko.webp";
+const dworek_fantazja_skomielna_biala_fotograf = process.env.staticS3ImagesPath + "portfolio/dworek_fantazja_skomielna_biala_fotograf.webp";
+const ogrod_botaniczny = process.env.staticS3ImagesPath + "portfolio/ogrod_botaniczny.webp";
+const sesja_narzeczenska_klasztor_w_tyncu = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_klasztor_w_tyncu.webp";
+const sala_weselna_biala_wilczyca_kocmyrzow = process.env.staticS3ImagesPath + "portfolio/sala_weselna_biala_wilczyca_kocmyrzow.webp";
 
 const ImageCardGrid = () => {
     return (

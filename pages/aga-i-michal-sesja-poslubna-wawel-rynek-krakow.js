@@ -3,35 +3,35 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0003.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0004.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0005.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0006.webp", height: 852 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0007.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0008.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0010.webp", height: 851 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0009.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0011.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0014.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0016.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0017.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0019.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0022.webp", height: 762 },
-            { imageSrc: "/static/blog/2015/09/99FOTOPL_SPM_087.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0003.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0004.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0005.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0006.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0007.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0008.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0010.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0009.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0011.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0014.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0016.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0017.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0019.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rynek_wawel_krakow_0022.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2015/09/99FOTOPL_SPM_087.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "aga_i_michal_sesja_poslubna_wawel_rynek_krakow_start.webp"}
+                    slide={process.env.staticS3ImagesPath + "aga_i_michal_sesja_poslubna_wawel_rynek_krakow_start.webp"}
                     images={images}
                     headTitle={"Plener ślubny w sercu Krakowa. Krakowski Rynek Główny i Wawel."}
                     headDescription={"Plener ślubny na Krakowskim Rynku, zdjęcia ślubne Wawel. Zapraszam do oglądania."}
@@ -52,7 +52,7 @@ const BlogPageComponent = () => {
                     leadNames={"IWONA i MARCIN"}
                     leadTitle={"WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE"}
                     leadUrl={"/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice"}
-                    leadImage={process.env.staticImagesPath + "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.webp"}
                 />
             
         );

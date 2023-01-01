@@ -3,35 +3,35 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0001.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0005.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0016.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0017.webp", height: 567 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0004.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0021.webp", height: 383 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0006.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0010.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0009.webp", height: 383 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0024.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0013.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0014.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0019.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0015.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0003.webp", height: 762 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0001.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0005.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0016.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0017.webp", height: 567 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0004.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0021.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0006.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0010.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0009.webp", height: 383 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0024.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0013.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0014.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0019.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0015.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/07/sesja_slubna_zielonym_szlakiem_na_popradzki_staw_0003.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja-slubna-zielonym-szlakiem-na-popradzki-staw-start.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja-slubna-zielonym-szlakiem-na-popradzki-staw-start.webp"}
                     images={images}
                     headTitle={"Sesja ślubna - zielonym szlakiem na Popradzki Staw"}
                     headDescription={
@@ -54,7 +54,7 @@ const BlogPageComponent = () => {
                     leadNames={"KINGA i MATEUSZ"}
                     leadTitle={"FOTOGRAF ŚLUBNY SUCHA BESKIDZKA, MAGNOLIA BUDZÓW"}
                     leadUrl={"/fotograf-slubny-sucha-beskidzka-magnolia-budzow"}
-                    leadImage={process.env.staticImagesPath + "fotograf-slubny-magnolia-budzow-start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "fotograf-slubny-magnolia-budzow-start.webp"}
                 />
             
         );

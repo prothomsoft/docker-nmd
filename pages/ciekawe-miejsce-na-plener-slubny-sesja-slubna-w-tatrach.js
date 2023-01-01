@@ -3,39 +3,39 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
    
         let images = [
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0002.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0001.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0003.webp", height: 851 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0026.webp", height: 407 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0019.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0004.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0023.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0006.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0007.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0009.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0008.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0021.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0010.webp", height: 567 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0011.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0012.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0022.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0013.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0014.webp", height: 851 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0016.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0015.webp", height: 805 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0017.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0018.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0028.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0020.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0024.webp", height: 527 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0025.webp", height: 763 },
-            { imageSrc: "/static/blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0027.webp", height: 763 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0002.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0001.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0003.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0026.webp", height: 407 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0019.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0004.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0023.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0006.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0007.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0009.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0008.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0021.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0010.webp", height: 567 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0011.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0012.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0022.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0013.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0014.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0016.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0015.webp", height: 805 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0017.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0018.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0028.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0020.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0024.webp", height: 527 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0025.webp", height: 763 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2018/08/slubna_sesja_zdjeciowa_w_gorach_0027.webp", height: 763 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "sesja_slubna_w_tatrach.webp"}
+                    slide={process.env.staticS3ImagesPath + "sesja_slubna_w_tatrach.webp"}
                     images={images}
                     headTitle={"Ciekawe miejsce na plener ślubny, sesja ślubna w Tatrach"}
                     headDescription={
@@ -58,7 +58,7 @@ const BlogPageComponent = () => {
                     leadNames={"NATALIA i KAMIL"}
                     leadTitle={"SALA WESELNA WILLA ORCHIDEA WAKSMUND - ŚLUB NA PODHALU"}
                     leadUrl={"/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"}
-                    leadImage={process.env.staticImagesPath + "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach-start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach-start.webp"}
                 />
             
         );

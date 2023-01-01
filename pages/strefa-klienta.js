@@ -1,13 +1,11 @@
 import LayoutSitePage from "../components/layoutSitePage";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import ParallaxImageFooter from "../components/parallaxImageFooter";
-import { Typography } from "@mui/material";
 import ClientList from "../components/clientList";
 
 const BlogListComponent = ({ posts }) => {
 
-  const pageImage = process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.webp";
+  const pageImage = process.env.staticS3ImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.webp";
 
   return (
     <LayoutSitePage
@@ -28,7 +26,7 @@ const BlogListComponent = ({ posts }) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch(`https://sk.99foto.pl/api/users/clients`);
+  const res = await fetch('https://sk.99foto.pl/api/users/clients');
   const posts = await res.json();
   return {
     props: {

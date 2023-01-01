@@ -3,52 +3,52 @@ import BlogPageComponentNew from "../components/blogPageComponentNew";
 const BlogPageComponent = () => {
     
         let images = [
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0001.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0002.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0003.webp", height: 851 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0004.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0034.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0029.webp", height: 762 },           
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0005.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0014.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0006.webp", height: 852 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0021.webp", height: 762 },           
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0009.webp", height: 851 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0010.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0024.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0023.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0031.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0016.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0020.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0013.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0012.webp", height: 851 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0015.webp", height: 762 },   
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0035.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0011.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0037.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0017.webp", height: 851 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0018.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0032.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0008.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0027.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0026.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0025.webp", height: 763 }, 
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0030.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0028.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0033.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0040.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0036.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0038.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0022.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0007.webp", height: 762 },   
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0039.webp", height: 762 },
-            { imageSrc: "/static/blog/2021/11/sesja_slubna_park_mogilany_0019.webp", height: 762 }
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0001.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0002.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0003.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0004.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0034.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0029.webp", height: 762 },           
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0005.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0014.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0006.webp", height: 852 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0021.webp", height: 762 },           
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0009.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0010.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0024.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0023.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0031.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0016.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0020.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0013.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0012.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0015.webp", height: 762 },   
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0035.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0011.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0037.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0017.webp", height: 851 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0018.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0032.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0008.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0027.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0026.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0025.webp", height: 763 }, 
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0030.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0028.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0033.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0040.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0036.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0038.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0022.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0007.webp", height: 762 },   
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0039.webp", height: 762 },
+            { imageSrc: process.env.staticS3ImagesPath + "blog/2021/11/sesja_slubna_park_mogilany_0019.webp", height: 762 }
         ];
 
         return (
             
                 <BlogPageComponentNew
-                    slide={process.env.staticImagesPath + "plener_slubny_park_mogilany.webp"}
+                    slide={process.env.staticS3ImagesPath + "plener_slubny_park_mogilany.webp"}
                     images={images}
                     headTitle={"Wymarzony Plener Ślubny w Krakowie ✔️ Sprawdzone Miejsca"}
                     headDescription={"Plener ślubny w Krakowie, magiczne drzewa w Parku w Mogilanach i Opactwo Tynieckie w promieniach zachodzącego słońca. Plener ślubny zakochanej pary w Krakowie. Zapraszam na bloga."}
@@ -69,7 +69,7 @@ const BlogPageComponent = () => {
                     leadNames={"WIKTORIA i KONRAD"}
                     leadTitle={"BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA"}
                     leadUrl={"/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"}
-                    leadImage={process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp"}
                 />
             
         );
