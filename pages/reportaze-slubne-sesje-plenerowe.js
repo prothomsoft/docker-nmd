@@ -44,7 +44,7 @@ const PageComponent = () => {
           <ImageCardGridHistoryNormalImages />
         </Box>
 
-        <Box sx={{display: { sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
+        <Box sx={{display: {  xs: "none", sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
             <ImageCardGridHistorySmallImages />
         </Box>
         
