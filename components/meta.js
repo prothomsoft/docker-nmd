@@ -9,13 +9,13 @@ const MetaComponent = ({ title, description, keywords, url }) => (
         <meta name="google-site-verification" content="Ao8IvTUt4_ca5KfEOHEbknJCJogkxdlWgjlPz1I7AMg" />
         <meta name="theme-color" content="#000000" />
         <meta property="og:title" content={title}/>
-        <meta property="og:image" content="https://99foto.pl/static/icons/99foto.webp" />
+        <meta property="og:image" content="https://99foto.pl/icons/99foto.webp" />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
         <link rel="author" href="https://plus.google.com/u/0/+TomaszProkop_99FOTO" />
         <link rel="publisher" href="https://plus.google.com/u/0/+TomaszProkop_99FOTO" />
         <link rel="canonical" href={url} />
-        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="shortcut icon" href="https://99foto.pl/icons/favicon.ico" />
         <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"Fotograf ślubny Kraków","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","ratingCount":"7"}}`}} />
     </Head>
 );
