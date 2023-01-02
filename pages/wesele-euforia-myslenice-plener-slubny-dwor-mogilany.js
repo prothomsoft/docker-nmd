@@ -165,7 +165,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticS3ImagesPath + "fotograf_slubny_wesele_mogilany_krakow.webp"}
                     images={images}
-                    headTitle={"Wesele Euforia Myślenice ✔️ Tomasz Prokop Fotograf Ślubny"}
+                    headTitle={"Wesele Euforia Myślenice"}
                     headDescription={
                         "Wesele w Mogilanach, Sala weselna Euforia w Myślenicach, dobry fotograf ślubny z Krakowa na weselu. Plener ślubny Dwór w Mogilanach. Serdecznie zaprasam na bloga."
                     }

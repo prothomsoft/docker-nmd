@@ -158,7 +158,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticS3ImagesPath + "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.webp"}
                     images={images}
-                    headTitle={"Hotel Margerita Kraków ✔️ Ślub w Krakowie"}
+                    headTitle={"Hotel Margerita Kraków. Ślub w Krakowie."}
                     headDescription={
                         "Hotel Margerita położony na trasie z Krakowa do Olkusza to świetne miejsce na ślub. Magiczny wystrój sali weselnej, który zachwyci Waszych gości. Zapraszam na reportaż ślubny Natalii i Piotra."
                     }

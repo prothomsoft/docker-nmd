@@ -7,13 +7,13 @@ import { CardActionArea } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
 
-const ImageCard = (props) => {
+const ImageCardSmall = (props) => {
   return (
     <Card>
       <Link href={props.linkhref}>
         <CardActionArea>        
             <CardMedia>
-                <Image src={props.imgsrc} alt={props.imgalt} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+                <Image src={props.imgsrc} alt={props.imgalt} width={540} height={360} style={{width: '100%', height: 'auto'}} />
             </CardMedia>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -29,4 +29,4 @@ const ImageCard = (props) => {
   );
 };
 
-export default ImageCard;
+export default ImageCardSmall;

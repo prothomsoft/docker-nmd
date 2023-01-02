@@ -23,8 +23,8 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Sesja Narzeczeńska Kraków ✔️ Tomasz Prokop Fotograf Ślubny"
-      description="Sesja narzeczeńska Kraków ❤️ Miejsca na sesję narzeczeńską. Zdjęcia spontaniczne, zero pozowania. Najlepsze miejscówki na sesję narzeczeńską w Krakowie."
+      title="Sesja narzeczeńska Kraków"
+      description="Sesja narzeczeńska Kraków. Miejsca na sesję narzeczeńską. Zdjęcia spontaniczne, zero pozowania. Najlepsze miejscówki na sesję narzeczeńską w Krakowie."
       keywords="sesja narzeczeńska kraków, miejscówki na sesję narzeczeńską w Krakowie"
       url="https://99foto.pl/sesja-narzeczenska-krakow/"
       leadNames="WIKTORIA i KONRAD"
@@ -48,7 +48,7 @@ const PageComponent = () => {
           sesja odzwierciedlała Wasze wnętrza i w pełni Wam pasowała. Kilka z nich znajdziecie poniżej.
         </Typography>
 
-        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_19} width={1140} height={852}  style={{width: '100%', height: 'auto'}} />
+        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_19} width={1140} height={852}  style={{width: '100%', height: 'auto'}} priority/>
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           WYBÓR MIEJSCA NA SESJĘ NARZECZEŃSKĄ

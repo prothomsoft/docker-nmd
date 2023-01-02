@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from "@mui/material/Grid";
-import ImageCard from "../components/imageCard";
+import ImageCard from "./imageCard";
 const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/hotel_mercure_kasprowy_zakopane.webp";
 const bazylika_bozego_ciala_krakow_fotoreportaz_slubny = process.env.staticS3ImagesPath + "portfolio/bazylika_bozego_ciala_krakow_fotoreportaz_slubny.webp";
 const plener_slubny_slowacja = process.env.staticS3ImagesPath + "portfolio/plener_slubny_slowacja.webp";
@@ -11,7 +11,7 @@ const ogrod_botaniczny = process.env.staticS3ImagesPath + "portfolio/ogrod_botan
 const sesja_narzeczenska_klasztor_w_tyncu = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_klasztor_w_tyncu.webp";
 const sala_weselna_biala_wilczyca_kocmyrzow = process.env.staticS3ImagesPath + "portfolio/sala_weselna_biala_wilczyca_kocmyrzow.webp";
 
-const ImageCardGrid = () => {
+const ImageCardGridStartNormalImages = () => {
     return (
         <Grid container direction="row" alignItems="center">
           <Grid item lg={4} p={1}>
@@ -101,4 +101,4 @@ const ImageCardGrid = () => {
     );
 };
 
-export default ImageCardGrid;
+export default ImageCardGridStartNormalImages;

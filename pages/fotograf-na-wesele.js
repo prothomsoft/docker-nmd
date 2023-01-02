@@ -15,7 +15,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Fotograf na wesele Kraków ✔️ Tomasz Prokop Fotograf Ślubny"
+      title="Fotograf na wesele Kraków."
       description="Fotograf na wesele z Krakowa. Zapraszam do zapoznania się z portfolio i skorzystania z mojej oferty. Gwarantuję wysokość jakość usług i konkurencyjne ceny."
       keywords="sesja zdjęciowa kraków,fotograf na wesele kraków"
       url="https://99foto.pl/misja-i-faq/"
@@ -37,7 +37,7 @@ const PageComponent = () => {
           niesamowitą przygodę, która pozwala mi spełniać marzenia. Jestem przekonany, że najlepsze zdjęcia są jeszcze przede mną.
         </Typography>
 
-        <Image alt="fotograf na wesele kraków" src={wakacje_bukowina} width={1140} height={762} style={{width: '100%', height: 'auto'}} />
+        <Image alt="fotograf na wesele kraków" src={wakacje_bukowina} width={1140} height={762} style={{width: '100%', height: 'auto'}} priority />
 
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">

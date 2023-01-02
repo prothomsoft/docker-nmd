@@ -50,7 +50,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticS3ImagesPath + "plener_slubny_park_mogilany.webp"}
                     images={images}
-                    headTitle={"Wymarzony Plener Ślubny w Krakowie ✔️ Sprawdzone Miejsca"}
+                    headTitle={"Wymarzony Plener Ślubny w Krakowie - Sprawdzone Miejsca"}
                     headDescription={"Plener ślubny w Krakowie, magiczne drzewa w Parku w Mogilanach i Opactwo Tynieckie w promieniach zachodzącego słońca. Plener ślubny zakochanej pary w Krakowie. Zapraszam na bloga."}
                     headKeywords={"plener ślubny w Krakowie, Park Mogilany, Opactwo Benedyktynów Tyniec, sprawdzone miejsce plenerowe"}
                     headUrl={"https://99foto.pl/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"}

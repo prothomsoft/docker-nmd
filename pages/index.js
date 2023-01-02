@@ -5,7 +5,8 @@ import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Container from "@mui/material/Container";
 import Link from "next/link";
 import Box from "@mui/material/Box";
-import ImageCardGrid from "../components/imageCardGrid";
+import ImageCardGridStartNormalImages from "../components/ImageCardGridStartNormalImages";
+import ImageCardGridStartSmallImages from "../components/ImageCardGridStartSmallImages";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
@@ -16,8 +17,8 @@ const Index = () => {
 
   return (
     <LayoutStartPage
-      title="Fotograf Ślubny Kraków ✔️ Tomasz Prokop"
-      description="Kliknij ⬆️ sprawdź moje portfolio. Pełne emocji reportaże ślubne ❤️ piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków."
+      title="Fotograf Ślubny Kraków - Tomasz Prokop"
+      description="Kliknij i sprawdź moje portfolio. Pełne emocji reportaże ślubne i piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków."
       keywords="fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków"
       url="https://99foto.pl"
       leadNames="PATRYCJA i KRZYSZTOF"
@@ -59,7 +60,15 @@ const Index = () => {
             POLECANE REPORTAŻE I SESJE ŚLUBNE
           </Typography>
         </Box>
-        <ImageCardGrid />
+        
+        <Box sx={{display: { xs: "block", sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
+            <ImageCardGridStartSmallImages />
+        </Box>
+
+        <Box sx={{display: { xs: "none", sm: "block",  md: "block" , lg: "none", xl: "none" }}}>
+          <ImageCardGridStartNormalImages />
+        </Box>
+
       </Container>
 
       <ParallaxImageFooter leadImage={process.env.staticS3ImagesPath + "sesja_slubna_jesienia.webp"} leadUrl="" height="70vh" />

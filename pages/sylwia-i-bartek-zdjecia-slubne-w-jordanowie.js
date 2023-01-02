@@ -140,7 +140,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticS3ImagesPath + "sylwia_i_bartek_zdjecia_slubne_w_jordanowie_start.webp"}
                     images={images}
-                    headTitle={"Fotograf ślubny Jordanów ✔️ Tomasz Prokop Fotograf Ślubny"}
+                    headTitle={"Fotograf ślubny Jordanów"}
                     headDescription={"Twarz Marilyn Monroe podpisaną Dziękuję, że jesteś w dalekim Trondheim wyklikał Bartek dla ukochanej Sylwii. Kilka łez poleciało... Zapraszam na reportaż."}
                     headKeywords={"fotograf na wesele kraków,reportaż ślubny kraków,zdjęcia ślubne dom weselny karolinka"}
                     headUrl={"https://99foto.pl/sylwia-i-bartek-zdjecia-slubne-w-jordanowie"}

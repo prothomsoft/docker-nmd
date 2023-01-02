@@ -26,7 +26,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Referencje od Par Młodych ✔️ Tomasz Prokop Fotograf Ślubny"
+      title="Referencje od Par Młodych."
       description="Referencje od Par Młodych. Kilka dobrych słów, które jako polecany fotograf na wesele otrzymałem po wykonaniu reportażu ślubnego. Zapraszam do lektury."
       keywords="Referencje od Par Młodych, Polecany fotograf na wesele Kraków"
       url="https://99foto.pl/referencje/"
@@ -62,7 +62,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_20} width={1140} height={762}  style={{width: '100%', height: 'auto'}} />
+        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_20} width={1140} height={762}  style={{width: '100%', height: 'auto'}} priority />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku Twoje zdjęcia pokazują Twoją pasje i zaangażowanie, pełen profesjonalizm i pracę jaką wkładasz w to aby były nietuzinkowe. Świetna gra świateł, idealnie dobrane kolory i bardzo
           trafione czarnobiałe fotografie. Pokazałeś na zdjęciach nas takich jacy jesteśmy, a to chyba najpiękniejsze.{" "}

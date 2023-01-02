@@ -22,7 +22,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Jakie pytania zadać fotografowi ❤️ Wybór fotografa na Twój ślub"
+      title="Jakie pytania zadać fotografowi. Wybór fotografa na Twój ślub"
       description="Często zadawane pytania i moje odpowiedzi. Zapraszam do zapoznania się z informacjami, które ułatwią Wam podjęcie decyzji wyboru fotografa na Wasz ślub."
       keywords="pytania do fotografa, wybór fotografa na ślub"
       url="https://99foto.pl/misja-i-faq/"
@@ -40,7 +40,7 @@ const PageComponent = () => {
         <Box sx={{ pb: 2 }}>
           <FaqAccordion />
         </Box>
-        <Image alt="plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} width={1140} height={764} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} width={1140} height={764} style={{width: '100%', height: 'auto'}} priority />
         <Box sx={{ py: 2 }}>
           <FaqAccordion1 />
         </Box>

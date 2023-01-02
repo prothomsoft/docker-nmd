@@ -19,8 +19,8 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Oferta Fotografa Ślubnego ✔️ Tomasz Prokop Fotograf Ślubny"
-      description="Jedno kliknięcie ⬆️ znajdziesz fotografa na Twój ślub. Sprawdź ofertę fotografii ślubnej. Kraków i bliskie okolice. Piękne kolory ❤️ autentyczne emocje. Serdecznie zapraszam."
+      title="Oferta fotografa ślubnego"
+      description="Jedno kliknięcie i znajdziesz fotografa na Twój ślub. Sprawdź ofertę fotografii ślubnej. Kraków i bliskie okolice. Piękne kolory i autentyczne emocje. Serdecznie zapraszam."
       keywords="Oferta Fotografa Ślubnego, Oferta Sesji Plenerowej Kraków"
       url="https://99foto.pl/oferta-fotografii-slubnej/"
       leadNames="ŻANETA i SEBASTIAN"
@@ -87,7 +87,7 @@ const PageComponent = () => {
           </Grid>
         </Grid>
         <Box sx={{ pt: 2 }}>
-          <Image alt="oferta fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+          <Image alt="oferta fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}}  priority />
         </Box>
 
         <Box sx={{ pt: 2, py: 1 }}>

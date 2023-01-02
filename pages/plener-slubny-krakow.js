@@ -31,7 +31,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Plener ślubny Kraków ✔️ Tomasz Prokop Fotograf Ślubny"
+      title="Plener ślubny Kraków"
       description="Plener ślubny w Krakowie to atrakcje turystyczne w pięknym miejscu. Spotkajmy się, odkryjmy fajne miejsca, zróbmy niezapomniane zdjęcia. Zapraszam."
       keywords="plener ślubny Kraków, sesja ślubna w krakowie"
       url="https://99foto.pl/plener-slubny-krakow/"
@@ -52,7 +52,7 @@ const PageComponent = () => {
           przez turystów i pełne historii miasto. Fajnych miejsc na sesję zdjęciową nie trzeba tu poszukiwać długo. Łatwo odnajdziemy każdy styl by uwiecznić w nim Waszą miłość.
         </Typography>
 
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={ogrod_botaniczny} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={ogrod_botaniczny} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority />
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           DEFINICJA PLENERU ŚLUBNEGO

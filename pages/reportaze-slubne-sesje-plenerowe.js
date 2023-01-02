@@ -3,7 +3,8 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
 import { Typography } from "@mui/material";
-import ImageCardGrid1 from "../components/imageCardGrid1";
+import ImageCardGridHistoryNormalImages from "../components/ImageCardGridHistoryNormalImages";
+import ImageCardGridHistorySmallImages from "../components/ImageCardGridHistorySmallImages";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Link from "next/link";
@@ -16,8 +17,8 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Reportaże Ślubne Kraków ❤️ Sesje Plenerowe Kraków"
-      description="Portfolio fotografa ślubnego, w którym zobaczycie wybrane reportaże ślubne i sesje plenerowe. Dziesięć lat doświadczenia w fotografowaniu ślubów. Kliknij ⬆️ sprawdź."
+      title="Reportaże ślubne Kraków, sesje plenerowe Kraków"
+      description="Portfolio fotografa ślubnego, w którym zobaczycie wybrane reportaże ślubne i sesje plenerowe. Dziesięć lat doświadczenia w fotografowaniu ślubów. Kliknij i sprawdź."
       keywords="reportaże ślubne i sesje plenerowe, portfolio fotografa ślubnego"
       url="https://99foto.pl/sesja-slubna-jesienia-palac-goetzow-okocimskich/"
       leadNames="IZABELA i ARKADIUSZ"
@@ -38,8 +39,16 @@ const PageComponent = () => {
           rejestrujący bieg zdarzeń z największą dyskrecją. Fotografia ślubna to pasja, którą rozwijam każdego dnia obserwując pracę najlepszych fotografów ślubnych w branży, poszukując nowych miejsc
           na niezapomniane sesje zdjęciowe, obserwując powstające i znikające trendy w fotografii ślubnej.
         </Typography>
+
+        <Box sx={{display: { xs: "block", sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
+            <ImageCardGridHistorySmallImages />
+        </Box>
+
+        <Box sx={{display: { xs: "none", sm: "block",  md: "block" , lg: "none", xl: "none" }}}>
+          <ImageCardGridHistoryNormalImages />
+        </Box>
        
-        <ImageCardGrid1 />
+        
         <Box sx={{ py: 2 }}>
           <Typography variant="h2" className={matches ? 'quote-title' : ''} align="center">
             EMOCJE, UCZUCIA I KOLORY ZATRZYMANE W KAŻDYM KADRZE

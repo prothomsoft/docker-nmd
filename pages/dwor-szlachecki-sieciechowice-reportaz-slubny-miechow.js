@@ -197,7 +197,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticS3ImagesPath + "dwor_szlachecki_sieciechowice_reportaz_slubny_miechow_start.webp"}
                     images={images}
-                    headTitle={"Dwór Szlachecki Sieciechowice ✔️ Reportaż Ślubny Miechów"}
+                    headTitle={"Dwór Szlachecki Sieciechowice. Reportaż Ślubny Miechów"}
                     headDescription={"Wykup Panny Młodej z górnej półki. Czego ten drużba tam nie przyniósł. Były dynie, ananasy, indyki i procenty. Dwór Szlachecki Sieciechowice. Zapraszam."}
                     headKeywords={"dwór szlachecki sieciechowice,fotograf ślubny miechów"}
                     headUrl={"https://99foto.pl/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow"}

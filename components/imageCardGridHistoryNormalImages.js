@@ -13,11 +13,10 @@ const sesja_plenerowa_rynek_w_krakowie = process.env.staticS3ImagesPath + "portf
 const wesele_rustykalne = process.env.staticS3ImagesPath + "portfolio/wesele_rustykalne.webp";
 
 
-const ImageCardGrid1 = () => {
+const ImageCardGridHistoryNormalImages = () => {
     return (
         <Grid container direction="row" alignItems="center">
           <Grid item lg={4} p={1}>
-           
             <ImageCard
               imgsrc={reportaz_slubny_krakow}
               imgalt="reportaż ślubny kraków"
@@ -105,4 +104,4 @@ const ImageCardGrid1 = () => {
     );
 };
 
-export default ImageCardGrid1;
+export default ImageCardGridHistoryNormalImages;

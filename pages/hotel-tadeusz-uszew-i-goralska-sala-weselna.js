@@ -173,7 +173,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticS3ImagesPath + "hotel_tadeusz_uszew_i_goralska_sala_weselna_start.webp"}
                     images={images}
-                    headTitle={"Hotel Tadeusz Uszew ✔️ Góralska Sala Weselna"}
+                    headTitle={"Hotel Tadeusz Uszew. Góralska Sala Weselna"}
                     headDescription={"Góralskie wesele w okolicach Tarnowa w Hotelu Tadeusz. Ślub w Brzesku pełny emocji. Hotel i Gospoda Tadeusz w Brzesku zaprasza przyszłe pary młode."}
                     headKeywords={"hotel tadeusz uszew,góralska sala weselna,fotograf na wesele okocim"}
                     headUrl={"https://99foto.pl/hotel-tadeusz-uszew-i-goralska-sala-weselna"}
