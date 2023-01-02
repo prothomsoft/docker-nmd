@@ -5,8 +5,8 @@ import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Container from "@mui/material/Container";
 import Link from "next/link";
 import Box from "@mui/material/Box";
-import ImageCardGridStartNormalImages from "../components/ImageCardGridStartNormalImages";
-import ImageCardGridStartSmallImages from "../components/ImageCardGridStartSmallImages";
+import ImageCardGridStartNormalImages from "../components/imageCardGridHistoryNormalImages";
+import ImageCardGridStartSmallImages from "../components/imageCardGridHistorySmallImages";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 

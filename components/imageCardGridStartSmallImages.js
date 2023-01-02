@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from "@mui/material/Grid";
-import ImageCardSmall from "./ImageCardSmall";
+import ImageCardSmall from "./imageCardSmall";
 const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/small/hotel_mercure_kasprowy_zakopane.webp";
 const bazylika_bozego_ciala_krakow_fotoreportaz_slubny = process.env.staticS3ImagesPath + "portfolio/small/bazylika_bozego_ciala_krakow_fotoreportaz_slubny.webp";
 const plener_slubny_slowacja = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_slowacja.webp";

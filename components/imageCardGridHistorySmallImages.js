@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from "@mui/material/Grid";
-import ImageCardSmall from "./ImageCardSmall";
+import ImageCardSmall from "./imageCardSmall";
 
 const klaudia_przemek_start = process.env.staticS3ImagesPath + "portfolio/small/klaudia_przemek_start.webp";
 const wesele_w_beskidach = process.env.staticS3ImagesPath + "portfolio/small/wesele_w_beskidach.webp";
@@ -12,7 +12,7 @@ const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/small
 const sesja_plenerowa_rynek_w_krakowie = process.env.staticS3ImagesPath + "portfolio/small/sesja_plenerowa_rynek_w_krakowie.webp";
 const wesele_rustykalne = process.env.staticS3ImagesPath + "portfolio/small/wesele_rustykalne.webp";
 
-const ImageCardSmallGridHistorySmallImages = () => {
+const ImageCardGridHistorySmallImages = () => {
     return (
         <Grid container direction="row" alignItems="center">
           <Grid item lg={4} p={1}>
@@ -103,4 +103,4 @@ const ImageCardSmallGridHistorySmallImages = () => {
     );
 };
 
-export default ImageCardSmallGridHistorySmallImages;
+export default ImageCardGridHistorySmallImages;
