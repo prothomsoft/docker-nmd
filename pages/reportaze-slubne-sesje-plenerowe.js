@@ -40,14 +40,14 @@ const PageComponent = () => {
           na niezapomniane sesje zdjęciowe, obserwując powstające i znikające trendy w fotografii ślubnej.
         </Typography>
 
-        <Box sx={{display: { xs: "block", sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
-            <ImageCardGridHistorySmallImages />
-        </Box>
-
-        <Box sx={{display: { xs: "none", sm: "block",  md: "block" , lg: "none", xl: "none" }}}>
+        <Box sx={{display: { sm: "block",  md: "block" , lg: "none", xl: "none" }}}>
           <ImageCardGridHistoryNormalImages />
         </Box>
-       
+
+        <Box sx={{display: { sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
+            <ImageCardGridHistorySmallImages />
+        </Box>
+        
         
         <Box sx={{ py: 2 }}>
           <Typography variant="h2" className={matches ? 'quote-title' : ''} align="center">

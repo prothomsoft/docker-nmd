@@ -5,8 +5,8 @@ import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Container from "@mui/material/Container";
 import Link from "next/link";
 import Box from "@mui/material/Box";
-import ImageCardGridStartNormalImages from "../components/imageCardGridHistoryNormalImages";
-import ImageCardGridStartSmallImages from "../components/imageCardGridHistorySmallImages";
+import ImageCardGridStartNormalImages from "../components/imageCardGridStartNormalImages";
+import ImageCardGridStartSmallImages from "../components/imageCardGridStartSmallImages";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
@@ -60,13 +60,13 @@ const Index = () => {
             POLECANE REPORTAŻE I SESJE ŚLUBNE
           </Typography>
         </Box>
-        
-        <Box sx={{display: { xs: "block", sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
-            <ImageCardGridStartSmallImages />
-        </Box>
 
-        <Box sx={{display: { xs: "none", sm: "block",  md: "block" , lg: "none", xl: "none" }}}>
+        <Box sx={{display: { sm: "block",  md: "block" , lg: "none", xl: "none" }}}>
           <ImageCardGridStartNormalImages />
+        </Box>
+        
+        <Box sx={{display: { sm: "none",  md: "none" , lg: "block", xl: "block" }}}>
+            <ImageCardGridStartSmallImages />
         </Box>
 
       </Container>
