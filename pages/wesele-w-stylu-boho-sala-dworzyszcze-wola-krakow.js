@@ -171,7 +171,7 @@ const BlogPageComponent = () => {
                     leadNames={"ŻANETA i SEBASTIAN"}
                     leadTitle={"DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"}
                     leadUrl={"/dom-weselny-biala-perla-radziemice-reportaz-slubny"}
-                    leadImage={"url(" + process.env.staticS3ImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.webp"}
                 />
             
         );

@@ -188,7 +188,7 @@ const BlogPageComponent = () => {
                     leadNames={"SYLWIA i MICHAŁ"}
                     leadTitle={"WESELE W STYLU BOHO, SALA DWORZYSZCZE WOLA, KRAKÓW"}
                     leadUrl={"/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow"}
-                    leadImage={"url(" + process.env.staticS3ImagesPath + "dworzyszcze_wola_reportaz_slubny_pod_krakowem_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "dworzyszcze_wola_reportaz_slubny_pod_krakowem_start.webp"}
                 />
             
         );

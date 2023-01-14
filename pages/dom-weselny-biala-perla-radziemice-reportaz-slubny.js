@@ -170,7 +170,7 @@ const BlogPageComponent = () => {
                     leadNames={"ANNA i PAWEŁ"}
                     leadTitle={"PAŁAC GOETZ MIEJSCE NA WESELE i PLENER ŚLUBNY MARZEŃ"}
                     leadUrl={"/palac-goetz-wesele-plener-slubny"}
-                    leadImage={"url(" + process.env.staticS3ImagesPath + "sesja_slubna_palac_goetza.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "sesja_slubna_palac_goetza.webp"}
                 />
             
         );
