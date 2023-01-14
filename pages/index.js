@@ -15,6 +15,28 @@ const Index = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("lg"));
 
+  const schemaData = 
+  {
+    "@context": "http://www.schema.org",
+    "@type": "ProfessionalService",
+    "name": "Fotograf ślubny Krakow",
+    "url": "https://99foto.pl",
+    "logo": "https://99foto.pl/icons/99foto.webp",
+    "priceRange": "$$$$",
+    "image": "https://sk99foto.s3.eu-west-3.amazonaws.com/static/lomnicki_staw_portfolio_start.webp",
+    "description": "Pełne emocji reportaże ślubne i piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bociana 4A/35",
+      "addressLocality": "Kraków",
+      "addressRegion": "małopolskie",
+      "postalCode": "31-231",
+      "addressCountry": "Poland"
+    },
+    "openingHours": "Mo 07:00-22:00 Tu 07:00-22:00 We 07:00-22:00 Th 07:00-22:00 Fr 07:00-22:00",
+    "telephone": "+48 663 275 222s"
+  }
+
   return (
     <LayoutStartPage
       title="Fotograf Ślubny Kraków - Tomasz Prokop"
@@ -27,7 +49,8 @@ const Index = () => {
       leadImage={pageImage}
       slide={matches ? process.env.staticS3ImagesPath + "lomnicki_staw_portfolio_start.webp" : process.env.staticS3ImagesPath + "ogrod_botaniczny.webp"}
       menuNames=""
-      menuTitle="">
+      menuTitle=""
+      schemaData={schemaData}>
       <Container sx={{ pb: 3 }}>
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">

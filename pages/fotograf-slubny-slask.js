@@ -2,18 +2,18 @@ import LayoutSitePage from "../components/layoutSitePage";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
+import FaqAccordion from "../components/faqAccordion";
 const dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio = process.env.staticS3ImagesPath + "portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.webp";
 const portfolio_0013 = process.env.staticS3ImagesPath + "portfolio/portfolio_0013.webp";
 const portfolio_0001 = process.env.staticS3ImagesPath + "portfolio/portfolio_0001.webp";
 const best_2022_1 = "/static/2022/best_2022_1.jpg";
 const best_2022_2 = "/static/2022/best_2022_2.jpg";
 const best_2022_3 = "/static/2022/best_2022_3.jpg";
+
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.webp";
   const theme = useTheme();
@@ -42,7 +42,42 @@ const PageComponent = () => {
   ]
 
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+        "@type": "Question",
+        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+        }
+    },{
+        "@type": "Question",
+        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+        }
+    },{
+      "@type": "Question",
+      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+      }
+  },{
+    "@type": "Question",
+    "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+    "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+    }
+}]
+}
+
   return (
+    
     <LayoutSitePage
       title="Reportaż ślubny Kraków"
       description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji. Twoje fotografie z reporterskim charakterem i bez pozowania."
@@ -51,7 +86,9 @@ const PageComponent = () => {
       leadNames="ANNA i PIOTR"
       leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
       leadUrl="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
-      leadImage={pageImage}>
+      leadImage={pageImage}
+      schemaData={schemaData}>
+        
       <Container sx={{ pt: 8 }}>
         <Box sx={{ pt: 13, display: { xs: "none", lg: "block", xl: "block" } }}></Box>
 
@@ -64,6 +101,7 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
           Poszukiwania najlepszego fotografa ślubnego na Śląsku to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
         </Typography>
+
 
         <Carousel animation="slide" duration="300">
             {
@@ -85,8 +123,6 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
         </Typography>
-
-        
 
         <Carousel animation="slide" duration="500">
             {
@@ -138,6 +174,22 @@ const PageComponent = () => {
           Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
         </Typography>
 
+        <Box sx={{ py: 2 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            NAJCZĘŚCIEJ ZADAWANE PYTANIA
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pb: 2 }}>
+        <FaqAccordion q1={schemaData.mainEntity[0].name}
+                            a1={schemaData.mainEntity[0].acceptedAnswer.text} 
+                            q2={schemaData.mainEntity[1].name}
+                            a2={schemaData.mainEntity[1].acceptedAnswer.text}
+                            q3={schemaData.mainEntity[2].name}
+                            a3={schemaData.mainEntity[2].acceptedAnswer.text}
+                            q4={schemaData.mainEntity[3].name}
+                            a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
       </Container>
     </LayoutSitePage>
   );

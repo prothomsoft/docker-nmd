@@ -8,7 +8,7 @@ import Container from "@mui/material/Container";
 import ContactForm from "../components/contactForm";
 import { initGA, logPageView } from "./analytics.js";
 
-const LayoutSitePage = ({ children, title, description, keywords, url, leadImage, leadNames, leadTitle, leadUrl }) => {
+const LayoutSitePage = ({ children, title, description, keywords, url, leadImage, leadNames, leadTitle, leadUrl, schemaData }) => {
 
   const scrollToContact = React.useRef(null);
   const executeScrollContact = () => scrollToContact.current.scrollIntoView({ behavior: "smooth" });
@@ -23,7 +23,7 @@ const LayoutSitePage = ({ children, title, description, keywords, url, leadImage
 
   return (
     <>
-      <Meta title={title} description={description} keywords={keywords} url={url} />
+      <Meta title={title} description={description} keywords={keywords} url={url} schemaData={schemaData}/>
       <ParallaxProvider>
         <AppBarWithResponsiveMenu action={executeScrollContact} />
         {children}

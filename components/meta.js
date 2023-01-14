@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const MetaComponent = ({ title, description, keywords, url }) => (
+const MetaComponent = ({ title, description, keywords, url, schemaData }) => (
     <Head>
         <title>{title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -16,7 +16,7 @@ const MetaComponent = ({ title, description, keywords, url }) => (
         <link rel="publisher" href="https://plus.google.com/u/0/+TomaszProkop_99FOTO" />
         <link rel="canonical" href={url} />
         <link rel="shortcut icon" href="https://99foto.pl/icons/favicon.ico" />
-        <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"Fotograf ślubny Kraków","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","ratingCount":"7"}}`}} />
+        <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
     </Head>
 );
 
