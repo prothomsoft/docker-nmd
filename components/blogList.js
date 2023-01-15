@@ -37,7 +37,7 @@ const PostLink = ({ post }) => (
     <Typography color="text.secondary" align="justify" sx={{ py: 1, "& > a": { color: "white" } }} dangerouslySetInnerHTML={{ __html: post.content }} />
 
     <Box sx={{ pt: 1, pb: 2 }}>
-      <Link href={post.slug} passHref>
+      <Link href={post.slug}>
         <Button variant="blogButton" fullWidth endIcon={<ArrowForward />}>
           ZOBACZ WIĘCEJ
         </Button>

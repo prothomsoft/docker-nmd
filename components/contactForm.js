@@ -172,7 +172,6 @@ const ContactForm = ({scrollToContact}) => {
           KONTAKT
         </Typography>
       </Box>
-
       <Box sx={{ display: `${displayFormConfirmation}`, pb: 3 }}>
         <Typography variant="subtitle2" align="center">
           TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.
@@ -309,6 +308,10 @@ const ContactForm = ({scrollToContact}) => {
           </Grid>
         </Grid>
       </Box>
+
+      <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 4 }}>
+        Najczęściej fotografuję w <Link href="/fotograf-slubny-malopolska">województwie małopolskim</Link>: <Link href="/reportaz-slubny-krakow">Kraków</Link>, <Link href="/fotograf-slubny-bochnia">Bochnia</Link>, <Link href="/fotograf-slubny-chrzanow">Chrzanów</Link>, <Link href="/fotograf-slubny-kielce">Kielce</Link>, <Link href="/fotograf-slubny-miechow">Miechów</Link>, <Link href="/fotograf-slubny-myslenice">Myślenice</Link>, <Link href="/fotograf-slubny-olkusz">Olkusz</Link>, <Link href="/fotograf-slubny-oswiecim">Oświęcim</Link>, <br/><Link href="/fotograf-slubny-wieliczka">Wieliczka</Link>, <Link href="/fotograf-slubny-tarnow">Tarnów</Link> i <Link href="/fotograf-slubny-wadowice">Wadowice</Link>, w <Link href="/fotograf-slubny-slask">województwie śląskim</Link>: <Link href="/fotograf-slubny-katowice">Katowice</Link> i w górach: <Link href="/fotograf-slubny-zakopane">Zakopane</Link>, <Link href="/fotograf-slubny-szczawnica">Szczawnica</Link> i <Link href="/fotograf-slubny-szczyrk">Szczyrk</Link>.
+      </Typography>
     </>
   );
 };

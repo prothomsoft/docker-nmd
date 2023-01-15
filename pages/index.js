@@ -59,19 +59,19 @@ const Index = () => {
         </Box>    
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
         Witam na mojej stronie internetowej. Poszukujesz fotografa ślubnego? Jeśli tak, to doskonale trafiłeś. Fotografia jest moją pasją odkąd pamiętam, śluby fotografuję już blisko dziesięć lat. Serdecznie zapraszam do odwiedzenia{" "}
-          <Link href="/blog" passHref>
+          <Link href="/blog">
             mojego bloga
           </Link>{" "}
           oraz obejrzenia{" "}
-          <Link href="/reportaz-slubny-krakow" passHref>
+          <Link href="/reportaz-slubny-krakow">
             reportaży ślubnych
           </Link>
           ,{" "}
-          <Link href="/plener-slubny-krakow" passHref>
+          <Link href="/plener-slubny-krakow">
             plenerów ślubnych
           </Link>
           ,{" "}
-          <Link href="/sesja-narzeczenska-krakow" passHref>
+          <Link href="/sesja-narzeczenska-krakow">
             sesji narzeczeńskich
           </Link>
           , zdjęć pełnych kolorów i autentycznych emocji. Moje prace wyróżnia reporterskie podejście do fotografii czyli jak najmniej ustawianych, reżyserowanych zdjęć, jak najwięcej kadrów

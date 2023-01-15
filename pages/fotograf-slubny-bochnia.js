@@ -8,136 +8,137 @@ import { useTheme } from "@mui/material/styles";
 import Carousel from 'react-material-ui-carousel'
 import FaqAccordion from "../components/faqAccordion";
 
-const fotograf_slubny_portfolio_2023_002 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_002.webp";
-const fotograf_slubny_portfolio_2023_003 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_003.webp";
-const fotograf_slubny_portfolio_2023_004 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_004.webp";
-const fotograf_slubny_portfolio_2023_005 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_005.webp";
-const fotograf_slubny_portfolio_2023_011 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_011.webp";
-const fotograf_slubny_portfolio_2023_012 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_012.webp";
-const fotograf_slubny_portfolio_2023_013 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_013.webp";
-const fotograf_slubny_portfolio_2023_014 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_014.webp";
-const fotograf_slubny_portfolio_2023_015 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_015.webp";
-const fotograf_slubny_portfolio_2023_016 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_016.webp";
-const fotograf_slubny_portfolio_2023_018 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_018.webp";
-const fotograf_slubny_portfolio_2023_019 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_019.webp";
-const fotograf_slubny_portfolio_2023_020 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_020.webp";
-const fotograf_slubny_portfolio_2023_021 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_021.webp";
-const fotograf_slubny_portfolio_2023_024 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_024.webp";
-const fotograf_slubny_portfolio_2023_026 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_026.webp";
-const fotograf_slubny_portfolio_2023_027 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_027.webp";
-const fotograf_slubny_portfolio_2023_028 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_028.webp";
-const fotograf_slubny_portfolio_2023_029 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_029.webp";
-const fotograf_slubny_portfolio_2023_031 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_031.webp";
-const fotograf_slubny_portfolio_2023_033 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_033.webp";
-const fotograf_slubny_portfolio_2023_034 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_034.webp";
-const fotograf_slubny_portfolio_2023_035 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_035.webp";
-const fotograf_slubny_portfolio_2023_036 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_036.webp";
-const fotograf_slubny_portfolio_2023_037 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_037.webp";
-const fotograf_slubny_portfolio_2023_038 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_038.webp";
-const fotograf_slubny_portfolio_2023_039 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_039.webp";
-const fotograf_slubny_portfolio_2023_042 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_042.webp";
-const fotograf_slubny_portfolio_2023_043 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_043.webp";
+const fotograf_slubny_portfolio_2023_157 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_157.webp";
+const fotograf_slubny_portfolio_2023_158 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_158.webp";
+const fotograf_slubny_portfolio_2023_159 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_159.webp";
+const fotograf_slubny_portfolio_2023_160 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_160.webp";
+const fotograf_slubny_portfolio_2023_161 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_161.webp";
+const fotograf_slubny_portfolio_2023_162 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_162.webp";
+const fotograf_slubny_portfolio_2023_163 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_163.webp";
+const fotograf_slubny_portfolio_2023_164 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_164.webp";
+const fotograf_slubny_portfolio_2023_165 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_165.webp";
+const fotograf_slubny_portfolio_2023_166 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_166.webp";
+const fotograf_slubny_portfolio_2023_167 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_167.webp";
+const fotograf_slubny_portfolio_2023_168 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_168.webp";
+const fotograf_slubny_portfolio_2023_169 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_169.webp";
+const fotograf_slubny_portfolio_2023_170 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_170.webp";
+const fotograf_slubny_portfolio_2023_171 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_171.webp";
+const fotograf_slubny_portfolio_2023_172 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_172.webp";
+const fotograf_slubny_portfolio_2023_173 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_173.webp";
+const fotograf_slubny_portfolio_2023_174 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_174.webp";
+const fotograf_slubny_portfolio_2023_176 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_176.webp";
+const fotograf_slubny_portfolio_2023_177 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_177.webp";
+const fotograf_slubny_portfolio_2023_178 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_178.webp";
+const fotograf_slubny_portfolio_2023_179 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_179.webp";
+const fotograf_slubny_portfolio_2023_180 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_180.webp";
+const fotograf_slubny_portfolio_2023_181 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_181.webp";
+const fotograf_slubny_portfolio_2023_182 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_182.webp";
+const fotograf_slubny_portfolio_2023_183 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_183.webp";
+const fotograf_slubny_portfolio_2023_184 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_184.webp";
+const fotograf_slubny_portfolio_2023_185 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_185.webp";
+const fotograf_slubny_portfolio_2023_186 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_186.webp";
+const fotograf_slubny_portfolio_2023_187 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_187.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticS3ImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.webp";
+  const pageImage = process.env.staticS3ImagesPath + "dom_weselny_mogielica_fotograf_slubny_mszana.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   const imagesCarousel1 = [
     {
-        image: fotograf_slubny_portfolio_2023_003
+        image: fotograf_slubny_portfolio_2023_157
     },
     {
-        image: fotograf_slubny_portfolio_2023_002
+        image: fotograf_slubny_portfolio_2023_158
     },
     {
-        image: fotograf_slubny_portfolio_2023_011
+        image: fotograf_slubny_portfolio_2023_159
     },
     {
-        image: fotograf_slubny_portfolio_2023_004
+        image: fotograf_slubny_portfolio_2023_160
     },
     {
-        image: fotograf_slubny_portfolio_2023_005
+        image: fotograf_slubny_portfolio_2023_161
     },
     {
-        image: fotograf_slubny_portfolio_2023_014
+        image: fotograf_slubny_portfolio_2023_162
     },
     {
-        image: fotograf_slubny_portfolio_2023_026
+        image: fotograf_slubny_portfolio_2023_163
     },
     {
-        image: fotograf_slubny_portfolio_2023_028
+        image: fotograf_slubny_portfolio_2023_164
     },
     {
-        image: fotograf_slubny_portfolio_2023_012
+        image: fotograf_slubny_portfolio_2023_165
     },
     {
-        image: fotograf_slubny_portfolio_2023_013
+        image: fotograf_slubny_portfolio_2023_166
     }
   ]
 
   const imagesCarousel2 = [
     {
-      image: fotograf_slubny_portfolio_2023_024
+      image: fotograf_slubny_portfolio_2023_167
     },
     {
-      image: fotograf_slubny_portfolio_2023_015
+      image: fotograf_slubny_portfolio_2023_168
     },
     {
-      image: fotograf_slubny_portfolio_2023_016
+      image: fotograf_slubny_portfolio_2023_169
     },
     {
-      image: fotograf_slubny_portfolio_2023_027
+      image: fotograf_slubny_portfolio_2023_170
     },
     {
-      image: fotograf_slubny_portfolio_2023_018
+      image: fotograf_slubny_portfolio_2023_171
     },
     {
-      image: fotograf_slubny_portfolio_2023_020
+      image: fotograf_slubny_portfolio_2023_172
     },
     {
-      image: fotograf_slubny_portfolio_2023_019
+      image: fotograf_slubny_portfolio_2023_173
     },
     {
-      image: fotograf_slubny_portfolio_2023_021
+      image: fotograf_slubny_portfolio_2023_187
     },
     {
-      image: fotograf_slubny_portfolio_2023_028
+      image: fotograf_slubny_portfolio_2023_174
     },
     {
-      image: fotograf_slubny_portfolio_2023_029
+      image: fotograf_slubny_portfolio_2023_176
     }
   ]
 
   const imagesCarousel3 = [
     {
-      image: fotograf_slubny_portfolio_2023_031
+      image: fotograf_slubny_portfolio_2023_177
     },
     {
-      image: fotograf_slubny_portfolio_2023_042
+      image: fotograf_slubny_portfolio_2023_186
     },
     {
-      image: fotograf_slubny_portfolio_2023_033
+      image: fotograf_slubny_portfolio_2023_179
     },
     {
-      image: fotograf_slubny_portfolio_2023_034
+      image: fotograf_slubny_portfolio_2023_180
     },
     {
-      image: fotograf_slubny_portfolio_2023_035
+      image: fotograf_slubny_portfolio_2023_182
     },
     {
-      image: fotograf_slubny_portfolio_2023_043
+      image: fotograf_slubny_portfolio_2023_181
     },
     {
-      image: fotograf_slubny_portfolio_2023_037
+      image: fotograf_slubny_portfolio_2023_184
     },
     {
-      image: fotograf_slubny_portfolio_2023_038
+      image: fotograf_slubny_portfolio_2023_183
     },
     {
-      image: fotograf_slubny_portfolio_2023_039
+      image: fotograf_slubny_portfolio_2023_185
     },
     {
-      image: fotograf_slubny_portfolio_2023_036
+      image: fotograf_slubny_portfolio_2023_178
     }
   ]
 
@@ -179,13 +180,13 @@ const PageComponent = () => {
   return (
     
     <LayoutSitePage
-      title="Fotograf ślubny Śląsk"
-      description="Fotograf ślubny Śląsk"
-      keywords="fotograf ślubny Śląsk"
-      url="https://99foto.pl/fotograf-slubny-slask/"
-      leadNames="ŻANETA i SEBASTIAN"
-      leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"
-      leadUrl="/dom-weselny-biala-perla-radziemice-reportaz-slubny"
+      title="Fotograf ślubny Bochnia"
+      description="Fotograf ślubny Bochnia"
+      keywords="fotograf ślubny Bochnia"
+      url="https://99foto.pl/fotograf-slubny-bochnia/"
+      leadNames="NATALIA i KRZYSZTOF"
+      leadTitle="DOM WESELNY MOGIELICA JURKÓW, RUSTYKALNE WESELE"
+      leadUrl="/dom-weselny-mogielica-jurkow-rustykalne-wesele"
       leadImage={pageImage}
       schemaData={schemaData}>
         
@@ -194,12 +195,12 @@ const PageComponent = () => {
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
-            FOTOGRAF ŚLUBNY ŚLĄSK
+            FOTOGRAF ŚLUBNY BOCHNIA
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego na Śląsku to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+          Poszukiwania najlepszego fotografa ślubnego w Bochni to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -215,7 +216,7 @@ const PageComponent = () => {
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY ŚLĄSK - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY BOCHNIA - JAKI POWINIEN BYĆ?
           </Typography>
         </Box>
 
@@ -227,7 +228,7 @@ const PageComponent = () => {
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA ŚLĄSK - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA BOCHNIA - BOGACTWO WYJĄTKOWYCH MIEJSC
           </Typography>
         </Box>
 
@@ -247,7 +248,7 @@ const PageComponent = () => {
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          ŚLĄSK - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          BOCHNIA - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
           </Typography>
         </Box>
         
@@ -257,7 +258,7 @@ const PageComponent = () => {
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA ŚLĄSK - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA BOCHNIA - PAMIĄTKA NA LATA
           </Typography>
         </Box>
         
@@ -277,7 +278,7 @@ const PageComponent = () => {
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA ŚLĄSK - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA BOCHNIA - ILE TO KOSZTUJE
           </Typography>
         </Box>
         

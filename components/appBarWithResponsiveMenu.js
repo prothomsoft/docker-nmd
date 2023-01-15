@@ -100,23 +100,23 @@ const AppBarWithResponsiveMenu = (props) => {
                 <Grid item lg={5}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      <Link key={1} href={"/fotograf-na-wesele"} passHref>
+                      <Link key={1} href={"/fotograf-na-wesele"}>
                         <Button variant="menuButton" key={1}>
                           {"O MNIE"}
                         </Button>
                       </Link>
                       <MenuTop />
-                      <Link key={2} href={"/oferta-fotografii-slubnej"} passHref>
+                      <Link key={2} href={"/oferta-fotografii-slubnej"}>
                         <Button variant="menuButton" key={2}>
                           {"OFERTA"}
                         </Button>
                       </Link>
-                      <Link key={3} href={"/reportaze-slubne-sesje-plenerowe"} passHref>
+                      <Link key={3} href={"/reportaze-slubne-sesje-plenerowe"}>
                         <Button variant="menuButton" key={3}>
                           {"HISTORIE"}
                         </Button>
                       </Link>
-                      <Link key={4} href={"/misja-i-faq"} passHref>
+                      <Link key={4} href={"/misja-i-faq"}>
                         <Button variant="menuButton" key={4}>
                           {"FAQ"}
                         </Button>
@@ -127,7 +127,7 @@ const AppBarWithResponsiveMenu = (props) => {
                 <Grid item lg={2}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center", ml: "15px" }}>
-                      <Link key={5} href="/" passHref>
+                      <Link key={5} href="/">
                         <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={5} onClick={handleCloseNavMenu}>
                           <Image alt="fotograf ślubny kraków" src={logo99foto} width={100} height={140}/>
                         </Button>
@@ -138,17 +138,17 @@ const AppBarWithResponsiveMenu = (props) => {
                 <Grid item lg={5}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      <Link key={6} href={"/referencje"} passHref>
+                      <Link key={6} href={"/referencje"}>
                         <Button variant="menuButton" key={6}>
                           {"REFERENCJE"}
                         </Button>
                       </Link>
-                      <Link key={7} href={"/blog"} passHref>
+                      <Link key={7} href={"/blog"}>
                         <Button variant="menuButton" key={7}>
                           {"BLOG"}
                         </Button>
                       </Link>
-                      <Link key={8} href={"/strefa-klienta"} passHref>
+                      <Link key={8} href={"/strefa-klienta"}>
                         <Button variant="menuButton" key={8}>
                           {"STREFA KLIENTA"}
                         </Button>
@@ -165,7 +165,7 @@ const AppBarWithResponsiveMenu = (props) => {
           <Container>
             <Toolbar id="back-to-top-anchor" disableGutters sx={{ p: 1 }}>
               <Box sx={{ display: { xs: "flex", lg: "none" }, width: "100%" }} justifyContent="center" alignItems="center">
-                <Link key={2} href="/" passHref>
+                <Link key={2} href="/" >
                   <Button variant="menuButton" sx={{ pt: 2, pb: 2, ml: 8 }} key={1}>
                     <Image alt="fotograf ślubny kraków" src={logo99fotomobile} width={91} height={30} />
                   </Button>
@@ -193,7 +193,7 @@ const AppBarWithResponsiveMenu = (props) => {
                     display: { xs: "block", lg: "none" },
                   }}>
                   {pages.map((page, key) => (
-                    <Link key={key} href={page.url} passHref>
+                    <Link key={key} href={page.url}>
                       <MenuItem key={key} onClick={handleCloseNavMenu}>
                         <Typography textAlign="center">{page.name}</Typography>
                       </MenuItem>

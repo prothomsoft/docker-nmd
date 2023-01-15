@@ -39,7 +39,7 @@ const ParallaxImageFooter = (props) => {
           {props.leadTitle}
         </Typography>
         <Box sx={{ pt: 4 }}>
-          <Link href={props.leadUrl} passHref>
+          <Link href={props.leadUrl}>
             <Button variant="contained" sx={{color: "black", padding: "10px 40px 10px 40px", fontSize: "1rem"}} endIcon={<ArrowForward />}>ZOBACZ WIĘCEJ</Button>
           </Link>
         </Box>        
