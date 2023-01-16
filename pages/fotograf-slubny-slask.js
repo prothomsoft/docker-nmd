@@ -147,41 +147,41 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Jakie są ceny fotografii ślubnej na Śląsku?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Zdjęcia ślubne to nie wszystko. Moja oferta zawiera też fotoksiążkę mającą 140 stron w formacie 30x30, w której można umieścić blisko 300 zdjęć. Spotykamy się też w wybranym dniu po ślubie i robimy plener ślubny. Wszystkie dojazdy w dniu ślubu są wliczone w cenę pakietu. Zapraszm do kontaktu, chętnie wyślę ofertę i porozmawiam z Wami o szczegółach."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Ile zdjęć dostaniemy z wesela, a ile z pleneru ślubnego?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Minimum 450 zdjęć to liczba zdjęć zapisana w umowie. Wszystkie zdjęcia są poddane starannej obróbce graficznej. Praktycznie zawsze robimy zdjęcia grupowe z gośćmi weselnymi na sali. Ponieważ ilość tych zdjęć jest duża to zawsze ich ilość dodaje się do ilości zdjęć w pakiecie. Plener w wybranym dniu po ślubnie to również dodatkowe 100 zdjęć poddanych starannej obróbce."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Ile czasu zajmuje praca fotografa ślubnego na Śląsku?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Fotografowie ślubni na śląsku pracę rozpoczynają od wczesnych godzin porannych, najczęściej fotografując makijaż Panny Młodej. Zdjęcia kończą się po oczepinach, gdy wszystkie najważniejsze momenty tego ważnego dnia są już utrwalone na kartach pamięci. Jest to bardzo często szesnaście lub więcej godzin przyjemnej pracy."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Fotoksiążka, album fotograficzny, czy zdjęcia w wersji cyfrowej?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Galeria internetowa i zawarte w niej zdjęcia w wersji cyfrowej służą gościon do oglądania reportażu ślubnego zaraz po ślubie. Para młoda zawsze otrzymuje fotoksiążkę lub album fotograficzny, oraz pendrive w etui ze zdjęciami w pełnej rozdzielczości gotowymi do wydruków. Jest to bardzo ważne ponieważ wtedy widzicie, jak zdjęcia powinny wyglądać wydrukowane na papierze, a ja mam pewność, że oczekiwania związane z jakością są w stu procentach spełnione."
       }
     }
 ]}
 
   return (
-    
+ 
     <LayoutSitePage
       title="Fotograf ślubny Śląsk"
       description="Fotograf ślubny Śląsk"
-      keywords="fotograf ślubny Śląsk"
+      keywords="Poszukujesz profesjonalnego fotografa, który pracuje na śląsku. Zapraszam do zapoznania się z moją ofertą."
       url="https://99foto.pl/fotograf-slubny-slask/"
       leadNames="ŻANETA i SEBASTIAN"
       leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"
@@ -199,7 +199,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego na Śląsku to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+          Poszukiwanie fotografa ślubnego na Śląsku to zadanie niełatwe.  Ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada Twojemu stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz godzinami porównywać oferty różnych fotografów, przeglądać ich portfolio i czytać opinie innych klientów, aby znaleźć odpowiednią osobę, która najlepiej odpowiada Twoim oczekiwaniom.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -209,30 +209,27 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+          Pamiętaj by zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
         </Typography>
      
-
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY ŚLĄSK - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY ŚLĄSK - PROFESJONALIZM i DOŚWIADCZENIE
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie nabyte w pracy z wieloma parami młodymi i znać techniki fotografowania. Proces uczenia się fotografii to nic innego jak przechodzenie przez kolejne iteracje, odkrywanie błędów i doskonalenie warsztatu. Uwierzcie mi, że jest to najlepszy sposób na uzyskanie doskonałych rezultatów. Fotograf ślubny musi być również elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
         </Typography>
-
-        
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA ŚLĄSK - BOGACTWO WYJĄTKOWYCH MIEJSC
+          WYJĄTKOWE MIEJSCA PLENEROWE - FOTOGRAFIA ŚLUBNA ŚLĄSK
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+          Śląsk jest regionem o bogatej historii i kulturze, dlatego nie brakuje tu wielu pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -242,22 +239,22 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+          Jeśli lubicie przyrodę, możecie wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu, który preferujecie. Jestem pewny, że bez problemy znajdziecie coś idealnego dla siebie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          ŚLĄSK - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          ŚLĄSK - IDEALNE SALE WESELNE DLA FOTOGRAFII ŚLUBNEJ
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Śląsk oferuje wiele pięknych i unikalnych sal weselnych, które z pewnością pomogą Wam zorganizować niezwykłe i niezapomniane przyjęcie ślubne. Możliwości są praktycznie nieograniczone. Jeżeli planujesz organizację przyjęcia weselnego i nie możesz się zdecydować, który lokal wybrać przeglądnij następujące propozycje: Pod Skrzydłami Anioła, K6 – Kotulińskiego 6, Zameczek Myśliwski Promnice, Impresja Zabrze, Umami, Restauracja Łania, Restauracja Luxury Hotel lub Sztygarka.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA ŚLĄSK - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA ŚLĄSK - WSPOMNIENIA NA LATA
           </Typography>
         </Box>
         
@@ -272,17 +269,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Jeśli szukacie profesjonalnego fotografa ślubnego na Śląsku, najpierw zapytajcie wśród znajomych i rodziny oraz przeglądnijcie portfolio różnych fotografów w celu porównania ich stylów. Koniecznie też zapoznajcie się z cennikiem usług. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA ŚLĄSK - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA ŚLĄSK - TANIO JUŻ BYŁO?
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+          Cena za usługi fotograficzne związane ze ślubem jest uzależniona od wielu czynników. Doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć i wymieniać można byłoby znacznie dłużej. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów, porównać ceny i mieć pewność, że otrzymujecie usługę w bardzo dobrej jakości i konkurencyjnej cenie. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -293,13 +290,13 @@ const PageComponent = () => {
         
         <Box sx={{ pt:2, pb: 2 }}>
         <FaqAccordion q1={schemaData.mainEntity[0].name}
-                            a1={schemaData.mainEntity[0].acceptedAnswer.text} 
-                            q2={schemaData.mainEntity[1].name}
-                            a2={schemaData.mainEntity[1].acceptedAnswer.text}
-                            q3={schemaData.mainEntity[2].name}
-                            a3={schemaData.mainEntity[2].acceptedAnswer.text}
-                            q4={schemaData.mainEntity[3].name}
-                            a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+                      a1={schemaData.mainEntity[0].acceptedAnswer.text} 
+                      q2={schemaData.mainEntity[1].name}
+                      a2={schemaData.mainEntity[1].acceptedAnswer.text}
+                      q3={schemaData.mainEntity[2].name}
+                      a3={schemaData.mainEntity[2].acceptedAnswer.text}
+                      q4={schemaData.mainEntity[3].name}
+                      a4={schemaData.mainEntity[3].acceptedAnswer.text} />
         </Box>
       </Container>
     </LayoutSitePage>

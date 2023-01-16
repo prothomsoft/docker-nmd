@@ -1,12 +1,12 @@
-import LayoutSitePage from "../components/layoutSitePage";
-import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Image from "next/image";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
-import Carousel from 'react-material-ui-carousel'
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Image from "next/image";
+import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
+import LayoutSitePage from "../components/layoutSitePage";
 
 const fotograf_slubny_portfolio_2023_044 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_044.webp";
 const fotograf_slubny_portfolio_2023_047 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_047.webp";
@@ -38,7 +38,6 @@ const fotograf_slubny_portfolio_2023_077 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_078 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_078.webp";
 const fotograf_slubny_portfolio_2023_079 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_079.webp";
 const fotograf_slubny_portfolio_2023_080 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_080.webp";
-
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "impresja_jordanow_start.webp";
@@ -149,31 +148,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Fotograf ślubny w Małopolsce, o co zapytać?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Bardzo często fotografowie oferują możliwość podpisania umowy na zdjęcia ślubne przez internet. Pomyślcie, czy czasem nie lepiej się spotkać, oglądnąć przykładowe książki, porozmawiać i poznać fotografa zanim zaprosicie go do siebie do domu. Takie spotkanie to naprawdę doskonały sposób ułatwiający podjęcie dobrej decyzji."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Ile kosztuje i co zawiera oferowany pakiet ślubny?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Fotoksiążka o grubości 140 stron w formacie 30x30 i twardej oprawie, plener w wybranym przez Was dniu po ślubie i dojazd w dniu ślubu wliczony w cenę pakietu. Tak to dodatkowe rzeczy, które wyróżniają moją ofertę ślubną wśród ofert innych fotografów w małopolsce. Spotkajmy się w Krakowie, porozmawiajmy i być może to ja będę mógł towarzyszyć Wam w tym najważniejszym dniu."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Na co zwrócić uwagę przeglądając zdjęcia fotografa?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Ponadczasowy styl fotografii, które powinny być równie dobre w odbiorze dzisiaj jak i za kolejnych sto lat. Przeglądanie zdjęć na blogu czy w wydrukowanej fotoksiążce powinno wywoływać w nas emocje. Zdjęcia nie powinny być pozowane, najbardziej lubicie przecież spontaniczne kadry, kiedy to nie myśląc o obecności fotografa wyglądacie naturalnie."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy są przewidziane jakieś opłaty dodatkowe?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Oczywiście, że nie. Wszystkie istotne informacje są zawarte w ofercie ślubnej. Cena pakietu jest stała i nie zależy od inflacji. Krótko mówiąc, podpisując umowę możecie z pewnością spać spokojnie. Bardzo często umowę fotografii ślubnej podpisuje się z dwuletnim wyprzedzeniem. Nie ma się co martwić w oczekiwaniu na ślub czas biegnie super szybko."
       }
     }
 ]}
@@ -201,7 +200,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w małopolsce to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Czy trudno jest znaleźć dobrego fotografa ślubnego w małopolsce. Nikt nie jest w stanie dokładnie odpowiedzieć na to pytanie, ponieważ uzaleźnione jest to od wielu różnych czynników, takich jak na przykład popularność i dostępność fotografów,  jak również od indywidualnych preferencji i potrzeb klientów. Tak czy inaczej, każdy prędzej czy później będzie musiał podjąć decyzję o podjęciu współpracy z fotografem ślubnym, aby uwiecznić ważne chwile ze ślubu i wesela. Moja rada to poszukać w internecie, porównać portfolio i opinie różnych klientów, a także skontaktować się z fotografem osobiście, aby upewnić się, że jest to odpowiedni człowiek, który spełni Twoje potrzeby i nie przekroczy budżetu.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -211,7 +210,7 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+          Warto zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego umiejętność dostosowywania się do wymagań klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w małopolsce</strong> to doskonale trafiłeś. Fotografować na Waszym ślubie będzie dla mnie zaszczytem i wspaniałą przygodą. Nazywam się Tomasz Prokop, mieszkam w Krakowie. Polecam swoje usługi fotograficzne.
         </Typography>
      
 
@@ -222,19 +221,17 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Jeśli szukasz profesjonalnego fotografa na Twój ślub, to oznacza, że chcesz kogoś, kto jest twórczy, oryginalny i niestandardowy w swoim podejściu do fotografowania. Taki fotograf powinien chcieć wykorzystać niekonwencjonalne ujęcia i perspektywy, eksperymentować z różnymi technikami i stylami, aby stworzyć unikalne i niezapomniane zdjęcia z Twojego ślubu.
         </Typography>
-
-        
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MAŁOPOLSKA - BOGACTWO WYJĄTKOWYCH MIEJSC
+          KRAKÓW, TATRY, PARKI NARODOWE i ZAMKI - FOTOGRAF ŚLUBNY MAŁOPOLSKA
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Małopolska to region w Polsce z pięknymi krajobrazami i zabytkami, które mogą stworzyć niezwykłe okoliczności dla ślubu i pleneru zdjęciowego. Oto kilka propozycji miejsc, które mogą być interesujące dla pary młodej. Kraków, miasto pełne zabytków i historii, oferuje piękne krajobrazy z Wawelem, Rynkiem Głównym, a także zabytkowymi kościołami i pałacami. Tatry, najwyższe góry w Polsce, oferujące monumentalne widoki i naturalne tło dla zdjęć z pleneru. Ojcowski Park Narodowy, piękne krajobrazy i malownicze jaskinie, które mogą stanowić dopełnienie zdjęć plenerowych. Zamek w Pieskowej Skale położony w malowniczej okolicy, w którym można zrobić zdjęcia w krużgankach zamkowych, ogrodzie i pobliskim parku. Te miejsca to tylko kilka przykładów z wielu możliwości, które oferuje Małopolska. Więcej rekomendacji i zdjęć z wybranych miejsc z pewnością znajdziecie przeglądając mojego bloga.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -244,27 +241,27 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+          Czy o miejscu na plener ślubny musisz decydować samodzielnie? Możesz, ale nie musisz. Istnieją fotografowie ślubni, którzy oferują usługę doboru miejsca na plener ślubny. Ja bardzo chętnie pomogę i doradzę w wyborze odpowiedniego miejsca. Będzie to o tyle ułatwione, że w większości tych miejsc miałem już okazję być, więc moje rekomendacje będą warte Waszej uwagi.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          MAŁOPOLSKA - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          MAŁOPOLSKA - JAKA SALA WESELNA BĘDZIE DLA MNIE ODPOWIEDNIA
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Małopolska to region w Polsce z wieloma pięknymi salami weselnymi. Wybierając salę weselną ważne jest by określić ilość osób, które zapraszasz na ślub. Są miejsce idealne na mniejsze przyjęcia weselne takie jak Restauracja Grube Ryby w Zabierzowie czy Dwór Kociołek w Dobczycach. Organizując duże przyjęcie możecie rozważyć sale weselne z rozmachem Kabanosa w Spytkowicach, Nedan w Pcimiu, Impresja w Jordanowie. Wybierając fotografa ślubnego w małopolsce zwykle macie już podpisaną umowę na salę weselną, ale te kilka drobnych wskazówek na pewno nie zaszkodzi.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MAŁOPOLSKA - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA MAŁOPOLSKA - PONADCZASOWOŚĆ ZDJĘĆ
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Ponadczasowa obróbka zdjęć ślubnych oznacza, że zdjęcia są przetwarzane w taki sposób, aby wyglądały pięknie i elegancko, bez użycia efektów modyfikujących, które mogą być uważane za przestarzałe po pewnym czasie. Kolory na takich zdjęciach powinny być naturalne i żywe, ostrość tych zdjęć powinna być tak dobrana, żeby były one wyraźne i czytelne, nie zaszkodzi też usunąć drobne niedoskonałości skóry, takie jak zmarszczki czy przebarwienia. Modyfikacje te jednak powinny być wprowadzane bardzo ostrożnie, by nie zatracić początkowego charakteru zdjęcia.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -274,17 +271,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Szukając profesjonalnego fotografa ślubnego w małopolsce, warto bliżej zapoznać się z moim portfolio, wysłać maila lub skorzystać z formularza kontaktowego na stronie internetowej, by otrzymać ofertę fotografii ślubnej w małopolsce. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie zapewnić ponadczasowość zdjęć.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MAŁOPOLSKA - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA MAŁOPOLSKA - KOSZTY
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+          Koszt fotogafii ślubnej to nie tylko obecność fotografa w dniu ślubu. Pamiętajmy, że po powrocie do domu zdjęcia ślubne muszą zostać poddane selekcji, następnie dokładnej obróbce graficznej. Przygotowanie zdjęć do publikacji w galerii internetowej, układanie albumów ślubnych i książek to również zajęcie czasochłonne. Każda para ma dodatkowy dzień na czterogodzinną sesję plenerową, która jest nieodłączną częścią reportażu ślubnego. Praca nad jednym ślubem to blisko siedemdziesiąt godzin fotografowania i przygotowania zdjęć do oddania w umówionej formie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -295,13 +292,13 @@ const PageComponent = () => {
         
         <Box sx={{ pt:2, pb: 2 }}>
         <FaqAccordion q1={schemaData.mainEntity[0].name}
-                            a1={schemaData.mainEntity[0].acceptedAnswer.text} 
-                            q2={schemaData.mainEntity[1].name}
-                            a2={schemaData.mainEntity[1].acceptedAnswer.text}
-                            q3={schemaData.mainEntity[2].name}
-                            a3={schemaData.mainEntity[2].acceptedAnswer.text}
-                            q4={schemaData.mainEntity[3].name}
-                            a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+                      a1={schemaData.mainEntity[0].acceptedAnswer.text} 
+                      q2={schemaData.mainEntity[1].name}
+                      a2={schemaData.mainEntity[1].acceptedAnswer.text}
+                      q3={schemaData.mainEntity[2].name}
+                      a3={schemaData.mainEntity[2].acceptedAnswer.text}
+                      q4={schemaData.mainEntity[3].name}
+                      a4={schemaData.mainEntity[3].acceptedAnswer.text} />
         </Box>
       </Container>
     </LayoutSitePage>
