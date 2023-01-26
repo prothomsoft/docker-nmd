@@ -113,13 +113,13 @@ const PageComponent = () => {
 
   const imagesCarousel3 = [
     {
-      image: fotograf_slubny_portfolio_2023_322
+      image: fotograf_slubny_portfolio_2023_330
     },
     {
       image: fotograf_slubny_portfolio_2023_321
     },
     {
-      image: fotograf_slubny_portfolio_2023_330
+      image: fotograf_slubny_portfolio_2023_322
     },
     {
       image: fotograf_slubny_portfolio_2023_323
@@ -150,31 +150,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Ile kosztuje fotograf i kamerzysta na wesele w Chrzanowie?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Oferta reportażu ślubnego może być korzystna, kiedy zapytacie o pakiet foto-video. Pamiętajcie jednak, by nie był oferowany przez jedną osobę i nazwany fotografią hybrydową. Film ślubny to nie tylko ruchome kadry ale też dziwięk, którego rejestracja jest pracochłonna. W mojej ofercie znajdziecie zdjęcia ślubne, ale znajomych kamerzystów znam kilku i mogę polecić wysyłając ich listę na Twój adres email."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Ile zdjęć znajdę w Twoim pakiecie ślubnym?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Pierwsze pytanie na które musimy sobie odpowiedzieć to ile zdjęć potrzeba by ułożyć fotoksiążkę o grubości sto czterdzieści stron w formacie 30x30cm. Każdego roku układam blisko czterdzieście takich książek i powiem Wam jedno, można tam z powodzeniem zmieścić blisko 400 zdjęć ślubnych. Fotografując Wasz ślub zrobię więc wszystko, by stworzyć minimum czterysta pięćdziesiąt unikalnych niepowtarzających się kadrów ślubnych. Praca niełatwa, ale mega satysfakcjonująca. "
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Ile czasu pracujesz na naszym ślubie jako fotograf ślubny w Chrzanowie?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Zdjęcia zaczynają się wcześnie rano od makijażu Panny Młodej. W dniu ślubu jestem z Wami często ponad szesnaście godzim. Czas dobrze i miło spędzony. Spotykamy się jeszcze na plener ślubny w wybranym dniu po ślubie. Przegadamy wiele tematów i poznamy się doskonale."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Zdjęcia tylko na pendrive czy także w albumie fotograficznym?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Kadry z Waszego dnia ślubu są tak ważne, że po prostu trzeba je profesjonalnie wydrukować. Wszystkie zdjęcia otrzymacie również w postaci cyfrowej na pendrive w etui. "
       }
     }
 ]}
@@ -183,8 +183,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Chrzanów"
-      description="Fotograf ślubny Chrzanów"
-      keywords="fotograf ślubny Chrzanów"
+      description="Fotograf ślubny Chrzanów, zwyczaje weselne w Chrzanowie, wyjątkowe miejsca plenerowe"
+      keywords="fotograf ślubny Chrzanów, zwyczaje weselne w Chrzanowie, wyjątkowe miejsca plenerowe"
       url="https://99foto.pl/fotograf-slubny-chrzanow/"
       leadNames="NATALIA i KACPER"
       leadTitle="WESELE EUFORIA MYŚLENICE, PLENER ŚLUBNY DWÓR MOGILANY"
@@ -202,7 +202,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Chrzanowie to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+          Wyczekana sobota, godzina piętnasta w Kościele, wszystko przygotowane na ten ważny dzień. Wstajesz rano i myślisz,  czy na pewno wszystko się uda, czy wszyscy goście pojawią się na imprezie, czy kwiaty dotrą na czas, czy makijaż i fryzura będą równie dobre jak te na próbach. Wiadomo, że czujesz lekki stres, rodzina rozwiewa Twoje wątpliwości i mówi, że wszystko będzie dobrze. Może w tym momencie myślisz, że przydałby się ktoś doświadczony, kto widział już dziesiątki ślubów, ktoś taki kto wie z której strony w kościele zwykle stoi Panna Młoda. Zwykle przed czasem możesz spodziewać się człowieka, który mając ze sobą doświadczenie zna odpowiedzi na wszystkie ślubne pytania, jest w stanie rozładować stres i rozluźnić atmosferę. Twój fotograf ślubny w Chrzanowie?
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -212,7 +212,7 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+          Poszukując fotografa pamiętajcie, że warto postawić na doświadczenie. Dzień ślubu to mega ważny dzień w którym wszystko dzieje się super szybko. Umiejętność przewidywania zdarzeń i doskonale ułożony plan dnia pozwoli nam uniknąć niespodzianek. <strong>Najlepszy fotograf ślubny w Chrzanowie</strong> to taki, który wie kiedy wcisnąć spust migawki i utrwalić najważniejsze chwile. Nazywam się Tomek Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
         </Typography>
      
 
@@ -223,19 +223,19 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+          Fotograf ślubny to człowiek na którego możesz liczyć i polegać na jego doświadczeniu. Jako Panna Młoda powinnaś również czuć się dobrze i swobodnie w towarzystwie fotografa ślubnego. Na początku nikt nie wie jakie zachowania są dobrze odbierane przez ludzi, a jakie zachowania ludzi od nas odpychają. Fotografując kolejny ślub i otrzymując zlecenia od znajomych Par Młodych zadowolonych z wykonanego reporażu ślubnego, zaczynasz wierzyć w swój warsztat i nabierasz pewności co do swojej osoby. Nieustanne doskonalenie swoich umiejętności to mega ważna rzecz, która przydaje się w życiu, a w szczególności w fotografii ślubnej. Otwartość jest kluczem do osiągnięcia sukcesu w tej branży.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA CHRZANÓW - BOGACTWO WYJĄTKOWYCH MIEJSC
+          CZY ISTNIEJĄ FAJNE MIEJSCE PLENEROWE W CHRZANOWIE?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Chrzanów, może być traktowany jako idealna baza wypadowa. Na liście polecanych miejsc plenerowych w okolicach Chrzanowa musimy wpisać Park Gródek w Jaworznie, zwany Polskimi Malediwami, Park Śląski w Katowicach z wesołym miasteczkiem i planetarium. Zamek w Rabszytnie, który po gruntownej renowacji zachwyca nas swoja potęgą, Zamek w Ogrodzieńcu, perełka Jury Krakowsko-Częstochowskiej, miejsce gdzie mieszkał Janosik. Nie zapominajmy też o Zamku w Suchej Beskidzkiej, który śmiało może konkurować z Wawelem. 
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -245,27 +245,27 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Całkiem niedaleko jest też Muzeum Zamkowe w Pszczynie i piękny Park Pszczyński. Wszystkie te miejsca czakają na Was i proszę się o plener ślubny lub sesję narzeczeńską.Bez względu na to czy lubicie przyrodę, czy szum miasta i obecność ludzi, znajdziecie coś dla siebie. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          CHRZANÓW - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          CHRZANÓW - FOTOGRAF ŚLUBNY W PAKIECIE Z FILMEM
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Obserwując ulubionych fotografów publikujących informacje o swojej pracy na kanale YouTube, dowiadujemy się, że wprowadzenie aparatów bezlusterkowych i łatwe przełączenie funkcji aparatu z fotografowania na filmowanie, utworzył nową dziedzinę reportażu ślubnego zwanego reportażem hybrydowym. Jeden człowiek, jednocześnie fotografuje i wykonuje krótkie filmiki, które można zmontować w teledysk ślubny. Jeżeli poszukujecie fotografa, który wykona dla Was taki film to niestety nie najlpiej trafiliście. Moja specjalizacja to fotografia ślubna, tej dziedzie poświęcam sto procent swojej uwagi i wykonywanie dwóch rzeczy filmów i zdjęć jednocześnie jest moim zdaniem niewykonalne. Pamiętajcie, jak coś jest do wszystkiego to jest do niczego. Szukacie dalej..., a może dobre zdjęcia z Waszego ślubu wystarczą? Serdeczenie zapraszam do skorzystania z moich usług fotograficznych w Chrzanowie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA CHRZANÓW - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA CHRZANÓW - PONADCZASOWOŚĆ ZDJĘĆ
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Fajnie tak usiąść przy choince, otworzyć album ze zdjęciami i zanurzyć się we wspomnieniach. Prosta sprawa, bardzo powtarzalna, bo choinkę w naszych domach mamy każdego roku. Pomyślcie więc, ile przyjemności podczas oglądania czeka na Was gdy zdecydujecie się zapisać wspomnienia na kartach pamięci i stronach albumu fotograficznego. Może to wydawać się kosztowne, ale na coś trzeba w końcu wydawać te pieniądze... Uwierzcie mi, że ten album to jest bardzo dobry pomysł.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -275,17 +275,19 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Szukasz profesjonalnego fotografa ślubnego w Chrzanowie? Świetnie trafiłeś, mam nadzieje spełnić wszystkie Twoje fotograficzne oczekiwania i jestem w stanie stworzyć piękną pamiątkę na lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA CHRZANÓW - ILE TO KOSZTUJE
+          CENY, KOSZTY - FOTOGRAFIA ŚLUBNA CHRZANÓW
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+          Tanio i dobrze być nie może, to prawda, ale pamiętajcie, by nie przepłacać, kupując marzenia. Poszukując fotografa postawcie na jego doświadczenie, zapytajcie jakim dysponuje sprzętem.
+          Koniecznie sprawdźcie portfolio i umówcie sie na spotkanie. Ludzie w tej branży są niesamowici, ale jest też spora ekipa, która przygodę z fotografią rozpoczęła od zakupu sprzętu z dofinansowania na firmę, a zdjęcia robi wyłącznie dla pieniędzy.
+          Postawcie na osoby sprawdzone, polecane, pasjonatów, którzy pomimo trudności pracują w zawodzie od lat. W ten sposób zyskacie wspaniałe zdjecia.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>

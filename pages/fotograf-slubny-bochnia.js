@@ -1,12 +1,12 @@
-import LayoutSitePage from "../components/layoutSitePage";
-import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Image from "next/image";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
-import Carousel from 'react-material-ui-carousel'
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Image from "next/image";
+import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
+import LayoutSitePage from "../components/layoutSitePage";
 
 const fotograf_slubny_portfolio_2023_157 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_157.webp";
 const fotograf_slubny_portfolio_2023_158 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_158.webp";
@@ -148,31 +148,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Jak długo trwa oczekiwanie na otrzymanie zdjęć?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Zdjęcia z Twojego ślubu są gotowe w tygodniu po ślubie. Fotografie zostają udostępnione w strefie klienta i są zabezpieczone hasłem. Goście weselni zainteresowani zdjęciami mogą otrzymać hasło zabierając jedną z wizytówek, które zawsze zostawiam przy ekspresie do kawy. Jeżeli tego nie zrobili w dniu ślubu tomogą skontaktować się z Wami i zapytać o hasło."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Czy w Twoim pakiecie jest uwzględniony plener ślubny?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Oczywiście, plener ślubny jest doskonałym uzupełnieniem reportażu ślubnego. Zwykle znajdujemy kilka minut w dniu ślubu na zdjęcia przed salą weselną. Robiąc plener w dniu ślubu zawsze wtedy musicie pamiętać, o tym, że goście weselni na Was czekają. Czas na plenerze w wybranym dniu po ślubie to czas dla Was, praktycznie nieograniczony, w którym można dać sobie sto buziaków i uścisków, zwiedzić piękne miejsca, porozmawiać, pośmiać się i nacieszyć promieniami zachodzącego słońca."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Czy mogę skontaktować się z poprzednimi klientami?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Fotografią ślubną zajmuje się blisko dziesięt lat. Każdego roku oddaje trzydzieści pięć fotoksiążek ślubnych, które są moim portfolio i najlepszą reklamą. Najlepiej popytać o fotografa najbliższą rodzinę, poszukać w internecie i jest duże prawdopodobieństwo, że nawet w ten przypadkowy sposób na siebie natrafimy."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy masz doświadczenie w fotografii ślubnej?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Doświadczenie w fotografii ślubnej to bardzo ważna rzecz. Zawsze fotograf ma tylko jedną szansę, żeby dobrze uchwycić mijające chwile. Pewność siebie, umiejętność przewidywania nadchodzących po sobie wydarzeń to rzeczy, które nabywmy z czasem. Każdy pamięta swoje pierwsze dzieła i postęp, który zaobserwował po latach pracy w zawodzie. Fotografia nie jest inna i warto postawić na sprawdzonego i doświadczonego fotografa ślubnego."
       }
     }
 ]}
@@ -181,8 +181,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Bochnia"
-      description="Fotograf ślubny Bochnia"
-      keywords="fotograf ślubny Bochnia"
+      description="Fotograf ślubny Bochnia, organizujesz ślub i wesele w Bochni, szukasz idealnego fotografa ślubnego? Super, że odnalazłeś moją stronę w internecie!"
+      keywords="fotograf ślubny Bochnia, organizacja ślubu w Bochni, wesele w Bochni"
       url="https://99foto.pl/fotograf-slubny-bochnia/"
       leadNames="NATALIA i KRZYSZTOF"
       leadTitle="DOM WESELNY MOGIELICA JURKÓW, RUSTYKALNE WESELE"
@@ -200,7 +200,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Bochni to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+          Ten dzień, kiedy wszystkie szczegóły organizacyjne dotyczące sali weselnej, zespołu są już znane i coś podpowiada Ci, że trzeba pójść krok dalej i rozglądnąć się za odpowiednim fotografem ślubnym. Organizujesz ślub w Bochni i dobrze byłoby gdyby znalazł się fotograf ślubny, który nie musi przemierzyć pół polski by sfotografować Twój ślub. Przygotowujesz kubek kawy i szukając w internecie trafiasz na moją stronę. Myślisz czy to przypadek, że spośród tylu ofert zaglądnąłem właśnie tutaj. Przeglądasz zdjęcia, wybrane reportaże ślubne na blogu, widzisz spójne kolory, emocje i zastanawiasz się, czy to czasem nie jest ten człowiek, który zrobi Twoje zdjęcia ślubne.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -210,30 +210,30 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Tego się nie dowiemy, tak długo jak nie zadzwonisz do mnie lub nie wypełnisz formularza kontaktowego. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Bochni</strong> to całkiem dobrze trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i bardzo chętnie sfotografuję Twój ślub.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY BOCHNIA - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY BOCHNIA - ZDJĘCIA ŚLUBNE, KTÓRE ZACHWYCAJĄ
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Ilość zdjęć publikowanych każdego dnia w internecie, ich jakość nawet z IPhona z każdym dniem podnosi poprzeczkę i ułatwiając wykonywanie pracy powoduje, że ilość osób, które chciałyby zacząć fotografować profesjonalnie znacząco wzrasta. Dlatego poszukując <strong>fotografa ślubnego w Bochni</strong> pamiętaj o kilku prostych zasadach. Wybierz doświadczonego i utalentowanego fotografa, który ma dobre portfolio i pozytywne opinie od innych par. Koniecznie porozmawiaj z fotografem o swoich preferencjach, aby upewnić się, że będzie on w stanie dostarczyć materiał w pełni Ciebie satysfakcjonujący. Skorzystaj z opcji pleneru zdjęciowego, aby uzupełnić reportaż ślubny o zdjęcia w naturze, na które ilość czasu jest praktycznie nieograniczona. Staraj się wybierać fotografów oferujących spójny styl bez przesadnego retuszu i efektów z programów graficznych, ponieważ mogą one po pewnym czasie po prostu wyjść z mody. Zwróć uwagę na detale, takie jak kompozycja, oświetlenie. Pamiętaj, że najwaźniejsze są emocje, emocje i jeszcze raz emocje, one na każdym zdjęciu muszą się znaleźć.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA BOCHNIA - BOGACTWO WYJĄTKOWYCH MIEJSC
+          MIEJSCA PLENEROWE - FOTOGRAFIA ŚLUBNA BOCHNIA
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Poszukując miejsc na plener ślubny pomyślcie Bochnia. Dlaczego? Ponieważ jest to miasto, które z uwagi na zabytki i krajobrazy jest warte polecenia. Lista ciekawych miejsc jest długa, ale wymieńmy tylko kilka z nich, w których można wyczarować magiczne zdjęcia plenerowe. Kopalnia Soli Bochnia - to najstarsza działająca kopalnia soli w Europie, można tam zwiedzić podziemia i sprawdzić skąd bierze się sól. Kościół św. Kingi - piękny gotycki kościół z czternastego wieku, który jest jednym z najważniejszych zabytków Bochni. Czternastowieczny Ratusz, położony na wzgórzu nad miastem Zamek Kmitów, z którego roztacza się wspaniały widok na okolicę.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -243,27 +243,32 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Park Zdrojowy czy Muzeum Soli tam też warto zaglądnąć. Blisko mamy też do wspaniałego Pałacu Goetza, czarującego wspaniałym ogrodem i monumentalnymi schodami, na których uwierzcie mi zdjęcia robią się same. Warto rozważyć okolice Bochni i zdecydować się na ślub i plener właśnie tam.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          BOCHNIA - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          WESELE W BOCHNI - ZAREZERWUJ FOTOGRAFA ŚLUBNEGO JUŻ DZISIAJ
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Spójna historia przepełniona Waszymi uczuciami, relacjami z osobami najbliższymi, towarzyszącymi Wam tego dnia to wszystko składa się na idealny reportaż ślubny.
+        Fotografie ślubne to piękne portrety, detale, które pokazują smaczki i budują klimat miejsca i kadry wyjęte prosto z życia, pełne emocji, wzruszeń i radości.
+        Album fotograficzny, który otrzymujecie to zbiór emocji, które pozostaną z Wami przez długie lata. Nie przesadzę stwierdzając, że będziecie go przeglądać setki razy,
+        odkrywając nowe rzeczy, ale przede wszystkim wracając do tych niezapomnianych chwil z radością, a czasem nawet łzami wspomnień. To wszystko może być faktem,
+        gdy zdecydujesz się na usługi profesjonalnego fotografa, który będzie w stanie urzeczywistnić te marzenia.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA BOCHNIA - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA BOCHNIA -  WRAŹLIWOŚĆ FOTOGRAFA
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Każdy fotograf to doskonały obserwator, uwielbiający przebywać w nowych miejscach i poznawać ciekawych ludzi. Obserwator jest tutaj słowem kluczowym, ponieważ trudno być w tym zawodzie, mając charakter lidera, który uwielbia przebywać w centrum zainteresowania, opowiadać anegdoty i odciągać swoją osobą uwagę od rzeczy ważnych.
+        Uruchomienie migawki aparatu pozwala nam ukraść kilka chwil i zmagazynować je na kartach pamięci. Coś co nigdy się nie powtórzy ma szanse pozostania z nami na zawsze. To dążenie to zapisywania chwil pchało fotografię do przodu przez setki lat. Jestem pewny, że w najbliższej przyszłości nic w tym temacie nie ulegnie radykalnym zmianom.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -273,17 +278,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Bochni, serdecznie zapraszam do przejrzenia mojego portfolio i przejrzenia zdjęc na blogu. Ważne, aby wybrać fotografa, który spełnia wszystkie Wasze oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA BOCHNIA - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA BOCHNIA - CENNIK USŁUG
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+          Pewnie myślicie, że tanio już było. Nie jest to regułą. Cena za usługi fotograficzne związane ze ślubem może się różnić w zależności od doświadczenia fotografa, jakości sprzętu, ilości godzin pracy, liczby wykonanych zdjęć itp. Ceny fotografii ślubnej mogą wahać się od kilkuset do nawet kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów, porównać ceny i mieć pewność, że otrzymuje się usługę może nie najtańszą, ale w doskonałej jakości. Zawesze poszukujcie fotografa, który może zaoferować bardzo dobre zdjęcia w rozsądnej cenie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>

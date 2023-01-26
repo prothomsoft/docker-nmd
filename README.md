@@ -53,22 +53,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 nowe strony:
-fotograf-slubny-malopolska
-
-fotograf-slubny-slask
-fotograf-slubny-katowice
-
-fotograf-slubny-bochnia
-fotograf-slubny-chrzanow
-fotograf-slubny-kielce
-fotograf-slubny-miechow
-fotograf-slubny-myslenice
-fotograf-slubny-olkusz
-fotograf-slubny-oswiecim
-fotograf-slubny-tarnow
-fotograf-slubny-wadowice
-fotograf-slubny-wieliczka
-
-fotograf-slubny-szczawnica
-fotograf-slubny-szczyrk
-fotograf-slubny-zakopane
+Kielce, Miechów, 
+Myślenice, Olkusz, 
+Oświęcim, Wieliczka, 
+Tarnów, Wadowice, 
+Katowice, Zakopane, 
+Szczawnica, Szczyrk
