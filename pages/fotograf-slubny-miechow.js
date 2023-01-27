@@ -150,31 +150,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Ile kosztuje reportaż ze ślubu i wesela w Miechowie?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Czy fotografowie ślubni ustalają uniwersalny cennik swoich usług nie biorąc pod uwagę ich zakresu. Niestety nie, ponieważ każda uroczystość ma inny charakter i indywidualnie wpływa na ostateczną cenę. W wielu przypadkach koszt fotografa na wesele zależy od wielkości imprezy, czy dodatkowych usług, na jakie zdecydowali się nowożeńcy."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Jakie są widełki cenowe dla fotografii ślubnej w Miechowie?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Niskie ceny to takie z przedziału do trzech tysiący złotych za reportaż, średni pułap cen wpada pomiędzy trzy, a cztery tysiące złotych za reportaż. Wysoki pułap cen definiuje zakres powyżej czterech tysięcy złotych za reportaż."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny w Miechowie?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Sobota to dzień ślubu, więc fotografowanie zaczynamy wcześnie rano najczęściej od przygotować Panny Młodej i jej makijażu. Szesnaście godzin to typowa długość pracy fotografa w dniu ślubu od momentu przygotowań, do momemntu sfotografowania wszystkich zabaw oczepinowych."
       }
     },{
       "@type": "Question",
       "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną."
       }
     }
 ]}
@@ -202,7 +202,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Miechowie to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Fotografia ślubna to moja pasja i sposób na życie. Chcę aby każdy mógł poczuć się pięknie na moich zdjęciach. Moje zdjęcia są naturalne i pełne emocji dlatego, że od pierwszych minut naszej współpracy staram się mieć bardzo dobry kontakt z Wami, czyli moimi klientami. Zupełnie inaczej jest kiedy fotografuje Was ktoś znajomy, a zupełnie innaczej będą wyglądać zdjęcia zrobione przez obcą osobę. Dlatego tak ważne jest rozpoczęcie sesji zdjęciowej już od przygotowań, a nawet od sesji narzeczeńskiej. 
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -212,30 +212,29 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Mamy wtedy czas żeby się dobrze poznać, a to nieocenione doświadczenie które wpływa niesamowicie na jakość zdjęć podczas pracy reporterskiej. Poszukujesz <strong>fotografa ślubnego w Miechowie</strong> jesteś w super doskonałym miejscu. Nazywam się Tomek Prokop, mieszkam w Krakowie i zapraszam na moje zdjęcia.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY MIECHÓW - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY MIECHÓW - AMATOR CZY PROFESJONALISTA?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Fotograf amator to osoba, która robi zdjęcia dla przyjemności, a nie zawodowo. Fotografowanie jest dla niej hobby, a nie sposobem na zarabianie pieniędzy. Amatorzy często robią zdjęcia swoim własnym sprzętem, takim jak aparaty cyfrowe lub smartfony, i często nie posiadają specjalistycznego wykształcenia lub doświadczenia w fotografii. Fotograf profesjonalista to osoba, która zarabia na robieniu zdjęć. Profesjonalni fotografowie często posiadają specjalistyczne wykształcenie lub doświadczenie w dziedzinie fotografii, a także specjalistyczny sprzęt i umiejętności techniczne. Oni zazwyczaj oferują swoje usługi w różnych dziedzinach takich jak właśnie fotografia ślubna.
         </Typography>
 
-        
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MIECHÓW - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA MIECHÓW - GDZIE NA PLENER
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Miechów to miasto położone w województwie małopolskim, które jest odpowiednie do Waszej sesji plenerowej. Wśród propozycji miejsc na zdjęcia ślubne na pewno znajdą się Zamek w Miechowie, Kościół św. Andrzeja Boboli, park im. Jana Pawła II, Miechowska Starówka. Ciekawe kadry można też znaleźć fotografując w Muzeum Regionalnym w Miechowie oraz w Rezerwacie przyrody „Miechowski Las”. Wybierając na sesję plenerową scenerię w leśnej zieleni, czy architekturę miejską w Miechowie z pewnością znajdziecie coś dla siebie.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -245,17 +244,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+          Sesja plenerowa to zwykle trzy godziny fotografowania w różnych miejscach. Poszukujemy fajnych kadrów, Waszych uśmiechów i staramy się odpowiednio dobrać pogodę i porę dnia. Wynikiem są zawsze bajeczne zdjęcia. Umówmy się na plener już dzisiaj. Zapraszam serdeczenie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          MIECHÓW - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          FOTOGRAF MIECHÓW - PASJA I DOŚWIADCZENIE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Jedno z pierwszych, a zarazem najważniejsze pytań to czy Fotograf będzie osobiście wykonywał zdjęcie na Waszym ślubie, czy będzie to być może podwykonawca zatrudniony w innej firmie. Dobra rada to upewnić się, że na dwieście procent będzie to osoba z którą podpisaliście umowę.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -265,7 +264,7 @@ const PageComponent = () => {
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o wszystkich emocjach związanych z dniem ślubu. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który stanie na wysokości zadania i uchwyci ważne chwile i emocje oraz stworzy piękne i unikalne zdjęcia ślubne.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -275,17 +274,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
-        </Typography>
+          Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Miechowie to możecie już teraz wygodnie usiąść w fotelu, oglądnąć zdjęcia na stronie internetowej, wykręcić mój numer i umówić się na niezobowiązujące spotkanie. Porozmawiamy sobie przez godzinkę, odpowiem na wszystkie Wasze fotograficzne pytania, pokażę przykładowe książki, będzie miło. 
+         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA WADOWICE - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA MIECHÓW - BEZPIECZEŃSTWO ZDJĘĆ
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Pamiętajcie że dobry fotograf zawsze ma dodatkowy aparat, kilka obiektywów i kilka kart pamięci. W obecnych czasach standardem jest zapis zdjęć na dwóch kartach pamięci i natychmiastowe zgranie zawartości kart pamieci na dyski twarde. Bezpieczeństwo Waszych zdjęć ślubnych jest mega istotne, ponieważ ten dzień nie zdarzy się ponownie. Wybierając fotografa, bądźcie czujni.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
