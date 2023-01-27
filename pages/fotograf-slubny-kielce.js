@@ -152,31 +152,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Czy masz plan awaryjny na wypadek choroby?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Jeśli chcecie być spokojni to koniecznie zapytajcie Waszego fotografa ślubnego czy ma jakiś plan awaryjny na wypadek gdyby nie mógł stawić się na waszej uroczystości. W dobie social mediów i networkingu załatwienia zastępstwa dla fotografa nie powinno stanowić żadnego problemu."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Czy pijesz alkohol fotografująć na weselu?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Profesjonalny fotograf nie powinien spożywać alkoholu na weselu. Każdy ma indywidualne podejście do tego tematu ja osobiście wolałbym żeby wykonawca, któremu powierzono najważniejszy dzień w życiu był trzeźwy."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Obróbka zdjęć i retusz, czym się różnią?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Dla wielu fotografów obróbka zdjęć ślubnych to korekcja kolorystyczna. Natomiast w rozumieniu klientów często jest to zaawansowany retusz polegający na usuwaniu zbędnych kilogramów. Warto by było zapytać fotografa co zawiera obróbka fotograficzna i czy do niej zalicza się retusz fotografii."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "W jakim stroju fotografujesz śluby?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Pytanie błahe ale warto zapytać fotografa w jakim srtroju fotografuje Wasz ślub. Fotografując śluby często widzę jak ubrani są kamerzyści czasem zdarzało się, że ktoś przychodzi w wymiętym białym podkoszulku z logo rockowego zespołu. Zwróćcie uwagę, żeby strój fotografa był dopasowany do rangi waszej uroczystości."
       }
     }
 ]}
@@ -185,8 +185,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Kielce"
-      description="Fotograf ślubny Kielce"
-      keywords="fotograf ślubny Kielce"
+      description="Fotograf ślubny Kielce, wybór miejsca na ślub, sala bankietowa, dom weselny"
+      keywords="fotograf ślubny Kielce, wybór miejsca na ślub"
       url="https://99foto.pl/fotograf-slubny-kielce/"
       leadNames="ANNA i PIOTR"
       leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
@@ -204,7 +204,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Miechowie to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+          Witaj na mojej stronie internetowej. Pewnie nie lubisz tracisz czasu, więc jeżeli znalazłeś się w tym miejscu to myślę, że mogę wiedzieć czego poszukujesz. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Kielcach</strong> to jest do bardzo dobry adres. W ubiegłym roku 2k22 wykonałem blisko czterdzieści reportaży ślubnych. Wszystkie pary młode otrzymały już zdjęcia w strefie klienta i na pendrivie, otrzymały też swoje fotoksiążki ślubne. Mam nadzieję, że i Ty dołączysz do grona klientów zadowolonych z moich usług. Zapraszam do zapoznania się ze zdjęciami.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -214,7 +214,7 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+          Oferuje swoje doświadczenie i profesjonalizm, elastyczność i otwartość na sugestie. Postaram się spełnić wszystkie Wasze fotograficzne oczekiwania. Nazywam się Tomasz Prokop i zapraszam do mojego fotograficznego świata.
         </Typography>
      
 
@@ -224,20 +224,22 @@ const PageComponent = () => {
           </Typography>
         </Box>
 
+        
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z osobami fotografowanymi i znać techniki fotografowania, pozwalające uzyskać najlepsze rezultaty. Fotograf ślubny powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA KIELCE - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA KIELCE - POLECANE MIEJSCA
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Kielce to miasto w środkowej Polsce, które oferuje wiele miejsc idealnych do fotografowania. Oto kilka propozycji: Park im. gen. Józefa Bema, Park Miejski im. Jana Pawła II, Zamek w Kielcach, Katedra św. Piotra i Pawła, Bulwary nad Silnicą. W każdym z tych miejsc możemy wybrać się na krótki spacer, porozmawiać, poszukać promieni słońcai  zrobić doskonałe zdjęcia.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -247,27 +249,27 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Jest to tylko kilka przykładów, w Kielcach jest wiele innych pięknych miejsc, które mogą być idealne na plener ślubny. Zalecam zapoznanie się z mapą miasta i odkrycie własnych ulubionych miejsc.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          KIELCE - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          KIELCE - JAK ZNALEŹĆ FOTOGRAFA ŚLUBNEGO
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Każdy fotograf powinien posiadacie zestaw cech które sprawią, że jest tak dobry, żeby klienci chcieli do niego wracać. Fotografia ślubna to dziedzina która wymaga największej wszechstronności zarówno w ujęciu technicznym czyli znajomości technik fotograficznych ale także w podejściu do klientów, [par młodych, które powierzają nam najważniejsze chwile swojego życia.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA KIELCE - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA KIELCE - ZDJĘCIA NA ZAWSZE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Pamiętajmy, że to co powoduje, że zdjęcia zdjęcia fotografów ślubnych się podobają i co za tym idzie sprzedają to są sesje plenerowe, piękne widoki, cudne światło, idealnie dobrana kompozycja. Elementy te można najłatwiej kontrolować robiąc sesje, które się samodzielnie zaplanowało, wybrało super lokalizację i trafiło z porą dnia.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -277,17 +279,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Kielcach, warto zacząć od zapytania znajomych i rodziny oraz przejrzenia portfolio różnych fotografów, porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA KIELCE - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA KIELCE - ZEZWOLENIE NA FOTOGRAFOWANIE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Zapytajcie fotografa, czy posiada zezwolenie kurii na fotografowanie w miejscach sakralnych. Fakt, że fotograf nie będzie miał tego dokumentu może skutkować brakiem zezwolenia na fotografowanie Waszego ślubu. Przezorny jest zawsze ubezpieczony i nie dajmy w tak ważnym temacie jaki jest dzień ślubu wygrać przypadkowi.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
