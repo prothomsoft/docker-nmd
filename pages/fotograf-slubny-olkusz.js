@@ -149,31 +149,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Jakie miejsce na plener w okolicach Olkusza?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Pustynia Błędowska, Zielone Jeziorka w miejscowości Klucze, Góra Zborów i zakątki Jury Krakowsko-Częstochowskiej to miejsca świetne na plener ślubny. Doskonałym miejscem jest też Zamek w Ogrodzieńcu."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Ile czasu trwa plener ślubny?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Plener ślubny trwa zazwyczaj kilka godzin, zwykle trzy, czasami cztery godziny. Nie należy obawiać się i krępować przy mojej obecności. Kluczem do wspaniałego pleneru ślubnego jest stworzenie luźniej i swobodnej atmosfery, o co ja osobiście zadbam. Staniemy się dobrymi znajomymi, dzięki czemu sesja plenerowa będzie dla Was wielką przyjemnością."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Kto może pomóc w organizacji wesela?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Lista podwykonawców jest naprawdę długa. Zacznijmy od konsultanta ślubnego, następnie musimy zarezerwować salę i zespół weselny. Później fotografa i czasami kamerzystę. Często też zespół weselny zastępuje DJ i organizator zabaw dla najmłodszych gości czyli animator. Przyda nam się też fajny samochód z kierowcą."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Co składa się na koszt fotografii ślubnej?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Fotografowie ślubni oferuje kilka różnorodnych pakietów, z których każdy różni się ceną oraz zawartością: liczbą godzin pracy fotografa, zakresem usług np. dodatkowa sesja plenerowa w innym dniu oraz ilością zdjęć oraz dodatków jak np. odbitki, albumy, nośnik danych. To te czynniki mają wpływ na końcową cenę usługi fotograficznej."
       }
     }
 ]}
@@ -182,8 +182,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Olkusz"
-      description="Fotograf ślubny Olkusz"
-      keywords="fotograf ślubny Olkusz"
+      description="Fotograf ślubny Olkusz, ślub w Olkuszu, reportaż ze ślubu"
+      keywords="fotograf ślubny Olkusz, ślub w Olkuszu, reportaż ze ślubu"
       url="https://99foto.pl/fotograf-slubny-olkusz/"
       leadNames="SYLWIA i MICHAŁ"
       leadTitle="WESELE W STYLU BOHO, SALA DWORZYSZCZE WOLA, KRAKÓW"
@@ -201,7 +201,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Olkuszu to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Wybór właściwego fotografa ślubnego w Olkuszu jest bardzo istotną sprawą podczas organizacji wesela. Czy wyobrażacie sobie, aby Wasze wesele odbyło się bez obecności fotografa ślubnego? Na pewno nie. Fotograf to osoba, która pozwoli zapamiętać Wam każdy, nawet najdrobniejszy szczegół z Waszego wesela. Jest to naprawdę ważne, ponieważ ten wyjątkowy klimat, tworzą najmniejsze detale, o których niestety z czasem zapominamy.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -211,30 +211,32 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Jeżeli więc zależy Wam na wspaniałej fotografii ślubnej w Olkuszu to świetnie trafiliście. Pozwólcie, że się przedstawię - nazywam się Tomek Prokop i podpowiem Wam na co zwrócić uwagę, wybierając <strong>odpowiedniego fotografa na Wasze wesele w Olkuszu</strong>.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY OLKUSZ - JAKI POWINIEN BYĆ?
+           JAKI POWINIEN BYĆ FOTOGRAF ŚLUBNY Z OLKUSZA?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+          Fotograf ślubny powinien mieć doświadczenie w pracy z parami młodymi, znać techniki fotografowania i generalnie potrafić robić zdjęcia. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej autentyczne.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA OLKUSZ - BOGACTWO WYJĄTKOWYCH MIEJSC
+          JAKIEGO FOTOGRAFA WYBRAĆ?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Najlepiej wybrać mnie. Koniecznie powinniście sprawdzić moje wcześniejsze realizacje i zapytać o rekomendacje znajomych lub osoby udzielające się na forach tematycznych.
+        Zachęcam także do spotkania na kawie. Sprawdźcie kim jestem. Nić porozumienia na innej stopie niż zawodowa, pomoże Wam opanować skrępowanie, a być może ograniczy stres towarzyszący pozowaniu do zdjęć w dniu ślubu.
+        Obiecuję, że miło spędzimy czas, a Wy poznacie wszystkie niuansy związane z fotografowaniem ślubu.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -244,27 +246,28 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+          
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          OLKUSZ - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          OLKUSZ - MIEJSCA NA ŚLUB I SESJĘ W PLENERZE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        W Olkuszu istnieje kilka miejsc, w których można zorganizować ślub i plener ślubny. Oto kilka możliwości - Zamek w Olkuszu, Pałac w Olkuszu, Hotel & SPA Zamek Gniew - to nowoczesny hotel, który oferuje przestronne sale do organizacji ślubów i plenerów, Park miejski - to piękny teren zielony i Dwór w Olkuszu. Finalna decyzja należy do Was.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA OLKUSZ - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA OLKUSZ - OKO REPORTAŻYSTY
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Zajmuję się reportażem ślubnym oraz sesjami w plenerze. Zależy mi na tym, aby zdjęcia ślubne, były naturalne i pełne emocji. 
+        Emocje na zdjęciach ślubnych są mega ważne, bo to one są najlepszym nośnikiem wspomnień. Fotograf ślubny w Olkuszu, który unika reżyserowania i ciągłego dyrygowania Wami? Zapraszam do wypełnienia formularza kontaktowego.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -274,7 +277,7 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Olkuszu, to warto rozpocząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -284,7 +287,7 @@ const PageComponent = () => {
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od doświadczenia fotografa, jakości sprzętu, ilości godzin pracy lub liczby wykonanych zdjęć. Niskie ceny to takie z przedziału do trzech tysięcy złotych za reportaż, średni pułap cen wpada pomiędzy trzy, a cztery tysiące złotych za reportaż. Wysoki pułap cen to ceny powyżej czterech tysięcy złotych za reportaż. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>

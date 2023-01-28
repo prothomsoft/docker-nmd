@@ -53,7 +53,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 nowe strony:
-Myślenice, Olkusz, 
+Olkusz, 
 Oświęcim, Wieliczka, 
 Tarnów, Wadowice, 
 Katowice, Zakopane, 
