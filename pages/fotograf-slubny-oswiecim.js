@@ -154,31 +154,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Jakie masz doświadczenie w fotografii ślubnej?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Fotografia ślubna to branża w której zawodowo działam od 2012 roku. W tym czasie wykonałem ponad 300 reportaży ślubnych więc myślę, że nie ma już warunków, które potrafiłyby mnie zaskoczyć i przerosnąć - tutaj możecie mieć na prawdę spokojną głowę."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Ile czasu powinniśmy przeznaczyć na zdjęcia grupowe?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "W zależności od tego jak duże będą grupy i jak duże jest Wasze wesele oraz od tego czy chcecie zdjęcia tylko z najbliższymi czy wszystkimi gośćmi od piętnastu minut do godziny czasu."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "W kościele nie wolno używać lamp błyskowych - czy to będzie dla Ciebie problem?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Nie będzie to żaden problem, nigdy jeszcze nie używałem lampy błyskowej w kościele. Sprzęt, na którym pracuje pozwala fotografować w na prawdę słabych warunkach oświetleniowych."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy można u Ciebie zamówić samą sesję zdjęciową?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Tak, oczywiście. Możecie zdecydować się tylko na sesję narzeczeńśką lub okolicznością. Sesja to zawsze trzy lub cztery godziny fotografowania w dwóch lub trzech wybranych miejscach, bardzo często jest to spacer. Wynikiem sesji jest zawsze minimum sto zdjęć poddanych starannej obróbce graficznej."
       }
     }
 ]}
@@ -187,8 +187,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Oświęcim"
-      description="Fotograf ślubny Oświęcim"
-      keywords="fotograf ślubny Oświęcim"
+      description="Fotograf ślubny Oświęcim, ceny fotografii ślubnej w Oświęcimiu"
+      keywords="fotograf ślubny Oświęcim, fotograf na wesele w Oświęcimiu"
       url="https://99foto.pl/fotograf-slubny-oswiecim/"
       leadNames="PAULA i WOJTEK"
       leadTitle="FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE POD KRAKOWEM"
@@ -206,7 +206,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Oświęcimiu to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Dzień dobry. Poszukujemy fotografa, bądź fotografów oraz kamerzysty na wesele pod w Oświęcimiu. Interesują nas osoby tylko z wolnym terminem. Pozdrawiamy. Każdego dnia kilka osób poszukuje fotografa na swój ślub. Ponieważ znalazłeś się na mojej stronie internetowej domyślam się, że dzisiaj jesteś wśród nich.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -216,30 +216,28 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Obecnie pary młode coraz częściej wybierają swoich fotografów na ślub kierując się stylem, a nie miastem zamieszkania. Dlatego też i ja często jeżdżę jako fotograf ślubny do Oświęcimia czy w każde inne miejsce, gdzie mnie młodzi zaproszą. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Oświęcimiu</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do zapoznania się z moimi zdjęciami.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY OŚWIĘCIM - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY OŚWIĘCIM - EMOCJONALNE PODEJŚCIE DO LUDZI i ICH HISTORII
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Szybkie i niepozowane zdjęcia bez przyciągania uwagi swoim aparatem to jedyny sposób, aby mieć pewność, że fotografowana przeze mnie osoba nie pozuje. Cała seria takich zdjęć, aby mieć kilka ujęć do wyboru. Jestem jak Ninja, pozostając poza zasięgiem wzroku, chowając się za innymi lub używając zoomu, uparcie robię zdjęcia z oddali. Zdjęcia takie są zdjęciami, które lubicie najbardziej.
         </Typography>
-
-        
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA OŚWIĘCIM - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA OŚWIĘCIM - MOMENT DECYDUJĄCY
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Niekiedy na sfotografowanie danej sytuacji mam zaledwie kilka sekund. Chcąc uchwycić moment decydujący, w którym Pan Młody po raz pierwszy widzi swoją przyszłą żonę lub chwilę, kiedy uśmiechnięciu wychodzicie z kościoła po cerememoni, fotograf musi zachować czujność. Wykonać kilkanaście ujęć by mieć pewność, że moment został zapisany. Dlatego podczas reportażu ślubnego typowo wykonuje blisko cztery tysiące zdjęć.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -249,17 +247,18 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Ich skrupulatny wybór zwany selekcją to proces długi, ale każde zdjęcie, które ma w sobie dawkę emocji wynagradza godziny spędzone przed monitorem komputera.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          OŚWIĘCIM - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          FOTOGRAF ŚLUBNY W OŚWIĘCIMIU - REJESTRACJA WSPOMNIEŃ
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+       Nie przepadam za ustawianymi zdjęciami, choć jeśli masz ochotę na grupowe to oczywiście w takie zdjęcia też umiem. Są one integralną częścią każdego ślubu. Nic tak dobrze nie wygląda na zdjęciach jak naturalność i spontaniczność dlatego bardziej stawiamy na dobrą relację z Tobą niż ustawianie Ciebie do zdjęć.
+
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -279,17 +278,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Jeśli szukacie profesjonalnego fotografa ślubnego w Oświęcimiu to doskonale, że odwiedziliście moją stronę internetową. Poznawanie ludzi, rozkminianie z nimi przeróżnych tematów, odwiedzanie nowych miejsc stało się moim nałogiem. Trudno wyobrazić sobie sobotę, która mogłaby wyglądać inaczej.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA OŚWIĘCIM - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA OŚWIĘCIM - FIRST LOOK
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Pewnie słyszeliście o first look. Reakcja Pana Młodego na widok ukochanej jest zawsze wyjątkowo piękna i niepowtarzalna. Do końca też nie wiadomo, czy pojawią się wówczas łzy wzruszenia czy może nastąpi wybuch radości. Wszyscy goście żyją tą chwilą dlatego zawsze jestem obok, aby tak jedyna w swoim rodzaju chwila została uwieczniona na fotografiach.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>

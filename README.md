@@ -53,8 +53,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 nowe strony:
-Olkusz, 
-Oświęcim, Wieliczka, 
 Tarnów, Wadowice, 
 Katowice, Zakopane, 
 Szczawnica, Szczyrk

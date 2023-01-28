@@ -1,12 +1,12 @@
-import LayoutSitePage from "../components/layoutSitePage";
-import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Image from "next/image";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
-import Carousel from 'react-material-ui-carousel'
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Image from "next/image";
+import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
+import LayoutSitePage from "../components/layoutSitePage";
 
 const fotograf_slubny_portfolio_2023_120 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_120.webp";
 const fotograf_slubny_portfolio_2023_121 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_121.webp";
@@ -148,31 +148,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Czy sesję ślubną musimy zamówić od razu przy rezerwacji Ciebie na nasz ślub?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Oczywiście, że nie. Nawet doradzam swoim Parą aby na sesję podobnie jak na album decydowały się już po dniu ślubu. Będziecie znać lepiej swój budżet oraz dostępność czasową. Sesja dla moich Par kosztuje tyle samo w dniu podpisania umowy i po ślubie. Nie musicie się bać, że koszty wzrosną."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Jak się przygotować do sesji ślubnej?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Przede wszystkim musicie przyjechać w świetnym humorze. Musicie być zgodni co do tego gdzie i kiedy chcecie aby odbyła się sesja. Warto zadbać o make-up i fryzurę - mogą być dużo bardziej odważne niż w dniu ślubu. Dodatki są wykazane - warto je dostosować do miejsca. W lesie czy na łące wianek zawsze będzie dobrym pomysłem."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Czy podczas sesji w plenerze może być obecny filmowiec lub inny fotograf?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Tutaj musicie się zdać na moje doświadczenie w tym temacie i pozwolić mi działać samemu. Sesja fotograficzna i filmowa w tym samym czasie nie jest dobrym pomysłem. Konwencja takich sesji jest zupełnie inna. Film to w dużej mierze reżyserowanie, a ja na sesji chcę pokazać Waszą naturalność, czułość i bliskość. Oczywiście będę Wam pomagał w “pozowaniu” ale całość opierać się będzie na Was bez reżyserii."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy sesja narzeczeńska jest potrzebna?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Nie jest konieczna ale jest świetną okazją abyśmy się lepiej poznali. Pozwoli Wam oswoić się z aparatem oraz moją obecnością. Po sesji narzeczeńskiej moja obecność w dniu ślubu na pewno nie będzie Was stresować. Będziemy już znajomymi, którzy są na Ty."
       }
     }
 ]}
@@ -181,8 +181,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Wieliczka"
-      description="Fotograf ślubny Wieliczka"
-      keywords="fotograf ślubny Wieliczka"
+      description="Fotograf ślubny Wieliczka, zdjęcia ślubne w kopalni Soli, spontaniczny reportaż ślubny"
+      keywords="fotograf ślubny Wieliczka, zdjęcia ślubne w kopalni Soli, spontaniczny reportaż ślubny"
       url="https://99foto.pl/fotograf-slubny-wieliczka/"
       leadNames="NATALIA i TOMASZ"
       leadTitle="WESELE W BYSTREJ I OGRÓD PEŁEN LAWENDY W KLIMONTOWIE"
@@ -200,7 +200,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Wieliczce to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Witaj na mojej stronie internetowej. Jeżeli szukasz najlepszego fotografa ślubnego w Wieliczce to jest do bardzo dobry adres. Jeżeli cenisz sobie w zdjęciach naturalność, chcesz widzieć emocje i brak pozowanych kadrów to tym bardziej zachęcam Ciebie do zapoznania się z moją ofertą ślubną.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -210,30 +210,28 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Jestem fotografem zajmującym się głównie reportażami ślubnymi. Pracuję w Wieliczce. Szukam naturalnych i prawdziwych momentów, aby utrwalić je w rzeczywistym i szczerym wydaniu na moich fotografiach. Mam nadzieje, że album wypełniony tego rodzaju fotografiami przypomni Wam o ważnym dniu Waszego ślubu w przyszłości.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY WIElICZKA - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY WIELICZKA - JAKI POWINIEN BYĆ?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Dbam o przyjazną współpracę podczas zlecenia i przede wszystkim cenię poczucie humoru, które zawsze dobrze wpływa na finalny efekt zdjęć ślubnych. Staram się w swojej fotografii ślubnej wydobywać z ludzi to, co najciekawsze, to co najpiękniejsze i myślę, że najważniejszą cechę, czyli waszą indywidualność. Skrupulatnie obserwuję ludzi i podtrzymuję na zdjęciach charakterystyczne cechy osobowości.
         </Typography>
-
-        
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA WIELICZKA - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA WIELICZKA - POMOCNA DŁOŃ
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Osobom, które nie do końca czują się komfortowo przed obiektywem, służę pomocą i dobrą radą. Lubię improwizować podczas sesji zdjęciowej w plenerze daje to zawsze naturalne i oryginalne efekty. Gwarantuję dobrą zabawę i luźną atmosferę. Fotografia ślubna w Wieliczce i nie tylko. Zapraszam do zanurkowania głębiej w moje portfolio. 
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -242,18 +240,14 @@ const PageComponent = () => {
             }
         </Carousel>
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
-        </Typography>
-
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          WIELICZKA - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          FOTOGRAF WIELICZKA - CZY DOŚWIADCZENIE MA ZNACZENIE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Ma, ale nie stawiałbym go na pierwszym miejscu. Ponieważ ono wcale nie jest równoznaczne z umiejętnościami. I myślę też sobie, że nie ma co tu uogólniać i dyskryminować kogokolwiek ze względu na wiek, lata pracy czy jakiekolwiek inne kryteria. Emocjonujący reportaż może zrealizować fotograf z wieloletnim stażem, który kocha to, co robi, robiąc to fantastycznie. Świetne zdjęcia może też wykonać osoba zafascynowana fotografią ślubną, która stosunkowo niedawno rozpoczęła przygodę z tym zawodem. Liczą się efekty. Jesteś tak dobry jak Twój ostatni sezon.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -263,7 +257,7 @@ const PageComponent = () => {
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu ślubu i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -273,17 +267,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+          Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Wieliczce, warto zapytać znajomych oraz przeglądnąć wyniki wyszukań w internecie. Ilość fotografów ślubnych jest duża, wiele jest też stylów i trudno szukać ujednoliconego cennika usług fotografii ślubnej. Ważne, aby wybrać fotografa, który spełnia wszystkie Wasze oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MYŚLENICE - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA WIELICZKA - SESJA NARZECZEŃSKA
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Bardzo chętnie zapiszę Waszą historię czułości, bliskości i miłości w kadrach pełnych radości i beztroski. Pełne klimatu i uczuć chwil, które już nie powrócą. Warto wykorzystać czas narzeczeństwa. On jest wyjątkowy warty zapisania na fotografii. Zdjęcia wykonane podczas sesji narzeczeńskiej możecie dobrze wykorzystać w dniu ślubu. Przygotować prezentacje zdjęć, wydrukować pamiątkowe książki dla kochanych rodziców. Możliwości jest zdecydownie wiele, sky is the limit...
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
