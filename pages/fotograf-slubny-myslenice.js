@@ -1,12 +1,12 @@
-import LayoutSitePage from "../components/layoutSitePage";
-import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Image from "next/image";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
-import Carousel from 'react-material-ui-carousel'
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Image from "next/image";
+import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
+import LayoutSitePage from "../components/layoutSitePage";
 
 const fotograf_slubny_portfolio_2023_081 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_081.webp";
 const fotograf_slubny_portfolio_2023_082 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_082.webp";
@@ -148,31 +148,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Czy warto zorganizować ślub w zimie?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Ślub zimą - dla jednych brzmi super, dla innych termin zupełnie nie do zaakceptowania. Gorąco polecamy zimowe śluby i są one równie piękne jak śluby letnie."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Czy obróbka zdjęć ślubnych jest super ważna?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Praca fotografa nie kończy się tylko na robieniu zdjęć podczas całej uroczystości. Ważna jest również obróbka, chociaż jest ona w zasadzie tylko wisienką na torcie. Najbardziej liczy się też doświadczenie w robieniu zdjęć."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Rozmowa wstępna z fotografem z Myślenic.",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Rozmowa powinna się odbyć w cztery oczy i jest to bardzo ważne. Podczas tej rozmowy można wywnioskować czy ktoś zna się na fotografii ślubnej, czy pasuje do nas charakterem. Można też oczywiście zapoznać się z materiałami, którymi dysponuje fotograf, będą to książki i fotoalbumy pokazowe."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Jaka jest optymalna liczba zdjęć?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Zachowanie wszystkich najważniejszych momentów na weselu, moim zdaniem wymaga około czterystu pięćdziesięciu zdjęć. Pozwoli nam to zachować ciągłość i pełen przekrój ślubu i wesela, od momentu przygotowań, makijażu ślubnego do momentu oczepin."
       }
     }
 ]}
@@ -181,8 +181,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Myślenice"
-      description="Fotograf ślubny Myślenice"
-      keywords="fotograf ślubny Myślenice"
+      description="Fotograf ślubny Myślenice, wybór fotografa ślubnego"
+      keywords="fotograf ślubny Myślenice, eybór fotografa ślubnego"
       url="https://99foto.pl/fotograf-slubny-myslenice/"
       leadNames="KLAUDIA i PRZEMYSŁAW"
       leadTitle="KAROLINKA BYSTRA PODHALAŃSKA, WESELE STRAŻACKIE"
@@ -200,7 +200,8 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Myślenicach to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Ślub i wesele to jeden z najważniejszych momentów w życiu, które wymagają należytego uwiecznienia. Idealnym pomysłem jest wykorzystanie fotografii ślubnej.
+        Zdjęcia z uroczystości mogą być wspaniałą pamiątką dla przyszłych pokoleń. Dlatego ważne jest to, aby wybrać odpowiedniego profesjonalnego i doświadczonego fotografa ślubnego.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -210,30 +211,31 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Nie ma ślubu bez fotografa na co w takim razie zwrócić uwagę przy wyborze tego jedynego fotografa. Czy znacie najwaźniejsze kwestie, na które Para Młoda powinna zwrócić uwagę przy wyborze fotografa ślubnego? Czy szukacie <strong>najlepszego fotografa ślubnego w Myślenicach</strong>? Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY MYŚLENICE - JAKI POWINIEN BYĆ?
+          FOTOGRAFIA ŚLUBNA - WYMAGAJĄCA DZIEDZINA FOTOGRAFII?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Czy fotografia ślubna jest jedną z najtrudniejszych dziedzin fotografii? A jeśli tak to dlaczego? Fotografia ślubna jest bardzo wymagająca, ponieważ pracuje się z osobami, które nieczęsto stają przed aparatem, przeważnie robią to pierwszy raz w życiu. Wszystko co robimy pierwszy raz w życiu jest super ekscytujące, jednak dopiero doświadczenie powoduje, że zaczynamy robić rzeczy dobrze.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MYŚLENICE - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAF ŚLUBNY MYŚLENICE - AMATOR CZY PROFESJONALISTA? 
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Czy często para młoda decyduje się na wybór profesjonalnego fotografa, czy może liczy bardziej na zdjęcia od gości, którzy obecni są na całej uroczystości?
+        Pary młode raczej decydują się jednak na profesjonalistę, ponieważ goście nie zawsze muszą złapać ten odpowiedni moment w trakcie ślubu lub wesela. Mogą akurat się zająć zabawą w czasie, kiedy dzieją się najciekawsze rzeczy.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -243,27 +245,27 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Dodatkowo wiele osób duchownych raczej preferuje profesjonalistę przy ołtarzu, który zrobi zdjęcia dyskretnie i profesjonalnie nie przeszkadzając w trakcie samej ceremonii ślubu.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          MYŚLENICE - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          WYBÓR FOTOGRAFA - FOTOGRAF ŚLUBNY MYŚLENICE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Na co powinniśmy zwracać uwagę poszukując profesjonalnego fotografa? Poszukując profesjonalnego fotografa najlepiej jest zasięgnąć rady w internecie, czyli kluczowe są tutaj opinie innych osób. Fotograf nawet z super portfolio może okazać się niepasującym charakterem do klientów. Każdy fotograf ma przecież swój styl i lepiej wybrać osobę która będzie pasowała bardziej pod kątem portfolio i porozumienia charakterów. 
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MYŚLENICE - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA MYŚLENICE - CAŁY REPORTAŻ ŚLUBNY
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Warto też obejrzeć cały reportaż takiego fotografa bo jest oczywiste, że fotografowie na swoich stronach internetowych, profilach społecznościowych posługują się najlepszymi kadrami, więc moim zdaniem warto jest poprosić takiego fotografa, żeby pokazał cały reportaż z wesela najlepiej jednego z ostatnio wykonanych. 
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -272,18 +274,15 @@ const PageComponent = () => {
             }
         </Carousel>
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
-        </Typography>
-
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA MYŚLENICE - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA MYŚLENICE - PAKIET ŁĄCZONY FOTO-VIDEO
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Czy warto decydować się na łączony pakiet foto plus video? Tak jak najbardziej. Nie bez znaczenia jest fakt, że przeważnie opłaca się to kosztowo. Warto zwrócić uwagę na to czy dana ekipa jest bardzo zgrana, to się mocno liczy w dniu ślubu i wesela, ponieważ takie osoby nie mogą sobie nawzajem przeszkadzać.
+
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
