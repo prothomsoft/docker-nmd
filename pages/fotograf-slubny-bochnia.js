@@ -12,7 +12,6 @@ const fotograf_slubny_portfolio_2023_157 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_158 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_158.webp";
 const fotograf_slubny_portfolio_2023_159 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_159.webp";
 const fotograf_slubny_portfolio_2023_160 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_160.webp";
-const fotograf_slubny_portfolio_2023_161 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_161.webp";
 const fotograf_slubny_portfolio_2023_162 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_162.webp";
 const fotograf_slubny_portfolio_2023_163 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_163.webp";
 const fotograf_slubny_portfolio_2023_164 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_164.webp";
@@ -38,6 +37,7 @@ const fotograf_slubny_portfolio_2023_184 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_185 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_185.webp";
 const fotograf_slubny_portfolio_2023_186 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_186.webp";
 const fotograf_slubny_portfolio_2023_187 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_187.webp";
+const fotograf_slubny_portfolio_2023_672 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_672.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "dom_weselny_mogielica_fotograf_slubny_mszana.webp";
@@ -57,7 +57,7 @@ const PageComponent = () => {
         image: fotograf_slubny_portfolio_2023_160
     },
     {
-        image: fotograf_slubny_portfolio_2023_161
+        image: fotograf_slubny_portfolio_2023_672
     },
     {
         image: fotograf_slubny_portfolio_2023_162

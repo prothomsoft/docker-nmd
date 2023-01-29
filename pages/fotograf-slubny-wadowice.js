@@ -13,15 +13,12 @@ const fotograf_slubny_portfolio_2023_371 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_372 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_372.webp";
 const fotograf_slubny_portfolio_2023_373 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_373.webp";
 const fotograf_slubny_portfolio_2023_375 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_375.webp";
-const fotograf_slubny_portfolio_2023_377 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_377.webp";
 const fotograf_slubny_portfolio_2023_378 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_378.webp";
 const fotograf_slubny_portfolio_2023_379 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_379.webp";
 const fotograf_slubny_portfolio_2023_380 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_380.webp";
-const fotograf_slubny_portfolio_2023_381 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_381.webp";
 const fotograf_slubny_portfolio_2023_382 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_382.webp";
 const fotograf_slubny_portfolio_2023_383 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_383.webp";
 const fotograf_slubny_portfolio_2023_384 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_384.webp";
-const fotograf_slubny_portfolio_2023_386 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_386.webp";
 const fotograf_slubny_portfolio_2023_387 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_387.webp";
 const fotograf_slubny_portfolio_2023_388 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_388.webp";
 const fotograf_slubny_portfolio_2023_389 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_389.webp";
@@ -38,8 +35,10 @@ const fotograf_slubny_portfolio_2023_400 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_401 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_401.webp";
 const fotograf_slubny_portfolio_2023_406 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_406.webp";
 const fotograf_slubny_portfolio_2023_407 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_407.webp";
-const fotograf_slubny_portfolio_2023_408 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_408.webp";
-const fotograf_slubny_portfolio_2023_409 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_409.webp";
+const fotograf_slubny_portfolio_2023_661 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_661.webp";
+const fotograf_slubny_portfolio_2023_662 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_662.webp";
+const fotograf_slubny_portfolio_2023_663 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_663.webp";
+const fotograf_slubny_portfolio_2023_664 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_664.webp";
 
 
 
@@ -68,16 +67,16 @@ const PageComponent = () => {
         image: fotograf_slubny_portfolio_2023_406
     },
     {
-        image: fotograf_slubny_portfolio_2023_375
+        image: fotograf_slubny_portfolio_2023_407
     },
     {
-        image: fotograf_slubny_portfolio_2023_407
+        image: fotograf_slubny_portfolio_2023_375
     },
     {
         image: fotograf_slubny_portfolio_2023_378
     },
     {
-        image: fotograf_slubny_portfolio_2023_377
+        image: fotograf_slubny_portfolio_2023_661
     }
   ]
 
@@ -89,7 +88,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_380
     },
     {
-      image: fotograf_slubny_portfolio_2023_381
+      image: fotograf_slubny_portfolio_2023_662
     },
     {
       image: fotograf_slubny_portfolio_2023_382
@@ -101,10 +100,10 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_384
     },
     {
-      image: fotograf_slubny_portfolio_2023_409
+      image: fotograf_slubny_portfolio_2023_663
     },
     {
-      image: fotograf_slubny_portfolio_2023_386
+      image: fotograf_slubny_portfolio_2023_664
     },
     {
       image: fotograf_slubny_portfolio_2023_387

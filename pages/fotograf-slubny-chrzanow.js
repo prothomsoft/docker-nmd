@@ -8,8 +8,6 @@ import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
-
-const fotograf_slubny_portfolio_2023_300 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_300.webp";
 const fotograf_slubny_portfolio_2023_301 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_301.webp";
 const fotograf_slubny_portfolio_2023_302 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_302.webp";
 const fotograf_slubny_portfolio_2023_303 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_303.webp";
@@ -26,10 +24,8 @@ const fotograf_slubny_portfolio_2023_313 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_314 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_314.webp";
 const fotograf_slubny_portfolio_2023_315 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_315.webp";
 const fotograf_slubny_portfolio_2023_316 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_316.webp";
-const fotograf_slubny_portfolio_2023_317 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_317.webp";
 const fotograf_slubny_portfolio_2023_318 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_318.webp";
 const fotograf_slubny_portfolio_2023_321 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_321.webp";
-const fotograf_slubny_portfolio_2023_322 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_322.webp";
 const fotograf_slubny_portfolio_2023_323 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_323.webp";
 const fotograf_slubny_portfolio_2023_324 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_324.webp";
 const fotograf_slubny_portfolio_2023_325 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_325.webp";
@@ -38,8 +34,10 @@ const fotograf_slubny_portfolio_2023_327 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_329 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_329.webp";
 const fotograf_slubny_portfolio_2023_330 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_330.webp";
 const fotograf_slubny_portfolio_2023_331 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_331.webp";
-const fotograf_slubny_portfolio_2023_332 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_332.webp";
-
+const fotograf_slubny_portfolio_2023_675 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_675.webp";
+const fotograf_slubny_portfolio_2023_679 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_679.webp";
+const fotograf_slubny_portfolio_2023_682 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_682.webp";
+const fotograf_slubny_portfolio_2023_683 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_683.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "fotograf_slubny_wesele_mogilany_krakow.webp";
@@ -56,7 +54,7 @@ const PageComponent = () => {
         image: fotograf_slubny_portfolio_2023_302
     },
     {
-        image: fotograf_slubny_portfolio_2023_300
+        image: fotograf_slubny_portfolio_2023_675
     },
     {
         image: fotograf_slubny_portfolio_2023_304
@@ -92,16 +90,16 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_313
     },
     {
-      image: fotograf_slubny_portfolio_2023_314
+      image: fotograf_slubny_portfolio_2023_316
     },
     {
-      image: fotograf_slubny_portfolio_2023_316
+      image: fotograf_slubny_portfolio_2023_314
     },
     {
       image: fotograf_slubny_portfolio_2023_315
     },
     {
-      image: fotograf_slubny_portfolio_2023_317
+      image: fotograf_slubny_portfolio_2023_679
     },
     {
       image: fotograf_slubny_portfolio_2023_318
@@ -119,7 +117,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_321
     },
     {
-      image: fotograf_slubny_portfolio_2023_322
+      image: fotograf_slubny_portfolio_2023_325
     },
     {
       image: fotograf_slubny_portfolio_2023_323
@@ -128,7 +126,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_324
     },
     {
-      image: fotograf_slubny_portfolio_2023_325
+      image: fotograf_slubny_portfolio_2023_682
     },
     {
       image: fotograf_slubny_portfolio_2023_326
@@ -137,7 +135,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_327
     },
     {
-      image: fotograf_slubny_portfolio_2023_332
+      image: fotograf_slubny_portfolio_2023_683
     },
     {
       image: fotograf_slubny_portfolio_2023_329

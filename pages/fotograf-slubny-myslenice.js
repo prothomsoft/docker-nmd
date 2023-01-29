@@ -16,28 +16,28 @@ const fotograf_slubny_portfolio_2023_086 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_087 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_087.webp";
 const fotograf_slubny_portfolio_2023_088 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_088.webp";
 const fotograf_slubny_portfolio_2023_090 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_090.webp";
-const fotograf_slubny_portfolio_2023_092 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_092.webp";
 const fotograf_slubny_portfolio_2023_093 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_093.webp";
 const fotograf_slubny_portfolio_2023_094 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_094.webp";
 const fotograf_slubny_portfolio_2023_095 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_095.webp";
 const fotograf_slubny_portfolio_2023_096 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_096.webp";
 const fotograf_slubny_portfolio_2023_097 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_097.webp";
 const fotograf_slubny_portfolio_2023_098 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_098.webp";
-const fotograf_slubny_portfolio_2023_100 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_100.webp";
 const fotograf_slubny_portfolio_2023_101 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_101.webp";
 const fotograf_slubny_portfolio_2023_102 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_102.webp";
 const fotograf_slubny_portfolio_2023_104 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_104.webp";
-const fotograf_slubny_portfolio_2023_105 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_105.webp";
 const fotograf_slubny_portfolio_2023_106 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_106.webp";
 const fotograf_slubny_portfolio_2023_107 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_107.webp";
-const fotograf_slubny_portfolio_2023_108 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_108.webp";
-const fotograf_slubny_portfolio_2023_109 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_109.webp";
 const fotograf_slubny_portfolio_2023_112 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_112.webp";
 const fotograf_slubny_portfolio_2023_113 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_113.webp";
 const fotograf_slubny_portfolio_2023_114 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_114.webp";
-const fotograf_slubny_portfolio_2023_116 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_116.webp";
 const fotograf_slubny_portfolio_2023_117 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_117.webp";
 const fotograf_slubny_portfolio_2023_118 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_118.webp";
+const fotograf_slubny_portfolio_2023_635 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_635.webp";
+const fotograf_slubny_portfolio_2023_637 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_637.webp";
+const fotograf_slubny_portfolio_2023_638 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_638.webp";
+const fotograf_slubny_portfolio_2023_639 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_639.webp";
+const fotograf_slubny_portfolio_2023_643 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_643.webp";
+const fotograf_slubny_portfolio_2023_642 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_642.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "klaudia_przemek_start.webp";
@@ -81,7 +81,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_093
     },
     {
-      image: fotograf_slubny_portfolio_2023_092
+      image: fotograf_slubny_portfolio_2023_635
     },
     {
       image: fotograf_slubny_portfolio_2023_114
@@ -102,10 +102,10 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_098
     },
     {
-      image: fotograf_slubny_portfolio_2023_116
+      image: fotograf_slubny_portfolio_2023_637
     },
     {
-      image: fotograf_slubny_portfolio_2023_100
+      image: fotograf_slubny_portfolio_2023_638
     }
   ]
 
@@ -123,7 +123,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_104
     },
     {
-      image: fotograf_slubny_portfolio_2023_105
+      image: fotograf_slubny_portfolio_2023_639
     },
     {
       image: fotograf_slubny_portfolio_2023_106
@@ -132,10 +132,10 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_101
     },
     {
-      image: fotograf_slubny_portfolio_2023_108
+      image: fotograf_slubny_portfolio_2023_643
     },
     {
-      image: fotograf_slubny_portfolio_2023_109
+      image: fotograf_slubny_portfolio_2023_642
     },
     {
       image: fotograf_slubny_portfolio_2023_118

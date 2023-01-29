@@ -156,31 +156,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Jak wygląda obróbka i kolorystyka zdjęć?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Cenię sobie kolor i naturalność – podkreślam to przy samym fotografowaniu, jak i później, przy edycji. Dlatego też barwy zdjęć, które wykonuję i które później edytuję, nie odbiegają od rzeczywistości. Co z fotografiami czarno-białymi? Oddaję je tylko wtedy, jeśli naturalne kolory odciągają uwagę od głównego motywu zdjęcia i chcę, aby na pierwszy plan wysuwała się ciekawa faktura, emocje czy światłocień."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Jaki jest czas pracy fotografa ślubnego?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Fotografowie w swoich ofertach posiadają często pakiety godzinowe, najczęściej od 10 do 12 godzin pracy. Zazwyczaj fotograf pracuje do oczepin lub paru minut po północy, ale coraz popularniejsze są reportaże kończące się około 22.00. Tak naprawdę wszystko zależy od indywidualnych ustaleń.  W mojej ofercie są pakiety dla par organizujących intymne ceremonie ślubne, oraz dla tych które chciałyby mieć całodzienny fotoreportaż."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Czy nasze fotografie zabezpieczane są przed ich utratą?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Utrata zdjęć jest tragedią dla par młodych. Możecie tego uniknąć, korzystając z usług profesjonalnego fotografa ślubnego, a nie fotoamatora, który o poniższym sposobie pracy i zabezpieczenia nawet nie słyszał. Fotografując, zapisuję zdjęcia jednocześnie na dwóch kartach pamięci, dodatkowo pracuję na dwóch aparatach jednocześnie, więc Wasze zdjęcia są automatycznie rejestrowane na czterech niezależnych kartach pamięci. Po powrocie do domu fotografie kopiuję na dwa dyski zewnętrzne. Dzień po ślubie Wasze zdjęcia mają już nie 4 kopie, a 6 kopii w niezależnych od siebie miejscach. Dzięki takim rozwiązaniom wiem, że reportaże moich par są bezpieczne."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy robisz sesje narzeczeńskie?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Tak, uwielbiam tego rodzaju sesje. Jak się odbywają? Po prostu idziemy na przyjemny spacer, na którym wszyscy są zrelaksowani i pozytywnie nastawieni. Możemy wybrać się na wspólną eksplorację miasta, możemy też wybrać lokalizację na łonie natury. "
       }
     }
 ]}
@@ -208,7 +208,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Katowicach to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Jako fotograf ślubny przywiązuję wagę nie tylko do tego, aby Wasz reportaż ślubny był przepiękny – ogromnie ważne jest dla mnie aby był unikalny, niepowtarzalny oraz żebyście ze wzruszeniem i uśmiechem mogli po latach przeglądać swój album ślubny.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -218,7 +218,7 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Nie lubię sztucznych, ustawianych kadrów i nie ingeruję w przebieg ślubu i wesela – czuję za to ogromną ekscytację tworząc fotografie ślubne z najważniejszego dnia w Waszym życiu. Emocje, jakie towarzyszą mi, są bardzo podobne do tych jakie Wy przeżywacie w dniu ślubu - ekscytujące oczekiwanie, poprzez wzruszenia podczas ceremonii, a kończąc na radosnej zabawie. To właśnie jest kwintesencja zdjęć ślubnych. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
         </Typography>
      
 
@@ -229,19 +229,18 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Poszukujecie świeżego i nowatorskiego spojrzenia na zdjęcia ślubne? Nie lubicie przesadnie pozowanych i sztucznie wyglądających fotografii? Jeszcze się nie znamy, a już mamy w kwestiach fundamentalnych wiele ze sobą wspólnego. Tworzę reportaż, który będzie wyjątkowych zapisem najważniejszych dni waszego życia, bez sztampy, powtarzalności i planowania. Dobry reportaż ślubny to kwestia obserwacji, skupienia się na historii i doprowadzenie do sytuacji, w której poszczególne zdjęcia układają się w spójną i przemyślaną całość.
         </Typography>
 
-        
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA KATOWICE - BOGACTWO WYJĄTKOWYCH MIEJSC
+          KATOWICE - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        W Katowicach waszą uwagę powinny zwrócić trzy miejsca. Centrum Katowic to idealne miejsce na miejską nowoczesną sesję ślubną. Z biegiem lat stolica województwa śląskiego bardzo zmieniła swoje oblicze. Tradycje śląskie są tu dalej widoczne, ale centrum miasta jest bardzo nowoczesne. To miejsce mocno industrialne pełne geometrycznych kształtów złagodzonych sporą ilością zieleni miejskiej. Katowicka Strefa Kultury jest ciekawym tłem dla sesji ślubnych. Dlatego też chętnie jest ono wybierane przez pary młode ze Śląska. Jako najbardziej fotogeniczny obiekt, idealny na miejskie plenery ślubne w Katowicach uznać trzeba katowicki Spodek. Hala  widowiskowo - sportowa Spodek jest jednym z symboli Katowic od wielu już lat. Na jego charakterystycznego kształtu odbywa się wiele różnych sesji zdjęciowych. 
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -251,17 +250,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Bardzo dobrze też sprawdzi się Międzynarodowe Centrum Kongresowe. Niezwykła, bardzo geometryczna bryła budynku MCK wyróżnia się industrialną estetyką oraz niezwykłym designem. Tworzy jedno z najbardziej fotografowanych miejsc w całej Katowickiej Strefie Kultury. Idealnym tłem dla przeszklonego niezwykłego budynku jest zielona kaskadowo położona dolina prowadząca schodami aż do Spodka. Młode pary bardzo chętnie wybierają właśnie to miejsce jako swój plener ślubny w Katowickiej Strefie Kultury. 
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          KATOWICE - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          FOTOGRAFIA ŚLUBNA KATOWICE - MIEJSCA NA SESJE
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Sesje ślubną można też wykonać na Nikiszowcu to sesja na wskroś śląska, czerpiąca garściami z jego tradycji w dodatku w samym sercu regionu. Nikiszowiec jest dzielnicą Katowic o niepowtarzalnym i unikalnym klimacie. Jeśli chcecie cofnąć się w czasie i poczuć jak się mieszkało w dzielnicy robotniczej 100 lat temu, to Nikiszowiec jest ku temu idealny. Zbudowane z czerwonej cegły trzykondygnacyjne bloki tworzą czworoboczne osiedla z wewnętrznymi dziedzińcami. Cała dzielnica jest żywym pomnikiem kultury śląskiej. Tą właśnie atmosferę odczuwalną na każdym kroku idealnie daje się wpleść w organizowane plenery ślubne na Nikiszowcu. Czerwone budynki naznaczone zębem czasu, ceglane mury porośnięte bluszczem, ścieżki i uliczki pełne zakamarków, bram i łuków dają nieskończone możliwości ciekawych i romantycznych kadrów w industrialnym śląskim stylu.  
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -271,7 +270,7 @@ const PageComponent = () => {
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Każde wydarzenie ma swoją historię, treść i swoistą moc którą trzeba dostrzec i umiejętnie zapisać. Czyli zrobić ponadczasowe zdjęcia, które będą wyraźnym echem tamtych chwil. Warto pamiętać, że za 20, 30 i więcej lat kolejne pokolenia będą wpatrywać się w te wspomnienia. Zastanówmy się co chcemy im przekazać. Jaką wartość mają nieść ze sobą Wasze historie. Jak mają być zapamiętane i jak opowiedziane.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -281,17 +280,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+        Nie ma jednoznacznej definicji. To składowa wielu zdarzeń: –  doświadczenia fotografa, jego umiejętności, wyczucia, jego wrażliwości i techniki. Tego w jaki sposób obserwuje wydarzenie, jak postrzega światło, jakich technik używa. Czy wie w jaki sposób opowie historię, czy po prostu improwizuje. Na tym polega magia fotografii, że każdy twórca inaczej widzi. Inaczej opowiada, i to że opowieści są różne daje nam pole wyboru. Wy możecie zdecydować jak Wasze wspomnienia zostaną opowiedziane. Pamiętajcie, że każda Wasza Historia jest warta zapamiętania.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA KATOWICE - ILE TO KOSZTUJE
+          FOTOGRAFIA ŚLUBNA KATOWICE - BLISKO CZY DALEKO
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Jako fotograf ślubny przywiązuję ogromną wagę do tego by tworzyć dla Was niepowtarzalne zdjęcia ślubne, które skrupulatnie układam w historie miłosne, tak aby oddać w Wasze ręce unikalny reportaż ślubny, który będzie zwieńczeniem tego wyjątkowego dnia. Oglądając swoje fotografie ślubne będziecie nie tylko wspominać jak wyglądaliście w dniu ślubu, ale również jak się czuliście w tych magicznych chwilach. Dużą uwagę zwracam także na Wasze otoczenie, rodzinę i znajomych, ponieważ wiem, że relacje z najbliższymi będą po latach dla Was jedną z najcenniejszych pamiątek ze ślubu i wesela. Każdy fotograf ślubny opowiada na swój sposób historie miłosne - jeśli chcecie abym to właśnie ja napisał Waszą, to koniecznie musimy się poznać! 
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>

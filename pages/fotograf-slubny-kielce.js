@@ -12,11 +12,9 @@ import LayoutSitePage from "../components/layoutSitePage";
 
 
 const fotograf_slubny_portfolio_2023_506 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_506.webp";
-const fotograf_slubny_portfolio_2023_507 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_507.webp";
 const fotograf_slubny_portfolio_2023_508 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_508.webp";
 const fotograf_slubny_portfolio_2023_509 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_509.webp";
 const fotograf_slubny_portfolio_2023_510 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_510.webp";
-const fotograf_slubny_portfolio_2023_511 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_511.webp";
 const fotograf_slubny_portfolio_2023_512 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_512.webp";
 const fotograf_slubny_portfolio_2023_514 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_514.webp";
 const fotograf_slubny_portfolio_2023_515 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_515.webp";
@@ -24,8 +22,6 @@ const fotograf_slubny_portfolio_2023_516 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_517 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_517.webp";
 const fotograf_slubny_portfolio_2023_518 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_518.webp";
 const fotograf_slubny_portfolio_2023_519 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_519.webp";
-const fotograf_slubny_portfolio_2023_520 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_520.webp";
-const fotograf_slubny_portfolio_2023_521 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_521.webp";
 const fotograf_slubny_portfolio_2023_522 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_522.webp";
 const fotograf_slubny_portfolio_2023_523 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_523.webp";
 const fotograf_slubny_portfolio_2023_524 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_524.webp";
@@ -35,12 +31,16 @@ const fotograf_slubny_portfolio_2023_527 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_528 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_528.webp";
 const fotograf_slubny_portfolio_2023_529 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_529.webp";
 const fotograf_slubny_portfolio_2023_530 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_530.webp";
-const fotograf_slubny_portfolio_2023_531 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_531.webp";
 const fotograf_slubny_portfolio_2023_532 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_532.webp";
 const fotograf_slubny_portfolio_2023_533 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_533.webp";
 const fotograf_slubny_portfolio_2023_534 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_534.webp";
-const fotograf_slubny_portfolio_2023_535 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_535.webp";
 const fotograf_slubny_portfolio_2023_536 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_536.webp";
+const fotograf_slubny_portfolio_2023_686 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_686.webp";
+const fotograf_slubny_portfolio_2023_688 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_688.webp";
+const fotograf_slubny_portfolio_2023_689 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_689.webp";
+const fotograf_slubny_portfolio_2023_690 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_690.webp";
+const fotograf_slubny_portfolio_2023_691 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_691.webp";
+const fotograf_slubny_portfolio_2023_692 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_692.webp";
 
 
 const PageComponent = () => {
@@ -52,7 +52,7 @@ const PageComponent = () => {
         image: fotograf_slubny_portfolio_2023_506
     },
     {
-        image: fotograf_slubny_portfolio_2023_507
+        image: fotograf_slubny_portfolio_2023_686
     },
     {
         image: fotograf_slubny_portfolio_2023_508
@@ -64,7 +64,7 @@ const PageComponent = () => {
         image: fotograf_slubny_portfolio_2023_510
     },
     {
-        image: fotograf_slubny_portfolio_2023_511
+        image:fotograf_slubny_portfolio_2023_688
     },
     {
         image: fotograf_slubny_portfolio_2023_512
@@ -94,10 +94,10 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_519
     },
     {
-      image: fotograf_slubny_portfolio_2023_520
+      image: fotograf_slubny_portfolio_2023_689
     },
     {
-      image: fotograf_slubny_portfolio_2023_521
+      image: fotograf_slubny_portfolio_2023_690
     },
     {
       image: fotograf_slubny_portfolio_2023_522
@@ -130,10 +130,10 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_530
     },
     {
-      image: fotograf_slubny_portfolio_2023_531
+      image: fotograf_slubny_portfolio_2023_532
     },
     {
-      image: fotograf_slubny_portfolio_2023_532
+      image: fotograf_slubny_portfolio_2023_691
     },
     {
       image: fotograf_slubny_portfolio_2023_533
@@ -142,7 +142,7 @@ const PageComponent = () => {
       image: fotograf_slubny_portfolio_2023_534
     },
     {
-      image: fotograf_slubny_portfolio_2023_535
+      image: fotograf_slubny_portfolio_2023_692
     }
   ]
 
