@@ -153,31 +153,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Ile kosztuje reportaż i dojazd fotografa ślubnego do Wadowic?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Koszt dojazdu do Wadowic wliczony jest w cenę pakietu ślubnego. Odpadają Ci koszty dojazdu czy noclegu dla fotografa."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Do której godziny fotografujesz przyjęcie?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Często spotykam się z tendencją kładzenia zbyt dużego nacisku na fotografowanie przyjęcia. Z perspektywy pamiątki i historii zawartej w reportażu piąta czy szósta godzina opowiadania o tańczących i wznoszonych toastach  gościach nie wnosi już zbyt wiele do materiału natomiast brak wspólnej sesji, pośpiech w przygotowaniach - na to nie możemy sobie pozwolić. "
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Czy zawsze publikujesz fotografie ślubne w internecie?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Publikacja materiałów jest dla mnie bardzo istotna – dzięki temu zainteresowane moją fotografią pary są w stanie dokładnie i na bieżąco ocenić jakość i poziom moich prac.  Gdybym nie miał takiej możliwości prawdopodobnie nie byłoby Was tutaj. Rozumiem jednak, że nie jest to komfortowe rozwiązanie dla każdego i jeśli tylko nie zgadzacie się na publikację Waszego wizerunku dajcie mi znać – przygotuję dla Was umowę i ofertę na warunkach dostosowanych do Waszych oczekiwań."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy oznasz język angielski?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Tak, nie ma najmniejszego problemu abym komunikował się częściowo lub przez cały dzień z Wami i Waszymi gośćmi po angielsku. Bardzo często fotografuję śluby międzynarodowe i nie stanowi to dla mnie absolutnie żadnej przeszkody aby dogadać się z każdym z gości."
       }
     }
 ]}
@@ -186,8 +186,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Wadowice"
-      description="Fotograf ślubny Wadowice"
-      keywords="fotograf ślubny Wadowice"
+      description="Fotograf ślubny Wadowice, fotograf na wesele Wadowice, reportaż ślubny"
+      keywords="fotograf ślubny Wadowice, fotograf na wesele Wadowice, reportaż ślubny"
       url="https://99foto.pl/fotograf-slubny-wadowice/"
       leadNames="NATALIA i KRZYSZTOF"
       leadTitle="DOM WESELNY MOGIELICA JURKÓW, RUSTYKALNE WESELE"
@@ -205,7 +205,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Wadowicach to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Wiadomo, że zdjęcia podczas wesela będzie robiło Wam mnóstwo osób. Jedne będą lepszej jakości, drugie gorsze. Część gości weźmie na przyjęcie ze sobą aparaty fotograficzne, a część będzie fotografować telefonem komórkowym. Jeśli żaden z naszych gości nie jest zawodowym fotografem, nie możemy mieć jednak pewności, że zrobione zdjęcia będą dla nas zadowalające.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -215,30 +215,30 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Wybór fotografa na wesele nie należy do rzeczy łatwych. Trzeba przejrzeć portfolio wielu fotografów, negocjować się i pytać o wolne terminy. Nie każdy fotograf będzie do nas pasował. Każdy z nas jest inny, fotografowie też są inni. Nasze gusta, potrzeby i oczekiwania nie zawsze będą spójne z tym co proponuje fotograf. Nie na wszystko też jako Para Młoda musimy się zgadzać. Kobiety, które lubią bardziej jeden ze swoich profili, powinny powiedzieć o tym fotografowi przed ślubem. Jest wtedy szansa, że zdjęcia będą robione z tej bardziej „korzystnej dla nas strony”. Warto też wspomnieć, którzy z gości weselnych są dla nas najważniejsi i których zdjęć najwięcej byśmy chcieli - trzeba fotografowi przedstawić np. rodziców, rodzeństwo czy świadków. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Wadowicach</strong> to jesteś we właściwym miejscu. Nazywam się Tomasz Prokop, mieszkam w Krakowie i bardzo chętnie sfotografuję Wasz ślub.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY WADOWICE - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY WADOWICE - ZDJĘCIA SPONTANICZNE?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Fotografia reportażowa jest moją specjalizacją. Uwielbiam tę magię, dzięki której mogę zamknąć na zdjęciach to, co nieuchwytne, czyli Wasz spontaniczny uśmiech, wzruszenie, skrywane pocałunki i spojrzenia pełne miłości. Wierzę, że wspólnie możemy stworzyć coś naprawdę wyjątkowego – historię, która pozostanie z Wami na zawsze i nawet na stare lata będzie cieszyć równie mocno, jak tego pięknego dnia. Serdecznie zapraszam Cię do zapoznania się z moim portfolio i wejścia do świata emocji widzianego moimi oczami.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA WADOWICE - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA WADOWICE - ZADANIA SPECJALNE
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Fotograf ślubny, który specjalizuje się w przygotowywaniu reportaży ślubnych, to osoba do zadań specjalnych. Z jednej strony musi poczuć w sobie duszę reportera, który jest w stanie przewidywać pewne zdarzenia, stale obserwuje otoczenie i wie, jakie momenty uchwycić na fotografiach. Z drugiej strony to osoba, która doskonale zna swój sprzęt i posiada rozległą wiedzę na temat technik fotografowania. Wie, w jaki sposób operować światłem i cieniem, by zdjęcia zyskały niepowtarzalny charakter, nadaje odpowiedni rytm całej historii, a także z łatwością tworzy zdjęcia wieloplanowe, w których kilka historii przeplata się ze sobą na jednej fotografii.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -248,17 +248,17 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Jako dobry reporter ślubny nie boje się ciężkiej pracy i jestem gotowy na ciągłe udoskonalanie własnych umiejętności. Jeśli chcesz mieć pewność, że fotograf ślubny przygotuje dla Ciebie niezapomniany reportaż, zwróć uwagę na to, jak zmienia się jego portfolio na przestrzeni lat. Dzięki temu będziesz w stanie ocenić jego zaangażowanie w wykonywaną pracę oraz nieustanny rozwój.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          WADOWICE - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          WADOWICE - KIEDY ZAREZERWOWAĆ TERMIN?
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Pamiętaj, że czym szybciej zarezerwujesz termin u fotografa, tym lepiej. Warto wiedzieć, że niektóre weekendy są zapisane już na dwa lata do przodu. Pamiętaj, że funkcjonuje też coś takiego, jak sezon ślubny, który trwa od kwietnia do listopada. To czas, kiedy trudniej o rezerwację fotografa, jeżeli do ślubu pozostało już niewiele czasu. 
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -268,7 +268,7 @@ const PageComponent = () => {
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        W mojej ofercie znajdują się albumy ślubne dwóch wiodących firm drukarskich w Polsce. Pierwsza z nich to firma Printu, natomiast druga to Najlepsze Foto. Korzystając z moich usług w obu przypadkach zyskujecie pięćdziesiąt procent zniżki na zamówione do druku materiały. Mogę Was również zapewnić, że współpraca z tymi firmami przebiega doskonale, a jakość druku jest na najwyższym poziomie.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -278,7 +278,7 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
+        Marzą Ci się zdjęcia ze ślubu, które nawet za dwadzieścia lat będą wyciskać łzy wzruszenia? Szukasz <strong>fotografa ślubnego w Wadowicach</strong>, który nie tylko najpiękniej jak to możliwe zapisze wyjątkowe chwile, ale i doradzi, podpowie i doda otuchy wtedy, gdy będzie to konieczne? Trafiłeś w odpowiednie miejsce. Poznajmy się i umówmy na wspólną kawę. 
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
@@ -288,7 +288,7 @@ const PageComponent = () => {
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Jeżeli szukasz fotografa ślubnego, warto wiedzieć, że możesz zamówić sesję narzeczeńską, sam reportaż w dniu ślubu (od przygotowań, po późne godziny nocne) oraz sesję ślubną w plenerze w Wadowicach. Są to główne składowe ceny usługi fotografa ślubnego. Dobra informacja jest taka, że jeżeli organizujesz ślub w Wadowicach i wybierzesz moje usługi odpadają Ci koszty dojazdu czy noclegu dla fotografa. Jestem z Krakowa i do Wadowic dojeżdżam gratis.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
