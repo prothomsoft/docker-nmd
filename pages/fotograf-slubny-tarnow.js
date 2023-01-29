@@ -150,31 +150,31 @@ const PageComponent = () => {
     "@type": "FAQPage",
     "mainEntity": [{
         "@type": "Question",
-        "name": "Ile kosztuje reportaż ze ślubu i wesela na Śląsku?",
+        "name": "Gdzie można zobaczyć przykłady Pana prac?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oferuję 3 pakiety, z których wybieracie ten najbardziej dopasowany do Waszych potrzeb i oczekiwań - skrócony, pełny i rozszerzony. Różnią się one od siebie kilkoma szczegółami, ale jedna rzecz pozostaje wspólna. Bez względu na to, jaki wariant wybierzecie zawsze otrzymacie wyjątkowe fotografie ślubne ze Śląska, które będą wspaniałą pamiątką na lata. Jeśli chcecie wiedzieć więcej, zapraszam do zakładki oferta. Znajdziecie tam dokładne informacji dotyczące poszczególnych pakietów. Jeśli w trakcie czytania pojawią się jakieś pytania, zapraszam do kontaktu przez formularz kontaktowy."
+            "text": "Na moim blogu macie możliwość zapoznania się z przykładowymi historiami ślubnymi, które pokazują namiastkę moich fotograficznych umiejętności. Jeżeli dotychczasowe sesje przypadły Wam do gustu zapraszam do kontaktu, a wspólnie uzyskamy równie imponujące wizualnie zdjęcia z Waszym udziałem."
         }
     },{
         "@type": "Question",
-        "name": "Ile zdjęć składa się na nasz reportaż ze ślubu/wesela?",
+        "name": "Czy goście weselni powinni fotografować ślub?",
         "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+            "text": "Posłuchajcie moich rad i zaproponujcie swoim gościom pozostawienie telefonów w domu. Tak to nie jest możliwe i o ile w fotografowaniu z miejsca, w którym się stoi nie ma nic złego to wchodzenie fotografowi w kadr powinno być zabronione."
         }
     },{
       "@type": "Question",
-      "name": "Ile czasu pracuje na naszym ślubie/weselu fotograf ślubny na Śląsku?",
+      "name": "Kiedy powinno się rezerwować fotografa na ślub?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ilość fotografii jest uzależniona od wyboru pakietu. W najbardziej ekonomicznej wersji otrzymujecie 100 zdjęć wydrukowanych na papierze oraz 300 zdjęć w wersji cyfrowej. Jeśli zdecydujecie się na pakiet rozszerzony wówczas otrzymacie 300 zdjęć wydrukowanych oraz 800 cyfrowych. Więcej szczegółów znajdziecie w zakładce oferta."
+          "text": "Fotografa na ślub najlepiej wybrać z dwuletnim wyprzedzeniem. Wynika to z faktu, że bardzo często inni usługodawcy, tacy jak sale weselne, czy zespoły muzyczne podpisują umowy z właśnie takim wyprzedzeniem."
       }
     },{
       "@type": "Question",
-      "name": "Czy otrzymamy tylko zdjęcia w wersji cyfrowej?",
+      "name": "Czy sesja ślubna w wybranym dniu po ślubnie to dobry pomysł?",
       "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oczywiście, że nie. Najlepsze kadry z Waszego dnia otrzymacie również w postaci profesjonalnych wydruków. Resztę fotografii dostaniecie na pendrive w wersji elektronicznej, a także w formie internetowej galerii, którą będziecie się mogli podzielić ze znajomymi lub rodziną. Za dodatkową opłatą, mogę dla Was przygotować unikalne fotoalbumy i fotoksiążki. "
+          "text": "Oczywiście, że tak. Goście weselni lepiej bawią sie na parkiecie, jeżeli widzą na nim uśmiechniętą Parę Młodę. Pozostawianie naszych gości na dłuższy czas może być nietaktowne. Zróbmy więc kilka zdjęć przed salą weselną, a cały plener w dodatkowym, wybranym dniu po ślubie."
       }
     }
 ]}
@@ -183,8 +183,8 @@ const PageComponent = () => {
     
     <LayoutSitePage
       title="Fotograf ślubny Tarnów"
-      description="Fotograf ślubny Tarnów"
-      keywords="fotograf ślubny Tarnów"
+      description="Fotograf ślubny Tarnów, reportaż ślubny w Tarnowie, miejsca na plener"
+      keywords="fotograf ślubny Tarnów, reportaż ślubny w Tarnowie, miejsca na plener"
       url="https://99foto.pl/fotograf-slubny-tarnow/"
       leadNames="NATALIA i KRZYSZTOF"
       leadTitle="DOM WESELNY MOGIELICA JURKÓW, RUSTYKALNE WESELE"
@@ -202,7 +202,7 @@ const PageComponent = () => {
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Poszukiwania najlepszego fotografa ślubnego w Tarnowie to zadanie niełatwe, ponieważ ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada twoim stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz porównać oferty różnych fotografów, przejrzeć ich portfolio i przeczytać opinie innych klientów, aby znaleźć osobę, która najlepiej odpowiada Twoim potrzebom.
+        Udział w wielu szkoleniach, warsztatach, dopracowywanie kunksztu fotograficznego i fotografowania ślubów, nowe wyzwania każdego tygodnia doprowadziły do sytuacji, w której mogę powiedzieć, że umiem robić zdjęcia. Przez ostatnie lata i po dziesiątkach wykonanych reportaży, w fotografii ślubnej czuje się bardzo naturalnie. Człowiek uczy się jednak przez cały życie, dlatego na każdy reportaż, mimo przygotowania i pewności siebie, idę z lekkim wahaniem. Fotografia ślubna to jedna wielka przygoda.
         </Typography>
 
         <Carousel animation="slide" duration="300">
@@ -212,30 +212,30 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Warto też zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
+        Fotografia ślubna to głównie praca z ludźmi – w czasie przygotowań, na ślubie czy w trakcie sesji ślubnej mamy do czynienia przecież z ludźmi. Każde wesele jest inne, dlatego właśnie uwielbiam ten tryb pracy. Na każdym reportażu poznaję wielu ciekawych ludzi, z którymi często długo po weselu utrzymuję kontakt. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Tarnowie</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do kontaktu.
         </Typography>
      
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAF ŚLUBNY TARNÓW - JAKI POWINIEN BYĆ?
+          FOTOGRAF ŚLUBNY TARNÓW - APARATY BEZLUSTERKOWE?
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-          Fotograf ślubny powinien być profesjonalistą, który potrafi uchwycić ważne chwile i emocje związane z dniem ślubu. Powinien mieć doświadczenie w pracy z różnymi parami młodymi i znać techniki fotografowania, aby uzyskać jak najlepsze rezultaty. Powinien też być elastyczny i potrafić dostosować się do potrzeb i oczekiwań klientów. Ważne, aby fotograf ślubny był także osobą, z którą młoda para czuje się swobodnie i komfortowo, ponieważ w ten sposób zdjęcia będą bardziej naturalne i autentyczne.
+        Pracuję na profesjonalnych aparatach bezlusterkowych marki Nikon. Zawsze mam ze sobą kilka przydatnych obiektywów, dzięki którym mogę pracować tak, jak trzeba, o lampach i innych tego typu sprzętach nie wspominając. W pracę wkładam całe swoje zaangażowanie, uśmiech i pomocną dłoń. Na każdym reportażu jestem po prostu sobą. Chcesz wiedzieć coś więcej na mój temat? Umówmy się na kawę i porozmawiajmy.
         </Typography>
 
         
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA TARNÓW - BOGACTWO WYJĄTKOWYCH MIEJSC
+          FOTOGRAFIA ŚLUBNA W TARNÓWIE - WYZWANIE
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Śląsk jest regionem o bogatej historii i kulturze, co przekłada się na wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło do zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
+        Trzeba wiedzieć, że fotografia ślubna to niełatwa dziedzina. Dobry reportaż ślubny jest bardzo wymagający. Trzeba być nie tylko sprawnym technicznie, ale przede wszystkim wrażliwym na otoczenie, na światło. Trzeba umieć w otaczającym nas chaosie stworzyć dość prosty, uporządkowany kadr, który poruszy emocje widza. Intuicja, empatia do ludzi i świetna kondycja fizyczna są to niezwykle istotne elementy, bez których nie wyobrażam sobie pracy w roli fotografa ślubnego. Dwanaście godzin biegania z aparatem potrafi zmęczyć najsprawniejszego sportowca.
         </Typography>
 
         <Carousel animation="slide" duration="500">
@@ -245,27 +245,27 @@ const PageComponent = () => {
         </Carousel>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli para młoda lubi przyrodę, mogą wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
+        Dla mnie jednak bardziej męczące od wysiłku fizycznego jest przebywanie w stanie permanentnej koncentracji. Trzeba być w pełnej gotowości, gdyż najpiękniejsze momenty trwają dosłownie ułamek sekundy. Drobne zawahanie spowoduje utratę świetnego zdjęcia.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          TARNÓW - IDEALNE TŁO DLA FOTOGRAFII ŚLUBNEJ
+          FOTOGRAF ŚLUBNY TARNÓW - FOTOGRAF RODZINNY
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 1 }}>
-        Śląsk oferuje wiele pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla fotografii ślubnej. Możliwości są praktycznie nieograniczone, ponieważ region ten obfituje w zamki, pałace, muzea, parki narodowe i rezerwaty przyrody, a także wiele innych ciekawych miejsc i obiektów, które mogą być inspiracją dla fotografii ślubnej. Ważne, aby wybrać tło, które odpowiada indywidualnym preferencjom i stylowi pary młodej, a także aby dobrze komponowało się z resztą elementów dekoracji i stylizacji ślubnej.
+        Jako mąż i tata, wiem jak ważna jest potęga emocji i bliskości. Gdy wybieram się jako fotograf na wesele, widzę to, czego nie dostrzegają inni. Śmiech, łzy wzruszenia, wygłupy dzieciaków. Wszystko uwiecznię, abyście cieszyli się rodzinnymi wspomnieniami przez lata.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA TARNÓW - PAMIĄTKA NA LATA
+          FOTOGRAFIA ŚLUBNA TARNÓW - FOTOGRAF OBSERWUJĄCY
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-        Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
+        Mam dobre “oko” do sytuacji, nic mi nie umknie! Dobry reportaż ślubny to taki, w którym zawarte są w stu procentach niepowtarzalne momenty. To Wam gwarantuję.
         </Typography>
 
         <Carousel animation="slide" duration="700">
@@ -274,18 +274,14 @@ const PageComponent = () => {
             }
         </Carousel>
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
-          Jeśli szukają Państwo profesjonalnego fotografa ślubnego na Śląsku, warto zacząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.
-        </Typography>
-
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
-          FOTOGRAFIA ŚLUBNA TARNÓW - ILE TO KOSZTUJE
+          FOTOGRAF PRZYJAZNY I DYSKRETNY
           </Typography>
         </Box>
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 1 }}>
-          Cena za usługi fotograficzne związane z ślubem może się różnić w zależności od wielu czynników, takich jak doświadczenie fotografa, jakość sprzętu, ilość godzin pracy, liczba wykonanych zdjęć itp. Ceny mogą wahać się od kilkuset do kilku tysięcy złotych. Ważne, aby dokładnie zapoznać się z ofertą fotografów i porównać ceny, aby mieć pewność, że otrzymuje się usługę w dobrej cenie i jakości. Nie warto decydować się na najtańszą opcję, ponieważ zdjęcia ślubne to pamiątka na lata i należy zadbać o ich jakość. Z drugiej strony, warto pamiętać, że cena nie zawsze jest wyznacznikiem jakości i warto poszukać fotografa, który jest w stanie zaoferować dobrą usługę w rozsądnej cenie.
+        Fotograf na ślub to także “kumpel”, który doradzi, uspokoi i pomoże. Wykorzystam swoje bogate doświadczenie, by być wsparciem. Jestem również dyskretny i kiedy trzeba niedostrzegalny. Umiem uszanować intymność najważniejszych momentów podczas ślubu, ale nie zaniedbam żadnego kadru.
         </Typography>
 
         <Box sx={{ pt: 2, pb : 1 }}>
