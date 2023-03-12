@@ -22,7 +22,16 @@ const portfolio_0003 = process.env.staticS3ImagesPath + "portfolio/portfolio_000
 const sesja_zdjeciowa_szczyrbskie = process.env.staticS3ImagesPath + "portfolio/sesja_zdjeciowa_szczyrbskie.webp";
 const portfolio_2021_1 = process.env.staticS3ImagesPath + "portfolio/portfolio_2021_1.webp";
 const fotograf_slubny_krakow_17 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_17.webp";
-
+const fotograf_slubny_krakow_10 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_10.webp";
+const fotograf_slubny_portfolio_2023_170 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_170.webp"; //plener
+const fotograf_slubny_portfolio_2023_570 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_570.webp"; //plener
+const fotograf_slubny_portfolio_2023_555 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_555.webp"; //plener
+const fotograf_slubny_portfolio_2023_539 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_539.webp"; //plener
+const fotograf_slubny_portfolio_2023_312 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_312.webp"; //plener
+const fotograf_slubny_portfolio_2023_192 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_192.webp"; //plener
+const fotograf_slubny_portfolio_2023_415 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_415.webp"; //plener
+const fotograf_slubny_krakow_7 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_7.webp"; //plener
+const fotograf_slubny_krakow_9 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_9.webp"; //plener
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.webp";
@@ -52,8 +61,8 @@ const PageComponent = () => {
           przez turystów i pełne historii miasto. Fajnych miejsc na sesję zdjęciową nie trzeba tu poszukiwać długo. Łatwo odnajdziemy każdy styl by uwiecznić w nim Waszą miłość.
         </Typography>
 
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={ogrod_botaniczny} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority />
-
+        <Image alt="sesja zdjęciowa Kraków" src={fotograf_slubny_krakow_10} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority />
+        
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           DEFINICJA PLENERU ŚLUBNEGO
         </Typography>
@@ -61,14 +70,22 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Plener ślubny to integralna część reportażu ślubnego, który pomimo innej specyfiki stanowi jego nieodłączne dopełnienie. Plener ślubny rządzi się swoimi prawami. W odróżnieniu od reportażu
           ślubnego, w którym uczestniczą zaproszeni na uroczystość ślubną goście, których jednym z zadań jest niespuszczanie z oka Pary Młodej, podczas pleneru ślubnego jesteście tylko Wy i Wasza
-          miłość. Miejsce reportażu ślubnego jest zwykle mniej lub bardziej określone przez okoliczności, takie jakie jak miejsce zamieszkania Panny Młodej, korzystna oferta sali weselnej, dostępność
+          miłość.
+        </Typography>
+
+        <Image alt="sesja zdjęciowa Kraków" src={portfolio_0002} width={1140} height={851} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="miejska sesja ślubna" src={fotograf_slubny_portfolio_2023_415} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
+          Miejsce reportażu ślubnego jest zwykle mniej lub bardziej określone przez okoliczności, takie jakie jak miejsce zamieszkania Panny Młodej, korzystna oferta sali weselnej, dostępność
           zaprzyjaźnionej makijażystki. Plener ślubny pozwala na zaplanowanie wszystkich tych rzeczy jeszcze raz, tak samo lub inaczej. Wybranie miejsc, w których być może jeszcze nie byliście, a
           chcielibyście je odwiedzić. Przez trzy godziny jesteście tyko Wy i są z Wami uczucia. Zdjęcia plenerowe, które powstają w tym czasie to czysta magia i pamiątka na pozostałą część Waszego
           życia.
         </Typography>
-
-        <Image alt="sesja zdjęciowa Kraków" src={portfolio_0002} width={1140} height={851} style={{width: '100%', height: 'auto'}}  />
-
+        
+        <Image alt="sesja zdjęciowa w zieleni" src={fotograf_slubny_portfolio_2023_570} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="plener śłubny Bulwary Wiślane" src={plener_0002} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           KIEDY ZROBIĆ PLENER ŚLUBNY
         </Typography>
@@ -80,23 +97,26 @@ const PageComponent = () => {
           plener ślubny, minęły w oka mgnieniu i stały się dobrym wspomnieniem.
         </Typography>
 
-        <Image alt="plener śłubny Bulwary Wiślane" src={plener_0002} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={ogrod_botaniczny} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="ciekawe miejsca na sesje plenerową w Krakowie" src={plener_slubny_konie} width={1140} height={555} style={{width: '100%', height: 'auto'}}  />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Kilka zdjęć plenerowych w dniu ślubu? Pozostawianie gości weselnych na sali nie leży w dobrym tonie, jednak gdy w trakcie naszego ślubu, za oknem zauważymy piękny zachód słońca, a sala
           weselna dysponuje małym ogrodem lub ciekawym otoczeniem to warto poświęcić kilka minut na zdjęcia. 
         </Typography>
 
-        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_17} width={1140} height={849} style={{width: '100%', height: 'auto'}}  />
-
+        <Image alt="plener ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_170} width={1140} height={760} style={{width: '100%', height: 'auto'}} /> 
+        <Image alt="sesja ślubna Zamek w Korzkwi" src={portfolio_0014} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+       
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Goście na pewno będą wyrozumiali i zrozumieją, a zdjęcia wykonane w ten sposób na pewno
           pozostaną w stylu i klimacie wesela. Będziecie mieli dokładnie takie same dodatki, bukiet ślubny, makijaż i fryzurę. Wykonując plener ślubny w dniu Waszego ślubu zachowujemy spójność zdjęć
           plenerowych z reportażem ślubnym, co dla niektórych z Was może być niezwykle istotne.
         </Typography>
 
-        <Image alt="sesja ślubna Zamek w Korzkwi" src={portfolio_0014} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-
+        <Image alt="sesja ślubna na Rynku Głównym w Krakowie" src={chan_kristina_sesja_slubna_krakow} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="gadżety przydatne podczas sesji poślubnej" src={fotograf_slubny_portfolio_2023_192} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           WSKAZÓWKI I REKOMENDACJE MIEJSC
         </Typography>
@@ -106,9 +126,9 @@ const PageComponent = () => {
           Korzkwi. Zachód Krakowa to Zalew w Kryspinowie, Dolina Bolechowicka, Zamek w Przegorzałach, Kopiec Kościuszki i Skałki Twardowskiego. Południe to Park w Mogilanach, Kopiec Kraka i Park
           Bednarskiego. Wschód Krakowa natomiast to industrialne klimaty Nowej Huty oraz Muzeum Lotnictwa na Czyżynach.
         </Typography>
-        <Image alt="oryginalne zdjęcia z pleneru ślubnego" src={portfolio_0008} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-       
 
+        <Image alt="oryginalne zdjęcia z pleneru ślubnego" src={portfolio_0008} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Centrum to kwintesencja Krakowa czyli Bulwary Wiślane, klimatyczny Kazimierz, Plac Nowy, kluby i restauracje reprezentowane przez Mleczarnię, Alchemię, Starą Zajezdnie czy też Studio
           Qulinarne. Stare Miasto i niezliczona ilość uliczek, Wawel, Planty, Zaułek Czartoryskich, Opera Krakowska, Sukiennice i Rynek Główny, Browar Lubicz, Hotel Stary - wymieniać przeróżne miejsca
@@ -116,14 +136,15 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="sesja zdjęciowa Pałac Goetza Brzesko" src={sesja_zdjeciowa_palac_goetzow_brzesko} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-
+        <Image alt="jakie miejsce wybrać na plener ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_539} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Przygotowując się do sesji zdjęciowej i szukając odpowiedzi na pytanie gdzie można zrobić sesję fotograficzną w Krakowie, wpiszcie miejsca z powyższego paragrafu, a gwarantuję, że
           znajdziecie coś dla Was. Niezliczona ilość zakątków, ciekawych miejsc tych bardziej znanych i dopiero czekających na odkrycie.
         </Typography>
 
         <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_2021_1} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-        <Image alt="ciekawe miejsca na sesje plenerową w Krakowie" src={plener_slubny_konie} width={1140} height={555} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="plener ślubny w górach" src={fotograf_slubny_krakow_17} width={1140} height={849} style={{width: '100%', height: 'auto'}}  />
      
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Sesja zdjęciowa w Krakowie to przede wszystkim dobry plan w układaniu którego bardzo chętnie Wam pomogę, konsultując logistykę miejsc, podpowiadając pory dnia, które będą najlepsze dla danej
@@ -131,7 +152,8 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="budowanie kreatywności w fotografii ślubnej" src={plener_slubny_slowacja} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-     
+        <Image alt="miłość na zdjęciach plenerowych" src={fotograf_slubny_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Warto też przygotować makijaż i fryzurę zbliżone do tego z dnia ślubu . Pamiętajcie też, by koniecznie zabrać ze sobą dobry humor - jest to bardzo ważne.
         </Typography>
@@ -149,7 +171,8 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="chwila, światło, kadr w fotografii ślubnej" src={portfolio_300} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-
+        <Image alt="miejscówki polecane na plener ślubny" src={fotograf_slubny_krakow_9} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Budowanie kreatywności, poszukiwanie szczerości i wyjątkowości w kadrze to ciągła praca. Wierzcie mi, że im dalej jestem, tym więcej pracy widzę przed sobą. Każda kolejna sesja zdjęciowa
           buduje świadomość tego co mam mieć w kadrze i jak mam tego szukać. Tysiące przeglądniętych zdjęć pozwalają zdefiniować kadr, znaleźć inspirację i odpowiedzieć na pytanie co i jak chcę
@@ -166,13 +189,14 @@ const PageComponent = () => {
         </Typography>
         
         <Image alt="plener ślubny Kopiec Krakusa" src={plener_slubny_w_gorach} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-
+        <Image alt="plener ślubny w Zamku" src={fotograf_slubny_portfolio_2023_312} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+    
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Plener ślubny w Krakowie to najlepszy moment na upamiętnienie tych najpiękniejszych i najromantyczniejszych chwil na fotografiach. To chwila na oderwanie się od rzeczywistości i wcielenie w
           rolę rozluźnionego modela. Spotkajmy się w Krakowie, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze. Serdecznie zapraszam.
         </Typography>
 
-        <Image alt="sesja ślubna na Rynku Głównym w Krakowie" src={chan_kristina_sesja_slubna_krakow} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="Ogród Botaniczny, wymarzone miejsce na sesję ślubną" src={fotograf_slubny_portfolio_2023_555} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
       </Container>
     </LayoutSitePage>

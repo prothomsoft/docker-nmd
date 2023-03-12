@@ -26,7 +26,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Referencje od Par Młodych."
+      title="Referencje od Par Młodych"
       description="Referencje od Par Młodych. Kilka dobrych słów, które jako polecany fotograf na wesele otrzymałem po wykonaniu reportażu ślubnego. Zapraszam do lektury."
       keywords="Referencje od Par Młodych, Polecany fotograf na wesele Kraków"
       url="https://99foto.pl/referencje/"

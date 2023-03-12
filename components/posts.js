@@ -971,16 +971,6 @@ export const posts = [
       image: process.env.staticS3ImagesPath + "blog/2017/04/fotograf_slubny_krakow_0155.webp",
     },
     {
-      date: "2017-04-28T07:06:51",
-      slug: "zdjecia-slubne-restauracja-stek-myslenice",
-      title: "ZDJĘCIA ŚLUBNE RESTAURACJA STEK MYŚLENICE",
-      content:
-        "Bardzo słoneczny i ciepły początek kwietnia zwiastował piękną, pełną białych kwiatów na drzewach wiosnę. W połowie drogi miesiąc stracił wątek i powrócił do niższych zimowych temperatur, a w górach nawet do pokaźnej warstwy śniegu. Wyobrażam więc sobie, że sobotnie przedpołudnie w Filipowicach, gdzie rozpoczęliśmy reportaż ślubny z najważniejszego dnia Sylwii i Tomka, minął między innymi na sprawdzaniu pogody i wyczekiwaniu na wymarzone słońce. Udało się i pogoda w drugiej części dnia dopisała, a krótki plener w Zarabiu u stóp Góry Chełm, który zrobiliśmy na dosłownie kilka chwil opuszczając gości, doświetlały ciepłe promienie zachodzącego słońca. Ale może zacznę od początku. Kilka minut po godzinie dwunastej pod domem Sylwii pojawił się szybki samochód, z którego wysiadł Tomek. Chwilę później w rękach Sylwii wylądował piękny bukiet kwiatów, a Tomasz w zamian otrzymał kilka słodkich buziaków.",
-      names: ["SYLWIA I TOMASZ"],
-      tags: ["Fotograf ślubny Myślenice", "Restauracja Stek Myślenice"],
-      image: process.env.staticS3ImagesPath + "blog/2017/04/fotograf_slubny_myslenice_0018.webp",
-    },
-    {
       date: "2017-02-10T17:35:57",
       slug: "dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie",
       title: "DOM WESELNY W JABŁONCE, ZDJĘCIA ŚLUBNE PRZYSTAŃ W KABANOSIE",

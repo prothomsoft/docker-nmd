@@ -26,6 +26,20 @@ const  plener_w_dniu_slubu = process.env.staticS3ImagesPath + "portfolio/plener_
 const  mustang_na_slub = process.env.staticS3ImagesPath + "portfolio/mustang_na_slub.webp";
 const  kopiec_krakusa_sesja_slubna = process.env.staticS3ImagesPath + "portfolio/kopiec_krakusa_sesja_slubna.webp";
 
+const fotograf_slubny_portfolio_2023_189 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_189.webp";
+const fotograf_slubny_portfolio_2023_114 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_114.webp";
+const fotograf_slubny_portfolio_2023_081 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_081.webp";
+const fotograf_slubny_portfolio_2023_502 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_502.webp";
+const fotograf_slubny_portfolio_2023_696 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_696.webp";
+const fotograf_slubny_portfolio_2023_325 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_325.webp";
+const fotograf_slubny_portfolio_2023_013 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_013.webp";
+const fotograf_slubny_portfolio_2023_003 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_003.webp";
+const fotograf_slubny_portfolio_2023_137 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_137.webp";
+const fotograf_slubny_portfolio_2023_196 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_196.webp";
+const fotograf_slubny_krakow_3 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_3.webp";
+const natalia = process.env.staticS3ImagesPath + "portfolio/natalia.webp";
+
+
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.webp";
   const theme = useTheme();
@@ -57,7 +71,16 @@ const PageComponent = () => {
           niepowtarzalnych, ważnych momentów, które finalnie utworzą historię tego jednego z najważniejszych dni w życiu Pary Młodej.
         </Typography>
 
-        <Image alt="Dekoracja sali weselnej w stylu rustykalnym" src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority />
+       
+
+        
+        
+        
+        
+        
+ 
+        <Image alt="miłość zatrzymana na zdjęciach" src={portfolio_2021_2} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority/>
+        <Image alt="autentyczne emocje na zdjęciach ślubnych" src={fotograf_slubny_portfolio_2023_013} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Niezwykle ważne jest zachowanie dyskrecji i fotografowanie zdarzeń bez ich jakiegokolwiek reżyserowania. Pomimo, że takie podejście do tworzenia reportażu ślubnego jest z całą pewnością
@@ -65,6 +88,9 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Miejsca, wydarzenia, emocje w fotografii ślubnej" src={portfolio_0013} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="pozowane zdjęcia grupowe" src={mustang_na_wesele} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
+
+        
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajmy, że nie każda bliska nam osoba jest gościem naszego ślubu, dlatego album ślubny powinien być niebanalny i pokazać piękno dnia, oraz przekazać emocje, dobrą zabawę, która temu dniu
@@ -72,8 +98,10 @@ const PageComponent = () => {
           wychwytywania emocji i przedstawiania ich w najlepszy możliwy sposób.
         </Typography>
 
-        <Image alt="Ogromne możliwości w fotografii ślubnej" src={portfolio_0001} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-
+        
+        <Image alt="pozowane zdjęcia grupowe" src={natalia} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
+        <Image alt="dobry fotograf w Krakowie" src={fotograf_slubny_portfolio_2023_003} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           FOTOGRAF JAKO REPORTER ŚLUBNY
         </Typography>
@@ -85,6 +113,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Własny styl w fotografii ślubnej" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="najlepsze zdjęcia ślubne roku" src={fotograf_slubny_portfolio_2023_196} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajmy jednak, że osoba zajmująca się fotografią ślubną to osoba, która poświęciła setki godzin na odkrywanie nowych technik, doskonalenie warsztatu, podpatrywanie mistrzów, próby i
@@ -93,6 +122,9 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
+        
+        
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           MOJE PODEJŚCIE DO REPORTAŻU ŚLUBNEGO
@@ -107,6 +139,8 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={portfolio_0021} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="fotograf na wesele Kraków" src={fotograf_slubny_portfolio_2023_114} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Kadr to wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki. Reportaż ślubny wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
@@ -117,6 +151,8 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="fotografia, pasja tworzenia reportaży ślubnych" src={portfolio_0015} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
+        <Image alt="polecany fotograf ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_081} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Jestem fanem autentycznych emocji. Staram się nie prosić o uśmiech i cierpliwie czekam, aż przyjdzie on sam. W mojej pracy fotografa ślubnego kieruję się planem, doświadczeniem, ograniczając
@@ -125,8 +161,9 @@ const PageComponent = () => {
           odnaleźć Wasze emocje i wrócić do niesamowitych chwil dnia Waszego ślubu.
         </Typography>
 
-        <Image alt="pozowane zdjęcia grupowe" src={mustang_na_wesele} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
-
+        <Image alt="uczucia zatrzymane w kadrze" src={fotograf_slubny_portfolio_2023_137} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image alt="doświadczony fotograf na wesele z Krakowa" src={martyna_slub_tesla} width={1140} height={525} style={{width: '100%', height: 'auto'}}/>
+        
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           POZOWANE ZDJĘCIA GRUPOWE
         </Typography>
@@ -137,8 +174,8 @@ const PageComponent = () => {
           szczególnie jeżeli ceremonia rozpoczyna się trochę później a na sali weselnej dla Waszych gości przygotowaliście moc atrakcji.
         </Typography>
 
-        <Image alt="doświadczony fotograf na wesele z Krakowa" src={martyna_slub_tesla} width={1140} height={525} style={{width: '100%', height: 'auto'}}/>
-
+        <Image alt="fotografia ślubna dla wymagających" src={fotograf_slubny_portfolio_2023_502} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ZAUFANIE DO FOTOGRAFA
         </Typography>
@@ -149,7 +186,10 @@ const PageComponent = () => {
           że trzyma on rękę na pulsie i tworzy dla Was niezapomnianą pamiątkę. Takie podejście to gwarancja autentycznej opowieści ślubnej.
         </Typography>
 
+        <Image alt="fotograf nie za miliony monet" src={fotograf_slubny_portfolio_2023_696} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={patrycja_slub} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
+        
+        
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           PRZYGOTOWUJEMY HARMONOGRAM DNIA
@@ -163,7 +203,8 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Harmonogram dnia ślubu" src={dworzyszcze_wola_reportaz_slubny_pod_krakowem} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={kopiec_krakusa_sesja_slubna} width={1140} height={760} style={{width: '100%', height: 'auto'}}/>
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Warto wziąść kartkę, długopis i planowanie rozpocząć od wpisania godziny o której rozpoczyna się ślub w
           Kościele. Od tego punktu zaczynamy planowanie całego dnia. Na początek weźmy pod uwagę, że przed Kościołem dobrze być dwadzieścia minut wcześniej z tego względu, że bardzo często dokumenty
@@ -172,7 +213,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="podpisanie dokumentów przez świadków wesela" src={portfolio_0022}width={1140} height={761} style={{width: '100%', height: 'auto'}}/>
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={kopiec_krakusa_sesja_slubna} width={1140} height={760} style={{width: '100%', height: 'auto'}}/>
+        <Image alt="idealne miejsca na organizacje przyjęcia ślubnego w Krakowie" src={fotograf_slubny_portfolio_2023_325} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Przed wyjściem do Kościoła czekają Was ślubne przygotowania. Dobrze gdy określicie ile czasu jedzie się z domu Panny Młodej do Kościoła. Przed wyjazdem planujemy błogosławieństwo, które
@@ -191,6 +232,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Błogosławieństwo rodziców i zdjęcia grupowe" src={wesele_na_polu_golfowym_w_paczoltowicach_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="Ogromne możliwości w fotografii ślubnej" src={portfolio_0001} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Przygotowania Pana Młodego i często pierwsze błogosławieństwo w jego rodzinnym domu, również powinno stać się punktem harmonogramu. Przy planowaniu tego elementu dobrze jest zarezerwować
@@ -205,13 +247,15 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="ślub i zero stresu" src={aleksandra_mszana_dolna} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="reportaż ślubny Kraków" src={fotograf_slubny_portfolio_2023_189} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajcie, że jest bardzo ważne, żeby taki harmonogram w dniu ślubu powstał i gdzieś w domu leżał, żeby wszyscy mieli do niego dostęp i aby się do tego harmonogramu stosować. Pomoże Wam to trzymać
           się ram czasowych, unikniecie dzięki temu nadmiernej ilości stresu i po prostu będziecie bardziej spokojni.
         </Typography>
 
-        <Image alt="styl w fotografii ślubnej" src={beata_marcin_mszana_dolna_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="Dekoracja sali weselnej w stylu rustykalnym" src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="" src={fotograf_slubny_krakow_3} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie zapraszam do odwiedzenia{" "}
@@ -221,8 +265,9 @@ const PageComponent = () => {
           i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej
           będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
         </Typography>
-
-        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={portfolio_2021_2} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image alt="styl w fotografii ślubnej" src={beata_marcin_mszana_dolna_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
+        
       </Container>
     </LayoutSitePage>
   );

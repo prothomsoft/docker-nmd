@@ -123,7 +123,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Jakie pytania zadać fotografowi. Wybór fotografa na Twój ślub"
+      title="Wybór fotografa na Twój ślub"
       description="Często zadawane pytania i moje odpowiedzi. Zapraszam do zapoznania się z informacjami, które ułatwią Wam podjęcie decyzji wyboru fotografa na Wasz ślub."
       keywords="pytania do fotografa, wybór fotografa na ślub"
       url="https://99foto.pl/misja-i-faq/"
