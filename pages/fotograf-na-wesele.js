@@ -15,7 +15,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Fotograf na wesele Kraków."
+      title="Fotograf na wesele Kraków"
       description="Fotograf na wesele z Krakowa. Zapraszam do zapoznania się z portfolio i skorzystania z mojej oferty. Gwarantuję wysokość jakość usług i konkurencyjne ceny."
       keywords="sesja zdjęciowa kraków,fotograf na wesele kraków"
       url="https://99foto.pl/misja-i-faq/"

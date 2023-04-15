@@ -61,7 +61,7 @@ const BlogPageComponent = () => {
                     leadNames={"MARLENA i ADAM"}
                     leadTitle={"SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNE NA ROMANTYCZNE KADRY"}
                     leadUrl={"/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry"}
-                    leadImage={process.env.staticS3ImagesPath + "/marlena_start.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "marlena_start.webp"}
                 />
             
         );

@@ -63,7 +63,7 @@ const BlogPageComponent = () => {
                     leadNames={"PATRYCJA i KRZYSZTOF"}
                     leadTitle={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE"}
                     leadUrl={"/plener-slubny-na-rynku-w-krakowie"}
-                    leadImage={process.env.staticS3ImagesPath + "/plener_slubny_na_rynku_w_krakowie.webp"}
+                    leadImage={process.env.staticS3ImagesPath + "plener_slubny_na_rynku_w_krakowie.webp"}
                 />
             
         );
