@@ -31,7 +31,7 @@ const PostLink = ({ post }) => (
     <Divider sx={{ mb: 1 }} />
 
     <Link href={`/${post.slug}`}>
-      <Image alt={post.title} src={post.image} width={1140} height={762} style={{width: '100%', height: 'auto'}} />
+      <Image quality={100} alt={post.title} src={post.image} width={1140} height={762} style={{width: '100%', height: 'auto'}} />
     </Link>
 
     <Typography color="text.secondary" align="justify" sx={{ py: 1, "& > a": { color: "white" } }} dangerouslySetInnerHTML={{ __html: post.content }} />

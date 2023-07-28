@@ -314,7 +314,7 @@ const PageComponent = () => {
 const CarouselItem = (props) => {
     return (
         <Box>
-            <Image src={props.item.image} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+            <Image quality={100} src={props.item.image} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         </Box>
     )
 }

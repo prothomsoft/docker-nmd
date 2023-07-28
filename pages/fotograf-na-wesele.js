@@ -37,7 +37,7 @@ const PageComponent = () => {
           niesamowitą przygodę, która pozwala mi spełniać marzenia. Jestem przekonany, że najlepsze zdjęcia są jeszcze przede mną.
         </Typography>
 
-        <Image alt="fotograf na wesele kraków" src={wakacje_bukowina} width={1140} height={762} style={{width: '100%', height: 'auto'}} priority />
+        <Image quality={100} alt="fotograf na wesele kraków" src={wakacje_bukowina} width={1140} height={762} style={{width: '100%', height: 'auto'}} priority />
 
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">

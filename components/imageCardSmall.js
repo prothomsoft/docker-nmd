@@ -13,7 +13,7 @@ const ImageCardSmall = (props) => {
       <Link href={props.linkhref}>
         <CardActionArea>        
             <CardMedia>
-                <Image src={props.imgsrc} alt={props.imgalt} width={540} height={360} style={{width: '100%', height: 'auto'}} />
+                <Image quality={100} src={props.imgsrc} alt={props.imgalt} width={540} height={360} style={{width: '100%', height: 'auto'}} />
             </CardMedia>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

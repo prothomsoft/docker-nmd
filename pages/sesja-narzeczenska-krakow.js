@@ -15,6 +15,9 @@ const sesja_narzeczenska_krakow_4 = process.env.staticS3ImagesPath + "portfolio/
 const sesja_narzeczenska_krakow_7 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_7.webp";
 const sesja_narzeczenska_krakow_14 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_14.webp";
 const sesja_narzeczenska_kopiec_krakusa = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_kopiec_krakusa.webp";
+const sesja_narzeczenska_kopiec_krakusa_krakow = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_kopiec_krakusa_krakow.webp";
+const sesja_narzeczenska_stara_zajezdnia_krakow = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_stara_zajezdnia_krakow.webp";
+const sesja_narzeczenska_stare_podgorze_krakow = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_stare_podgorze_krakow.webp";
 
 
 const PageComponent = () => {
@@ -49,7 +52,7 @@ const PageComponent = () => {
           sesja odzwierciedlała Wasze wnętrza i w pełni Wam pasowała. Kilka z nich znajdziecie poniżej.
         </Typography>
 
-        <Image alt="jak przygotować się do sesji narzeczeńskiej" src={sesja_narzeczenska_krakow_1} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="jak przygotować się do sesji narzeczeńskiej" src={sesja_narzeczenska_krakow_1} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority/>
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           WYBÓR MIEJSCA NA SESJĘ NARZECZEŃSKĄ
@@ -64,8 +67,8 @@ const PageComponent = () => {
           przedstawię Wam kilka moich sugestii i na ich podstawie coś wspólnie ustalimy.
         </Typography>
 
-        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_19} width={1140} height={852}  style={{width: '100%', height: 'auto'}} priority/>
-
+        <Image quality={100} alt="sesja narzeczeńska Stara Zajezdnia Kraków" src={sesja_narzeczenska_stara_zajezdnia_krakow} width={1140} height={852} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ODPOWIEDNI STRÓJ
         </Typography>
@@ -77,7 +80,7 @@ const PageComponent = () => {
           makijaż nie są koniecznością, ale mogą zwiększyć Waszą pewność siebie i ułatwić przygotowanie się w dniu sesji zdjęciowej.
         </Typography>
 
-        <Image alt="sesja narzeczeńska w Krakowie" src={sesja_narzeczenska_2} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja narzeczeńska w Krakowie" src={sesja_narzeczenska_2} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           UMÓW SIĘ NA MAKIJAŻ
@@ -89,7 +92,7 @@ const PageComponent = () => {
           Zachęcam i zdecydowanie warto się na taki makijaż przedślubny zdecydować.
         </Typography>
 
-        <Image alt="sesja narzeczeńska, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja narzeczeńska, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CO ZE SOBĄ ZABRAĆ?
@@ -102,7 +105,7 @@ const PageComponent = () => {
           się zmieścić wszystko w jednej torbie, żeby ułatwić transport. Zaufaj mi, będziesz zadowolony, że nie trzeba będzie nosić ze sobą więcej rzeczy niż naprawdę potrzeba.
         </Typography>
 
-        <Image alt="dlaczego warto zdecydować się na sesję narzeczeńską" src={sesja_narzeczenska_krakow_4} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="dlaczego warto zdecydować się na sesję narzeczeńską" src={sesja_narzeczenska_kopiec_krakusa_krakow} width={1140} height={762} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ZŁOTA GODZINA
@@ -114,7 +117,7 @@ const PageComponent = () => {
           godzinach spotkamy się na wakacjach, a trochę wcześniej późną jesienią.
         </Typography>
 
-        <Image alt="autentyczne emocje w fotografii ślubnej" src={sesja_narzeczenska_krakow_3} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="autentyczne emocje w fotografii ślubnej" src={sesja_narzeczenska_krakow_3} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CIESZCIE SIĘ CHWILĄ
@@ -123,11 +126,17 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Nie warto się stresować swoją sesją narzeczeńską. Jest to zazwyczaj długi spacer pełen uścisków, całusów, uśmiechów i przytulania. To jest czas dla Was. Poświęćcie go sobie. Wypełnijcie go
           relaksem i czujcie się swobodnie. Podczas spaceru poproszę Was, żebyście ze sobą rozmawiali i nie patrzyli na mnie. Chcę podejrzeć i sfotografować sposób, w jaki się wzajemnie rozśmieszacie,
-          wasze reakcje na to, co mówi druga osoba, uśmiechy i gesty. Obiecuję zrobić wszystko, co w mojej mocy, abyście czuli się swobodnie i komfortowo podczas sesji narzeczeńskiej. Pamiętajcie, że
+          wasze reakcje na to, co mówi druga osoba, uśmiechy i gesty.
+        </Typography>
+
+        <Image quality={100} alt="sesja narzeczeńska Stare Podgórze Kraków" src={sesja_narzeczenska_stare_podgorze_krakow} width={1140} height={762} style={{width: '100%', height: 'auto'}} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
+          Obiecuję zrobić wszystko, co w mojej mocy, abyście czuli się swobodnie i komfortowo podczas sesji narzeczeńskiej. Pamiętajcie, że
           robimy zdjęcia dokumentując Waszą miłość. Jeśli skoncentrujecie się na tym i skupicie się na sobie i przyszłych planach ślubnych, wszystko będzie dobrze.
         </Typography>
-                
-        <Image alt="jak przygotować się do sesji narzeczeńskiej" src={sesja_narzeczenska_krakow_14} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+
+        <Image quality={100} alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_19} width={1140} height={852}  style={{width: '100%', height: 'auto'}}/>
 
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           POGODA W DNIU SESJI NARZECZEŃSKIEJ
@@ -138,15 +147,16 @@ const PageComponent = () => {
           podejmując decyzję, czy sesję byędzie można zrealizować. Jeżeli na horyzoncie pojawi się deszcz lub będzie zimno to umawiamy się na inny dzień i sprawdzanie pogody zaczynamy od początku.
         </Typography>
 
-        <Image alt="sesja narzeczeńska w Krakowie" src={sesja_narzeczenska_kopiec_krakusa} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja narzeczeńska w Krakowie" src={sesja_narzeczenska_kopiec_krakusa} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Napisałem już o wszystkich najważniejszych czynnikach, które wpływają na efekt naszej sesji. Przygotujcie się do niej, rozkmińcie ją w szczegółach, tak by sesja narzeczeńska ukazała Waszą
           miłość jak również Was samych jak najlepiej oraz była wspaniałą pamiątką na całe przyszłe życie. Zróbmy to tak, by Wszyscy byli naprawdę zadowoleni. Pozdrawiam i zapraszam.
         </Typography>
 
-        <Image alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_1} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_1} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
+        
       </Container>
     </LayoutSitePage>
   );

@@ -62,7 +62,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_20} width={1140} height={762}  style={{width: '100%', height: 'auto'}} priority />
+        <Image quality={100} alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_20} width={1140} height={762}  style={{width: '100%', height: 'auto'}} priority />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku Twoje zdjęcia pokazują Twoją pasje i zaangażowanie, pełen profesjonalizm i pracę jaką wkładasz w to aby były nietuzinkowe. Świetna gra świateł, idealnie dobrane kolory i bardzo
           trafione czarnobiałe fotografie. Pokazałeś na zdjęciach nas takich jacy jesteśmy, a to chyba najpiękniejsze.{" "}
@@ -81,7 +81,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="piękne zdjęcia, pełne emocji reportaże ślubne" src={fotograf_slubny_krakow_2} width={1140} height={913} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="piękne zdjęcia, pełne emocji reportaże ślubne" src={fotograf_slubny_krakow_2} width={1140} height={913} style={{width: '100%', height: 'auto'}} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta przyjemność
           :-) słyszałam, że najlepszy aparaciarz to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze daje mnóstwo super pomysłów
@@ -106,7 +106,7 @@ const PageComponent = () => {
           .
         </Typography>
         
-        <Image alt="ślub w hotelu kasprowy zakopane" src={przysiega_w_kosciele_tokarnia} width={1140} height={760}  style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="ślub w hotelu kasprowy zakopane" src={przysiega_w_kosciele_tokarnia} width={1140} height={760}  style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Dziękujemy, dziękujemy, dziękujemy. Byliśmy pewni że nasza współpraca z Tomkiem przebiegnie idealnie i tak właśnie było. Polecamy wszystkim z całego serca!!!{" "}
@@ -129,7 +129,7 @@ const PageComponent = () => {
           </Link>
         </Typography>
 
-        <Image alt="pełne emocji reportaże ślubne, niezapomniane sesje plenerowe" src={fotograf_slubny_krakow_21} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="pełne emocji reportaże ślubne, niezapomniane sesje plenerowe" src={fotograf_slubny_krakow_21} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           W każdym calu zajebisty fotograf, a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka oraz wielu
@@ -153,7 +153,7 @@ const PageComponent = () => {
           Tomku dziekujemy jesteśmy oczarowani zdjęciami. W 100% polecamy Tomka pełen profesjonalizm, otwartość i zaangażowanie w to co robi jest na najwyższym poziomie. Agnieszka i Mateusz.
         </Typography>
 
-        <Image alt="wesele w stylu boho i rustykalnym" src={fotograf_slubny_krakow_12} width={1140} height={527} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="wesele w stylu boho i rustykalnym" src={fotograf_slubny_krakow_12} width={1140} height={527} style={{width: '100%', height: 'auto'}} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tak jak już wiele osób pisało - Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i radości.
           Wtapia się w gości, dzięki czemu zdjęcia są mega naturalne. Stwarza genialną atmosferę, jest przesympatyczny i ciągle uśmiechnięty – praca z Nim to sama przyjemność! A zdjęcia dostarcza
@@ -174,7 +174,7 @@ const PageComponent = () => {
           oku się kręci. Będziemy mieć super pamiątkę. Dziękujemy jeszcze raz za wspaniałą współprace. Polecamy z calego serca! Ola i Rafał.
         </Typography>
        
-        <Image alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_4} width={1140} height={849} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_4} width={1140} height={849} style={{width: '100%', height: 'auto'}} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Piękne zdjęcia i pełen profesjonalizm. Dziękujemy jeszcze raz za wspaniałą współprace. Szczerze polecam.{" "}
           <Link href="/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville">
@@ -190,7 +190,7 @@ const PageComponent = () => {
           wyzwaniami, takimi jak odblaski od okularów (powłoka blue care). Serdecznie polecamy! Anna i Grzegorz.
         </Typography>
 
-        <Image alt="samochód ślubny tesla" src={fotografia_slubna_krakow_44} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="samochód ślubny tesla" src={fotografia_slubna_krakow_44} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w
@@ -215,7 +215,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="dobry fotograf ślubny kraków" src={wesele_strazackie_tokarnia} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="dobry fotograf ślubny kraków" src={wesele_strazackie_tokarnia} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Niesamowicie się cieszymy, że to właśnie Tomek &quot;łapał chwile&quot; na naszym ślubie! Pasja i profesjonalizm widoczne są na każdym zdjęciu, i każde z nich można oprawić i powiesić na ścianie.
@@ -241,7 +241,7 @@ const PageComponent = () => {
           .
         </Typography>
         
-        <Image alt="sesja zdjęciowa kopiec kraka" src={fotograf_slubny_krakow_11} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja zdjęciowa kopiec kraka" src={fotograf_slubny_krakow_11} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
@@ -270,7 +270,7 @@ const PageComponent = () => {
           .
         </Typography>
         
-        <Image alt="Ślub w Bazylice Bożego Ciała w Krakowie" src={fotograf_slubny_krakow_14} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="ślub w Bazylice Bożego Ciała w Krakowie" src={fotograf_slubny_krakow_14} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku, z całego serca dziękujemy za cudowne zdjęcia z naszego ślubu. Lepszych nie mogliśmy sobie wymarzyć. Jesteśmy totalnie oczarowani relacją, która dla nas stworzyłeś. Idealnie uchwycone
@@ -301,7 +301,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="sala weselna Alexandra Mszana Dolna" src={fotograf_slubny_krakow_16} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sala weselna Alexandra Mszana Dolna" src={fotograf_slubny_krakow_16} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
         
       </Container>

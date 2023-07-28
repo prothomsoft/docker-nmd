@@ -149,7 +149,7 @@ const PageComponent = () => {
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
         </Box>
-        <Image alt="plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} width={1140} height={764} style={{width: '100%', height: 'auto'}} priority />
+        <Image quality={100} alt="plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} width={1140} height={764} style={{width: '100%', height: 'auto'}} priority />
         <Box sx={{ py: 2 }}>
         <FaqAccordion q1={schemaData.mainEntity[4].name}
                             a1={schemaData.mainEntity[4].acceptedAnswer.text} 
@@ -160,7 +160,7 @@ const PageComponent = () => {
                             q4=""
                             a4="" />
         </Box>
-        <Image alt="fotograf na wesele kraków" src={sesja_plenerowa_kasprowy} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="fotograf na wesele kraków" src={sesja_plenerowa_kasprowy} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
 
         <Box sx={{ py: 2 }}>
         <FaqAccordion q1={schemaData.mainEntity[7].name}
@@ -173,7 +173,7 @@ const PageComponent = () => {
                             a4="" />
         </Box>
 
-        <Image alt="sesja zdjęciowa w Krakowie" src={sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="sesja zdjęciowa w Krakowie" src={sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Box sx={{ py: 2 }}>
         <FaqAccordion q1={schemaData.mainEntity[10].name}
                             a1={schemaData.mainEntity[10].acceptedAnswer.text} 
@@ -184,7 +184,7 @@ const PageComponent = () => {
                             q4={schemaData.mainEntity[13].name}
                             a4={schemaData.mainEntity[13].acceptedAnswer.text}  />
         </Box>
-        <Image alt="reportaź ślubny w Krakowie" src={fotograf_slubny_krakow_22} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="reportaź ślubny w Krakowie" src={fotograf_slubny_krakow_22} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography align="justify" color="text.secondary" sx={{ py: 2 }}>
           Jeżeli odpowiedzi na często zadawane pytania nie rozwiały Twoich wątpliwości lub pominąłem pytanie, które siedzi w Twojej głowie to napisz do mnie proszę wykorzystując poniższy formularz

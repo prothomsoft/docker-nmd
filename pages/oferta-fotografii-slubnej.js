@@ -87,7 +87,7 @@ const PageComponent = () => {
           </Grid>
         </Grid>
         <Box sx={{ pt: 2 }}>
-          <Image alt="oferta fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}}  priority />
+          <Image quality={100} alt="oferta fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}}  priority />
         </Box>
 
         <Box sx={{ pt: 2, py: 1 }}>
@@ -139,7 +139,7 @@ const PageComponent = () => {
         </Grid>
 
         <Box sx={{ pt: 2 }}>
-          <Image alt="oferta sesji zdjęciowej" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+          <Image quality={100} alt="oferta sesji zdjęciowej" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         </Box>
       </Container>
     </LayoutSitePage>

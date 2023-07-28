@@ -1,5 +1,15 @@
 export const posts = [
   {
+    date: "2023-07-09T08:24:29",
+    slug: "dom-weselny-panorama-stary-wisnicz",
+    title: "DOM WESELNY PANORAMA STARY WIŚNICZ, ŚLUB PRZY ZAMKU",
+    content:
+      'Wymarzony dzień ślubu Magdaleny i Wojciecha zaczyna się pewnie od śniadania, ale tak naprawdę od przygotowań ślubnych w studio makijażu <a href="https://www.facebook.com/WiolettaWlodarczykMiniMakeupArt" target="_blank" rel="nofollow noopener noreferrer">Mini Make-up Art</a>, w którym doświadczona wizażystka Wioletta tworzy piękny makijaż. Siedząc przed lustrem, Magdalena cieszy się chwilą relaksu i podziwia efekt końcowy - delikatny, ale podkreślający jej naturalną urodę. Kiedy nadchodzi moment, aby przejść do ceremonii, Magdalena czuje, że serce bije mocniej ze wzruszenia i podekscytowania. W kościele <a href="https://www.parafialeszczyna.pl/" target="_blank" rel="nofollow noopener noreferrer">Parafia NMP Częstochowskiej w Leszczynie</a> panuje atmosfera pełna emocji, a gdy razem z Wojciechem wędrują do ołtarza, nie mogą powstrzymać łez wzruszenia. Błogosławieństwo i wymienianie przysiąg są najważniejszym momentem tego dnia. Podczas ich składania w powietrzu da się wyczuć ogromną miłość i zaufanie. Te wzruszające chwile na zawsze pozostaną w pamięci.',
+    names: ["MAGDALENA i WOJCIECH"],
+    tags: ["Dom weselny Panorama Stary Wiśnicz, ślub przy zamku, wesele w modnej sali"],
+    image: process.env.staticS3ImagesPath + "blog/2023/07/panorama_nowy_wisnicz_0029.webp",
+  },
+  {
     date: "2022-06-24T08:24:29",
     slug: "dom-weselny-mogielica-jurkow-rustykalne-wesele",
     title: "DOM WESELNY MOGIELICA JURKÓW, RUSTYKALNE WESELE",
