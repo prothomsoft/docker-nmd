@@ -23,15 +23,17 @@ const sesja_zdjeciowa_szczyrbskie = process.env.staticS3ImagesPath + "portfolio/
 const portfolio_2021_1 = process.env.staticS3ImagesPath + "portfolio/portfolio_2021_1.webp";
 const fotograf_slubny_krakow_17 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_17.webp";
 const fotograf_slubny_krakow_10 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_10.webp";
-const fotograf_slubny_portfolio_2023_170 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_170.webp"; //plener
-const fotograf_slubny_portfolio_2023_570 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_570.webp"; //plener
-const fotograf_slubny_portfolio_2023_555 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_555.webp"; //plener
-const fotograf_slubny_portfolio_2023_539 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_539.webp"; //plener
-const fotograf_slubny_portfolio_2023_312 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_312.webp"; //plener
-const fotograf_slubny_portfolio_2023_192 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_192.webp"; //plener
-const fotograf_slubny_portfolio_2023_415 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_415.webp"; //plener
-const fotograf_slubny_krakow_7 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_7.webp"; //plener
-const fotograf_slubny_krakow_9 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_9.webp"; //plener
+const fotograf_slubny_portfolio_2023_170 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_170.webp";
+const fotograf_slubny_portfolio_2023_570 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_570.webp";
+const fotograf_slubny_portfolio_2023_555 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_555.webp";
+const fotograf_slubny_portfolio_2023_539 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_539.webp";
+const fotograf_slubny_portfolio_2023_312 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_312.webp";
+const fotograf_slubny_portfolio_2023_192 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_192.webp";
+const fotograf_slubny_portfolio_2023_415 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_415.webp";
+const fotograf_slubny_krakow_7 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_7.webp";
+const fotograf_slubny_krakow_9 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_9.webp";
+const portfolio_plener_slubny_folwark_zalesie = process.env.staticS3ImagesPath + "portfolio/portfolio_plener_slubny_folwark_zalesie.webp";
+const portfolio_plener_slubny_stare_podgorze_krakow = process.env.staticS3ImagesPath + "portfolio/portfolio_plener_slubny_stare_podgorze_krakow.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.webp";
@@ -128,6 +130,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="oryginalne zdjęcia z pleneru ślubnego" src={portfolio_0008} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="sesja zdjęciowa Pałac Goetza Brzesko" src={sesja_zdjeciowa_palac_goetzow_brzesko} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Centrum to kwintesencja Krakowa czyli Bulwary Wiślane, klimatyczny Kazimierz, Plac Nowy, kluby i restauracje reprezentowane przez Mleczarnię, Alchemię, Starą Zajezdnie czy też Studio
@@ -135,7 +138,7 @@ const PageComponent = () => {
           można długo.
         </Typography>
 
-        <Image quality={100} alt="sesja zdjęciowa Pałac Goetza Brzesko" src={sesja_zdjeciowa_palac_goetzow_brzesko} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="plener ślubny nad jeziorem" src={portfolio_plener_slubny_folwark_zalesie} width={1140} height={1426} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="jakie miejsce wybrać na plener ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_539} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
@@ -144,12 +147,13 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_2021_1} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="plener ślubny Stare Podgórze Kraków" src={portfolio_plener_slubny_stare_podgorze_krakow} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="plener ślubny w górach" src={fotograf_slubny_krakow_17} width={1140} height={849} style={{width: '100%', height: 'auto'}}  />
      
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Sesja zdjęciowa w Krakowie to przede wszystkim dobry plan w układaniu którego bardzo chętnie Wam pomogę, konsultując logistykę miejsc, podpowiadając pory dnia, które będą najlepsze dla danej
           lokalizacji. Zdjęcia z pleneru mają być niezwykłe i niepowtarzalne dlatego warto poświęcić chwilę na znalezienie odpowiednich rekwizytów, które nadadzą sesji oryginalności.
-        </Typography>
+        </Typography>Ļ
 
         <Image quality={100} alt="budowanie kreatywności w fotografii ślubnej" src={plener_slubny_slowacja} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="miłość na zdjęciach plenerowych" src={fotograf_slubny_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />

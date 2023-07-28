@@ -1,5 +1,15 @@
 export const posts = [
   {
+    date: "2023-08-01T08:24:29",
+    slug: "dom-weselny-oberwanka-lostowka",
+    title: "DOM WESELNY OBERWANKA ŁOSTÓWKA, ŚLUB W BESKIDACH",
+    content:
+      'Beskid Wyspowy to malowniczy region w południowej Polsce, który idealnie nadaje się jako sceneria do romantycznego ślubu i wesela. Charakteryzuje się on pięknymi krajobrazami, malowniczymi wioskami oraz tradycyjną architekturą, co sprawia, że jest to wyjątkowe miejsce na organizację uroczystości ślubnych. Wesele w Beskidzie Wyspowym można zorganizować korzystając z gościnności góralskich domów weselnych, które są doskonale przystosowane do organizacji tego typu imprez. Jednym z takich popularnych miejsc jest <a href="https://oberwanka.pl/" target="_blank" rel="nofollow noopener noreferrer">Dom Weselny Oberwanka</a> w Łostówce, który słynie z gościnności, pysznej regionalnej kuchni i pięknych widoków na górskie pasma. Każdy ślub to oczywiście ceremonia ślubna. W Beskidzie Wyspowym można znaleźć urokliwe kościoły, kaplice lub świątynie drewniane, które tworzą niepowtarzalny klimat. Para młoda może zdecydować się na ślub wśród zapierających dech w piersiach górskich widokach lub w urokliwych kościółkach położonych w malowniczych wioskach. Drewniana architektura i tradycyjne elementy wystroju nadają tym miejscom niepowtarzalny urok.',
+    names: ["ANGELIKA i MATEUSZ"],
+    tags: ["Dom weselny Oberwanka Łostówka, ślub w Beskidach, wesele boho"],
+    image: process.env.staticS3ImagesPath + "blog/2023/08/99FOTOPL_SP_149.webp",
+  },
+  {
     date: "2023-07-09T08:24:29",
     slug: "dom-weselny-panorama-stary-wisnicz",
     title: "DOM WESELNY PANORAMA STARY WIŚNICZ, ŚLUB PRZY ZAMKU",

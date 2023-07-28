@@ -38,6 +38,7 @@ const fotograf_slubny_portfolio_2023_137 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_196 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_196.webp";
 const fotograf_slubny_krakow_3 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_3.webp";
 const natalia = process.env.staticS3ImagesPath + "portfolio/natalia.webp";
+const dom_weselny_oberwanka_beskid_wyspowy = process.env.staticS3ImagesPath + "portfolio/dom_weselny_oberwanka_beskid_wyspowy.webp";
 
 
 const PageComponent = () => {
@@ -81,7 +82,6 @@ const PageComponent = () => {
 
         <Image quality={100} alt="miejsca, wydarzenia, emocje w fotografii ślubnej" src={portfolio_0013} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="pozowane zdjęcia grupowe" src={mustang_na_wesele} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
-
         
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
@@ -106,6 +106,9 @@ const PageComponent = () => {
 
         <Image quality={100} alt="własny styl w fotografii ślubnej" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="najlepsze zdjęcia ślubne roku" src={fotograf_slubny_portfolio_2023_196} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        
+
+        
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajmy jednak, że osoba zajmująca się fotografią ślubną to osoba, która poświęciła setki godzin na odkrywanie nowych technik, doskonalenie warsztatu, podpatrywanie mistrzów, próby i
@@ -197,7 +200,9 @@ const PageComponent = () => {
           rozpoczęcie się ceremonii ślubnej tuż przed wejściem do Kościoła.
         </Typography>
 
-        <Image quality={100} alt="podpisanie dokumentów przez świadków wesela" src={portfolio_0022}width={1140} height={761} style={{width: '100%', height: 'auto'}}/>
+        <Image quality={100} alt="wesele góralskie w beskidzie wyspowym oberwanka" src={dom_weselny_oberwanka_beskid_wyspowy} width={1140} height={912} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="podpisanie dokumentów przez świadków wesela" src={portfolio_0022}width={1140} height={761} style={{width: '100%', height: 'auto'}} />
+        
         <Image quality={100} alt="idealne miejsca na organizacje przyjęcia ślubnego w Krakowie" src={fotograf_slubny_portfolio_2023_325} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
