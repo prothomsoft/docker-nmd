@@ -153,7 +153,7 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Sesja zdjęciowa w Krakowie to przede wszystkim dobry plan w układaniu którego bardzo chętnie Wam pomogę, konsultując logistykę miejsc, podpowiadając pory dnia, które będą najlepsze dla danej
           lokalizacji. Zdjęcia z pleneru mają być niezwykłe i niepowtarzalne dlatego warto poświęcić chwilę na znalezienie odpowiednich rekwizytów, które nadadzą sesji oryginalności.
-        </Typography>Ļ
+        </Typography>
 
         <Image quality={100} alt="budowanie kreatywności w fotografii ślubnej" src={plener_slubny_slowacja} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="miłość na zdjęciach plenerowych" src={fotograf_slubny_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
