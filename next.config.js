@@ -4,13 +4,7 @@ const nextConfig = {
   swcMinify: true,
   output: 'standalone',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'sk99foto.s3.eu-west-3.amazonaws.com',
-        pathname: '**',
-      },
-    ],
+    domains: ['sk99foto.s3.eu-west-3.amazonaws.com'],
     deviceSizes: [640, 750, 828, 1080, 1140]
   },
   env: {
