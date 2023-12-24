@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /strefa-klienta
 Disallow: /polityka-prywatnosci-rodo
-Disallow: /zdjecia-slubne-restauracja-stek-myslenice
 Sitemap: https://99foto.pl/sitemap.xml
