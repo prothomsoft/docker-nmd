@@ -1,15 +1,4 @@
 export const posts = [
-
-  {
-    date: "2023-08-31T08:24:29",
-    slug: "palac-goetz-slub-humanistyczny",
-    title: "PAŁAC GOETZ, ŚLUB HUMANISTYCZNY W OKOLICACH KRAKOWA",
-    content:
-      'Ślub humanistyczny to forma ceremonii ślubnej, która nie jest związana z żadną konkretną religią. Jest to alternatywny sposób na zawarcie związku małżeńskiego, który kładzie nacisk na wartości ludzkie, miłość i zaangażowanie między partnerami. Ceremonia taka skupia się na uczuciach, wartościach i życiowych przekonaniach pary, a nie na religijnych tradycjach czy rytuałach. Podczas ślubu humanistycznego, para może wyrazić swoje uczucia i zaangażowanie wobec siebie poprzez osobiste przemówienia, czytanie wierszy, wybór ulubionej muzyki czy innych elementów, które są dla nich ważne. Ceremonia może być prowadzona przez humanistycznego celebranta. <a href="https://palacgoetz.pl/" target="_blank" rel="nofollow noopener noreferrer">Pałac Goetz</a> w Brzesku to doskonałe miejsce, gdzie można zorganizować ceremonię ślubu humanistycznego. Jest to piękne i historyczne miejsce, które może dostarczyć wyjątkowego tła dla takiej uroczystości.',
-    names: ["KAROLINA i RYAN"],
-    tags: ["Pałac Goetz, ślub humanistyczny, amerykańskie wesele w Polsce"],
-    image: process.env.staticS3ImagesPath + "blog/2023/31/palac_goetz_wesele_miedzynarodowe_0050.webp",
-  },
   {
     date: "2023-08-01T08:24:29",
     slug: "dom-weselny-oberwanka-lostowka",
