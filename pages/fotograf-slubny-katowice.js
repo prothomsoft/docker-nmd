@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -8,10 +10,9 @@ import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
-
-
-
-
+const wesele_w_beskidach = process.env.staticS3ImagesPath + "portfolio/small/wesele_w_beskidach.webp";
+const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_na_jurze.webp";
+const plener_slubny_palac_goetzow_brzesko = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_palac_goetzow_brzesko.webp";
 
 const fotograf_slubny_portfolio_2023_603 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_603.webp";
 const fotograf_slubny_portfolio_2023_604 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_604.webp";
@@ -43,9 +44,6 @@ const fotograf_slubny_portfolio_2023_630 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_631 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_631.webp";
 const fotograf_slubny_portfolio_2023_632 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_632.webp";
 const fotograf_slubny_portfolio_2023_634 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_634.webp";
-
-
-
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "dworek_fantazja_skomielna_biala_fotograf.webp";
@@ -308,6 +306,44 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+        <Grid item lg={4} p={1}>
+          <ImageCardSmall
+             imgsrc={plener_slubny_palac_goetzow_brzesko}
+             imgalt="plener ślubny pałac goetzów brzesko"
+             linkhref="sesja-slubna-jesienia-palac-goetzow-okocimskich"
+             title="PLENER ŚLUBNY PAŁAC GOETZÓW"
+             names="IZABELA i ARKADIUSZ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={plener_slubny_na_jurze}
+              imgalt="plener ślubny na jurze"
+              linkhref="plener-slubny-zamek-pieskowa-skala"
+              title="PLENER ŚLUBNY NA JURZE"
+              names="MARTYNA i MICHAŁ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={wesele_w_beskidach}
+              imgalt="wesele w besikdach"
+              linkhref="hotel-zywiecki-sala-przylekowka-wesele-w-beskidach"
+              title="WESELE W BESKIDACH ŻYWIEC"
+              names="NICOLA i RAFAŁ"
+            /> 
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

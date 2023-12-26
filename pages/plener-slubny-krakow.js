@@ -32,8 +32,11 @@ const fotograf_slubny_portfolio_2023_192 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_415 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_415.webp";
 const fotograf_slubny_krakow_7 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_7.webp";
 const fotograf_slubny_krakow_9 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_9.webp";
-const portfolio_plener_slubny_folwark_zalesie = process.env.staticS3ImagesPath + "portfolio/portfolio_plener_slubny_folwark_zalesie.webp";
 const portfolio_plener_slubny_stare_podgorze_krakow = process.env.staticS3ImagesPath + "portfolio/portfolio_plener_slubny_stare_podgorze_krakow.webp";
+const sesja_slubna_folwark_zalesie_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_slubna_folwark_zalesie_2023.webp";
+const sesja_plenerowa_folwark_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_plenerowa_folwark_2023.webp";
+const sesja_plenerowa_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_plenerowa_2023.webp";
+const sesja_plenerowa_kasprowy_wierch_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_plenerowa_kasprowy_wierch_2023.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "sesja_slubna_sukiennice_hotel_stary_krakow_start.webp";
@@ -75,8 +78,11 @@ const PageComponent = () => {
           miłość.
         </Typography>
 
+        <Image quality={100} alt="plener ślubny Stare Podgórze Kraków" src={portfolio_plener_slubny_stare_podgorze_krakow} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
+      
         <Image quality={100} alt="sesja zdjęciowa Kraków" src={portfolio_0002} width={1140} height={851} style={{width: '100%', height: 'auto'}}  />
-        <Image quality={100} alt="miejska sesja ślubna" src={fotograf_slubny_portfolio_2023_415} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja ślubna Folwark Zalesie" src={sesja_slubna_folwark_zalesie_2023} width={1140} height={912} style={{width: '100%', height: 'auto'}} />
+        
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Miejsce reportażu ślubnego jest zwykle mniej lub bardziej określone przez okoliczności, takie jakie jak miejsce zamieszkania Panny Młodej, korzystna oferta sali weselnej, dostępność
@@ -86,8 +92,9 @@ const PageComponent = () => {
         </Typography>
         
         <Image quality={100} alt="sesja zdjęciowa w zieleni" src={fotograf_slubny_portfolio_2023_570} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-        <Image quality={100} alt="plener śłubny Bulwary Wiślane" src={plener_0002} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-        
+        <Image quality={100} alt="fotografia plenerowa" src={sesja_plenerowa_2023} width={1140} height={711} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="gadżety przydatne podczas sesji poślubnej" src={fotograf_slubny_portfolio_2023_192} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           KIEDY ZROBIĆ PLENER ŚLUBNY
         </Typography>
@@ -108,6 +115,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="plener ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_170} width={1140} height={760} style={{width: '100%', height: 'auto'}} /> 
+        <Image quality={100} alt="plener ślubny Folwark Zalesie" src={sesja_plenerowa_folwark_2023} width={1140} height={711} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="sesja ślubna Zamek w Korzkwi" src={portfolio_0014} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
@@ -117,8 +125,10 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="sesja ślubna na Rynku Głównym w Krakowie" src={chan_kristina_sesja_slubna_krakow} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-        <Image quality={100} alt="gadżety przydatne podczas sesji poślubnej" src={fotograf_slubny_portfolio_2023_192} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja zdjęciowa kraków" src={sesja_zdjeciowa_krakow_5_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
+        
+
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           WSKAZÓWKI I REKOMENDACJE MIEJSC
         </Typography>
@@ -138,7 +148,7 @@ const PageComponent = () => {
           można długo.
         </Typography>
 
-        <Image quality={100} alt="plener ślubny nad jeziorem" src={portfolio_plener_slubny_folwark_zalesie} width={1140} height={1426} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="plener ślubny Kasprowy Wierch" src={sesja_plenerowa_kasprowy_wierch_2023} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="jakie miejsce wybrać na plener ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_539} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
@@ -147,7 +157,10 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="sesja ślubna Ogród Botaniczny Kraków" src={portfolio_2021_1} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-        <Image quality={100} alt="plener ślubny Stare Podgórze Kraków" src={portfolio_plener_slubny_stare_podgorze_krakow} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
+        
+        
+        
+        <Image quality={100} alt="miejska sesja ślubna" src={fotograf_slubny_portfolio_2023_415} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="plener ślubny w górach" src={fotograf_slubny_krakow_17} width={1140} height={849} style={{width: '100%', height: 'auto'}}  />
      
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
@@ -183,7 +196,7 @@ const PageComponent = () => {
           pokazywać.
         </Typography>
 
-        <Image quality={100} alt="sesja zdjęciowa kraków" src={sesja_zdjeciowa_krakow_5_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="plener śłubny Bulwary Wiślane" src={plener_0002} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="sesja ślubna Ogród Botaniczny Kraków" src={sesja_zdjeciowa_szczyrbskie} width={1140} height={525} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>

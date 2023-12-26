@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -7,6 +9,10 @@ import Image from "next/image";
 import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
+
+const slub_palac_goetz_portfolio = process.env.staticS3ImagesPath + "portfolio/small/slub_palac_goetz_portfolio.webp";
+const reportaz_slubny_krakow = process.env.staticS3ImagesPath + "portfolio/small/reportaz_slubny_krakow.webp";
+const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/small/hotel_mercure_kasprowy_zakopane.webp";
 
 const fotograf_slubny_portfolio_2023_044 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_044.webp";
 const fotograf_slubny_portfolio_2023_047 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_047.webp";
@@ -299,6 +305,44 @@ const PageComponent = () => {
                       a3={schemaData.mainEntity[2].acceptedAnswer.text}
                       q4={schemaData.mainEntity[3].name}
                       a4={schemaData.mainEntity[3].acceptedAnswer.text} />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+          <Grid item lg={4} p={1}>
+            <ImageCardSmall
+              imgsrc={slub_palac_goetz_portfolio}
+              imgalt="pałac goetz, ślub humanistyczny Kraków"
+              linkhref="palac-goetz-slub-humanistyczny"
+              title="ŚLUB HUMANISTYCZNY KRAKÓW"
+              names="KAROLINA i RYAN"
+            />
+           </Grid>
+          <Grid item lg={4} p={1}>
+            <ImageCardSmall
+             imgsrc={reportaz_slubny_krakow}
+             imgalt="reportaż ślubny kraków"
+             linkhref="dom-weselny-biala-perla-radziemice-reportaz-slubny"
+             title="REPORTAŻ ŚLUBNY KRAKÓW"
+             names="ŻANETA i SEBASTIAN"
+            />
+           </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={hotel_mercure_kasprowy_zakopane}
+              imgalt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu"
+              linkhref="wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje"
+              title="WESELE W ZAKOPANEM"
+              names="PATRYCJA i TOMASZ"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

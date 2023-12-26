@@ -6,26 +6,25 @@ import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-const  dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio = process.env.staticS3ImagesPath + "portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.webp";
-const  portfolio_0013 = process.env.staticS3ImagesPath + "portfolio/portfolio_0013.webp";
-const  portfolio_0001 = process.env.staticS3ImagesPath + "portfolio/portfolio_0001.webp";
-const  sala_weselna_nedan_pcim_reportaz_slubny_portfolio = process.env.staticS3ImagesPath + "portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.webp";
-const  portret_panny_mlodej = process.env.staticS3ImagesPath + "portfolio/portret_panny_mlodej.webp";
-const  portfolio_0021 = process.env.staticS3ImagesPath + "portfolio/portfolio_0021.webp";
-const  portfolio_2021_2 = process.env.staticS3ImagesPath + "portfolio/portfolio_2021_2.webp";
-const  portfolio_0015 = process.env.staticS3ImagesPath + "portfolio/portfolio_0015.webp";
-const  mustang_na_wesele = process.env.staticS3ImagesPath + "portfolio/mustang_na_wesele.webp";
-const  martyna_slub_tesla = process.env.staticS3ImagesPath + "portfolio/martyna_slub_tesla.webp";
-const  patrycja_slub = process.env.staticS3ImagesPath + "portfolio/patrycja_slub.webp";
-const  dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
-const  portfolio_0022 = process.env.staticS3ImagesPath + "portfolio/portfolio_0022.webp";
-const  wesele_na_polu_golfowym_w_paczoltowicach_portfolio = process.env.staticS3ImagesPath + "portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.webp";
-const  aleksandra_mszana_dolna = process.env.staticS3ImagesPath + "portfolio/aleksandra_mszana_dolna.webp";
-const  beata_marcin_mszana_dolna_portfolio = process.env.staticS3ImagesPath + "portfolio/beata_marcin_mszana_dolna_portfolio.webp";
-const  plener_w_dniu_slubu = process.env.staticS3ImagesPath + "portfolio/plener_w_dniu_slubu.webp";
-const  mustang_na_slub = process.env.staticS3ImagesPath + "portfolio/mustang_na_slub.webp";
-const  kopiec_krakusa_sesja_slubna = process.env.staticS3ImagesPath + "portfolio/kopiec_krakusa_sesja_slubna.webp";
-
+const dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio = process.env.staticS3ImagesPath + "portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.webp";
+const portfolio_0013 = process.env.staticS3ImagesPath + "portfolio/portfolio_0013.webp";
+const portfolio_0001 = process.env.staticS3ImagesPath + "portfolio/portfolio_0001.webp";
+const sala_weselna_nedan_pcim_reportaz_slubny_portfolio = process.env.staticS3ImagesPath + "portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.webp";
+const portret_panny_mlodej = process.env.staticS3ImagesPath + "portfolio/portret_panny_mlodej.webp";
+const portfolio_0021 = process.env.staticS3ImagesPath + "portfolio/portfolio_0021.webp";
+const portfolio_2021_2 = process.env.staticS3ImagesPath + "portfolio/portfolio_2021_2.webp";
+const portfolio_0015 = process.env.staticS3ImagesPath + "portfolio/portfolio_0015.webp";
+const mustang_na_wesele = process.env.staticS3ImagesPath + "portfolio/mustang_na_wesele.webp";
+const martyna_slub_tesla = process.env.staticS3ImagesPath + "portfolio/martyna_slub_tesla.webp";
+const patrycja_slub = process.env.staticS3ImagesPath + "portfolio/patrycja_slub.webp";
+const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
+const portfolio_0022 = process.env.staticS3ImagesPath + "portfolio/portfolio_0022.webp";
+const wesele_na_polu_golfowym_w_paczoltowicach_portfolio = process.env.staticS3ImagesPath + "portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.webp";
+const aleksandra_mszana_dolna = process.env.staticS3ImagesPath + "portfolio/aleksandra_mszana_dolna.webp";
+const beata_marcin_mszana_dolna_portfolio = process.env.staticS3ImagesPath + "portfolio/beata_marcin_mszana_dolna_portfolio.webp";
+const plener_w_dniu_slubu = process.env.staticS3ImagesPath + "portfolio/plener_w_dniu_slubu.webp";
+const mustang_na_slub = process.env.staticS3ImagesPath + "portfolio/mustang_na_slub.webp";
+const kopiec_krakusa_sesja_slubna = process.env.staticS3ImagesPath + "portfolio/kopiec_krakusa_sesja_slubna.webp";
 const fotograf_slubny_portfolio_2023_189 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_189.webp";
 const fotograf_slubny_portfolio_2023_114 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_114.webp";
 const fotograf_slubny_portfolio_2023_081 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_081.webp";
@@ -39,10 +38,14 @@ const fotograf_slubny_portfolio_2023_196 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_krakow_3 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_3.webp";
 const natalia = process.env.staticS3ImagesPath + "portfolio/natalia.webp";
 const dom_weselny_oberwanka_beskid_wyspowy = process.env.staticS3ImagesPath + "portfolio/dom_weselny_oberwanka_beskid_wyspowy.webp";
-
+const sesja_slubna_gosciniec_banasiowka_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_slubna_gosciniec_banasiowka_2023.webp";
+const przygotowania_welon = process.env.staticS3ImagesPath + "portfolio/przygotowania_welon.webp";
+const piano_time = process.env.staticS3ImagesPath + "portfolio/piano_time.webp";
+const pierwszy_taniec = process.env.staticS3ImagesPath + "portfolio/pierwszy_taniec.webp";
+const przygotowania_kolczyk = process.env.staticS3ImagesPath + "portfolio/przygotowania_kolczyk.webp";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticS3ImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.webp";
+  const pageImage = process.env.staticS3ImagesPath + "sala_weselna_oberwanka_start.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
@@ -52,9 +55,9 @@ const PageComponent = () => {
       description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji. Twoje fotografie z reporterskim charakterem i bez pozowania."
       keywords="reportaż ślubny kraków, zdjęcia ślubne"
       url="https://99foto.pl/reportaz-slubny-krakow/"
-      leadNames="ANNA i PIOTR"
-      leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
-      leadUrl="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
+      leadNames="ANGELIKA i MATEUSZ"
+      leadTitle="BDOM WESELNY OBERWANKA ŁOSTÓWKA, ŚLUB W BESKIDACH"
+      leadUrl="/dom-weselny-oberwanka-lostowka"
       leadImage={pageImage}>
       <Container sx={{ pt: 8 }}>
         <Box sx={{ pt: 13, display: { xs: "none", lg: "block", xl: "block" } }}></Box>
@@ -83,14 +86,12 @@ const PageComponent = () => {
         <Image quality={100} alt="miejsca, wydarzenia, emocje w fotografii ślubnej" src={portfolio_0013} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="pozowane zdjęcia grupowe" src={mustang_na_wesele} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
         
-
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajmy, że nie każda bliska nam osoba jest gościem naszego ślubu, dlatego album ślubny powinien być niebanalny i pokazać piękno dnia, oraz przekazać emocje, dobrą zabawę, która temu dniu
           towarzyszyła. Reportaż ślubny zamknięty w albumie to wyjątkowa pamiątka z Waszego ślubu. Reportaż ślubny to sztuka wymagajaca doświadczenia i umiejętności wybierania rzeczy najważniejszych,
           wychwytywania emocji i przedstawiania ich w najlepszy możliwy sposób.
         </Typography>
 
-        
         <Image quality={100} alt="jak uniknąć pozowania na plenerze ślubnym" src={natalia} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="dobry fotograf w Krakowie" src={fotograf_slubny_portfolio_2023_003} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         
@@ -103,12 +104,10 @@ const PageComponent = () => {
           historię ślubną. Skupiamy się na fotografowaniu spontanicznych zdarzeń, przedstawiamy otoczenie w najlepszy możliwy sposób, eksponujemy detale i skrupulatnie rejestrujemy emocje. Egzekwowanie
           tych elementów jest możliwe, dzięki umiejętności przewidywania nadchodzących zdarzeń, budowania kadru oraz doskonałej znajmości najwyższej jakości sprzętu fotograficznego.
         </Typography>
-
-        <Image quality={100} alt="własny styl w fotografii ślubnej" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
+        <Image quality={100} alt="plener w dniu ślubu Gościniec Banasiówka" src={sesja_slubna_gosciniec_banasiowka_2023} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="najlepsze zdjęcia ślubne roku" src={fotograf_slubny_portfolio_2023_196} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-        
-
-        
+        <Image quality={100} alt="przygotowania ślubne, wpięcie welonu" src={przygotowania_welon} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajmy jednak, że osoba zajmująca się fotografią ślubną to osoba, która poświęciła setki godzin na odkrywanie nowych technik, doskonalenie warsztatu, podpatrywanie mistrzów, próby i
@@ -116,7 +115,7 @@ const PageComponent = () => {
           stworzyć zdjęcia i wypracować styl warty Waszej uwagi. W trakcie reportażu lubię obserwować wydarzenia, sporadycznie wyrywam się z drobnymi sugestiami.
         </Typography>
 
-        <Image quality={100} alt="autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="przygotowania ślubne, zakładania kolczyka" src={przygotowania_kolczyk} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
         
         <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           MOJE PODEJŚCIE DO REPORTAŻU ŚLUBNEGO
@@ -129,10 +128,11 @@ const PageComponent = () => {
           moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc chwile, które chcemy
           zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje.
         </Typography>
-
+       
+        <Image quality={100} alt="autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="zdjęcia pełne kolorów i autentycznych emocji" src={portfolio_0021} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="fotograf na wesele Kraków" src={fotograf_slubny_portfolio_2023_114} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
-        
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Kadr to wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki. Reportaż ślubny wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
           Każde zdjęcie ślubne zaczyna się od pomysłu. To zwykle konfrontacja pomiędzy powstałym w naszej głowie ideałem i możliwościami jakie stwarza nam zastana sytuacja. Sprzęt fotograficzny jest
@@ -140,7 +140,8 @@ const PageComponent = () => {
           oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten ważny dzień, pokazywać, że jestem tam dla
           Was i będę opowiadał o Was. Staram się uchwycić Was takimi, jakimi jesteście. Moje rozmowy z Wami w dniu ślubu czy sesji zdjęciowych są tylko i wyłącznie towarzyskie.
         </Typography>
-
+       
+        <Image quality={100} alt="pierwszy taniec weselny" src={pierwszy_taniec} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="fotografia, pasja tworzenia reportaży ślubnych" src={portfolio_0015} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="polecany fotograf ślubny w Krakowie" src={fotograf_slubny_portfolio_2023_081} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         
@@ -176,8 +177,9 @@ const PageComponent = () => {
           że trzyma on rękę na pulsie i tworzy dla Was niezapomnianą pamiątkę. Takie podejście to gwarancja autentycznej opowieści ślubnej.
         </Typography>
 
-        <Image quality={100} alt="fotograf nie za miliony monet" src={fotograf_slubny_portfolio_2023_696} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="zdjęcia pełne kolorów i autentycznych emocji" src={patrycja_slub} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sala weselna nedan w pcimiu" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
+        <Image quality={100} alt="fotograf nie za miliony monet" src={fotograf_slubny_portfolio_2023_696} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
         
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           PRZYGOTOWUJEMY HARMONOGRAM DNIA
@@ -202,7 +204,6 @@ const PageComponent = () => {
 
         <Image quality={100} alt="wesele góralskie w beskidzie wyspowym oberwanka" src={dom_weselny_oberwanka_beskid_wyspowy} width={1140} height={912} style={{width: '100%', height: 'auto'}}  />
         <Image quality={100} alt="podpisanie dokumentów przez świadków wesela" src={portfolio_0022}width={1140} height={761} style={{width: '100%', height: 'auto'}} />
-        
         <Image quality={100} alt="idealne miejsca na organizacje przyjęcia ślubnego w Krakowie" src={fotograf_slubny_portfolio_2023_325} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
@@ -245,6 +246,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="dekoracja sali weselnej w stylu rustykalnym" src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="zdjęcie ślubne z druhną" src={piano_time} width={1140} height={761} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="wspaniały dzień ślubu i sprawdzony fotograf" src={fotograf_slubny_krakow_3} width={1140} height={760} style={{width: '100%', height: 'auto'}} priority />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>

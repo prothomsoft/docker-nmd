@@ -18,6 +18,12 @@ const przysiega_w_kosciele_tokarnia = process.env.staticS3ImagesPath + "portfoli
 const fotograf_slubny_krakow_4 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_krakow_4.webp";
 const wesele_strazackie_tokarnia = process.env.staticS3ImagesPath + "portfolio/wesele_strazackie_tokarnia.webp";
 const fotografia_slubna_krakow_44 = process.env.staticS3ImagesPath + "portfolio/fotografia_slubna_krakow_44.webp";
+const sesja_slubna_dwor_mogilany_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_slubna_dwor_mogilany_2023.webp";
+const sesja_slubna_brzoskwinia_ogrod_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_slubna_brzoskwinia_ogrod_2023.webp";
+const sesja_slubna_z_maseratti_w_gorach_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_slubna_z_maseratti_w_gorach_2023.webp";
+const sylwia_kladka_2023 = process.env.staticS3ImagesPath + "portfolio/sylwia_kladka_2023.webp";
+const sesja_pustynia_bledowska_2023 = process.env.staticS3ImagesPath + "portfolio/sesja_pustynia_bledowska_2023.webp";
+const kabanos_spytkowice_plener = process.env.staticS3ImagesPath + "portfolio/kabanos_spytkowice_plener.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.webp";
@@ -62,7 +68,8 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image quality={100} alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_20} width={1140} height={762}  style={{width: '100%', height: 'auto'}} priority />
+        <Image quality={100} alt="plener ślubny w dniu ślubu kabanos spytkowice" src={kabanos_spytkowice_plener} width={1140} height={912} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku Twoje zdjęcia pokazują Twoją pasje i zaangażowanie, pełen profesjonalizm i pracę jaką wkładasz w to aby były nietuzinkowe. Świetna gra świateł, idealnie dobrane kolory i bardzo
           trafione czarnobiałe fotografie. Pokazałeś na zdjęciach nas takich jacy jesteśmy, a to chyba najpiękniejsze.{" "}
@@ -72,7 +79,9 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
+        <Image quality={100} alt="ślub w hotelu kasprowy zakopane" src={przysiega_w_kosciele_tokarnia} width={1140} height={760}  style={{width: '100%', height: 'auto'}} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie polecamy. Niezwykle profesjonalne podejście, bardzo miła atmosfera i przepiękne zdjęcia! Długo zastanawialiśmy się nad wyborem fotografa, ale wiemy, że nie mogliśmy lepiej wybrać.
           Tomku, dziękujemy za piękną pamiątkę i serdecznie pozdrawiamy.{" "}
           <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
@@ -82,10 +91,9 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="piękne zdjęcia, pełne emocji reportaże ślubne" src={fotograf_slubny_krakow_2} width={1140} height={913} style={{width: '100%', height: 'auto'}} />
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta przyjemność
-          :-) słyszałam, że najlepszy aparaciarz to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze daje mnóstwo super pomysłów
-          :-) dziękujemy Tomku za zdjęcia ślubne i wczorajszy plener (to był dla nas z Pawłem wspaniały prezent na rocznice) !!!{" "}
+          Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta przyjemność, słyszałam, że najlepszy aparaciarz to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze daje mnóstwo super pomysłów. Dziękujemy Tomku za zdjęcia ślubne i wczorajszy plener (to był dla nas z Pawłem wspaniały prezent na rocznice) !!!{" "}
           <Link href="/kasia-i-pawel-zimowa-sesja-slubna-w-gorach">
             Kasia i Paweł
           </Link>
@@ -106,8 +114,8 @@ const PageComponent = () => {
           .
         </Typography>
         
-        <Image quality={100} alt="ślub w hotelu kasprowy zakopane" src={przysiega_w_kosciele_tokarnia} width={1140} height={760}  style={{width: '100%', height: 'auto'}} />
-
+        <Image quality={100} alt="fotograf na wesele Krzczonów" src={fotograf_slubny_krakow_20} width={1140} height={762}  style={{width: '100%', height: 'auto'}} priority />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Dziękujemy, dziękujemy, dziękujemy. Byliśmy pewni że nasza współpraca z Tomkiem przebiegnie idealnie i tak właśnie było. Polecamy wszystkim z całego serca!!!{" "}
           <Link href="/zielone-wzgorze-koniusza-tak-w-promieniach-slonca">
@@ -153,7 +161,10 @@ const PageComponent = () => {
           Tomku dziekujemy jesteśmy oczarowani zdjęciami. W 100% polecamy Tomka pełen profesjonalizm, otwartość i zaangażowanie w to co robi jest na najwyższym poziomie. Agnieszka i Mateusz.
         </Typography>
 
+        <Image quality={100} alt="miejsce na plener ślubny Brzoskwinia Ogród" src={sesja_slubna_brzoskwinia_ogrod_2023} width={1140} height={912} style={{width: '100%', height: 'auto'}} />
         <Image quality={100} alt="wesele w stylu boho i rustykalnym" src={fotograf_slubny_krakow_12} width={1140} height={527} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="plener ślubny Dwór w Mogilanach" src={sesja_slubna_dwor_mogilany_2023} width={1140} height={912} style={{width: '100%', height: 'auto'}} />
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tak jak już wiele osób pisało - Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i radości.
           Wtapia się w gości, dzięki czemu zdjęcia są mega naturalne. Stwarza genialną atmosferę, jest przesympatyczny i ciągle uśmiechnięty – praca z Nim to sama przyjemność! A zdjęcia dostarcza
@@ -175,6 +186,8 @@ const PageComponent = () => {
         </Typography>
        
         <Image quality={100} alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_4} width={1140} height={849} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja ślubna z Maseratti w górach" src={sesja_slubna_z_maseratti_w_gorach_2023} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Piękne zdjęcia i pełen profesjonalizm. Dziękujemy jeszcze raz za wspaniałą współprace. Szczerze polecam.{" "}
           <Link href="/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville">
@@ -243,7 +256,6 @@ const PageComponent = () => {
         
         <Image quality={100} alt="sesja zdjęciowa kopiec kraka" src={fotograf_slubny_krakow_11} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
         
-
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego fotografa. Polecamy
           wszystkim !{" "}
@@ -270,8 +282,8 @@ const PageComponent = () => {
           .
         </Typography>
         
-        <Image quality={100} alt="ślub w Bazylice Bożego Ciała w Krakowie" src={fotograf_slubny_krakow_14} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-
+        <Image quality={100} alt="plener ślubny Kraków Podgórze" src={sylwia_kladka_2023} width={1140} height={912} style={{width: '100%', height: 'auto'}} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku, z całego serca dziękujemy za cudowne zdjęcia z naszego ślubu. Lepszych nie mogliśmy sobie wymarzyć. Jesteśmy totalnie oczarowani relacją, która dla nas stworzyłeś. Idealnie uchwycone
           chwile, oryginalne i niebanalne kadry, naturalność, swoboda i spontaniczność – to wszystko składa się na naszą piękną historię, którą ujęcie po ujęciu możemy przeżywać na nowo za każdym
@@ -281,8 +293,10 @@ const PageComponent = () => {
           </Link>
           .
         </Typography>
+        
+        <Image quality={100} alt="ślub w Bazylice Bożego Ciała w Krakowie" src={fotograf_slubny_krakow_14} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w
           ekspresowym tempie, na każdym z nich Tomek uchwycił piękne chwile z naszego dnia. Zdjęcia są przepiękną pamiątką! Tomku, to była przyjemność z Tobą współpracować! Jeszcze raz dziękujemy za
           przepiękne zdjęcia{" "}
@@ -292,7 +306,9 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
+        <Image quality={100} alt="sesja ślubna na Pustyni Błędowskiej" src={sesja_pustynia_bledowska_2023} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Jednym słowem - człowek zajmujący się fotogafią ślubną z pasją, co widać po efektach. Już nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać fotografa, na pewno
           zadzwonię do Tomka. Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}
           <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow">
@@ -300,9 +316,8 @@ const PageComponent = () => {
           </Link>
           .
         </Typography>
-
+        
         <Image quality={100} alt="sala weselna Alexandra Mszana Dolna" src={fotograf_slubny_krakow_16} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-
         
       </Container>
     </LayoutSitePage>

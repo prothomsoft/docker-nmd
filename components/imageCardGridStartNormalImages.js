@@ -1,44 +1,45 @@
-import React from 'react';
 import Grid from "@mui/material/Grid";
+import React from 'react';
 import ImageCard from "./imageCard";
 const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/hotel_mercure_kasprowy_zakopane.webp";
-const bazylika_bozego_ciala_krakow_fotoreportaz_slubny = process.env.staticS3ImagesPath + "portfolio/bazylika_bozego_ciala_krakow_fotoreportaz_slubny.webp";
-const plener_slubny_slowacja = process.env.staticS3ImagesPath + "portfolio/plener_slubny_slowacja.webp";
 const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
-const plener_slubny_palac_goetzow_brzesko = process.env.staticS3ImagesPath + "portfolio/plener_slubny_palac_goetzow_brzesko.webp";
 const dworek_fantazja_skomielna_biala_fotograf = process.env.staticS3ImagesPath + "portfolio/dworek_fantazja_skomielna_biala_fotograf.webp";
-const ogrod_botaniczny = process.env.staticS3ImagesPath + "portfolio/ogrod_botaniczny.webp";
-const sesja_narzeczenska_klasztor_w_tyncu = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_klasztor_w_tyncu.webp";
-const sala_weselna_biala_wilczyca_kocmyrzow = process.env.staticS3ImagesPath + "portfolio/sala_weselna_biala_wilczyca_kocmyrzow.webp";
+const zajazd_mogielica_portfolio = process.env.staticS3ImagesPath + "portfolio/zajazd_mogielica_portfolio.webp";
+const slub_palac_goetz_portfolio = process.env.staticS3ImagesPath + "portfolio/slub_palac_goetz_portfolio.webp";
+const oberwanka_lostowka_portfolio = process.env.staticS3ImagesPath + "portfolio/oberwanka_lostowka_portfolio.webp";
+const fotograf_na_wesele_rabka_zdroj_portfolio = process.env.staticS3ImagesPath + "portfolio/fotograf_na_wesele_rabka_zdroj_portfolio.webp";
+const klaudia_przemek_start = process.env.staticS3ImagesPath + "portfolio/klaudia_przemek_start.webp";
+const reportaz_slubny_krakow = process.env.staticS3ImagesPath + "portfolio/reportaz_slubny_krakow.webp";
+
 
 const ImageCardGridStartNormalImages = () => {
     return (
         <Grid container direction="row" alignItems="center">
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={hotel_mercure_kasprowy_zakopane}
-              imgalt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu"
-              linkhref="wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje"
-              title="WESELE W ZAKOPANEM"
-              names="PATRYCJA i TOMASZ"
+              imgsrc={slub_palac_goetz_portfolio}
+              imgalt="pałac goetz, ślub humanistyczny Kraków"
+              linkhref="palac-goetz-slub-humanistyczny"
+              title="ŚLUB HUMANISTYCZNY KRAKÓW"
+              names="KAROLINA i RYAN"
             />
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={bazylika_bozego_ciala_krakow_fotoreportaz_slubny}
-              imgalt="bazylika bożego ciała kraków fotoreportaż ślubny"
-              linkhref="bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
+              imgsrc={reportaz_slubny_krakow}
+              imgalt="reportaż ślubny kraków"
+              linkhref="dom-weselny-biala-perla-radziemice-reportaz-slubny"
               title="REPORTAŻ ŚLUBNY KRAKÓW"
-              names="ANNA i PIOTR"
+              names="ŻANETA i SEBASTIAN"
             />
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={plener_slubny_slowacja}
-              imgalt="plener ślubny w górach"
-              linkhref="plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso"
-              title="PLENER ŚLUBNY W GÓRACH"
-              names="MAŁGORZATA i RAFAŁ"
+               imgsrc={hotel_mercure_kasprowy_zakopane}
+               imgalt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu"
+               linkhref="wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje"
+               title="WESELE W ZAKOPANEM"
+               names="PATRYCJA i TOMASZ"
             />
           </Grid>
 
@@ -47,54 +48,54 @@ const ImageCardGridStartNormalImages = () => {
               imgsrc={dworzyszcze_wola_reportaz_slubny_pod_krakowem}
               imgalt="wesele w stylu boho i rustykalnym"
               linkhref="wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow"
-              title="WESELE W STYLU RUSTYKALNYM"
+              title="WESELE STYL RUSTYKALNY"
               names="SYLWIA i MICHAŁ"
             />
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={plener_slubny_palac_goetzow_brzesko}
-              imgalt="plener ślubny pałac goetzów brzesko"
-              linkhref="sesja-slubna-jesienia-palac-goetzow-okocimskich"
-              title="PLENER ŚLUBNY PAŁAC GOETZÓW"
-              names="IZABELA i ARKADIUSZ"
+              imgsrc={fotograf_na_wesele_rabka_zdroj_portfolio}
+              imgalt="fotograf na wesele Rabka Zdrój"
+              linkhref="fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
+              title="FOTOGRAF NA WESELE RABKA"
+              names="KAMILA i ADRIAN"
             />
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={dworek_fantazja_skomielna_biala_fotograf}
-              imgalt="ślub w stylu glamour"
-              linkhref="dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"
-              title="ŚLUB W STYLU GLAMOUR"
-              names="PATRYCJA i KRZYSZTOF"
+              imgsrc={oberwanka_lostowka_portfolio}
+              imgalt="bazylika bożego ciała kraków fotoreportaż ślubny"
+              linkhref="dom-weselny-oberwanka-lostowka"
+              title="ŚLUB W BESKIDACH OBERWANKA"
+              names="ANGELIKA i MATEUSZ"
             />
           </Grid>
 
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={ogrod_botaniczny}
-              imgalt="fotograf ślubny kraków"
-              linkhref="ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"
-              title="FOTOGRAF ŚLUBNY KRAKÓW"
-              names="DAJANA i SYLWESTER"
+              imgsrc={zajazd_mogielica_portfolio}
+              imgalt="wesele rustykalne, polskie tradycje weselne"
+              linkhref="dom-weselny-mogielica-jurkow-rustykalne-wesele"
+              title="WESELE RUSTYKALNE MSZANA"
+              names="NATALIA i KRZYSZTOF"
             />
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={sesja_narzeczenska_klasztor_w_tyncu}
-              imgalt="sesja ślubna kraków"
-              linkhref="park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca"
-              title="SESJA ŚLUBNA KRAKÓW"
-              names="TERESA i ANDRZEJ"
+               imgsrc={dworek_fantazja_skomielna_biala_fotograf}
+               imgalt="ślub w stylu glamour"
+               linkhref="dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"
+               title="ŚLUB W STYLU GLAMOUR"
+               names="PATRYCJA i KRZYSZTOF"
             />
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={sala_weselna_biala_wilczyca_kocmyrzow}
-              imgalt="wesele międzynarodowe, polskie tradycje weselne"
-              linkhref="wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"
-              title="WESELE MIĘDZYNARODOWE KRAKÓW"
-              names="MONIKA i MARTIN"
+              imgsrc={klaudia_przemek_start}
+              imgalt="sala weselna w myślenicach, dom weselny bystra podhalańska"
+              linkhref="sala-weselna-karolinka-bystra-podhalanska"
+              title="WESELE STRAŻACKIE MYŚLENICE"
+              names="KLAUDIA i PRZEMYSŁAW"
             />
           </Grid>
         </Grid>

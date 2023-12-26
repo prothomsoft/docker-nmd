@@ -43,7 +43,6 @@ const BlogPageComponent = () => {
             { imageSrc: process.env.staticS3ImagesPath + "blog/2023/08/oberwanka_lostowka_0038.webp", height: 763 },
             { imageSrc: process.env.staticS3ImagesPath + "blog/2023/08/oberwanka_lostowka_0040.webp", height: 763 },
             { imageSrc: process.env.staticS3ImagesPath + "blog/2023/08/oberwanka_lostowka_0039.webp", height: 763 },
-            
             { imageSrc: process.env.staticS3ImagesPath + "blog/2023/08/oberwanka_lostowka_0041.webp", height: 762 },
             { imageSrc: process.env.staticS3ImagesPath + "blog/2023/08/oberwanka_lostowka_0042.webp", height: 763 },
             { imageSrc: process.env.staticS3ImagesPath + "blog/2023/08/oberwanka_lostowka_0043.webp", height: 763 },

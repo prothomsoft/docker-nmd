@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -7,6 +9,10 @@ import Image from "next/image";
 import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
+
+const panorama_portfolio = process.env.staticS3ImagesPath + "portfolio/small/panorama_portfolio.webp";
+const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/small/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
+const slub_palac_goetz_portfolio = process.env.staticS3ImagesPath + "portfolio/small/slub_palac_goetz_portfolio.webp";
 
 const fotograf_slubny_portfolio_2023_120 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_120.webp";
 const fotograf_slubny_portfolio_2023_121 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_121.webp";
@@ -295,6 +301,45 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+        
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+          <Grid item lg={4} p={1}>
+            <ImageCardSmall
+              imgsrc={slub_palac_goetz_portfolio}
+              imgalt="pałac goetz, ślub humanistyczny Kraków"
+              linkhref="palac-goetz-slub-humanistyczny"
+              title="ŚLUB HUMANISTYCZNY KRAKÓW"
+              names="KAROLINA i RYAN"
+            />
+           </Grid>
+           <Grid item lg={4} p={1}> 
+          <ImageCardSmall
+              imgsrc={panorama_portfolio}
+              imgalt="dom weselny panorama stary wiśnicz"
+              linkhref="dom-weselny-panorama-stary-wisnicz"
+              title="ŚLUB PRZY ZAMKU STARY WIŚNICZ"
+              names="MAGDALENA i WOJCIECH"
+            />
+          </Grid>
+           <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={dworzyszcze_wola_reportaz_slubny_pod_krakowem}
+              imgalt="wesele w stylu boho i rustykalnym"
+              linkhref="wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow"
+              title="WESELE STYL RUSTYKALNY"
+              names="SYLWIA i MICHAŁ"
+            />
+          </Grid>
+          
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

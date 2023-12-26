@@ -1,12 +1,18 @@
 import LayoutSitePage from "../components/layoutSitePage";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import Carousel from 'react-material-ui-carousel'
 import FaqAccordion from "../components/faqAccordion";
+
+const sesja_narzeczenska_krakow_33 = process.env.staticS3ImagesPath + "portfolio/small/sesja_narzeczenska_krakow_33.webp";
+const wesele_rustykalne = process.env.staticS3ImagesPath + "portfolio/small/wesele_rustykalne.webp";
+const panorama_portfolio = process.env.staticS3ImagesPath + "portfolio/small/panorama_portfolio.webp";
 
 const fotograf_slubny_portfolio_2023_188 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_188.webp";
 const fotograf_slubny_portfolio_2023_189 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_189.webp";
@@ -34,12 +40,10 @@ const fotograf_slubny_portfolio_2023_214 = process.env.staticS3ImagesPath + "por
 const fotograf_slubny_portfolio_2023_215 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_215.webp";
 const fotograf_slubny_portfolio_2023_218 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_218.webp";
 const fotograf_slubny_portfolio_2023_219 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_219.webp";
-
 const fotograf_slubny_portfolio_2023_644 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_644.webp";
 const fotograf_slubny_portfolio_2023_645 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_645.webp";
 const fotograf_slubny_portfolio_2023_648 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_648.webp";
 const fotograf_slubny_portfolio_2023_650 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_650.webp";
-
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "dworzyszcze_wola_reportaz_slubny_pod_krakowem_start.webp";
@@ -306,6 +310,44 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+          <Grid item lg={4} p={1}> 
+          <ImageCardSmall
+              imgsrc={panorama_portfolio}
+              imgalt="dom weselny panorama stary wiśnicz"
+              linkhref="dom-weselny-panorama-stary-wisnicz"
+              title="ŚLUB PRZY ZAMKU STARY WIŚNICZ"
+              names="MAGDALENA i WOJCIECH"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={sesja_narzeczenska_krakow_33}
+              imgalt="sesja narzeczeńska w Krakowie"
+              linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
+              title="SESJA NARZECZEŃSKA W KRAKOWIE"
+              names="WIKTORIA i KONRAD"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={wesele_rustykalne}
+              imgalt="wesele boho i rustykalne"
+              linkhref="folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem"
+              title="WESELE BOHO i RUSTYKALNE"
+              names="PAULA i WOJTEK"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

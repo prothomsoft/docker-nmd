@@ -11,14 +11,11 @@ const fotograf_slubny_krakow_19 = process.env.staticS3ImagesPath + "portfolio/fo
 const sesja_narzeczenska_2 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_2.webp";
 const sesja_narzeczenska_krakow_1 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_1.webp";
 const sesja_narzeczenska_krakow_3 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_3.webp";
-const sesja_narzeczenska_krakow_4 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_4.webp";
-const sesja_narzeczenska_krakow_7 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_7.webp";
-const sesja_narzeczenska_krakow_14 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_14.webp";
 const sesja_narzeczenska_kopiec_krakusa = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_kopiec_krakusa.webp";
 const sesja_narzeczenska_kopiec_krakusa_krakow = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_kopiec_krakusa_krakow.webp";
 const sesja_narzeczenska_stara_zajezdnia_krakow = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_stara_zajezdnia_krakow.webp";
 const sesja_narzeczenska_stare_podgorze_krakow = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_stare_podgorze_krakow.webp";
-
+const ryan_sesja_narzeczenska_2023 = process.env.staticS3ImagesPath + "portfolio/ryan_sesja_narzeczenska_2023.webp";
 
 const PageComponent = () => {
   const pageImage = process.env.staticS3ImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp";
@@ -92,7 +89,7 @@ const PageComponent = () => {
           Zachęcam i zdecydowanie warto się na taki makijaż przedślubny zdecydować.
         </Typography>
 
-        <Image quality={100} alt="sesja narzeczeńska, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_krakow_7} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
+        <Image quality={100} alt="sesja narzeczeńska na Rynku w Krakowie" src={ryan_sesja_narzeczenska_2023} width={1140} height={912} style={{width: '100%', height: 'auto'}} />
         
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CO ZE SOBĄ ZABRAĆ?
@@ -155,7 +152,6 @@ const PageComponent = () => {
         </Typography>
 
         <Image quality={100} alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_1} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-
         
       </Container>
     </LayoutSitePage>

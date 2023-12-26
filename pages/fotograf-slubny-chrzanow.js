@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -7,6 +9,10 @@ import Image from "next/image";
 import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
+
+const fotograf_na_wesele_rabka_zdroj_portfolio = process.env.staticS3ImagesPath + "portfolio/small/fotograf_na_wesele_rabka_zdroj_portfolio.webp";
+const oberwanka_lostowka_portfolio = process.env.staticS3ImagesPath + "portfolio/small/oberwanka_lostowka_portfolio.webp";
+const zajazd_mogielica_portfolio = process.env.staticS3ImagesPath + "portfolio/small/zajazd_mogielica_portfolio.webp";
 
 const fotograf_slubny_portfolio_2023_301 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_301.webp";
 const fotograf_slubny_portfolio_2023_302 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_302.webp";
@@ -303,6 +309,44 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={oberwanka_lostowka_portfolio}
+              imgalt="bazylika bożego ciała kraków fotoreportaż ślubny"
+              linkhref="dom-weselny-oberwanka-lostowka"
+              title="ŚLUB W BESKIDACH OBERWANKA"
+              names="ANGELIKA i MATEUSZ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={fotograf_na_wesele_rabka_zdroj_portfolio}
+              imgalt="fotograf na wesele Rabka Zdrój"
+              linkhref="fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
+              title="FOTOGRAF NA WESELE RABKA"
+              names="KAMILA i ADRIAN"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={zajazd_mogielica_portfolio}
+              imgalt="wesele rustykalne, polskie tradycje weselne"
+              linkhref="dom-weselny-mogielica-jurkow-rustykalne-wesele"
+              title="WESELE RUSTYKALNE MSZANA"
+              names="NATALIA i KRZYSZTOF"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

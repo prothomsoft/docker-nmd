@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -7,6 +9,10 @@ import Image from "next/image";
 import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
+
+const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/small/hotel_mercure_kasprowy_zakopane.webp";
+const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/small/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
+const fotograf_na_wesele_rabka_zdroj_portfolio = process.env.staticS3ImagesPath + "portfolio/small/fotograf_na_wesele_rabka_zdroj_portfolio.webp";
 
 const fotograf_slubny_portfolio_2023_157 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_157.webp";
 const fotograf_slubny_portfolio_2023_158 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_158.webp";
@@ -307,6 +313,45 @@ const PageComponent = () => {
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
         </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+        <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={hotel_mercure_kasprowy_zakopane}
+              imgalt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu"
+              linkhref="wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje"
+              title="WESELE W ZAKOPANEM"
+              names="PATRYCJA i TOMASZ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={dworzyszcze_wola_reportaz_slubny_pod_krakowem}
+              imgalt="wesele w stylu boho i rustykalnym"
+              linkhref="wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow"
+              title="WESELE STYL RUSTYKALNY"
+              names="SYLWIA i MICHAŁ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={fotograf_na_wesele_rabka_zdroj_portfolio}
+              imgalt="fotograf na wesele Rabka Zdrój"
+              linkhref="fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
+              title="FOTOGRAF NA WESELE RABKA"
+              names="KAMILA i ADRIAN"
+            />
+          </Grid>
+        </Grid>
+        </Box>
+
       </Container>
     </LayoutSitePage>
   );

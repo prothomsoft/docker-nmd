@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -8,7 +10,9 @@ import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
-
+const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/small/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
+const oberwanka_lostowka_portfolio = process.env.staticS3ImagesPath + "portfolio/small/oberwanka_lostowka_portfolio.webp";
+const fotograf_na_wesele_rabka_zdroj_portfolio = process.env.staticS3ImagesPath + "portfolio/small/fotograf_na_wesele_rabka_zdroj_portfolio.webp";
 
 const fotograf_slubny_portfolio_2023_410 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_410.webp";
 const fotograf_slubny_portfolio_2023_411 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_411.webp";
@@ -302,6 +306,44 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+        <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={dworzyszcze_wola_reportaz_slubny_pod_krakowem}
+              imgalt="wesele w stylu boho i rustykalnym"
+              linkhref="wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow"
+              title="WESELE STYL RUSTYKALNY"
+              names="SYLWIA i MICHAŁ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={fotograf_na_wesele_rabka_zdroj_portfolio}
+              imgalt="fotograf na wesele Rabka Zdrój"
+              linkhref="fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
+              title="FOTOGRAF NA WESELE RABKA"
+              names="KAMILA i ADRIAN"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={oberwanka_lostowka_portfolio}
+              imgalt="bazylika bożego ciała kraków fotoreportaż ślubny"
+              linkhref="dom-weselny-oberwanka-lostowka"
+              title="ŚLUB W BESKIDACH OBERWANKA"
+              names="ANGELIKA i MATEUSZ"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

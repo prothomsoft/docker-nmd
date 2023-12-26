@@ -2,15 +2,15 @@ import React from 'react';
 import Grid from "@mui/material/Grid";
 import ImageCard from "./imageCard";
 
-const klaudia_przemek_start = process.env.staticS3ImagesPath + "portfolio/klaudia_przemek_start.webp";
 const wesele_w_beskidach = process.env.staticS3ImagesPath + "portfolio/wesele_w_beskidach.webp";
 const sylwestrowy_slub = process.env.staticS3ImagesPath + "portfolio/sylwestrowy_slub.webp";
 const plener_slubny_w_krakowie = process.env.staticS3ImagesPath + "portfolio/plener_slubny_w_krakowie.webp";
 const sesja_narzeczenska_krakow_33 = process.env.staticS3ImagesPath + "portfolio/sesja_narzeczenska_krakow_33.webp";
-const reportaz_slubny_krakow = process.env.staticS3ImagesPath + "portfolio/reportaz_slubny_krakow.webp";
 const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/plener_slubny_na_jurze.webp";
 const sesja_plenerowa_rynek_w_krakowie = process.env.staticS3ImagesPath + "portfolio/sesja_plenerowa_rynek_w_krakowie.webp";
 const wesele_rustykalne = process.env.staticS3ImagesPath + "portfolio/wesele_rustykalne.webp";
+const panorama_portfolio = process.env.staticS3ImagesPath + "portfolio/panorama_portfolio.webp";
+const plener_slubny_palac_goetzow_brzesko = process.env.staticS3ImagesPath + "portfolio/plener_slubny_palac_goetzow_brzesko.webp";
 
 
 const ImageCardGridHistoryNormalImages = () => {
@@ -18,39 +18,11 @@ const ImageCardGridHistoryNormalImages = () => {
         <Grid container direction="row" alignItems="center">
           <Grid item lg={4} p={1}>
             <ImageCard
-              imgsrc={reportaz_slubny_krakow}
-              imgalt="reportaż ślubny kraków"
-              linkhref="dom-weselny-biala-perla-radziemice-reportaz-slubny"
-              title="REPORTAŻ ŚLUBNY KRAKÓW"
-              names="ŻANETA i SEBASTIAN"
-            />
-          </Grid>
-          <Grid item lg={4} p={1}>
-          <ImageCard
-              imgsrc={klaudia_przemek_start}
-              imgalt="sala weselna w myślenicach, dom weselny bystra podhalańska"
-              linkhref="sala-weselna-karolinka-bystra-podhalanska"
-              title="WESELE STRAŻACKIE MYŚLENICE"
-              names="KLAUDIA i PRZEMYSŁAW"
-            />
-          </Grid>
-          <Grid item lg={4} p={1}>
-          <ImageCard
               imgsrc={sylwestrowy_slub}
               imgalt="ślub w sylwestra, sylwestrowy ślub"
               linkhref="sylwestrowy-slub-sala-bankietowa-impresja-jordanow"
               title="SYLWESTROWY ŚLUB W GÓRACH"
               names="JUSTYNA i DAMIAN"
-            />
-         
-          </Grid>
-          <Grid item lg={4} p={1}>         
-            <ImageCard
-              imgsrc={wesele_rustykalne}
-              imgalt="wesele boho i rustykalne"
-              linkhref="folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem"
-              title="WESELE BOHO i RUSTYKALNE"
-              names="PAULA i WOJTEK"
             />
           </Grid>
           <Grid item lg={4} p={1}>
@@ -64,26 +36,6 @@ const ImageCardGridHistoryNormalImages = () => {
           </Grid>
           <Grid item lg={4} p={1}>
           <ImageCard
-              imgsrc={plener_slubny_na_jurze}
-              imgalt="plener ślubny na jurze"
-              linkhref="plener-slubny-zamek-pieskowa-skala"
-              title="PLENER ŚLUBNY NA JURZE"
-              names="MARTYNA i MICHAŁ"
-            />
-                 
-          </Grid>
-          <Grid item lg={4} p={1}>
-          <ImageCard
-              imgsrc={wesele_w_beskidach}
-              imgalt="wesele w besikdach"
-              linkhref="hotel-zywiecki-sala-przylekowka-wesele-w-beskidach"
-              title="WESELE W BESKIDACH"
-              names="NICOLA i RAFAŁ"
-            />   
-         
-          </Grid>
-          <Grid item lg={4} p={1}>
-          <ImageCard
               imgsrc={plener_slubny_w_krakowie}
               imgalt="plener ślubny w Krakowie, sprawdzone miejsca"
               linkhref="wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"
@@ -91,13 +43,60 @@ const ImageCardGridHistoryNormalImages = () => {
               names="ANNA i TOMASZ"
             />
           </Grid>
+          <Grid item lg={4} p={1}>         
+            <ImageCard
+              imgsrc={panorama_portfolio}
+              imgalt="dom weselny panorama stary wiśnicz"
+              linkhref="dom-weselny-panorama-stary-wisnicz"
+              title="ŚLUB PRZY ZAMKU STARY WIŚNICZ"
+              names="MAGDALENA i WOJCIECH"
+            />
+          </Grid>
           <Grid item lg={4} p={1}>
           <ImageCard
-              imgsrc={sesja_narzeczenska_krakow_33}
-              imgalt="sesja narzeczeńska w Krakowie"
-              linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
-              title="SESJA NARZECZEŃSKA W KRAKOWIE"
-              names="WIKTORIA i KONRAD"
+             imgsrc={sesja_narzeczenska_krakow_33}
+             imgalt="sesja narzeczeńska w Krakowie"
+             linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
+             title="SESJA NARZECZEŃSKA W KRAKOWIE"
+             names="WIKTORIA i KONRAD"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCard
+              imgsrc={wesele_rustykalne}
+              imgalt="wesele boho i rustykalne"
+              linkhref="folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem"
+              title="WESELE BOHO i RUSTYKALNE"
+              names="PAULA i WOJTEK"
+            />
+                 
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCard
+              imgsrc={plener_slubny_palac_goetzow_brzesko}
+              imgalt="plener ślubny pałac goetzów brzesko"
+              linkhref="sesja-slubna-jesienia-palac-goetzow-okocimskich"
+              title="PLENER ŚLUBNY PAŁAC GOETZÓW"
+              names="IZABELA i ARKADIUSZ"
+            />   
+         
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCard
+             imgsrc={plener_slubny_na_jurze}
+             imgalt="plener ślubny na jurze"
+             linkhref="plener-slubny-zamek-pieskowa-skala"
+             title="PLENER ŚLUBNY NA JURZE"
+             names="MARTYNA i MICHAŁ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCard
+              imgsrc={wesele_w_beskidach}
+              imgalt="wesele w besikdach"
+              linkhref="hotel-zywiecki-sala-przylekowka-wesele-w-beskidach"
+              title="WESELE W BESKIDACH ŻYWIEC"
+              names="NICOLA i RAFAŁ"
             />
           </Grid>
         </Grid>

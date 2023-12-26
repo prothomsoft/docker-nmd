@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -7,6 +9,10 @@ import Image from "next/image";
 import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
+
+const sylwestrowy_slub = process.env.staticS3ImagesPath + "portfolio/small/sylwestrowy_slub.webp";
+const plener_slubny_w_krakowie = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_w_krakowie.webp";
+const sesja_plenerowa_rynek_w_krakowie = process.env.staticS3ImagesPath + "portfolio/small/sesja_plenerowa_rynek_w_krakowie.webp";
 
 const fotograf_slubny_portfolio_2023_081 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_081.webp";
 const fotograf_slubny_portfolio_2023_082 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_082.webp";
@@ -300,6 +306,45 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={sylwestrowy_slub}
+              imgalt="ślub w sylwestra, sylwestrowy ślub"
+              linkhref="sylwestrowy-slub-sala-bankietowa-impresja-jordanow"
+              title="SYLWESTROWY ŚLUB W GÓRACH"
+              names="JUSTYNA i DAMIAN"
+            />
+            
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={sesja_plenerowa_rynek_w_krakowie}
+              imgalt="plener ślubny kraków"
+              linkhref="sesja-slubna-w-krakowie-sukiennice-hotel-stary-bulwary-wislane"
+              title="PLENER RYNEK i SUKIENNICE"
+              names="OLGA i DAWID"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={plener_slubny_w_krakowie}
+              imgalt="plener ślubny w Krakowie, sprawdzone miejsca"
+              linkhref="wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"
+              title="SESJA ZDJĘCIOWA MOGILANY"
+              names="ANNA i TOMASZ"
+            />  
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

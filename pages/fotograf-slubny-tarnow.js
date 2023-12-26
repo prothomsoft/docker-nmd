@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -8,6 +10,9 @@ import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
+const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_na_jurze.webp";
+const panorama_portfolio = process.env.staticS3ImagesPath + "portfolio/small/panorama_portfolio.webp";
+const oberwanka_lostowka_portfolio = process.env.staticS3ImagesPath + "portfolio/small/oberwanka_lostowka_portfolio.webp";
 
 const fotograf_slubny_portfolio_2023_333 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_333.webp";
 const fotograf_slubny_portfolio_2023_334 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_334.webp";
@@ -298,6 +303,44 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+        <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={oberwanka_lostowka_portfolio}
+              imgalt="bazylika bożego ciała kraków fotoreportaż ślubny"
+              linkhref="dom-weselny-oberwanka-lostowka"
+              title="ŚLUB W BESKIDACH OBERWANKA"
+              names="ANGELIKA i MATEUSZ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}> 
+          <ImageCardSmall
+              imgsrc={panorama_portfolio}
+              imgalt="dom weselny panorama stary wiśnicz"
+              linkhref="dom-weselny-panorama-stary-wisnicz"
+              title="ŚLUB PRZY ZAMKU STARY WIŚNICZ"
+              names="MAGDALENA i WOJCIECH"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={plener_slubny_na_jurze}
+              imgalt="plener ślubny na jurze"
+              linkhref="plener-slubny-zamek-pieskowa-skala"
+              title="PLENER ŚLUBNY NA JURZE"
+              names="MARTYNA i MICHAŁ"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

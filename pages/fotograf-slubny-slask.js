@@ -1,12 +1,18 @@
 import LayoutSitePage from "../components/layoutSitePage";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import { Typography } from "@mui/material";
 import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import Carousel from 'react-material-ui-carousel'
 import FaqAccordion from "../components/faqAccordion";
+
+const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_na_jurze.webp";
+const wesele_rustykalne = process.env.staticS3ImagesPath + "portfolio/small/wesele_rustykalne.webp";
+const plener_slubny_palac_goetzow_brzesko = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_palac_goetzow_brzesko.webp";
 
 const fotograf_slubny_portfolio_2023_002 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_002.webp";
 const fotograf_slubny_portfolio_2023_003 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_003.webp";
@@ -297,6 +303,44 @@ const PageComponent = () => {
                       a3={schemaData.mainEntity[2].acceptedAnswer.text}
                       q4={schemaData.mainEntity[3].name}
                       a4={schemaData.mainEntity[3].acceptedAnswer.text} />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+        <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={wesele_rustykalne}
+              imgalt="wesele boho i rustykalne"
+              linkhref="folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem"
+              title="WESELE BOHO i RUSTYKALNE"
+              names="PAULA i WOJTEK"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+             imgsrc={plener_slubny_palac_goetzow_brzesko}
+             imgalt="plener ślubny pałac goetzów brzesko"
+             linkhref="sesja-slubna-jesienia-palac-goetzow-okocimskich"
+             title="PLENER ŚLUBNY PAŁAC GOETZÓW"
+             names="IZABELA i ARKADIUSZ"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={plener_slubny_na_jurze}
+              imgalt="plener ślubny na jurze"
+              linkhref="plener-slubny-zamek-pieskowa-skala"
+              title="PLENER ŚLUBNY NA JURZE"
+              names="MARTYNA i MICHAŁ"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>

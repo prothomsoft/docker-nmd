@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -8,8 +10,9 @@ import Carousel from 'react-material-ui-carousel';
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
-
-
+const dworek_fantazja_skomielna_biala_fotograf = process.env.staticS3ImagesPath + "portfolio/small/dworek_fantazja_skomielna_biala_fotograf.webp";
+const zajazd_mogielica_portfolio = process.env.staticS3ImagesPath + "portfolio/small/zajazd_mogielica_portfolio.webp";
+const klaudia_przemek_start = process.env.staticS3ImagesPath + "portfolio/small/klaudia_przemek_start.webp";
 
 const fotograf_slubny_portfolio_2023_506 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_506.webp";
 const fotograf_slubny_portfolio_2023_508 = process.env.staticS3ImagesPath + "portfolio/fotograf_slubny_portfolio_2023_508.webp";
@@ -307,6 +310,44 @@ const PageComponent = () => {
                             a3={schemaData.mainEntity[2].acceptedAnswer.text}
                             q4={schemaData.mainEntity[3].name}
                             a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+        </Box>
+
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
+            POLECANE REPORTAŻE ŚLUBNE
+          </Typography>
+        </Box>
+        
+        <Box sx={{ pt:2, pb: 2 }}>
+        <Grid container direction="row" alignItems="center">
+        <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={zajazd_mogielica_portfolio}
+              imgalt="wesele rustykalne, polskie tradycje weselne"
+              linkhref="dom-weselny-mogielica-jurkow-rustykalne-wesele"
+              title="WESELE RUSTYKALNE MSZANA"
+              names="NATALIA i KRZYSZTOF"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={dworek_fantazja_skomielna_biala_fotograf}
+              imgalt="ślub w stylu glamour"
+              linkhref="dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"
+              title="ŚLUB W STYLU GLAMOUR"
+              names="PATRYCJA i KRZYSZTOF"
+            />
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCardSmall
+              imgsrc={klaudia_przemek_start}
+              imgalt="sala weselna w myślenicach, dom weselny bystra podhalańska"
+              linkhref="sala-weselna-karolinka-bystra-podhalanska"
+              title="WESELE STRAŻACKIE MYŚLENICE"
+              names="KLAUDIA i PRZEMYSŁAW"
+            />
+          </Grid>
+        </Grid>
         </Box>
       </Container>
     </LayoutSitePage>
