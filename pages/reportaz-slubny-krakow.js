@@ -56,7 +56,7 @@ const PageComponent = () => {
       keywords="reportaż ślubny kraków, zdjęcia ślubne"
       url="https://99foto.pl/reportaz-slubny-krakow/"
       leadNames="ANGELIKA i MATEUSZ"
-      leadTitle="BDOM WESELNY OBERWANKA ŁOSTÓWKA, ŚLUB W BESKIDACH"
+      leadTitle="DOM WESELNY OBERWANKA ŁOSTÓWKA, ŚLUB W BESKIDACH"
       leadUrl="/dom-weselny-oberwanka-lostowka"
       leadImage={pageImage}>
       <Container sx={{ pt: 8 }}>
