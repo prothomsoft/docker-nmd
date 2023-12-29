@@ -12,7 +12,6 @@ import Image from "next/image";
 import wesele_z_klasa from "../public/icons/wesele_z_klasa.webp";
 import instagram_icon from "../public/icons/instagram_icon.webp";
 import facebook_icon from "../public/icons/facebook_icon.webp";
-import slub_na_glowie from "../public/icons/slub_na_glowie.webp";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
@@ -284,24 +283,19 @@ const ContactForm = ({scrollToContact}) => {
             <Grid container spacing={1} justifyContent="center" alignItems="center">
               <Grid item xl={4} />
               <Grid item xl={1}>
-                <Link href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/">
-                    <Image alt="wesele z klasą" src={wesele_z_klasa} />
-                </Link>
-              </Grid>
-              <Grid item xl={1}>
-                <Link href="https://www.instagram.com/99foto.pl">
+                <Link href="https://www.instagram.com/99foto.pl" rel="noopener noreferrer" target="_blank">
                     <Image alt="profil na instagramie" src={instagram_icon} />
                 </Link>
               </Grid>
               <Grid item xl={1}>
-                <Link href="https://facebook.com/99foto">
+                <Link href="https://facebook.com/99foto" rel="noopener noreferrer" target="_blank">
                     <Image alt="profil na instagramie" src={facebook_icon} />
                 </Link>
               </Grid>
               <Grid item xl={1}>
-                <Link href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663">
-                    <Image alt="profil na instagramie" src={slub_na_glowie} />
-                </Link>                
+                <Link href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="noopener noreferrer" target="_blank">
+                    <Image alt="wesele z klasą" src={wesele_z_klasa} />
+                </Link>
               </Grid>
               <Grid item xl={4} />
             </Grid>
