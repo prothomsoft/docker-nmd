@@ -3,7 +3,7 @@ import React from 'react';
 import ImageCard from "./imageCard";
 const hotel_mercure_kasprowy_zakopane = process.env.staticS3ImagesPath + "portfolio/hotel_mercure_kasprowy_zakopane.webp";
 const dworzyszcze_wola_reportaz_slubny_pod_krakowem = process.env.staticS3ImagesPath + "portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.webp";
-const dworek_fantazja_skomielna_biala_fotograf = process.env.staticS3ImagesPath + "portfolio/dworek_fantazja_skomielna_biala_fotograf.webp";
+const sala_weselna_graffit_myslenice = process.env.staticS3ImagesPath + "portfolio/sala_weselna_graffit_myslenice.webp";
 const zajazd_mogielica_portfolio = process.env.staticS3ImagesPath + "portfolio/zajazd_mogielica_portfolio.webp";
 const slub_palac_goetz_portfolio = process.env.staticS3ImagesPath + "portfolio/slub_palac_goetz_portfolio.webp";
 const oberwanka_lostowka_portfolio = process.env.staticS3ImagesPath + "portfolio/oberwanka_lostowka_portfolio.webp";
@@ -82,11 +82,11 @@ const ImageCardGridStartNormalImages = () => {
           </Grid>
           <Grid item lg={4} p={1}>
             <ImageCard
-               imgsrc={dworek_fantazja_skomielna_biala_fotograf}
+               imgsrc={sala_weselna_graffit_myslenice}
                imgalt="ślub w stylu glamour"
-               linkhref="dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"
+               linkhref="sala-weselna-graffit-myslenice"
                title="ŚLUB W STYLU GLAMOUR"
-               names="PATRYCJA i KRZYSZTOF"
+               names="KINGA i SEBASTIAN"
             />
           </Grid>
           <Grid item lg={4} p={1}>

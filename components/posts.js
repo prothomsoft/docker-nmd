@@ -1,6 +1,16 @@
 export const posts = [
 
   {
+    date: "2024-05-25T11:24:29",
+    slug: "sala-weselna-graffit-myslenice",
+    title: "SALA WESELNA GRAFFIT MYŚLENICE, MAGIA ŚLUBU W STYLU GLAMOUR",
+    content:
+      'Fotografowanie ślubu Kingi i Sebastiana pokazało mi po raz kolejny, że każdy ślub, każda para jest unikalna. Styl glamour, który wybrali, podkreślił ich elegancję i gust, ale to prawdziwe emocje – miłość, radość, wzruszenie – były najpiękniejszą ozdobą tego dnia. Właśnie te chwile, autentyczne uczucia, tworzą historię, którą mam przyjemność opowiadać za pomocą zdjęć. Dzień ślubu zaczęliśmy od przygotowań Panny młodej, wyczarowany makeup idealnie podkreślił wyjątkową urodę Panny Młodej. Kinga i Sebastian zadbali o każdy szczegół. Wygląd Panny Młodej był nie do opisania – elegancka suknia, delikatna biżuteria. Wszystko było dopięte na ostatni guzik, tworząc spójną całość, która zachwycała gości i sprawiała, że każdy detal mówił o miłości i elegancji.',
+    names: ["KINGA i SEBASTIAN"],
+    tags: ["sala weselna Graffit Myślenice, magia ślubu w stylu Glamour, zdjęcia ślubne Myślenice"],
+    image: process.env.staticS3ImagesPath + "blog/2024/05/sala_weselna_graffit_myslenice_0116.webp",
+  },
+  {
     date: "2023-08-31T08:24:29",
     slug: "palac-goetz-slub-humanistyczny",
     title: "PAŁAC GOETZ, ŚLUB HUMANISTYCZNY W OKOLICACH KRAKOWA",
