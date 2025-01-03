@@ -1,5 +1,14 @@
 export const posts = [
-
+  {
+    date: "2024-08-24T20:09:27",
+    slug: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach",
+    title: "SALA WESELNA WILLA ORCHIDEA WAKSMUND ŚLUB NA PODHALU",
+    content:
+      'Kilkukrotnie już pisałem, że wesela w górach mają swój niepowtarzalny klimat. Było tak i tym razem na ślubie Weroniki i Marcina w Waksmundzie. Ósma rano, flat white na Orlenie, przejazd przez świetnie mi znane pienińskie zakątki, czyli Sromowce Wyżne brzegiem Jeziora Czorsztyńskiego i pierwszy przystanek Dom Panny Młodej. W tym miejscu rozpoczęliśmy przygotowania. Makijażystki przyjechały do Waksmundu z Krakowa, makijaż musiał być perfekcyjny, a dzień zaplanowany co do najdrobniejszego szczegółu. Podczas przygotowań Weronice towarzyszyły druhny. Wszystkie dziewczyny wyglądały rewelacyjnie i błyskawicznie pomogły zapanować nad detalami, założyć suknie, biżuterię, podwiązkę i buty. W oczekiwaniu na Marcina, który podróżował białym Porsche ze Szlembarku w dobrych humorach popijaliśmy szampana. Dalej już błogosławieństwo, wzruszenia i przejazd do Kościoła pw. Świętej Trójcy w Łopusznej.',
+    names: ["WERONIKA i MARCIN"],
+    tags: ["fotografia ślubna Waksmund Sala weselna Willa Orchidea, ślub na podhalu"],
+    image: process.env.staticS3ImagesPath + "blog/2024/08/sala_weselna_willa_orchidea_waksmund_0110.jpg",
+  },
   {
     date: "2024-05-25T11:24:29",
     slug: "sala-weselna-graffit-myslenice",
@@ -560,16 +569,6 @@ export const posts = [
       names: ["MAGDA I DAMIAN"],
       tags: ["Nadwiślański Park Etnograficzny Wygiełzów", "Sesja narzeczeńska w Krakowie", "Zamek Lipowiec"],
       image: process.env.staticS3ImagesPath + "blog/2018/07/sesja_narzeczenska_w_krakowie_0003.webp",
-    },
-    {
-      date: "2018-07-04T20:09:27",
-      slug: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach",
-      title: "SALA WESELNA WILLA ORCHIDEA WAKSMUND   ŚLUB NA PODHALU",
-      content:
-        'Kilkukrotnie już pisałem, że wesela w górach mają swój niepowtarzalny klimat. Było tak i tym razem na ślubie Natalii i Kamila w Waksmundzie. Ósma rano, flat white na Orlenie, przejazd przez świetnie mi znane pienińskie zakątki, czyli Sromowce Wyżne brzegiem Jeziora Czorsztyńskiego i pierwszy przystanek <a   href="https://www.facebook.com/Studio-Urody-Avangarda-Karolina-Bryja-200918166919683/"   target="_blank"   rel="nofollow noopener noreferrer"   >Studio Urody Avangarda Karoliny Bryja</a >. W tym miejscu rozpoczęliśmy przygotowania. Karolina to kuzynka Natalii, więc w takie rodzinnej atmosferze, mając salon niemalże na wyłączność powstał perfekcyjny makijaż. Podczas przygotowań Natalii towarzyszyły druhny. Wszystkie dziewczyny wyglądały świetnie i błyskawicznie pomogły Natalii założyć suknie, biżuterię, podwiązkę i buty. W oczekiwaniu na Kamila, który do Waksmundu jechał z Jordanowa w kuchni toczyła się alternatywna impreza. Holenderscy goście, którzy na codzień raczej tylko piwko, złamali się i bariera językowa szybko pękła&#8230; i nie tylko bariera pękła w tej kuchni. Dalej już błogosławieństwo, wzruszenia i przejazd końmi do <a   href="http://www.diecezja.pl/parafie/lista-parafii/32-nowy-targ/parafia-sw-jadwigi-slaskiej.html"   target="_blank"   rel="noopener noreferrer"   >Kościoła Świętej Jadwigi Śląskiej</a > w Waksmundzie.',
-      names: ["NATALIA i KAMIL"],
-      tags: ["fotografia ślubna Waksmund", "Sala weselna Willa Orchidea", "ślub na podhalu"],
-      image: process.env.staticS3ImagesPath + "blog/2018/07/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach_0011.webp",
     },
     {
       date: "2018-07-02T10:23:41",
