@@ -4,9 +4,9 @@ import Box from "@mui/material/Box";
 import IntroArrow from "./introArrow";
 import { Typography } from "@mui/material";
 
-const ParallaxImage = (props) => {
+const ParallaxImage = ({ imgsrc, height, menuNames, menuTitle, action }) => {
   const background = {
-    image: props.imgsrc,
+    image: imgsrc,
     speed: -20,
     opacity: [1, 1],
   };
@@ -18,48 +18,23 @@ const ParallaxImage = (props) => {
     justifyContent: "center",
     alignItems: "center",
     color: "#FFF",
-    top: "0",
-    bottom: "0",
-    left: "0",
-    right: "0",
     width: "100%",
   };
-
-  const boxStyleArrow = {
-    display: "flex",
-    flexDirection: "column",
-    position: "absolute",
-    justifyContent: "center",
-    alignItems: "center",
-    color: "#FFF",
-    top: "80vh",
-    bottom: "0",
-    left: "0",
-    right: "0",
-    width: "100%",
-  };
-
-  let componentLink = "";
-
-  if (props.menuNames != "") {
-    componentLink = (
-      <Box sx={boxStyle}>
-        <Typography variant="h3" align="center">
-          {props.menuNames}
-        </Typography>
-        <Typography variant="h4" align="center">
-          {props.menuTitle}
-        </Typography>
-      </Box>       
-    );
-  }
-
 
   return (
-    <ParallaxBanner layers={[background]} style={{ height: props.height }}>
-      {componentLink}
-      <Box sx={boxStyleArrow}>
-        <IntroArrow action={props.action} />
+    <ParallaxBanner layers={[background]} style={{ height }}>
+      {menuNames && (
+        <Box sx={{ ...boxStyle, top: 0, bottom: 0 }}>
+          <Typography variant="h3" align="center">
+            {menuNames}
+          </Typography>
+          <Typography variant="h4" align="center">
+            {menuTitle}
+          </Typography>
+        </Box>
+      )}
+      <Box sx={{ ...boxStyle, top: "80vh" }}>
+        <IntroArrow action={action} />
       </Box>
     </ParallaxBanner>
   );
