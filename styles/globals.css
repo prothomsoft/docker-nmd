@@ -1,49 +1,31 @@
 @font-face {
-    font-family: "Oswald";
-    src: url("/fonts/Oswald-Regular.ttf");
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
-  .quote-title::before,
-  .quote-title::after {
-      content: "";
-      display: block;
-      border: 1px solid #33b59a;
-  }
-  .quote-title {
-      display: flex;
-      align-items: center;
-      color: #ffffff;
-      padding: 10px 0 10px 0;
-  }
+.quote-title {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px 0;
+}
 
-  .quote-title::before,
-  .quote-title::after {
-      flex-grow: 1;
-      margin: 0 10px;
-  }
+.quote-title::before,
+.quote-title::after {
+  content: "";
+  flex-grow: 1;
+  margin: 0 10px;
+  border: 1px solid #33b59a;
+}
 
-  a:link {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: white;
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
-  }
-  
-  /* selected link */
-  a:active {
-    color: white;
-    text-decoration: none;
-  }
+}
