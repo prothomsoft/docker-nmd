@@ -35,3 +35,4 @@ yarn-error.log*
 
 # lock files
 package-lock.json
+nextjs-docker-dev.tar
