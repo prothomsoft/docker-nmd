@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,9 @@ const PageComponent = () => {
         Jako fotograf ślubny przywiązuję wagę nie tylko do tego, aby Wasz reportaż ślubny był przepiękny – ogromnie ważne jest dla mnie aby był unikalny, niepowtarzalny oraz żebyście ze wzruszeniem i uśmiechem mogli po latach przeglądać swój album ślubny.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Nie lubię sztucznych, ustawianych kadrów i nie ingeruję w przebieg ślubu i wesela – czuję za to ogromną ekscytację tworząc fotografie ślubne z najważniejszego dnia w Waszym życiu. Emocje, jakie towarzyszą mi, są bardzo podobne do tych jakie Wy przeżywacie w dniu ślubu - ekscytujące oczekiwanie, poprzez wzruszenia podczas ceremonii, a kończąc na radosnej zabawie. To właśnie jest kwintesencja zdjęć ślubnych. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
@@ -241,11 +238,9 @@ const PageComponent = () => {
         W Katowicach waszą uwagę powinny zwrócić trzy miejsca. Centrum Katowic to idealne miejsce na miejską nowoczesną sesję ślubną. Z biegiem lat stolica województwa śląskiego bardzo zmieniła swoje oblicze. Tradycje śląskie są tu dalej widoczne, ale centrum miasta jest bardzo nowoczesne. To miejsce mocno industrialne pełne geometrycznych kształtów złagodzonych sporą ilością zieleni miejskiej. Katowicka Strefa Kultury jest ciekawym tłem dla sesji ślubnych. Dlatego też chętnie jest ono wybierane przez pary młode ze Śląska. Jako najbardziej fotogeniczny obiekt, idealny na miejskie plenery ślubne w Katowicach uznać trzeba katowicki Spodek. Hala  widowiskowo - sportowa Spodek jest jednym z symboli Katowic od wielu już lat. Na jego charakterystycznego kształtu odbywa się wiele różnych sesji zdjęciowych. 
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Bardzo dobrze też sprawdzi się Międzynarodowe Centrum Kongresowe. Niezwykła, bardzo geometryczna bryła budynku MCK wyróżnia się industrialną estetyką oraz niezwykłym designem. Tworzy jedno z najbardziej fotografowanych miejsc w całej Katowickiej Strefie Kultury. Idealnym tłem dla przeszklonego niezwykłego budynku jest zielona kaskadowo położona dolina prowadząca schodami aż do Spodka. Młode pary bardzo chętnie wybierają właśnie to miejsce jako swój plener ślubny w Katowickiej Strefie Kultury. 
@@ -271,11 +266,9 @@ const PageComponent = () => {
         Każde wydarzenie ma swoją historię, treść i swoistą moc którą trzeba dostrzec i umiejętnie zapisać. Czyli zrobić ponadczasowe zdjęcia, które będą wyraźnym echem tamtych chwil. Warto pamiętać, że za 20, 30 i więcej lat kolejne pokolenia będą wpatrywać się w te wspomnienia. Zastanówmy się co chcemy im przekazać. Jaką wartość mają nieść ze sobą Wasze historie. Jak mają być zapamiętane i jak opowiedziane.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Nie ma jednoznacznej definicji. To składowa wielu zdarzeń: –  doświadczenia fotografa, jego umiejętności, wyczucia, jego wrażliwości i techniki. Tego w jaki sposób obserwuje wydarzenie, jak postrzega światło, jakich technik używa. Czy wie w jaki sposób opowie historię, czy po prostu improwizuje. Na tym polega magia fotografii, że każdy twórca inaczej widzi. Inaczej opowiada, i to że opowieści są różne daje nam pole wyboru. Wy możecie zdecydować jak Wasze wspomnienia zostaną opowiedziane. Pamiętajcie, że każda Wasza Historia jest warta zapamiętania.

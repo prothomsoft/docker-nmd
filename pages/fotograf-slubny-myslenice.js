@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -210,11 +209,9 @@ const PageComponent = () => {
         Zdjęcia z uroczystości mogą być wspaniałą pamiątką dla przyszłych pokoleń. Dlatego ważne jest to, aby wybrać odpowiedniego profesjonalnego i doświadczonego fotografa ślubnego.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Nie ma ślubu bez fotografa na co w takim razie zwrócić uwagę przy wyborze tego jedynego fotografa. Czy znacie najwaźniejsze kwestie, na które Para Młoda powinna zwrócić uwagę przy wyborze fotografa ślubnego? Czy szukacie <strong>najlepszego fotografa ślubnego w Myślenicach</strong>? Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
@@ -244,11 +241,9 @@ const PageComponent = () => {
         Pary młode raczej decydują się jednak na profesjonalistę, ponieważ goście nie zawsze muszą złapać ten odpowiedni moment w trakcie ślubu lub wesela. Mogą akurat się zająć zabawą w czasie, kiedy dzieją się najciekawsze rzeczy.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Dodatkowo wiele osób duchownych raczej preferuje profesjonalistę przy ołtarzu, który zrobi zdjęcia dyskretnie i profesjonalnie nie przeszkadzając w trakcie samej ceremonii ślubu.
@@ -274,11 +269,9 @@ const PageComponent = () => {
         Warto też obejrzeć cały reportaż takiego fotografa bo jest oczywiste, że fotografowie na swoich stronach internetowych, profilach społecznościowych posługują się najlepszymi kadrami, więc moim zdaniem warto jest poprosić takiego fotografa, żeby pokazał cały reportaż z wesela najlepiej jednego z ostatnio wykonanych. 
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">

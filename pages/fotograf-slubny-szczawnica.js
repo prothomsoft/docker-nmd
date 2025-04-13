@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,9 @@ const PageComponent = () => {
         Planowanie i organizacja ślubu to przede wszystkim nieustanne podejmowanie decyzji. Ciągłe wybory pomiędzy jednym, a drugim. Nie sposób wyliczyć jak bardzo złożone jest to przedsięwzięcie. Jeśli jesteście parą poszukującą fotografa na swój ślub, to doskonale wiecie o czym mówię. Szukając osoby odpowiedzialnej za jedne z ważniejszych zdjęć w Waszych życiu, przede wszystkim myślcie o tym czego Wy oczekujecie i co Wam się podoba. Odstawcie na bok porady cioci, sąsiadki czy rekomendacje z Waszej sali weselnej. To bardzo ważna pamiętka. 
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Jeśli rozpoczniecie przygotowania do ślubu, szybko zauważycie, że ze wszystkich stron jesteście atakowani propozycjami pomocy i współpracy. W czasach, gdzie każdy fotograf chce współpracować z każdą parą - warto dobrze przemyśleć temat „dopasowania” i oczekiwań. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Szczawnicy</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
@@ -241,11 +238,9 @@ const PageComponent = () => {
           Szczawnica to miejsce wyjątkowe. Realizując tam sesje ślubne możemy rozpocząć od Parku Zdrojowego, następnie przespacerować się wzdłuż promenady, fotografując wzdłuż Dunajca. Możemy też wybrać się znacznie wyżej. Niejednokrotnie wychodziłem na Wysoki Wierch, czy to od strony Szlachtowej, czy też pokonując pierwszy etap trasy kolejką na Palenicę. Widok na zachodzące słońce kładzące się w Pieninach, z widokiem Tatr w oddali - trudno wyobrazić sobie lepszą scenerię dla zdjęć ślubnych.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeżeli jesteście Parą Młodą, która preferuje miejsca, gdzie ludzi jest trochę mniej, plener ślubny w Szczawnicy spełni Wasze oczekiwania. Poszukując nie tylko fotografa, ale i przewodnika, który doskonale zna tamte strony trafiliście doskonale. Zapraszam na mojego bloga, gdzie znajdziecie zdjęcia z miejsc, o których wspomniałem. Do zobaczenia na reportażu i na plenerze ślubnym wkrótce...
@@ -271,11 +266,9 @@ const PageComponent = () => {
         Czy często para młoda decyduje się na wybór profesjonalnego fotografa, czy może liczy bardziej na zdjęcia od gości, którzy obecni są na całej uroczystości? Pary młode raczej decydują się jednak na profesjonalistę, ponieważ goście nie zawsze muszą złapać ten odpowiedni moment w trakcie ślubu lub wesela. Mogą akurat się zająć zabawą w czasie, kiedy dzieją się najciekawsze rzeczy.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Dodatkowo wiele osób duchownych raczej preferuje profesjonalistę przy ołtarzu, który zrobi zdjęcia dyskretnie i profesjonalnie nie przeszkadzając w trakcie samej ceremonii ślubu.

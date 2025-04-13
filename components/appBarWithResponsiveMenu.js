@@ -22,6 +22,10 @@ import Zoom from "@mui/material/Zoom";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import { keyframes } from "@mui/system";
 import MenuTop from "./menuTop";
+import ClassicHamburgerMenu from "./ClassicHamburgerMenu";
+import MuiMenu from "@mui/material/Menu";
+import MuiMenuItem from "@mui/material/MenuItem";
+import { useRouter } from "next/router"; // Import useRouter
 
 const pages = [
   { name: "O MNIE", url: "/fotograf-na-wesele" },
@@ -38,6 +42,7 @@ const pages = [
 
 const AppBarWithResponsiveMenu = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const router = useRouter(); // Initialize the router
 
   const action = props.action;
 
@@ -164,46 +169,71 @@ const AppBarWithResponsiveMenu = (props) => {
           </Container>
           <Container>
             <Toolbar id="back-to-top-anchor" disableGutters sx={{ p: 1 }}>
-              <Box sx={{ display: { xs: "flex", lg: "none" }, width: "100%" }} justifyContent="center" alignItems="center">
-                <Link key={2} href="/" >
+              <Box
+                sx={{
+                  display: { xs: "flex", lg: "none" },
+                  width: "100%",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Link key={2} href="/" passHref>
                   <Button variant="menuButton" sx={{ pt: 2, pb: 2, ml: 8 }} key={1}>
                     <Image alt="fotograf ślubny kraków" src={logo99fotomobile} width={91} height={30} />
                   </Button>
                 </Link>
               </Box>
-              <Box sx={{ display: { xs: "flex", lg: "none" } }} justifyContent="center" alignItems="center">
-                <IconButton size="medium" onClick={handleOpenNavMenu} sx={{ backgroundColor: "white" }}>
-                  <MenuIcon sx={{ color: "black", fontSize: "1.8rem" }} />
-                </IconButton>
-                <Menu
-                  id="menu-appbar"
+              <Box
+                sx={{
+                  display: { xs: "flex", lg: "none" },
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "relative", // Ensure consistent positioning
+                }}
+              >
+                <ClassicHamburgerMenu onClick={handleOpenNavMenu} />
+                <MuiMenu
+                  id="basic-menu"
                   anchorEl={anchorElNav}
+                  open={Boolean(anchorElNav)}
+                  onClose={handleCloseNavMenu}
+                  disableScrollLock // Prevents adding padding-right to the body
+                  MenuListProps={{
+                    onMouseLeave: handleCloseNavMenu,
+                  }}
                   anchorOrigin={{
                     vertical: "bottom",
                     horizontal: "left",
                   }}
-                  keepMounted
                   transformOrigin={{
                     vertical: "top",
                     horizontal: "left",
                   }}
-                  open={Boolean(anchorElNav)}
-                  onClose={handleCloseNavMenu}
                   sx={{
                     display: { xs: "block", lg: "none" },
-                  }}>
+                  }}
+                >
                   {pages.map((page, key) => (
-                    <Link key={key} href={page.url}>
-                      <MenuItem key={key} onClick={handleCloseNavMenu}>
-                        <Typography textAlign="center">{page.name}</Typography>
-                      </MenuItem>
-                    </Link>
+                    <MuiMenuItem
+                      key={key}
+                      onClick={() => {
+                        handleCloseNavMenu();
+                        router.push(page.url); // Use router to navigate
+                      }}
+                    >
+                      <Typography textAlign="center">{page.name}</Typography>
+                    </MuiMenuItem>
                   ))}
-
-                  <MenuItem key={100} onClick={props.action}>
+                  <MuiMenuItem
+                    key={100}
+                    onClick={() => {
+                      handleCloseNavMenu();
+                      props.action();
+                    }}
+                  >
                     <Typography textAlign="center">KONTAKT</Typography>
-                  </MenuItem>
-                </Menu>
+                  </MuiMenuItem>
+                </MuiMenu>
               </Box>
             </Toolbar>
           </Container>

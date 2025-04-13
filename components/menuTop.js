@@ -1,37 +1,30 @@
-import React from 'react';
-import Button from '@mui/material/Button';
-import MuiMenu from '@mui/material/Menu';
-import MuiMenuItem from '@mui/material/MenuItem';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { useRouter } from 'next/router'
+import React from "react";
+import Button from "@mui/material/Button";
+import MuiMenu from "@mui/material/Menu";
+import MuiMenuItem from "@mui/material/MenuItem";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { useRouter } from "next/router";
 
 const MenuTop = () => {
-    const router = useRouter();
-    const [anchorEl, setAnchorEl] = React.useState(null);
-    const handleClick = (event) => {
-        if (anchorEl !== event.currentTarget) {
-            setAnchorEl(event.currentTarget);
-        }
-    };
-    const handleClose = () => {
-        setAnchorEl(null);
-    };
-    const handleClose1 = () => {
-      setAnchorEl(null);
-      router.push('reportaz-slubny-krakow'); 
-    };
-    const handleClose2 = () => {
-        setAnchorEl(null);
-        router.push('plener-slubny-krakow'); 
-    };
-    const handleClose3 = () => {
-        setAnchorEl(null);
-        router.push('sesja-narzeczenska-krakow'); 
-    };
+  const router = useRouter();
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
-    return (
-        <>
-    <Button
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleMenuItemClick = (path) => {
+    setAnchorEl(null);
+    router.push(path);
+  };
+
+  return (
+    <>
+      <Button
         id="demo-customized-button"
         variant="menuButton"
         onClick={handleClick}
@@ -39,20 +32,37 @@ const MenuTop = () => {
       >
         PORTFOLIO
       </Button>
-      <MuiMenu id="basic-menu" PaperProps={{sx: {backgroundColor: 'black'}}}
-            anchorEl={anchorEl}
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
-            MenuListProps={{
-                onMouseLeave: handleClose
-            }}
+      <MuiMenu
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+        disableScrollLock // Prevents adding padding-right to the body
+        MenuListProps={{
+          onMouseLeave: handleClose,
+        }}
+      >
+        <MuiMenuItem
+          variant="menuButtons"
+          onClick={() => handleMenuItemClick("reportaz-slubny-krakow")}
         >
-            <MuiMenuItem variant='menuButtons' onClick={handleClose1}>REPORTAŻ ŚLUBNY</MuiMenuItem>
-            <MuiMenuItem variant='menuButtons' onClick={handleClose2}>PLENER ŚLUBNY</MuiMenuItem>
-            <MuiMenuItem variant='menuButtons' onClick={handleClose3}>SESJA NARZECZEŃSKA</MuiMenuItem>
-      </MuiMenu>        
-      </>
-    );
+          REPORTAŻ ŚLUBNY
+        </MuiMenuItem>
+        <MuiMenuItem
+          variant="menuButtons"
+          onClick={() => handleMenuItemClick("plener-slubny-krakow")}
+        >
+          PLENER ŚLUBNY
+        </MuiMenuItem>
+        <MuiMenuItem
+          variant="menuButtons"
+          onClick={() => handleMenuItemClick("sesja-narzeczenska-krakow")}
+        >
+          SESJA NARZECZEŃSKA
+        </MuiMenuItem>
+      </MuiMenu>
+    </>
+  );
 };
 
 export default MenuTop;

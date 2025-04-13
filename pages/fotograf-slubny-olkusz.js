@@ -4,10 +4,9 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import ImageCardSmall from "../components/imageCardSmall";
 import { Typography } from "@mui/material";
-import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import ImageCarousel from "../components/imageCarousel";
 import { useTheme } from "@mui/material/styles";
-import Carousel from 'react-material-ui-carousel'
 import FaqAccordion from "../components/faqAccordion";
 
 const sesja_narzeczenska_krakow_33 = process.env.staticS3ImagesPath + "portfolio/small/sesja_narzeczenska_krakow_33.webp";
@@ -209,11 +208,9 @@ const PageComponent = () => {
         Wybór właściwego fotografa ślubnego w Olkuszu jest bardzo istotną sprawą podczas organizacji wesela. Czy wyobrażacie sobie, aby Wasze wesele odbyło się bez obecności fotografa ślubnego? Na pewno nie. Fotograf to osoba, która pozwoli zapamiętać Wam każdy, nawet najdrobniejszy szczegół z Waszego wesela. Jest to naprawdę ważne, ponieważ ten wyjątkowy klimat, tworzą najmniejsze detale, o których niestety z czasem zapominamy.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Jeżeli więc zależy Wam na wspaniałej fotografii ślubnej w Olkuszu to świetnie trafiliście. Pozwólcie, że się przedstawię - nazywam się Tomek Prokop i podpowiem Wam na co zwrócić uwagę, wybierając <strong>odpowiedniego fotografa na Wasze wesele w Olkuszu</strong>.
@@ -244,11 +241,9 @@ const PageComponent = () => {
         Obiecuję, że miło spędzimy czas, a Wy poznacie wszystkie niuansy związane z fotografowaniem ślubu.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           
@@ -275,11 +270,9 @@ const PageComponent = () => {
         Emocje na zdjęciach ślubnych są mega ważne, bo to one są najlepszym nośnikiem wspomnień. Fotograf ślubny w Olkuszu, który unika reżyserowania i ciągłego dyrygowania Wami? Zapraszam do wypełnienia formularza kontaktowego.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Olkuszu, to warto rozpocząć od zasięgnięcia opinii wśród znajomych i rodziny oraz przejrzenia portfolio różnych fotografów i porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.

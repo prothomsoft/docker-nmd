@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -210,11 +209,9 @@ const PageComponent = () => {
           Witaj na mojej stronie internetowej. Pewnie nie lubisz tracisz czasu, więc jeżeli znalazłeś się w tym miejscu to myślę, że mogę wiedzieć czego poszukujesz. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Kielcach</strong> to jest do bardzo dobry adres. W ubiegłym roku 2k22 wykonałem blisko czterdzieści reportaży ślubnych. Wszystkie pary młode otrzymały już zdjęcia w strefie klienta i na pendrivie, otrzymały też swoje fotoksiążki ślubne. Mam nadzieję, że i Ty dołączysz do grona klientów zadowolonych z moich usług. Zapraszam do zapoznania się ze zdjęciami.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Oferuje swoje doświadczenie i profesjonalizm, elastyczność i otwartość na sugestie. Postaram się spełnić wszystkie Wasze fotograficzne oczekiwania. Nazywam się Tomasz Prokop i zapraszam do mojego fotograficznego świata.
@@ -245,11 +242,9 @@ const PageComponent = () => {
         Kielce to miasto w środkowej Polsce, które oferuje wiele miejsc idealnych do fotografowania. Oto kilka propozycji: Park im. gen. Józefa Bema, Park Miejski im. Jana Pawła II, Zamek w Kielcach, Katedra św. Piotra i Pawła, Bulwary nad Silnicą. W każdym z tych miejsc możemy wybrać się na krótki spacer, porozmawiać, poszukać promieni słońcai  zrobić doskonałe zdjęcia.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Jest to tylko kilka przykładów, w Kielcach jest wiele innych pięknych miejsc, które mogą być idealne na plener ślubny. Zalecam zapoznanie się z mapą miasta i odkrycie własnych ulubionych miejsc.
@@ -275,11 +270,9 @@ const PageComponent = () => {
         Pamiętajmy, że to co powoduje, że zdjęcia zdjęcia fotografów ślubnych się podobają i co za tym idzie sprzedają to są sesje plenerowe, piękne widoki, cudne światło, idealnie dobrana kompozycja. Elementy te można najłatwiej kontrolować robiąc sesje, które się samodzielnie zaplanowało, wybrało super lokalizację i trafiło z porą dnia.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Kielcach, warto zacząć od zapytania znajomych i rodziny oraz przejrzenia portfolio różnych fotografów, porównania ich stylów i cen. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.

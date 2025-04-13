@@ -4,10 +4,9 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import ImageCardSmall from "../components/imageCardSmall";
 import { Typography } from "@mui/material";
-import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import Carousel from 'react-material-ui-carousel'
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 
 const plener_slubny_na_jurze = process.env.staticS3ImagesPath + "portfolio/small/plener_slubny_na_jurze.webp";
@@ -208,11 +207,9 @@ const PageComponent = () => {
           Poszukiwanie fotografa ślubnego na Śląsku to zadanie niełatwe.  Ocena jakości fotografii jest bardzo subiektywna i zależy od indywidualnych preferencji i oczekiwań pary młodej. Ważne, aby wybrać fotografa, który odpowiada Twojemu stylowi i upodobaniom oraz potrafi uchwycić ważne chwile i emocje z dnia ślubu. Możesz godzinami porównywać oferty różnych fotografów, przeglądać ich portfolio i czytać opinie innych klientów, aby znaleźć odpowiednią osobę, która najlepiej odpowiada Twoim oczekiwaniom.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Pamiętaj by zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego elastyczność i otwartość na sugestie i oczekiwania klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego na Śląsku</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
@@ -238,11 +235,9 @@ const PageComponent = () => {
           Śląsk jest regionem o bogatej historii i kulturze, dlatego nie brakuje tu wielu pięknych i unikalnych miejsc, które mogą stanowić idealne tło dla zdjęć ślubnych. Warto rozważyć sesję fotograficzną w jednym z malowniczych zamków lub pałaców, takich jak np. Zamek w Pszczynie czy Pałac w Dębnie. Innym ciekawym pomysłem może być sesja w jednym z muzeów, np. Muzeum Śląskie w Katowicach czy Muzeum Karkonoskie w Jeleniej Górze.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli lubicie przyrodę, możecie wybrać się na sesję do jednego z parków narodowych lub rezerwatów przyrody, takich jak Karkonoski Park Narodowy czy Beskidy. Wszystko zależy od indywidualnych preferencji i stylu, który preferujecie. Jestem pewny, że bez problemy znajdziecie coś idealnego dla siebie.
@@ -268,11 +263,9 @@ const PageComponent = () => {
         Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli szukacie profesjonalnego fotografa ślubnego na Śląsku, najpierw zapytajcie wśród znajomych i rodziny oraz przeglądnijcie portfolio różnych fotografów w celu porównania ich stylów. Koniecznie też zapoznajcie się z cennikiem usług. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.

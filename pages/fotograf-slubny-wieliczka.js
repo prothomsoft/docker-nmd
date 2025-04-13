@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,10 @@ const PageComponent = () => {
         Witaj na mojej stronie internetowej. Jeżeli szukasz najlepszego fotografa ślubnego w Wieliczce to jest do bardzo dobry adres. Jeżeli cenisz sobie w zdjęciach naturalność, chcesz widzieć emocje i brak pozowanych kadrów to tym bardziej zachęcam Ciebie do zapoznania się z moją ofertą ślubną.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
+
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Jestem fotografem zajmującym się głównie reportażami ślubnymi. Pracuję w Wieliczce. Szukam naturalnych i prawdziwych momentów, aby utrwalić je w rzeczywistym i szczerym wydaniu na moich fotografiach. Mam nadzieje, że album wypełniony tego rodzaju fotografiami przypomni Wam o ważnym dniu Waszego ślubu w przyszłości.
@@ -240,11 +238,10 @@ const PageComponent = () => {
         Osobom, które nie do końca czują się komfortowo przed obiektywem, służę pomocą i dobrą radą. Lubię improwizować podczas sesji zdjęciowej w plenerze daje to zawsze naturalne i oryginalne efekty. Gwarantuję dobrą zabawę i luźną atmosferę. Fotografia ślubna w Wieliczce i nie tylko. Zapraszam do zanurkowania głębiej w moje portfolio. 
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
+
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
@@ -266,11 +263,10 @@ const PageComponent = () => {
         Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu ślubu i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
+
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Wieliczce, warto zapytać znajomych oraz przeglądnąć wyniki wyszukań w internecie. Ilość fotografów ślubnych jest duża, wiele jest też stylów i trudno szukać ujednoliconego cennika usług fotografii ślubnej. Ważne, aby wybrać fotografa, który spełnia wszystkie Wasze oczekiwania i jest w stanie stworzyć piękną pamiątkę na lata.

@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -213,11 +212,9 @@ const PageComponent = () => {
         Wiadomo, że zdjęcia podczas wesela będzie robiło Wam mnóstwo osób. Jedne będą lepszej jakości, drugie gorsze. Część gości weźmie na przyjęcie ze sobą aparaty fotograficzne, a część będzie fotografować telefonem komórkowym. Jeśli żaden z naszych gości nie jest zawodowym fotografem, nie możemy mieć jednak pewności, że zrobione zdjęcia będą dla nas zadowalające.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Wybór fotografa na wesele nie należy do rzeczy łatwych. Trzeba przejrzeć portfolio wielu fotografów, negocjować się i pytać o wolne terminy. Nie każdy fotograf będzie do nas pasował. Każdy z nas jest inny, fotografowie też są inni. Nasze gusta, potrzeby i oczekiwania nie zawsze będą spójne z tym co proponuje fotograf. Nie na wszystko też jako Para Młoda musimy się zgadzać. Kobiety, które lubią bardziej jeden ze swoich profili, powinny powiedzieć o tym fotografowi przed ślubem. Jest wtedy szansa, że zdjęcia będą robione z tej bardziej „korzystnej dla nas strony”. Warto też wspomnieć, którzy z gości weselnych są dla nas najważniejsi i których zdjęć najwięcej byśmy chcieli - trzeba fotografowi przedstawić np. rodziców, rodzeństwo czy świadków. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Wadowicach</strong> to jesteś we właściwym miejscu. Nazywam się Tomasz Prokop, mieszkam w Krakowie i bardzo chętnie sfotografuję Wasz ślub.
@@ -246,11 +243,9 @@ const PageComponent = () => {
         Fotograf ślubny, który specjalizuje się w przygotowywaniu reportaży ślubnych, to osoba do zadań specjalnych. Z jednej strony musi poczuć w sobie duszę reportera, który jest w stanie przewidywać pewne zdarzenia, stale obserwuje otoczenie i wie, jakie momenty uchwycić na fotografiach. Z drugiej strony to osoba, która doskonale zna swój sprzęt i posiada rozległą wiedzę na temat technik fotografowania. Wie, w jaki sposób operować światłem i cieniem, by zdjęcia zyskały niepowtarzalny charakter, nadaje odpowiedni rytm całej historii, a także z łatwością tworzy zdjęcia wieloplanowe, w których kilka historii przeplata się ze sobą na jednej fotografii.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Jako dobry reporter ślubny nie boje się ciężkiej pracy i jestem gotowy na ciągłe udoskonalanie własnych umiejętności. Jeśli chcesz mieć pewność, że fotograf ślubny przygotuje dla Ciebie niezapomniany reportaż, zwróć uwagę na to, jak zmienia się jego portfolio na przestrzeni lat. Dzięki temu będziesz w stanie ocenić jego zaangażowanie w wykonywaną pracę oraz nieustanny rozwój.
@@ -276,11 +271,9 @@ const PageComponent = () => {
         W mojej ofercie znajdują się albumy ślubne dwóch wiodących firm drukarskich w Polsce. Pierwsza z nich to firma Printu, natomiast druga to Najlepsze Foto. Korzystając z moich usług w obu przypadkach zyskujecie pięćdziesiąt procent zniżki na zamówione do druku materiały. Mogę Was również zapewnić, że współpraca z tymi firmami przebiega doskonale, a jakość druku jest na najwyższym poziomie.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Marzą Ci się zdjęcia ze ślubu, które nawet za dwadzieścia lat będą wyciskać łzy wzruszenia? Szukasz <strong>fotografa ślubnego w Wadowicach</strong>, który nie tylko najpiękniej jak to możliwe zapisze wyjątkowe chwile, ale i doradzi, podpowie i doda otuchy wtedy, gdy będzie to konieczne? Trafiłeś w odpowiednie miejsce. Poznajmy się i umówmy na wspólną kawę. 

@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,9 @@ const PageComponent = () => {
         Dzień dobry. Poszukujemy fotografa, bądź fotografów oraz kamerzysty na wesele pod w Oświęcimiu. Interesują nas osoby tylko z wolnym terminem. Pozdrawiamy. Każdego dnia kilka osób poszukuje fotografa na swój ślub. Ponieważ znalazłeś się na mojej stronie internetowej domyślam się, że dzisiaj jesteś wśród nich.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Obecnie pary młode coraz częściej wybierają swoich fotografów na ślub kierując się stylem, a nie miastem zamieszkania. Dlatego też i ja często jeżdżę jako fotograf ślubny do Oświęcimia czy w każde inne miejsce, gdzie mnie młodzi zaproszą. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Oświęcimiu</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do zapoznania się z moimi zdjęciami.
@@ -240,11 +237,9 @@ const PageComponent = () => {
         Niekiedy na sfotografowanie danej sytuacji mam zaledwie kilka sekund. Chcąc uchwycić moment decydujący, w którym Pan Młody po raz pierwszy widzi swoją przyszłą żonę lub chwilę, kiedy uśmiechnięciu wychodzicie z kościoła po cerememoni, fotograf musi zachować czujność. Wykonać kilkanaście ujęć by mieć pewność, że moment został zapisany. Dlatego podczas reportażu ślubnego typowo wykonuje blisko cztery tysiące zdjęć.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Ich skrupulatny wybór zwany selekcją to proces długi, ale każde zdjęcie, które ma w sobie dawkę emocji wynagradza godziny spędzone przed monitorem komputera.
@@ -271,11 +266,9 @@ const PageComponent = () => {
         Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o pięknym dniu zaślubin i wszystkich emocjach z nim związanych. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który potrafi uchwycić ważne chwile i emocje oraz stworzyć piękne i unikalne zdjęcia, które będą cieszyć oko i wzruszać na długie lata.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli szukacie profesjonalnego fotografa ślubnego w Oświęcimiu to doskonale, że odwiedziliście moją stronę internetową. Poznawanie ludzi, rozkminianie z nimi przeróżnych tematów, odwiedzanie nowych miejsc stało się moim nałogiem. Trudno wyobrazić sobie sobotę, która mogłaby wyglądać inaczej.

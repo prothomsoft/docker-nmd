@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,9 @@ const PageComponent = () => {
         Fotografia ślubna to moja pasja i sposób na życie. Chcę aby każdy mógł poczuć się pięknie na moich zdjęciach. Moje zdjęcia są naturalne i pełne emocji dlatego, że od pierwszych minut naszej współpracy staram się mieć bardzo dobry kontakt z Wami, czyli moimi klientami. Zupełnie inaczej jest kiedy fotografuje Was ktoś znajomy, a zupełnie innaczej będą wyglądać zdjęcia zrobione przez obcą osobę. Dlatego tak ważne jest rozpoczęcie sesji zdjęciowej już od przygotowań, a nawet od sesji narzeczeńskiej. 
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Mamy wtedy czas żeby się dobrze poznać, a to nieocenione doświadczenie które wpływa niesamowicie na jakość zdjęć podczas pracy reporterskiej. Poszukujesz <strong>fotografa ślubnego w Miechowie</strong> jesteś w super doskonałym miejscu. Nazywam się Tomek Prokop, mieszkam w Krakowie i zapraszam na moje zdjęcia.
@@ -241,11 +238,9 @@ const PageComponent = () => {
         Miechów to miasto położone w województwie małopolskim, które jest odpowiednie do Waszej sesji plenerowej. Wśród propozycji miejsc na zdjęcia ślubne na pewno znajdą się Zamek w Miechowie, Kościół św. Andrzeja Boboli, park im. Jana Pawła II, Miechowska Starówka. Ciekawe kadry można też znaleźć fotografując w Muzeum Regionalnym w Miechowie oraz w Rezerwacie przyrody „Miechowski Las”. Wybierając na sesję plenerową scenerię w leśnej zieleni, czy architekturę miejską w Miechowie z pewnością znajdziecie coś dla siebie.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Sesja plenerowa to zwykle trzy godziny fotografowania w różnych miejscach. Poszukujemy fajnych kadrów, Waszych uśmiechów i staramy się odpowiednio dobrać pogodę i porę dnia. Wynikiem są zawsze bajeczne zdjęcia. Umówmy się na plener już dzisiaj. Zapraszam serdeczenie.
@@ -271,11 +266,9 @@ const PageComponent = () => {
         Fotografia ślubna to niezwykle ważna pamiątka, która będzie przypominać o wszystkich emocjach związanych z dniem ślubu. Dlatego tak ważne jest, aby wybrać dobrego fotografa, który stanie na wysokości zadania i uchwyci ważne chwile i emocje oraz stworzy piękne i unikalne zdjęcia ślubne.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Jeśli szukają Państwo profesjonalnego fotografa ślubnego w Miechowie to możecie już teraz wygodnie usiąść w fotelu, oglądnąć zdjęcia na stronie internetowej, wykręcić mój numer i umówić się na niezobowiązujące spotkanie. Porozmawiamy sobie przez godzinkę, odpowiem na wszystkie Wasze fotograficzne pytania, pokażę przykładowe książki, będzie miło. 

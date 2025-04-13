@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,9 @@ const PageComponent = () => {
         Udział w wielu szkoleniach, warsztatach, dopracowywanie kunksztu fotograficznego i fotografowania ślubów, nowe wyzwania każdego tygodnia doprowadziły do sytuacji, w której mogę powiedzieć, że umiem robić zdjęcia. Przez ostatnie lata i po dziesiątkach wykonanych reportaży, w fotografii ślubnej czuje się bardzo naturalnie. Człowiek uczy się jednak przez cały życie, dlatego na każdy reportaż, mimo przygotowania i pewności siebie, idę z lekkim wahaniem. Fotografia ślubna to jedna wielka przygoda.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Fotografia ślubna to głównie praca z ludźmi – w czasie przygotowań, na ślubie czy w trakcie sesji ślubnej mamy do czynienia przecież z ludźmi. Każde wesele jest inne, dlatego właśnie uwielbiam ten tryb pracy. Na każdym reportażu poznaję wielu ciekawych ludzi, z którymi często długo po weselu utrzymuję kontakt. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w Tarnowie</strong> to doskonale trafiłeś. Nazywam się Tomasz Prokop, mieszkam w Krakowie i zapraszam do kontaktu.
@@ -242,11 +239,9 @@ const PageComponent = () => {
         Trzeba wiedzieć, że fotografia ślubna to niełatwa dziedzina. Dobry reportaż ślubny jest bardzo wymagający. Trzeba być nie tylko sprawnym technicznie, ale przede wszystkim wrażliwym na otoczenie, na światło. Trzeba umieć w otaczającym nas chaosie stworzyć dość prosty, uporządkowany kadr, który poruszy emocje widza. Intuicja, empatia do ludzi i świetna kondycja fizyczna są to niezwykle istotne elementy, bez których nie wyobrażam sobie pracy w roli fotografa ślubnego. Dwanaście godzin biegania z aparatem potrafi zmęczyć najsprawniejszego sportowca.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={2000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Dla mnie jednak bardziej męczące od wysiłku fizycznego jest przebywanie w stanie permanentnej koncentracji. Trzeba być w pełnej gotowości, gdyż najpiękniejsze momenty trwają dosłownie ułamek sekundy. Drobne zawahanie spowoduje utratę świetnego zdjęcia.
@@ -272,11 +267,9 @@ const PageComponent = () => {
         Mam dobre “oko” do sytuacji, nic mi nie umknie! Dobry reportaż ślubny to taki, w którym zawarte są w stu procentach niepowtarzalne momenty. To Wam gwarantuję.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={4000} />
+        </Box>
 
         <Box sx={{ pt: 2, pb : 1 }}>
           <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">

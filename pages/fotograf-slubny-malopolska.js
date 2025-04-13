@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -50,104 +49,43 @@ const PageComponent = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   const imagesCarousel1 = [
-    {
-        image: fotograf_slubny_portfolio_2023_053
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_075
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_074
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_047
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_048
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_049
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_051
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_667
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_052
-    },
-    {
-        image: fotograf_slubny_portfolio_2023_044
-    }
-  ]
+    { image: fotograf_slubny_portfolio_2023_053 },
+    { image: fotograf_slubny_portfolio_2023_075 },
+    { image: fotograf_slubny_portfolio_2023_074 },
+    { image: fotograf_slubny_portfolio_2023_047 },
+    { image: fotograf_slubny_portfolio_2023_048 },
+    { image: fotograf_slubny_portfolio_2023_049 },
+    { image: fotograf_slubny_portfolio_2023_051 },
+    { image: fotograf_slubny_portfolio_2023_667 },
+    { image: fotograf_slubny_portfolio_2023_052 },
+    { image: fotograf_slubny_portfolio_2023_044 },
+  ];
 
   const imagesCarousel2 = [
-    {
-      image: fotograf_slubny_portfolio_2023_054
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_055
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_057
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_077
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_063
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_059
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_060
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_668
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_061
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_058
-    }
-  ]
+    { image: fotograf_slubny_portfolio_2023_054 },
+    { image: fotograf_slubny_portfolio_2023_055 },
+    { image: fotograf_slubny_portfolio_2023_057 },
+    { image: fotograf_slubny_portfolio_2023_077 },
+    { image: fotograf_slubny_portfolio_2023_063 },
+    { image: fotograf_slubny_portfolio_2023_059 },
+    { image: fotograf_slubny_portfolio_2023_060 },
+    { image: fotograf_slubny_portfolio_2023_668 },
+    { image: fotograf_slubny_portfolio_2023_061 },
+    { image: fotograf_slubny_portfolio_2023_058 },
+  ];
 
   const imagesCarousel3 = [
-    {
-      image: fotograf_slubny_portfolio_2023_065
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_066
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_064
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_068
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_079
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_069
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_072
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_070
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_078
-    },
-    {
-      image: fotograf_slubny_portfolio_2023_071
-    }
-  ]
-
+    { image: fotograf_slubny_portfolio_2023_065 },
+    { image: fotograf_slubny_portfolio_2023_066 },
+    { image: fotograf_slubny_portfolio_2023_064 },
+    { image: fotograf_slubny_portfolio_2023_068 },
+    { image: fotograf_slubny_portfolio_2023_079 },
+    { image: fotograf_slubny_portfolio_2023_069 },
+    { image: fotograf_slubny_portfolio_2023_072 },
+    { image: fotograf_slubny_portfolio_2023_070 },
+    { image: fotograf_slubny_portfolio_2023_078 },
+    { image: fotograf_slubny_portfolio_2023_071 },
+  ];
 
   const schemaData = {
     "@context": "https://schema.org",
@@ -209,11 +147,9 @@ const PageComponent = () => {
         Czy trudno jest znaleźć dobrego fotografa ślubnego w małopolsce. Nikt nie jest w stanie dokładnie odpowiedzieć na to pytanie, ponieważ uzaleźnione jest to od wielu różnych czynników, takich jak na przykład popularność i dostępność fotografów,  jak również od indywidualnych preferencji i potrzeb klientów. Tak czy inaczej, każdy prędzej czy później będzie musiał podjąć decyzję o podjęciu współpracy z fotografem ślubnym, aby uwiecznić ważne chwile ze ślubu i wesela. Moja rada to poszukać w internecie, porównać portfolio i opinie różnych klientów, a także skontaktować się z fotografem osobiście, aby upewnić się, że jest to odpowiedni człowiek, który spełni Twoje potrzeby i nie przekroczy budżetu.
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb: 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Warto zwrócić uwagę na doświadczenie i profesjonalizm fotografa oraz jego umiejętność dostosowywania się do wymagań klientów. Jeżeli szukasz <strong>najlepszego fotografa ślubnego w małopolsce</strong> to doskonale trafiłeś. Fotografować na Waszym ślubie będzie dla mnie zaszczytem i wspaniałą przygodą. Nazywam się Tomasz Prokop, mieszkam w Krakowie. Polecam swoje usługi fotograficzne.
@@ -240,11 +176,9 @@ const PageComponent = () => {
         Małopolska to region w Polsce z pięknymi krajobrazami i zabytkami, które mogą stworzyć niezwykłe okoliczności dla ślubu i pleneru zdjęciowego. Oto kilka propozycji miejsc, które mogą być interesujące dla pary młodej. Kraków, miasto pełne zabytków i historii, oferuje piękne krajobrazy z Wawelem, Rynkiem Głównym, a także zabytkowymi kościołami i pałacami. Tatry, najwyższe góry w Polsce, oferujące monumentalne widoki i naturalne tło dla zdjęć z pleneru. Ojcowski Park Narodowy, piękne krajobrazy i malownicze jaskinie, które mogą stanowić dopełnienie zdjęć plenerowych. Zamek w Pieskowej Skale położony w malowniczej okolicy, w którym można zrobić zdjęcia w krużgankach zamkowych, ogrodzie i pobliskim parku. Te miejsca to tylko kilka przykładów z wielu możliwości, które oferuje Małopolska. Więcej rekomendacji i zdjęć z wybranych miejsc z pewnością znajdziecie przeglądając mojego bloga.
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb: 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={5000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Czy o miejscu na plener ślubny musisz decydować samodzielnie? Możesz, ale nie musisz. Istnieją fotografowie ślubni, którzy oferują usługę doboru miejsca na plener ślubny. Ja bardzo chętnie pomogę i doradzę w wyborze odpowiedniego miejsca. Będzie to o tyle ułatwione, że w większości tych miejsc miałem już okazję być, więc moje rekomendacje będą warte Waszej uwagi.
@@ -270,11 +204,9 @@ const PageComponent = () => {
         Ponadczasowa obróbka zdjęć ślubnych oznacza, że zdjęcia są przetwarzane w taki sposób, aby wyglądały pięknie i elegancko, bez użycia efektów modyfikujących, które mogą być uważane za przestarzałe po pewnym czasie. Kolory na takich zdjęciach powinny być naturalne i żywe, ostrość tych zdjęć powinna być tak dobrana, żeby były one wyraźne i czytelne, nie zaszkodzi też usunąć drobne niedoskonałości skóry, takie jak zmarszczki czy przebarwienia. Modyfikacje te jednak powinny być wprowadzane bardzo ostrożnie, by nie zatracić początkowego charakteru zdjęcia.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb: 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={7000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Szukając profesjonalnego fotografa ślubnego w małopolsce, warto bliżej zapoznać się z moim portfolio, wysłać maila lub skorzystać z formularza kontaktowego na stronie internetowej, by otrzymać ofertę fotografii ślubnej w małopolsce. Ważne, aby wybrać fotografa, który spełnia wszystkie oczekiwania i jest w stanie zapewnić ponadczasowość zdjęć.
@@ -313,7 +245,7 @@ const PageComponent = () => {
           </Typography>
         </Box>
         
-        <Box sx={{ pt:2, pb: 2 }}>
+        <Box sx={{ pt:2, pb: 2 }}></Box>
         <Grid container direction="row" alignItems="center">
           <Grid item lg={4} p={1}>
             <ImageCardSmall
@@ -343,18 +275,10 @@ const PageComponent = () => {
             />
           </Grid>
         </Grid>
-        </Box>
+        
       </Container>
     </LayoutSitePage>
   );
 };
-
-const CarouselItem = (props) => {
-    return (
-        <Box>
-            <Image quality={100} src={props.item.image} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-        </Box>
-    )
-}
 
 export default PageComponent;

@@ -5,8 +5,7 @@ import ImageCardSmall from "../components/imageCardSmall";
 import Container from "@mui/material/Container";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Image from "next/image";
-import Carousel from 'react-material-ui-carousel';
+import ImageCarousel from "../components/imageCarousel";
 import FaqAccordion from "../components/faqAccordion";
 import LayoutSitePage from "../components/layoutSitePage";
 
@@ -209,11 +208,9 @@ const PageComponent = () => {
           Wyczekana sobota, godzina piętnasta w Kościele, wszystko przygotowane na ten ważny dzień. Wstajesz rano i myślisz,  czy na pewno wszystko się uda, czy wszyscy goście pojawią się na imprezie, czy kwiaty dotrą na czas, czy makijaż i fryzura będą równie dobre jak te na próbach. Wiadomo, że czujesz lekki stres, rodzina rozwiewa Twoje wątpliwości i mówi, że wszystko będzie dobrze. Może w tym momencie myślisz, że przydałby się ktoś doświadczony, kto widział już dziesiątki ślubów, ktoś taki kto wie z której strony w kościele zwykle stoi Panna Młoda. Zwykle przed czasem możesz spodziewać się człowieka, który mając ze sobą doświadczenie zna odpowiedzi na wszystkie ślubne pytania, jest w stanie rozładować stres i rozluźnić atmosferę. Twój fotograf ślubny w Chrzanowie?
         </Typography>
 
-        <Carousel animation="slide" duration="300">
-            {
-                imagesCarousel1.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel1} autoplaySpeed={3000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Poszukując fotografa pamiętajcie, że warto postawić na doświadczenie. Dzień ślubu to mega ważny dzień w którym wszystko dzieje się super szybko. Umiejętność przewidywania zdarzeń i doskonale ułożony plan dnia pozwoli nam uniknąć niespodzianek. <strong>Najlepszy fotograf ślubny w Chrzanowie</strong> to taki, który wie kiedy wcisnąć spust migawki i utrwalić najważniejsze chwile. Nazywam się Tomek Prokop, mieszkam w Krakowie i zapraszam do mojego fotograficznego świata.
@@ -242,11 +239,9 @@ const PageComponent = () => {
         Chrzanów, może być traktowany jako idealna baza wypadowa. Na liście polecanych miejsc plenerowych w okolicach Chrzanowa musimy wpisać Park Gródek w Jaworznie, zwany Polskimi Malediwami, Park Śląski w Katowicach z wesołym miasteczkiem i planetarium. Zamek w Rabszytnie, który po gruntownej renowacji zachwyca nas swoja potęgą, Zamek w Ogrodzieńcu, perełka Jury Krakowsko-Częstochowskiej, miejsce gdzie mieszkał Janosik. Nie zapominajmy też o Zamku w Suchej Beskidzkiej, który śmiało może konkurować z Wawelem. 
         </Typography>
 
-        <Carousel animation="slide" duration="500">
-            {
-                imagesCarousel2.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel2} autoplaySpeed={5000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
         Całkiem niedaleko jest też Muzeum Zamkowe w Pszczynie i piękny Park Pszczyński. Wszystkie te miejsca czakają na Was i proszę się o plener ślubny lub sesję narzeczeńską.Bez względu na to czy lubicie przyrodę, czy szum miasta i obecność ludzi, znajdziecie coś dla siebie. Wszystko zależy od indywidualnych preferencji i stylu pary młodej.
@@ -272,11 +267,9 @@ const PageComponent = () => {
         Fajnie tak usiąść przy choince, otworzyć album ze zdjęciami i zanurzyć się we wspomnieniach. Prosta sprawa, bardzo powtarzalna, bo choinkę w naszych domach mamy każdego roku. Pomyślcie więc, ile przyjemności podczas oglądania czeka na Was gdy zdecydujecie się zapisać wspomnienia na kartach pamięci i stronach albumu fotograficznego. Może to wydawać się kosztowne, ale na coś trzeba w końcu wydawać te pieniądze... Uwierzcie mi, że ten album to jest bardzo dobry pomysł.
         </Typography>
 
-        <Carousel animation="slide" duration="700">
-            {
-                imagesCarousel3.map( (item, i) => <CarouselItem key={i} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ pt: 2, pb : 1 }}>
+          <ImageCarousel images={imagesCarousel3} autoplaySpeed={7000} />
+        </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2 }}>
           Szukasz profesjonalnego fotografa ślubnego w Chrzanowie? Świetnie trafiłeś, mam nadzieje spełnić wszystkie Twoje fotograficzne oczekiwania i jestem w stanie stworzyć piękną pamiątkę na lata.
@@ -352,13 +345,5 @@ const PageComponent = () => {
     </LayoutSitePage>
   );
 };
-
-const CarouselItem = (props) => {
-    return (
-        <Box>
-            <Image src={props.item.image} width={1140} height={760} style={{width: '100%', height: 'auto'}} />
-        </Box>
-    )
-}
 
 export default PageComponent;
