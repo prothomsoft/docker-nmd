@@ -11,7 +11,8 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
 const Index = () => {
-  const pageImage = process.env.staticS3ImagesPath + "plener_slubny_na_rynku_w_krakowie.webp";
+  
+  const pageImage = process.env.staticS3ImagesPath + "sala_weselna_willa_orchidea_waksmund.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("lg"));
 
@@ -43,16 +44,16 @@ const Index = () => {
       description="Kliknij i sprawdź moje portfolio. Pełne emocji reportaże ślubne i piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków."
       keywords="fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków"
       url="https://99foto.pl"
-      leadNames="PATRYCJA i KRZYSZTOF"
-      leadTitle="FOTOGRAF ŚLUBNY W KRAKOWIE"
-      leadUrl="/plener-slubny-na-rynku-w-krakowie"
+      leadNames="WERONIKA i MARCIN"
+      leadTitle="SALA WESELNA WILLA ORCHIDEA WAKSMUND - ŚLUB NA PODHALU"
+      leadUrl="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"
       leadImage={pageImage}
       slide={matches ? process.env.staticS3ImagesPath + "lomnicki_staw_portfolio_start.webp" : process.env.staticS3ImagesPath + "ogrod_botaniczny.webp"}
       menuNames=""
       menuTitle=""
       schemaData={schemaData}>
       <Container sx={{ pb: 3 }}>
-        <Box sx={{ py: 2 }}>
+        <Box sx={{ pt: 1, pb: 2}}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             FOTOGRAF ŚLUBNY KRAKÓW
           </Typography>

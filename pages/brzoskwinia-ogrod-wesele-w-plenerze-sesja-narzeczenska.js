@@ -51,11 +51,11 @@ const BlogPageComponent = () => {
                 'Sesja narzeczeńska to naprawdę doby czas, na luzie, w wygodnych strojach, bez wielkiego kombinowania z makijażem czy fryzurą. Liczą się tutaj Wasze uczucia, odrobina słońca i fajne miejsce takie jak na przykład <a href="https://brzoskwiniaogrod.com/" target="_blank" rel="nofollow">Brzoskwinia Ogród</a> położony blisko Krakowa. Sprawy te gwarantują sukces sesji narzeczeńskiej. Warto pamiętać, że sesja narzeczeńska jest dla każdej pary i w każdym wieku. Nie musicie wcale planować ślubu, możecie też mieć go już za sobą. Gdyby udało się Wam przekonać Waszych mężczyzn o niebywałej konieczności wykonania sesji narzeczeńskiej nie zapomnijcie napisać do mnie. Bardzo chętnie Was sfotografuje. Serdecznie zapraszam.'
             }
             slug={"brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"}
-            title={"BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA - WIKTORIA i KONRAD"}
+            title={"BRZOSKWINIA OGRÓD, SESJA NARZECZEŃSKA - WIKTORIA i KONRAD"}
             tags={"sesja narzeczeńska w Brzoskwinia Ogród, wesele w plenerze, ślubna sesja zdjęciowa jesienią"}
             date={"5 lipca 2021"}
             menuNames={"WIKTORIA i KONRAD"}
-            menuTitle={"BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA"}
+            menuTitle={"BRZOSKWINIA OGRÓD, SESJA NARZECZEŃSKA"}
             leadNames={"KAMILA i ADRIAN"}
             leadTitle={"FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"}
             leadUrl={"/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"}

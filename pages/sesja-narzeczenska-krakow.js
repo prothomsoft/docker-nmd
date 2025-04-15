@@ -29,7 +29,7 @@ const PageComponent = () => {
       keywords="sesja narzeczeńska kraków, miejscówki na sesję narzeczeńską w Krakowie"
       url="https://99foto.pl/sesja-narzeczenska-krakow/"
       leadNames="WIKTORIA i KONRAD"
-      leadTitle="BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA"
+      leadTitle="BRZOSKWINIA OGRÓD, SESJA NARZECZEŃSKA"
       leadUrl="/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
       leadImage={pageImage}>
       <Container sx={{ pt: 8 }}>

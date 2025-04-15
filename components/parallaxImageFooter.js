@@ -38,19 +38,19 @@ const ParallaxImageFooter = ({ leadImage, leadUrl, leadNames, leadTitle, height 
             {leadTitle}
           </Typography>
           <Box sx={{ pt: 4 }}>
-            <Link href={leadUrl} passHref>
-              <Button
-                variant="contained"
-                sx={{
-                  color: "black",
-                  padding: "10px 40px",
-                  fontSize: "1rem",
-                }}
-                endIcon={<ArrowForward />}
-              >
-                ZOBACZ WIĘCEJ
-              </Button>
-            </Link>
+            <Button
+              variant="contained"
+              component={Link}
+              href={leadUrl}
+              sx={{
+                color: "black",
+                padding: "10px 40px",
+                fontSize: "1rem",
+              }}
+              endIcon={<ArrowForward />}
+            >
+              ZOBACZ WIĘCEJ
+            </Button>
           </Box>
         </Box>
       )}

@@ -155,11 +155,11 @@ const BlogPageComponent = () => {
                         "Nie mam żadnych wątpliwości, że dla fanów rustykalnego wystroju Folwark Wiązy w Marszowicach jest spełnieniem ślubnych marzeń. Jest to z pewnością niezwykle urokliwe miejsce, które idealnie wpisuje się w klimat boho. Paulina i Wojtek najpierw zakochali się w sobie, by następnie pokochać to miejsce i bezwzględnie zorganizować w nim swój wymarzony ślub. Przyznaję, że klimat panujący w Folwarku Wiązy w Marszowicach sprawił, że czułem się tak, jakbym był wśród ludzi, który znam od bardzo dawna. Wspaniała Para Młoda, piękna druhna Ania i gotowy na każde wyzwanie Damian, dużo słońca i zespół muzyczny, który nie tylko repertuarem ale i wizerunkiem wpisał się w klimat tej imprezy. Serdecznie zapraszam na zdjęcia i życzę miłego oglądania. "
                     }
                     slug={"folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem"}
-                    title={"FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE POD KRAKOWEM - PAULA i WOJTEK"}
+                    title={"FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE - PAULA i WOJTEK"}
                     tags={"wesele w stodole, rustykalne wesele pod krakowem, folwark wiązy marszowice, ślub boho"}
                     date={"14 lipca 2020"}
                     menuNames={"PAULA i WOJTEK"}
-                    menuTitle={"FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE POD KRAKOWEM"}
+                    menuTitle={"FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE"}
                     leadNames={"NATALIA i TOMASZ"}
                     leadTitle={"WESELE W BYSTREJ I OGRÓD PEŁEN LAWENDY W KLIMONTOWIE"}
                     leadUrl={"/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie"}

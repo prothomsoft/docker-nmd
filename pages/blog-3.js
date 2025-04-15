@@ -21,7 +21,7 @@ const Blog = () => {
       keywords="dobry fotograf na Twój ślub, fotograf z Krakowa"
       url="https://99foto.pl/blog-3/"
       leadNames="KAMILA i ADRIAN"
-      leadTitle="FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"
+      leadTitle="FOTOGRAF NA WESELE RABKA ZDRÓJ, KABANOS SPYTKOWICE"
       leadUrl="/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
       leadImage={pageImage}>
       <Container sx={{ pt:8, pb: 5 }}>

@@ -59,7 +59,7 @@ const BlogPageComponent = () => {
                     menuNames={"OLGA i DAWID"}
                     menuTitle={"SESJA W KRAKOWIE SUKIENNICE, HOTEL STARY, BULWARY WIŚLANE"}
                     leadNames={"BASIA i MARCIN"}
-                    leadTitle={"PLENER ŚLUBNY ZAMEK KRÓLEWSKI W NIEPOŁOMICACH, CZARNY STAW"}
+                    leadTitle={"PLENER ŚLUBNY ZAMEK KRÓLEWSKI W NIEPOŁOMICACH"}
                     leadUrl={"/plener-slubny-zamek-krolewski-w-niepolomicach-czarny-staw"}
                     leadImage={process.env.staticS3ImagesPath + "sesja_plenerowa_niepolomice.webp"}
                 />

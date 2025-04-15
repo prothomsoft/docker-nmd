@@ -152,7 +152,7 @@ const BlogPageComponent = () => {
                     menuNames={"NATALIA i TOMASZ"}
                     menuTitle={"WESELE W BYSTREJ I OGRÓD PEŁEN LAWENDY W KLIMONTOWIE"}
                     leadNames={"PATRYCJA i KRZYSZTOF"}
-                    leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
+                    leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB GLAMOUR"}
                     leadUrl={"/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"}
                     leadImage={process.env.staticS3ImagesPath + "dworek_fantazja_skomielna_biala_fotograf.webp"}
                 />

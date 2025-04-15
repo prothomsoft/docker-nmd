@@ -43,12 +43,32 @@ const PostLink = ({ post }) => (
       dangerouslySetInnerHTML={{ __html: post.content }}
     />
 
-    <Box sx={{ pt: 1, pb: 2 }}>
-      <Link href={post.slug}>
-        <Button variant="blogButton" fullWidth endIcon={<ArrowForward />}>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center", // Centers the button horizontally
+        alignItems: "center", // Centers the button vertically
+        py: 1,
+      }}
+    >
+      <Box
+        sx={{
+          width: "100%", // Matches the width of the image
+          maxWidth: "1140px", // Matches the image's max width
+          pt: 1,
+          pb: 2,
+        }}
+      >
+        <Button
+          variant="blogButton"
+          fullWidth
+          endIcon={<ArrowForward />}
+          component={Link}
+          href={post.slug}
+        >
           ZOBACZ WIĘCEJ
         </Button>
-      </Link>
+      </Box>
     </Box>
   </>
 );

@@ -67,7 +67,7 @@ const BlogPageComponent = () => {
                     menuNames={"ANNA I TOMASZ"}
                     menuTitle={"WYMARZONY PLENER ŚLUBNY W KRAKOWIE, SPRAWDZONE MIEJSCA"}
                     leadNames={"WIKTORIA i KONRAD"}
-                    leadTitle={"BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA"}
+                    leadTitle={"BRZOSKWINIA OGRÓD, SESJA NARZECZEŃSKA"}
                     leadUrl={"/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"}
                     leadImage={process.env.staticS3ImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.webp"}
                 />

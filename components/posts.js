@@ -12,7 +12,7 @@ export const posts = [
   {
     date: "2024-05-25T11:24:29",
     slug: "sala-weselna-graffit-myslenice",
-    title: "SALA WESELNA GRAFFIT MYŚLENICE, MAGIA ŚLUBU W STYLU GLAMOUR",
+    title: "SALA WESELNA GRAFFIT MYŚLENICE, ŚLUB W STYLU GLAMOUR",
     content:
       'Fotografowanie ślubu Kingi i Sebastiana pokazało mi po raz kolejny, że każdy ślub, każda para jest unikalna. Styl glamour, który wybrali, podkreślił ich elegancję i gust, ale to prawdziwe emocje – miłość, radość, wzruszenie – były najpiękniejszą ozdobą tego dnia. Właśnie te chwile, autentyczne uczucia, tworzą historię, którą mam przyjemność opowiadać za pomocą zdjęć. Dzień ślubu zaczęliśmy od przygotowań Panny młodej, wyczarowany makeup idealnie podkreślił wyjątkową urodę Panny Młodej. Kinga i Sebastian zadbali o każdy szczegół. Wygląd Panny Młodej był nie do opisania – elegancka suknia, delikatna biżuteria. Wszystko było dopięte na ostatni guzik, tworząc spójną całość, która zachwycała gości i sprawiała, że każdy detal mówił o miłości i elegancji.',
     names: ["KINGA i SEBASTIAN"],
@@ -42,7 +42,7 @@ export const posts = [
   {
     date: "2023-07-09T08:24:29",
     slug: "dom-weselny-panorama-stary-wisnicz",
-    title: "DOM WESELNY PANORAMA STARY WIŚNICZ, ŚLUB PRZY ZAMKU",
+    title: "DOM WESELNY PANORAMA STARY WIŚNICZ, ŚLUB ZAMKOWY",
     content:
       'Wymarzony dzień ślubu Magdaleny i Wojciecha zaczyna się pewnie od śniadania, ale tak naprawdę od przygotowań ślubnych w studio makijażu <a href="https://www.facebook.com/WiolettaWlodarczykMiniMakeupArt" target="_blank" rel="nofollow noopener noreferrer">Mini Make-up Art</a>, w którym doświadczona wizażystka Wioletta tworzy piękny makijaż. Siedząc przed lustrem, Magdalena cieszy się chwilą relaksu i podziwia efekt końcowy - delikatny, ale podkreślający jej naturalną urodę. Kiedy nadchodzi moment, aby przejść do ceremonii, Magdalena czuje, że serce bije mocniej ze wzruszenia i podekscytowania. W kościele <a href="https://www.parafialeszczyna.pl/" target="_blank" rel="nofollow noopener noreferrer">Parafia NMP Częstochowskiej w Leszczynie</a> panuje atmosfera pełna emocji, a gdy razem z Wojciechem wędrują do ołtarza, nie mogą powstrzymać łez wzruszenia. Błogosławieństwo i wymienianie przysiąg są najważniejszym momentem tego dnia. Podczas ich składania w powietrzu da się wyczuć ogromną miłość i zaufanie. Te wzruszające chwile na zawsze pozostaną w pamięci.',
     names: ["MAGDALENA i WOJCIECH"],
@@ -102,7 +102,7 @@ export const posts = [
     {
       date: "2021-08-26T07:31:39",
       slug: "fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny",
-      title: "FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY",
+      title: "FOTOGRAF NA WESELE RABKA ZDRÓJ, KABANOS SPYTKOWICE",
       content:
         "Wasz ślub jest zaplanowany, macie doskonały zespół, który porwie gości weselnych do tańca, macie sale weselną w stylu, który chodził Wam po głowie od dłuższego czasu. Idealnie byłoby gdyby te wszytkie elementy, momenty wzruszenia, uśmiechy i łzy radości pozostały nie tylko w Waszej pamięci ale również w pięknym ponadczasowym albumie ślubnym. Wszyscy wiemy, że nawet po wielu latach zdjęcia potrafią wzbudzić podobne uczucia, jakie towarzyszyły Wam tego ważnego dnia. Odpowiedź na pytanie jak to zrobić w dobie internetu nie jest trudna. Wystarczy przeglądarka internetowa i wpisanie frazy najlepszy fotograf ślubny w Krakowie, Rabce Zdrój czy w dowolnym innym miejscu. Przeglądając wyniki wyszukań warto zwrócić uwagę na styl fotografa ślubnego, ponieważ zwykle jest on powtarzalny i zależny od używanego sprzętu, osobowości, zaangażowania i oka do kadru. Koniecznie zwróćcie też uwagę na jakość zdjęć, czyli ich poprawność techniczną pod kątem ekspozycji, kontrastu i kolorów. Ważne jest też umiejętne wychwycenie istotnych elementów, detali, ulotnych chwil, zwanych w żargonie fotograficznym momentem decydującym i ułożenie ich w opowiadanie, które w ciekawy i niestandardowy sposób zrelacjonuje przebieg zdarzeń dnia Waszego ślubu. Ponieważ fotograf ślubny to osoba, która spędzi z Wami niemal cały dzień, będzie obecny w chwilach prywatnych, pełnych wzruszeń i przeżyć istotne jest więc, żeby czuć się przy nim swobodnie. Dobrze jest skorzystać z polecenia znajomych, którzy poznali charakter i osobowość fotografa podczas ich własnego reportażu ślubnego, czasem warto wybrać się na sesję narzeczeńską i na niej sprawdzić, czy to jest &#8222;the perfect guy for the job&#8221;. Na koniec koniecznie sprawdźcie też ilosć oddawanych zdjęć, możliwość realizacji profesjonalnego albumu fotograficznego, pleneru w wybranym dniu po ślubie i ceny, która nie powinna przekroczyć wpływu z kopertowych.",
       names: ["KAMILA i ADRIAN"],
@@ -112,7 +112,7 @@ export const posts = [
     {
       date: "2021-07-08T05:24:17",      
       slug: "brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska",
-      title: "BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA",
+      title: "BRZOSKWINIA OGRÓD, SESJA NARZECZEŃSKA",
       content:
         "Moment w życiu każdego mężczyzny, że w lekkim stresie, przeszukując kieszenie w poszukiwaniu brylantów, oczekuje na magiczne słowo TAK. Jest to z pewnością rozpoczęcie nowego etapu w życiu zakochanych osób, który oprócz nowych zobowiązań zapewnia miliony niezapomnianych wspomnień, które warto przy pomocy zdjęć zachować na dłużej. Tylko w ten sposób pokażecie swoim dzieciom, a w przyszłości może nawet wnukom jak wyglądały początki Waszej miłości. Przygotowania do Waszego ślubu to długa droga i nie znam osoby, która nie chciałaby przebyć tej drogi w możliwie idealny sposób. Decyzje, które musicie podjąć na tej drodze, te dotyczące sali weselnej, zespołu czy DJ-ja, fotografa, sukni ślubnej to tylko część ważnych spraw na Waszej liście. Bardzo często dążąc do tego idealnego ślubu Pary Młode decydują się na sesję narzeczeńską, która jest doskonałym uzupełnieniem reportażu ślubnego. Dziewczyny, przekonując narzeczonego, że sesja narzeczeńska to jest nie taki głupi pomysł, nie zapomnijcie wspomnieć, że zdjęcia z takiej sesji można wykorzystać na wiele sposób. Mogą one być doskonałym prezentem dla rodziców w trakcie podziękowań, elementem wystroju sali weselnej czy posłużyć jako dekoracja zaproszeń ślubnych. Nie zapomnijcie również wspomnieć o tym, że zdjęcia te będą dla Was wyjątkową pamiątką, pozwolą przyzwyczaić się do obecności fotografa podczas sesji ślubnej i zbudują Waszą naturalność i pewność siebie podczas sesji.",
       names: ["WIKTORIA i KONRAD"],
@@ -193,11 +193,11 @@ export const posts = [
     {
       date: "2020-08-31T17:08:08",
       slug: "plener-slubny-zamek-krolewski-w-niepolomicach-czarny-staw",
-      title: "PLENER ŚLUBNY ZAMEK KRÓLEWSKI W NIEPOŁOMICACH, CZARNY STAW",
+      title: "PLENER ŚLUBNY ZAMEK KRÓLEWSKI W NIEPOŁOMICACH",
       content:
         'Sesja ślubna w plenerze jest świetnym i naturalnym dopełnieniem reportażu ślubnego. Czy będzie to trzydziestominutowa krótka sesja w dniu ślubu, trzygodzinny plener w jeden z wakacyjnych słonecznych dni czy całodniowa wyjazdowa sesja plenerowa w górach zależy tylko od Was. Każda para młoda poszukując dobrego fotografa ślubnego musi znaleźć odpowiedź również i na to pytanie. Pamiętajcie, że czasem nie warto szukać daleko, bo świetne miejscówki mamy tuż pod naszym nosem. Szczególnie, że Kraków i jego okolice oferują ogromną ilość świetnych miejsc na niezapomniany plener ślubny. <a   href="http://www.zamekkrolewski.com.pl/"   target="_blank"   rel="nofollow noopener noreferrer"   >Plener ślubny na Zamku Królewskim w Niepołomicach</a > to świetna alternatywa dla pleneru na <a   href="https://wawel.krakow.pl/"   target="_blank"   rel="nofollow noopener noreferrer"   >Zamku Królewskim na Wawelu</a > czy pleneru na <a   href="http://pieskowaskala.eu/"   target="_blank"   rel="nofollow noopener noreferrer"   >Zamku w Pieskowej Skale</a >.',
       names: ["BASIA i MARCIN"],
-      tags: ["Czarny Staw w Puszczy Niepołomickiej", "plener ślubny niepołomice", "plener ślubny Zamek Króleski w Niepołomicach"],
+      tags: ["Plener ślubny niepołomice", "plener ślubny Zamek Króleski w Niepołomicach"],
       image: process.env.staticS3ImagesPath + "blog/2020/08/plener_slubny_w_niepolomicach_0016.webp",
     },
     {
@@ -223,7 +223,7 @@ export const posts = [
     {
       date: "2020-07-14T14:11:25",
       slug: "folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem",
-      title: "FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE POD KRAKOWEM",
+      title: "FOLWARK WIĄZY MARSZOWICE i RUSTYKALNE WESELE",
       content:
         "Pomyślcie, gdyby tak zapomnieć o jasnych salach ślubnych i pozwolić puścić wodze fantazji i przenieść się w miejsce bliskie natury, pełne zieleni i pewnego rodzaju prostoty w pozytywnym tego słowa znaczeniu. Miejsce gdzie klimat tworzy drewno i wykonane z niego stoły, ramki, skrzynki, dekoracje, które z łatwością znajdziemy w produkcjach filmowych rodem z Hollywood. Ktoś już to wymyślił określił śluby tego typu mianem ślubów rustykalnych lub boho i dokładnie zdefiniował naturę wystroju ślubnych wnętrz. Rustykalne wesele to nawiązanie do światła, harmonii i natury. Styl rustykalny wywodzi się z klimatu wiejskiego, a dominująca biel i przytłumione światło często przełamywane są bogatą paletą przeróżnych barw.",
       names: ["PAULA i WOJTEK"],
@@ -283,7 +283,7 @@ export const posts = [
     {
       date: "2019-11-02T17:56:29",
       slug: "dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour",
-      title: "DWOREK FANTAZJA SKOMIELNA BIAŁA I ŚLUB W STYLU GLAMOUR",
+      title: "DWOREK FANTAZJA SKOMIELNA BIAŁA I ŚLUB GLAMOUR",
       content:
         'Fotograf, reportaż ślubny, marzenia, połączenie pięknej, kochającej się Pary Młodej, gości z którymi łączą ich emocjonalne więzy, charyzmatyczego księdza i miejsca przyjęcia, które swą estetyką stworzyło stylowe tło dla nadchodzących wydarzeń. Może to sprawka jesieni, ale jeszcze w ubiegłym tygodniu myślałem, że fotografując tak wiele ślubów widziałem już niemal wszystko. Patrycja i Krzysiek udowodnili, że tak nie jest, że każda Para Młoda jest inna, a miłość dwojga ludzi za każdym razem jest wyrażana inaczej. Pewnie właśnie dzięki temu za każdym razem powstaje nowa historia i motywacja do pokazania sekwencji obrazków ukazujących uczucia, emocje te najwspanialsze rzeczy, którymi my ludzie możemy siebie nawzajem obdarowywać. Zacznijmy od początku, czyli od miejsca, które odwiedziłem już wiele razy, Studia Makijażu <a   href="https://www.facebook.com/patrycjaantoszmakeup/"   target="_blank"   rel="nofollow noopener noreferrer"   >Patrycji Antosz</a > w Jordanowie. Patrycja nie byłaby sobą gdyby kilku gadżetów w Studio nie przybyło. Ilość softboxów, blend za pomocą których Patrycja czaruje makijażami followersów na instagramie, pozwoliła moim fotograficznym akcesoriom odpoczywać w samochodzie pewnie do następnego ślubu. Nie muszę pisać, że makijaż jak zwykle wyszedł bosko.',
       names: ["PATRYCJA i KRZYSZTOF"],
@@ -333,17 +333,17 @@ export const posts = [
     {
       date: "2019-08-06T13:01:12",
       slug: "sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry",
-      title: "SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNIE NADAJĄCE SIĘ NA ROMANTYCZNE KADRY",
+      title: "SESJA ŚLUBNA W KRAKOWIE",
       content:
         "Sesja ślubna to prawdziwy must have każdej pary młodej. Godziny przed lustrem, idealna suknia ślubna i garnitur skrojony na miarę po prostu muszą zostać uwiecznione w obiektywie fotografa! Oczywiście zdjęcia ze ślubu i wesela są standardem, ale wtedy nie jesteście sami. Wokół was jest mnóstwo osób, wiele się dzieje. Trudno o chwilę skupienia i uwagi tylko dla siebie nawzajem. Taką szansę stwarza specjalna sesja ślubna, na którą warto się zdecydować.",
-      names: null,
+      names: ["MARLENA i ADAM"],
       tags: ["miejsca plenerowe Kraków", "pomysły na sesje ślubną", "sesja ślubna w Krakowie"],
       image: process.env.staticS3ImagesPath + "blog/2020/04/99FOTOPL_SPP_001.webp",
     },
     {
       date: "2019-07-19T05:58:57",
       slug: "ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa",
-      title: "CIEKAWE MIEJSCA W KRAKOWIE CZYLI POMYSŁ NA SESJĘ ZDJĘCIOWĄ",
+      title: "CIEKAWE MIEJSCA W KRAKOWIE, POMYSŁ NA SESJĘ ZDJĘCIOWĄ",
       content:
         "Dzień ślubu jest dla wszystkich nowożeńców najważniejszy, a zdjęcia reportażowe przedstawiające emocje, których tego dnia przecież nie brakuje, bardzo często wywołują łzy wzruszenia lub uśmiechy na twarzach oglądających. Gdy obrazki z dnia ślubu na dobre zadomowią się w Waszej pamięci wtedy nadchodzi czas na kolejny etap fotograficznej przygody. Etap równie przyjemny, a na pewno mniej wymagający niż organizacja imprezy w dniu ślubu   sesja plenerowa. Ponieważ sesji zdjęciowych poślubnych nie robi się codziennie, suknie ślubne często trafiają na allegro, a garniaków nie można poszerzać w nieskończoność to warto na przygotowanie się do takiej sesji poświęcić kilkanaście minut i dobrze wybrać ciekawe miejsca na plener ślubny w Krakowie.",
       names: ["JOANNA i SZYMON"],
@@ -871,16 +871,6 @@ export const posts = [
       image: process.env.staticS3ImagesPath + "blog/2017/07/wesele_na_polu_golfowym_w_paczoltowicach_0042.webp",
     },
     {
-      date: "2017-07-23T18:58:02",
-      slug: "wakacyjny-test-obiektywu-sigma-50-1-4-art",
-      title: "WAKACYJNY TEST OBIEKTYWU SIGMA 50 1.4 ART",
-      content:
-        "Tym razem zupełnie nie ślubnie. Kilka zdjęć z wakacji, które razem z moim bratem i jego rodziną spędziliśmy w Miszkolcu, Nyiregyhazie, a w drodze powrotnej odwiedzając Tatrzańską Łomnicę. Wakacje to dobry moment, żeby przetestować nowy obiektyw, sprawdzić czy dobrze ostrzy i będzie ok mówiąc krótko na ślubach. Tak się też stało również tym razem. Zabrałem ze sobą Sigmę 50 1.4 ART z filtrem polaryzacyjnym Marumi DHG Super. Większość zdjęć jest zrobiona tym obiektywem, który jak można odnaleźć w internecie jest najlepszą pięćdziesiątką na rynku.",
-      names: ["MARTUSIA I MICHAŚ"],
-      tags: ["sesja zdjęciowa kraków", "Test obiektywu Sigma 50 1.4 ART"],
-      image: process.env.staticS3ImagesPath + "blog/2017/07/wakacje_0018.webp",
-    },
-    {
       date: "2017-07-19T17:30:28",
       slug: "palac-goetza-brzesko-sluba-sesja-zdjeciowa",
       title: "PAŁAC GOETZA BRZESKO, ŚLUBNA SESJA ZDJĘCIOWA",
@@ -989,16 +979,6 @@ export const posts = [
       names: ["OLA I PRZEMEK"],
       tags: ["dom weselny tarnów", "dwór bistuszowa", "ślub plenerowy", "wesele tarnów"],
       image: process.env.staticS3ImagesPath + "blog/2017/05/wesele_tarnow_0001.webp",
-    },
-    {
-      date: "2017-05-11T19:19:26",
-      slug: "sesje-plenerowe-slubne-w-sercu-krakowa",
-      title: "SESJE PLENEROWE ŚLUBNE W SERCU KRAKOWA",
-      content:
-        "Kraków to miejsce piękne, niezwykłe i spełniające wszystkie kryteria niezbędne do wykonania niezapomnianej plenerowej sesji ślubnej. Dodajmy do tego jeszcze świetnie przygotowaną, uśmiechniętą parę czyli Natalię i Piotra, gram kreatywnych pomysłów fotografa, kilka promieni majowego słońca i mogę powiedzieć, że zdjęcia praktycznie robiły się same. Nie miałem okazji fotografować ślubu Natalii i Piotra. Ślub ten odbył się blisko rok temu. Od czego mamy jednak facebook, instagram i wyszukiwarki internetowe. Młodzi wpisali hasło sesja zdjęciowa Kraków i w ten sposób mieliśmy okazję miło spędzić jedno popołudnie, przeszukując Kraków w poszukiwaniu inspiracji i ciekawych kadrów.",
-      names: ["NATALIA I PIOTR"],
-      tags: ["Plener ślubny Wawel", "Sesja zdjęciowa w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2017/05/sesja_zdjeciowa_krakow_0010.webp",
     },
     {
       date: "2017-04-30T05:37:16",
@@ -1161,16 +1141,6 @@ export const posts = [
       image: process.env.staticS3ImagesPath + "blog/2016/07/fotograf_slubny_krakow_0001.webp",
     },
     {
-      date: "2016-07-15T20:33:44",
-      slug: "michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj",
-      title: "WAKACJE WROCŁAW I KUDOWA ZDRÓJ",
-      content:
-        "Dwa tygodnie pełnego luzu i nasze wakacje, które spędziliśmy we Wrocławiu i Kudowie Zdrój, czyli chwilowa przerwa od zdjęć ślubnych i sesji plenerowych. Michaś i Martusia mieli te dwa tygodnie wypełnione atrakcjami. W pierwszej kolejności odwiedziliśmy Wrocławskie ZOO i nowo otwarte Afrykarium. Świetne miejsce, nowoczesne i na pewno warte zobaczenia. Następnie wybraliśmy się do Parku Wodnego, fajniejszego niż ten w Krakowie. Później kolejkowo, wyjazd na 49 piętro w Sky Tower, finał Euro dla Portugali i nadszedł czas wyjazdu do Kudowy Zdrój.",
-      names: ["MICHAŚ I MARTUSIA"],
-      tags: ["Zdjęcia dziecięce Kraków"],
-      image: process.env.staticS3ImagesPath + "blog/2016/07/fotograf_rodzinny_krakow_0001.webp",
-    },
-    {
       date: "2016-07-05T14:47:25",
       slug: "gosia-i-tomek-sesja-slubna-dolina-bolechowicka-i-kryspinow",
       title: "SESJA ŚLUBNA DOLINA BOLECHOWICKA I KRYSPINÓW",
@@ -1199,185 +1169,5 @@ export const posts = [
       names: ["NATALIA I DAREK"],
       tags: ["Plener ślubny Pieskowa Skała", "Sesja ślubna Kraków"],
       image: process.env.staticS3ImagesPath + "blog/2016/06/99FOTOPL_SPP_066.webp",
-    },
-    {
-      date: "2016-06-11T12:26:37",
-      slug: "ania-i-maciek-wesele-w-domu-weselnym-szlachecki-dwor-sieciechowice",
-      title: "WESELE W DOMU WESELNYM SZLACHECKI DWÓR SIECIECHOWICE",
-      content:
-        'Ania i Maciek poznali się na pierwszym roku studiów, więc na swój wielki dzień, który miałem przyjemność fotografować, czekali aż te studia się wreszcie skończą. W samo południe zaczęliśmy przygotowania w domu rodzinnym Ani w Cianowicach Wielkich   makijaż i ubieranie sukni w dobrych humorach i doborowym towarzystwie sióstr i rodziców. Chwilę później pojawił się Maciek w czerwonym Mercedesie i bieg wydarzeń nabrał tempa. Pogoda była zamówiona więc żadnych stresów z tego powodu nie było. Za sprawą <a   href="https://www.facebook.com/ZespolZowiyrucha/"   target="_blank"   rel="nofollow noopener noreferrer"   >Zespółu Zowiyrucha</a > pod Krakowem zapanował góralski klimat. Po pełnym emocji błogosławieństwie udaliśmy się do <a   href="http://www.parafiasmardzowice.pl/"   target="_blank"   rel="nofollow noopener noreferrer"   >Kościoła Matki Bożej Różańcowej w Smardzowicach</a >. Ceremonię poprowadził sam Ksiądz Proboszcz.',
-      names: ["ANIA I MACIEK"],
-      tags: ["Fotograf na wesele Kraków", "Zdjęcia ślubne w Domu Weselnym Dwór Szlachecki w Sieciechowicach"],
-      image: process.env.staticS3ImagesPath + "blog/2016/06/fotograf_slubny_krakow_0001.webp",
-    },
-    {
-      date: "2016-06-09T15:56:55",
-      slug: "sylwia-i-bartek-sesja-poslubna-krakow",
-      title: "SESJA ŚLUBNA KRAKÓW",
-      content:
-        "Wtorkowe popołudnie z gwarantowaną pogodą i białymi chmurkami spędziliśmy z Sylwią i Barkiem spacerując po Krakowie. Zawsze polecam Kraków na sesje ślubne, ponieważ można tutaj podczas przyjemnego spaceru odnaleźć wiele miejsc, które pozwalają na wykonanie po prostu ciekawych zdjęć. Minusy? &#8222;Krakowskie Centki&#8221; chcą na wszystkim zarobić, więc zdarza się, że wejścia do niektórych miejsc na przykład Hotelu Starego czy Ogrodu Botanicznego są mocno przecenione. Pisałem też już kiedyś o strażnikach wawelskiej trawy z tymi Panami też nie ma żartów.",
-      names: ["SYLWIA I BARTEK"],
-      tags: ["Rynek w Krakowie plener przy błękitnym niebie", "Sesja ślubna Kazimierz", "Sesja zdjęciowa w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2016/06/sesja_poslubna_krakow_0001.webp",
-    },
-    {
-      date: "2016-06-03T14:58:17",
-      slug: "sylwia-i-bartek-zdjecia-slubne-w-jordanowie",
-      title: "ZDJĘCIA ŚLUBNE W JORDANOWIE",
-      content:
-        "W Jordanowie fotografowałem już kilka razy. Zawsze spotykam się tam z niezwykłą otwartością ludzi i podziwiam ich umiejętność odstresowania i oddania się szalonej zabawie. Tym razem nie mogło być inaczej   udowodnili to Sylwia i Bartek. Przygotowania odbyły się w domu rodzinnym Sylwii. Panna młoda zastosowała jedno z moich ulubionych powiedzeń   jeśli chcesz coś mieć zrobione dobrze, zrób to sam   i jako znana już w okolicach Trondheim wizażystka makijaż wykonała samodzielnie. Mocno trzymaliśmy kciuki za pogodę, która pewnie dlatego wytrzymała do samego końca. Udało mi się też tym razem zrobić jedno z moich ulubionych zdjęć z przygotowań Pana Młodego. Ciekawe czy oglądając reportaż zgadniecie, które to zdjęcie.",
-      names: ["SYLWIA I BARTEK"],
-      tags: ["Fotograf na wesele Kraków", "Fotografia ślubna w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2016/06/fotograf_na_wesele_krakow_0001.webp",
-    },
-    {
-      date: "2016-05-24T13:19:07",
-      slug: "sesja-poslubna-magdy-i-mateusza-litwinska-grapa-w-czarnej-gorze",
-      title: "SESJA ŚLUBNA LITWIŃSKA GRAPA W CZARNEJ GÓRZE",
-      content:
-        'Ślub Magdy i Mateusza odbył się w <a href="http://rancholot.pl/" target="_blank" rel="nofollow"   >Domu Weselnym Rancho Lot</a > w Nowym Targu. Goście weselni jadąc w dniu ślubu z Jordanowa, wspominanym już na blogu krakowskim autobusem miejskim, mieli niepowtarzalną okazję podziwiać wspaniały widok na Tatry. Postanowiliśmy więc pójść za ciosem i na plener ślubny wybrać się również w tamte okolice. Plan pleneru został zatwierdzony dzień wcześniej i poparty praktycznymi poszukiwaniami fajnych miejsc. Zaczęliśmy od punktu widokowego Litwińska Grapa w Czarnej Górze. Wyraziste chmury, umiarkowane słońce plus oczywiście filtry polaryzacyjny i połówkowy pozwoliły nam skopiować panujące warunki na ciąg zero jedynkowych wartości w pliku RAW.',
-      names: ["MAGDA i MATEUSZ"],
-      tags: ["Sesja ślubna Kraków", "Sesja zdjęciowa w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2016/05/plener_poslubny_gora_chelm_0003.webp",
-    },
-    {
-      date: "2016-05-14T13:55:46",
-      slug: "magda-i-mateusz-zdjecia-slubne-w-domu-weselnym-rancho-lot-w-nowym-targu",
-      title: "ZDJĘCIA ŚLUBNE W DOMU WESELNYM RANCHO LOT NOWY TARG",
-      content:
-        "Połowa maja i kolejne ślubne emocje tym razem za sprawą Magdy i Mateusza. Historię rozpoczynamy od makijażu w domu rodzinnym Magdy w Jordanowie. Makijaż po raz kolejny perfekcyjnie wykonała Iwona, którą miałem okazję już poznać na ślubie ponad rok wcześniej. Błogosławieństwo to dużo emocji i pierwsze łzy wzruszeń, które na moment zastąpiły uśmiechy na twarzach gości. Tylko na moment, ponieważ w drodze po raz kolejny uśmiechów nie brakowało. Tym razem dużo dobrego działo się w zakrystii. Zgromadzona ilość księży mogłaby wskazywać na prymicje i była wynikiem wieloletniego zaangażowania młodych w działalność duszpasterską   pewnie wiecie, że tak to wszystko się właśnie zaczęło.",
-      names: ["MAGDA I MATEUSZ"],
-      tags: ["Dom Weselny Rancho Lot - Nowy Targ", "Fotograf na wesele Kraków"],
-      image: process.env.staticS3ImagesPath + "blog/2016/05/99FOTOPL_SP_096_1.webp",
-    },
-    {
-      date: "2016-04-27T16:36:26",
-      slug: "kasia-i-dariusz-zdjecia-slubne-w-domu-weselnym-willa-podlesie",
-      title: "ZDJĘCIA ŚLUBNE W DOMU WESELNYM WILLA PODLESIE",
-      content:
-        'Tym razem trochę dalej bo nie Kraków, a Tarnów. W rolach głównych Kasia, Darek i ich mała córeczka Lidia. Przygotowania zaczęliśmy od makijażu w studiu tegorocznej mistrzyni świata wizażu <a   href="https://www.facebook.com/klaudiaklosmakeupartist/"   target="_blank"   rel="nofollow"   >Klaudi Kłos</a >. Następnie, fryzura i kilka minut po godzinie dwunastej dotarliśmy do domu rodzinnego Kasi. Atmosfera była wyjątkowo wesoła, czyli pełny luz. Darek zaskoczył wszystkich, zjawiając się trochę wcześniej. Chwilę później przybyli goście z Grecji, którzy jak się okazało później zaskoczyli wszystkich świetnie wykonanym greckim show. Z biegiem czasu gości przybywało.',
-      names: ["KASIA I DAREK"],
-      tags: ["Fotograf na wesele Tarnów", "Fotograf na wesele Willa Podlesie", "Fotografia ślubna w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2016/04/fotograf_na_wesele_willa_podlesie_tarnow_0066.webp",
-    },
-    {
-      date: "2016-04-21T17:57:57",
-      slug: "natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2",
-      title: "ZDJĘCIA ŚLUBNE W DOMU WESELNYM GOŚCINIEC BRANICKI",
-      content:
-        'Połowa kwietnia i niezwykle udany początek nowego sezonu ślubnego. Wszystko to dzięki Natalii i Darkowi, którzy w ubiegłą sobotę powiedzieli sobie TAK. Tego dnia wstałem i wiedziałem, że będzie to wspaniały dzień. Przygotowania zaczęliśmy od zaledwie podkreślenia urody Natalii w jej domu rodzinnym. Żadnych oznak stresu, świetny humor i uśmiech na twarzy. Darek przyjechał planowo, a razem z nim przybyli jego rodzice. Ropoczęło się błogosławieństwo po którym udaliśmy się do <a   href="http://www.wzgorza.diecezja.krakow.pl"   target="_blank"   rel="nofollow noopener noreferrer"   >Kościoła Miłosierdzia Bożego na Wzgórzach Krzesławickich</a >, gdzie odbył się ślub.',
-      names: ["NATALIA I DAREK"],
-      tags: ["Fotograf na wesele Kraków", "Fotografia ślubna w Krakowie", "Zdjęcia ślubne Gościniec Branicki"],
-      image: process.env.staticS3ImagesPath + "blog/2016/04/fotograf_na_wesele_goscieniec_branicki_krakow_0002.webp",
-    },
-    {
-      date: "2016-01-14T15:47:36",
-      slug: "gabrysia-i-kuba-zdjecia-slubne-w-folwark-stara-winiarnia",
-      title: "ZDJĘCIA ŚLUBNE W FOLWARKU STARA WINIARNIA",
-      content:
-        "Drugi weekend stycznia to ważny dzień dla Gabrysi i Kuby, którzy powiedzieli sobie TAK w Folwarku Stara Winiarnia w Mszanie Dolnej. Kilka zdjęć z walizkami podczas wyjazdu z Krakowa, później lekki samochodowy sprint zakopianką do salonu fryzjerskiego w Mszanie Dolnej. Cztery godziny na paznokcie, fryzurę, makijaż i genialny efekt końcowy. Mniej niż trzydzieści minut na ubieranie sukni ślubnej i w pełnej gotowości imprezę czas zacząć. Podczas fotografowania ślubów cywilnych trzeba wykazać się sporym refleksem, ponieważ cała ceremonia trwa krótko.",
-      names: ["GABRYSIA I KUBA"],
-      tags: ["Fotograf na ślub cywilny", "Fotograf na ślub Mszana Dolna", "Zdjęcia ślubne Mszana Dolna Folwark Stara Winiarnia"],
-      image: process.env.staticS3ImagesPath + "blog/2016/01/fotograf_na_wesele_mszana_dolna_0011.webp",
-    },
-    {
-      date: "2015-10-18T18:59:14",
-      slug: "renata-i-jacek-zdjecia-slubne-palac-smilowice",
-      title: "ZDJĘCIA ŚLUBNE PAŁAC ŚMIŁOWICE",
-      content:
-        "W drugi październikowy weekend o godzinie 9 rano spotkaliśmy się z Renatą w jednym z pięciu zakładów fryzjerskich w Szczurowej. W ramach badania gruntu trochę wcześniej zaglądnąłem do kościoła, i już od rana odbywało się tam solidne sprzątanie, połączone jak sądzę z nadchodzącymi tego dnia wydarzeniami. Układanie fryzury zajęło trochę ponad godzinkę. Następnie kilka kroków dalej odwiedziliśmy studio makijażu, kwiaciarnie, po czym pojechaliśmy witać pierwszych gości i kontynuować przygotowania do domu rodzinnego Renaty.",
-      names: ["RENATA I JACEK"],
-      tags: ["Fotograf na ślub Szczurowa", "Reportaż ze ślubu Pałac Śmiłowice"],
-      image: process.env.staticS3ImagesPath + "blog/2015/10/fotograf_slubny_szczurowa_0001.webp",
-    },
-    {
-      date: "2015-09-22T15:22:56",
-      slug: "monika-i-marek-sesja-poslubna-rabkoland-rabka-zdroj",
-      title: "SESJA ŚLUBNA RABKOLAND RABKA ZDRÓJ",
-      content:
-        'Monikę i Marka poznaliście już na <a   href="https://99foto.pl/monika-i-marek-sesja-narzeczenska-zawadka-tokarnia-jordanow/"   target="_blank"   rel="nofollow noopener noreferrer"   >sesji narzeczeńskiej</a > w Zawadce, przypominam miejscu idealnym na wycieczkę rowerową i <a   href="https://99foto.pl/monika-i-marek-zdjecia-slubne-dworek-fantazja-skomielna-biala/"   target="_blank"   rel="nofollow noopener noreferrer"   >ślubie</a >, który odbył się w Dworku Fantazja w Skomielnej Białej. Plener poślubny początkowo planowaliśmy zrobić w <a   href="http://skansen.bystra-sidzina.net/"   target="_blank"   rel="nofollow noopener noreferrer"   >Skansenie Bystra-Sidzina</a >, ale Monika zgodziła się na moją propozycję i w poszukiwaniu kolorów wybraliśmy się do <a   href="http://www.rabkoland.pl/"   target="_blank"   rel="nofollow noopener noreferrer"   >Rabkolandu</a >.',
-      names: ["MONIKA I MAREK"],
-      tags: ["Fotograf na wesele Rabka Zdrój", "Plener ślubny Rabkoland"],
-      image: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_rabkoland_0008.webp",
-    },
-    {
-      date: "2015-09-17T18:46:18",
-      slug: "paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane",
-      title: "SESJA ŚLUBNA KASPROWY WIERCH I NOSAL ZAKOPANE",
-      content:
-        "Paulina i Bartek lubią morze, ale mają je na co dzień ponieważ mieszkają w Szczecinie i kochają góry ponieważ na ich szczycie powiedzieli sobie TAK. W niedzielę po sobotnich szaleństwach w Zajeździe Furmańskim w Zakopanym, większość gości weselnych spotkała się na szczycie Kasprowego Wierchu na krótkiej sesji fotograficznej. Mieliśmy tego popołudnia, pogodę wręcz wymarzoną do zdjęć w górach   białe chmurki na niebieskim niebie, umiarkowane słońce i bardzo dobra widoczność. Wykorzystaliśmy te okoliczności jak należy mam nadzieję.",
-      names: ["PAULINA I BARTEK"],
-      tags: ["Plener ślubny Zakopane", "Zdjęcia ślubne Kasprowy Wierch"],
-      image: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_kasprowy_wierch_0001.webp",
-    },
-    {
-      date: "2015-09-17T07:57:14",
-      slug: "pati-i-michal-sesja-poslubna-zamek-w-korzkwi-i-kladka-bernatka",
-      title: "SESJA ŚLUBNA ZAMEK W KORZKWI I KŁADKA BERNATKA",
-      content:
-        'Patrycję i Michała już znacie z <a   href="https://99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala/"   target="_blank"   rel="nofollow noopener noreferrer"   >sesji narzeczeńskiej</a > i <a   href="https://99foto.pl/pati-i-michal-zdjecia-slubne-w-hotelu-turowka-wieliczka/"   target="_blank"   rel="nofollow noopener noreferrer"   >zdjęć ślubnych</a >. Tym razem spotkaliśmy się na sesji ślubnej w Krakowie. Początkowo chcieliśmy fotografować w Dworze Tomaszowice. Odbywała się tam jednak impreza firmowa dla najmłodszych, więc by uniknąć przeładowanych nieznajomymi ludźmi kadrów podjechaliśmy krok dalej do Zamku w Korzkwi.',
-      names: ["PATI I MICHAŁ"],
-      tags: ["Sesja zdjęciowa Kładka Bernatka", "Sesja zdjęciowa w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2015/09/sesja_poslubna_zamek_korzkiew_0001.webp",
-    },
-    {
-      date: "2015-09-14T20:08:49",
-      slug: "paulina-i-bartek-zdjecia-slubne-zajazd-furmanski-zakopane",
-      title: "ZDJĘCIA ŚLUBNE ZAJAZD FURMAŃSKI ZAKOPANE",
-      content:
-        "Paulina i Bartek na co dzień mieszkają w Szczecinie. Góry jednak kochają tak bardzo, że Zakopane wybrali na miejsce swojego ślubu. Zamieszkali w Willi Orion pod okiem przemiłej gospodyni i zaplanowali swój ślub w Zajeździe Furmańskim. Ten dzień rozpoczęliśmy wcześnie o godzinie ósmej rano, od fryzur w zakopiańskim salonie fryzjerskim. Następnie makijaż i suknia ślubna, której ubieranie odbyło się w pokoju z ciekawą historią. Para młoda powiedziała TAK w Urzędzie Stanu Cywilnego w Zakopanym i zaprosiła gości do zajazdu na ciąg dalszy góralskich przygód.",
-      names: ["PAULINA I BARTEK"],
-      tags: ["Fotograf na wesele Zakopane"],
-      image: process.env.staticS3ImagesPath + "blog/2015/09/fotograf_na_wesele_zakopane_0036.webp",
-    },
-    {
-      date: "2015-08-23T08:18:19",
-      slug: "pati-i-michal-zdjecia-slubne-w-hotelu-turowka-wieliczka",
-      title: "ZDJĘCIA ŚLUBNE W HOTELU TURÓWKA WIELICZKA",
-      content:
-        'Wszystko zaczęło się w <a   href="http://akademia-stylu.com.pl"   target="_blank"   rel="nofollow noopener noreferrer"   >Akademii Stylu</a > na naszym wspólnym osiedlu. Po kilku zdjęciach z makijażu przyszła pora na przygotowania Pana Młodego, więc razem z kamerzystą Krzyśkiem z <a   href="http://camdesign.pl/"   target="_blank"   rel="nofollow noopener noreferrer"   >Camdesign</a > odwiedziliśmy mieszkanie Michała. Następnie powrót na Bociana i błogosławieństwo, po którym udaliśmy się do <a   href="http://kosciol-sebastian.pl"   target="_blank"   rel="nofollow noopener noreferrer"   >Kościoła św. Sebastiana</a > w Wieliczce. Po ceremonii, w której aktywnie pomagały dzieci i spektakularnym wyjściu z kościoła, zrobiliśmy wspólne zdjęcie grupowe. Według planu na życzenia goście musieli poczekać, aż dotrą na salę weselną.',
-      names: ["PATI I MICHAŁ"],
-      tags: ["Fotograf na wesele Kraków", "Fotografia ślubna w Krakowie", "Zdjęcia ślubne w Hotelu Turówka Wieliczka"],
-      image: process.env.staticS3ImagesPath + "blog/2015/08/fotograf_na_wesele_wieliczka_0001.webp",
-    },
-    {
-      date: "2015-07-20T19:30:07",
-      slug: "patrycja-i-michal-sesja-narzeczenska-pieskowa-skala",
-      title: "SESJA NARZECZEŃSKA PIESKOWA SKAŁA",
-      content:
-        "Czasem trzeba wyjść ze strefy komfortu i nawet, gdy na niebie pojawią się chmury, twoja pogoda mówi, że będzie na pewno padał deszcz, a może nawet grad   należy twardo realizować plan. Tym razem plan ten to sesja narzeczeńska Patrycji i Michała w Pieskowej Skale. Turyści pochowali się przed deszczem, natomiast my przeszliśmy szybki kurs pozowania.",
-      names: ["PATRYCJA I MICHAŁ"],
-      tags: ["Plener ślubny w Ojcowie", "Sesja narzeczeńska w Pieskowej Skale"],
-      image: process.env.staticS3ImagesPath + "blog/2015/07/sesja_narzeczenska_pieskowa_skala_0001.webp",
-    },
-    {
-      date: "2015-06-08T15:54:18",
-      slug: "iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna",
-      title: "ZDJĘCIA ŚLUBNE SKOMIELNA CZARNA",
-      content:
-        'Iga i Marcin to dzisiejsi bohaterowie kolejnego ślubnego wpisu. Z tą sympatyczną parą mieliśmy już okazję spotkać się na <a   href="https://99foto.pl/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj"   target="_blank"   rel="nofollow noopener noreferrer"   >weselu Wiolety i Marcina</a >, dlatego wiedziałem, że o uśmiechy tego dnia martwić się nie muszę. Przygotowania do tego dnia zaczęliśmy od Marcina w jego malowniczo położonym domu. Południowe białe chmurki na niebieskim niebie wyglądały bajecznie. Następnie DUŻYM Fiatem rocznik siedem cztery udaliśmy się do domu rodzinnego Igi. Celowo pominęliśmy przygotowania Panny Młodej, podsumowując je tylko kilkoma zdjęciami już po błogosławieństwie.',
-      names: ["IGA I MARCIN"],
-      tags: ["Fotograf na wesele Kraków", "Zdjęcia ślubne Restauracja Victoria Rabka Zdrój"],
-      image: process.env.staticS3ImagesPath + "blog/2015/06/iga_marcin_blog_0001.webp",
-    },
-    {
-      date: "2015-06-01T12:02:14",
-      slug: "wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj",
-      title: "ZDJĘCIA ŚLUBNE W RESTAURACJI VICTORIA RABKA ZDRÓJ",
-      content:
-        "Tego dnia było wszystko, co być powinno – szczere uśmiechy, wiele wzruszeń i pełno emocji! Przedstawiam zatem Wioletę i Marcina, którym miałem przyjemność towarzyszyć zza aparatu podczas ich najważniejszego dnia w życiu. Przygotowania zaczęliśmy popołudniową porą od makijażu. Pokój Wiolety stał się centrum dowodzenia, a do makijażu ustawiła się kolejka. Pomimo, że temat poważny to humor dopisywał, a uśmiechy trzymały się wszystkich. Chwilę później odwiedziłem dom rodzinny Marcina, który wpasował się w bardzo elegancki mundur strażacki.",
-      names: ["WIOLETA I MARCIN"],
-      tags: ["Fotograf na wesele Kraków", "Fotografia ślubna w Krakowie", "Zdjęcia ślubne Restauracja Victoria Rabka Zdrój"],
-      image: process.env.staticS3ImagesPath + "blog/2015/06/wioleta_marcin_blog_0001.webp",
-    },
-    {
-      date: "2014-09-15T14:40:34",
-      slug: "ulubione-wakacyjne-kadry",
-      title: "ULUBIONE WAKACYJNE KADRY",
-      content:
-        "Pierwszy etap naszej wyprawy to Wrocław. Przez moment mieliśmy już nie jechać dalej, gdyż wujek zorganizował plażę w pokoju jadalnym   był namiot, woda i nawet słońce. Misio zmienił fryzurę, a my zwiedziliśmy Halę Ludową, gdzie trwały przygotowania do koncertu Męskie Granie, Politechnikę i Plac Grunwaldzki. Pierwszy przystanek kolejnego etapu podróży to Malta (ta w Poznaniu). Dalej pojechaliśmy na Stare Drawsko podziwiać jeziora, które wcześniej oglądałem na google i zapowiadały się very nice. Do Dąbek wjechaliśmy o 19:30 prosto na plażę i prosto na zachód słońca.",
-      names: ["MICHAŁ i MARTUSIA"],
-      tags: ["Fotografia dziecięca w Krakowie"],
-      image: process.env.staticS3ImagesPath + "blog/2014/09/ulubione_wakacyjne_kadry_0000.webp",
     }
   ];

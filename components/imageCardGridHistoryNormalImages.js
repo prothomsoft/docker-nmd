@@ -1,5 +1,5 @@
-import React from 'react';
 import Grid from "@mui/material/Grid";
+import React from 'react';
 import ImageCard from "./imageCard";
 
 const wesele_w_beskidach = process.env.staticS3ImagesPath + "portfolio/wesele_w_beskidach.webp";
@@ -57,7 +57,7 @@ const ImageCardGridHistoryNormalImages = () => {
              imgsrc={sesja_narzeczenska_krakow_33}
              imgalt="sesja narzeczeńska w Krakowie"
              linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
-             title="SESJA NARZECZEŃSKA W KRAKOWIE"
+             title="SESJA NARZECZEŃSKA KRAKÓW"
              names="WIKTORIA i KONRAD"
             />
           </Grid>

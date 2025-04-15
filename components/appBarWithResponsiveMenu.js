@@ -105,60 +105,50 @@ const AppBarWithResponsiveMenu = (props) => {
                 <Grid item lg={5}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      <Link key={1} href={"/fotograf-na-wesele"}>
-                        <Button variant="menuButton" key={1}>
-                          {"O MNIE"}
-                        </Button>
-                      </Link>
+                      <Button variant="menuButton" component={Link} href="/fotograf-na-wesele">
+                        {"O MNIE"}
+                      </Button>
                       <MenuTop />
-                      <Link key={2} href={"/oferta-fotografii-slubnej"}>
-                        <Button variant="menuButton" key={2}>
-                          {"OFERTA"}
-                        </Button>
-                      </Link>
-                      <Link key={3} href={"/reportaze-slubne-sesje-plenerowe"}>
-                        <Button variant="menuButton" key={3}>
-                          {"HISTORIE"}
-                        </Button>
-                      </Link>
-                      <Link key={4} href={"/misja-i-faq"}>
-                        <Button variant="menuButton" key={4}>
-                          {"FAQ"}
-                        </Button>
-                      </Link>
+                      <Button variant="menuButton" component={Link} href="/oferta-fotografii-slubnej">
+                        {"OFERTA"}
+                      </Button>
+                      <Button variant="menuButton" component={Link} href="/reportaze-slubne-sesje-plenerowe">
+                        {"HISTORIE"}
+                      </Button>
+                      <Button variant="menuButton" component={Link} href="/misja-i-faq">
+                        {"FAQ"}
+                      </Button>
                     </Box>
                   </Item>
                 </Grid>
                 <Grid item lg={2}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center", ml: "15px" }}>
-                      <Link key={5} href="/">
-                        <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={5} onClick={handleCloseNavMenu}>
-                          <Image alt="fotograf ślubny kraków" src={logo99foto} width={100} height={140}/>
-                        </Button>
-                      </Link>
+                      <Button
+                        variant="menuButton"
+                        component={Link}
+                        href="/"
+                        sx={{ pt: 2, pb: 2 }}
+                        onClick={handleCloseNavMenu}
+                      >
+                        <Image alt="fotograf ślubny kraków" src={logo99foto} width={100} height={140} />
+                      </Button>
                     </Box>
                   </Item>
                 </Grid>
                 <Grid item lg={5}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      <Link key={6} href={"/referencje"}>
-                        <Button variant="menuButton" key={6}>
-                          {"REFERENCJE"}
-                        </Button>
-                      </Link>
-                      <Link key={7} href={"/blog"}>
-                        <Button variant="menuButton" key={7}>
-                          {"BLOG"}
-                        </Button>
-                      </Link>
-                      <Link key={8} href={"/strefa-klienta"}>
-                        <Button variant="menuButton" key={8}>
-                          {"STREFA KLIENTA"}
-                        </Button>
-                      </Link>
-                      <Button variant="menuButton" key={9} onClick={props.action}>
+                      <Button variant="menuButton" component={Link} href="/referencje">
+                        {"REFERENCJE"}
+                      </Button>
+                      <Button variant="menuButton" component={Link} href="/blog">
+                        {"BLOG"}
+                      </Button>
+                      <Button variant="menuButton" component={Link} href="/strefa-klienta">
+                        {"STREFA KLIENTA"}
+                      </Button>
+                      <Button variant="menuButton" onClick={props.action}>
                         KONTAKT
                       </Button>
                     </Box>
@@ -177,11 +167,19 @@ const AppBarWithResponsiveMenu = (props) => {
                   alignItems: "center",
                 }}
               >
-                <Link key={2} href="/" passHref>
-                  <Button variant="menuButton" sx={{ pt: 2, pb: 2, ml: 8 }} key={1}>
-                    <Image alt="fotograf ślubny kraków" src={logo99fotomobile} width={91} height={30} />
-                  </Button>
-                </Link>
+                <Button
+                  variant="menuButton"
+                  component={Link}
+                  href="/"
+                  sx={{ pt: 2, pb: 2, ml: 8 }}
+                >
+                  <Image
+                    alt="fotograf ślubny kraków"
+                    src={logo99fotomobile}
+                    width={91}
+                    height={30}
+                  />
+                </Button>
               </Box>
               <Box
                 sx={{

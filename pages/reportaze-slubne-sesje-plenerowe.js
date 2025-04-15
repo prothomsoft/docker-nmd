@@ -1,4 +1,4 @@
-import LayoutSitePage from "../components/layoutSitePage";
+import LayoutStartPage from "../components/layoutStartPage";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
@@ -11,22 +11,22 @@ import Link from "next/link";
 
 const PageComponent = () => {
 
-  const pageImage = process.env.staticS3ImagesPath + "sesja_slubna_jesienia.webp";
+  const pageImage = process.env.staticS3ImagesPath + "sala_weselna_graffit_myslenice.webp";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
-    <LayoutSitePage
+    <LayoutStartPage
       title="Reportaże ślubne Kraków, sesje plenerowe Kraków"
       description="Portfolio fotografa ślubnego, w którym zobaczycie wybrane reportaże ślubne i sesje plenerowe. Dziesięć lat doświadczenia w fotografowaniu ślubów. Kliknij i sprawdź."
       keywords="reportaże ślubne i sesje plenerowe, portfolio fotografa ślubnego"
-      url="https://99foto.pl/sesja-slubna-jesienia-palac-goetzow-okocimskich/"
-      leadNames="IZABELA i ARKADIUSZ"
-      leadTitle="SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW"
-      leadUrl="/sesja-slubna-jesienia-palac-goetzow-okocimskich"
+      url="https://99foto.pl/sala-weselna-graffit-myslenice/"
+      leadNames="KINGA i SEBASTIAN"
+      leadTitle="MAGIA ŚLUBU W STYLU GLAMOUR - PAŁAC GOETZÓW"
+      leadUrl="/sala-weselna-graffit-myslenice"
       leadImage={pageImage}>
-      <Container sx={{ pt:8, pb: 5 }}>
-        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
+      <Container sx={{ pb: 5 }}>
+        <Box sx={{display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             REPORTAŻE ŚLUBNE i SESJE PLENEROWE
@@ -82,7 +82,7 @@ const PageComponent = () => {
         </Typography>
       </Container>
       <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-    </LayoutSitePage>
+    </LayoutStartPage>
   );
 };
 

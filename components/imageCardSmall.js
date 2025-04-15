@@ -3,29 +3,33 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
 
-const ImageCardSmall = (props) => {
+const ImageCardSmall = ({ linkhref, imgsrc, imgalt, title, names }) => {
   return (
-    <Card>
-      <Link href={props.linkhref}>
-        <CardActionArea>        
-            <CardMedia>
-                <Image quality={100} src={props.imgsrc} alt={props.imgalt} width={540} height={360} style={{width: '100%', height: 'auto'}} />
-            </CardMedia>
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                {props.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                {props.names}
-                </Typography>
-            </CardContent>
-        </CardActionArea>
-      </Link>
-    </Card>
+    <Link href={linkhref} passHref>
+        <Card sx={{ textDecoration: "none" }}>
+          <CardMedia sx={{ position: "relative", height: 0, paddingTop: "66.67%" }}>
+            <Image
+              src={imgsrc}
+              alt={imgalt}
+              layout="fill" // Ensures the image fills the parent container
+              objectFit="cover" // Ensures the image maintains aspect ratio
+              quality={100}
+            />
+          </CardMedia>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              {title}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              {names}
+            </Typography>
+          </CardContent>
+        </Card>
+      
+    </Link>
   );
 };
 

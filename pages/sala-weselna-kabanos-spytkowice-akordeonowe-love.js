@@ -183,7 +183,7 @@ const BlogPageComponent = () => {
                     menuNames={"AMANDA i JACEK"}
                     menuTitle={"SALA WESELNA KABANOS SPYTKOWICE, AKORDEONOWE LOVE"}
                     leadNames={"PATRYCJA i KRZYSZTOF"}
-                    leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
+                    leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB GLAMOUR"}
                     leadUrl={"/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"}
                     leadImage={process.env.staticS3ImagesPath + "dworek_fantazja_skomielna_biala_fotograf.webp"}
                 />

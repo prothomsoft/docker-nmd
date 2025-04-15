@@ -67,7 +67,7 @@ const PageComponent = () => {
     "name": "Ile wynosi dopłata za dojazd?",
     "acceptedAnswer": {
         "@type": "Answer",
-        "text": "W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1,52 PLN/km (zawsze jeździmy moim autem)."
+        "text": "W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1,72 PLN/km (zawsze jeździmy moim autem)."
     }   
   },{
     "@type": "Question",
@@ -140,37 +140,46 @@ const PageComponent = () => {
           </Typography>
         </Box>
         <Box sx={{ pb: 2 }}>
-        <FaqAccordion q1={schemaData.mainEntity[0].name}
-                            a1={schemaData.mainEntity[0].acceptedAnswer.text} 
-                            q2={schemaData.mainEntity[1].name}
-                            a2={schemaData.mainEntity[1].acceptedAnswer.text}
-                            q3={schemaData.mainEntity[2].name}
-                            a3={schemaData.mainEntity[2].acceptedAnswer.text}
-                            q4={schemaData.mainEntity[3].name}
-                            a4={schemaData.mainEntity[3].acceptedAnswer.text}  />
+          <FaqAccordion
+            idPrefix="faq1" // Unique prefix for this accordion
+            q1={schemaData.mainEntity[0].name}
+            a1={schemaData.mainEntity[0].acceptedAnswer.text}
+            q2={schemaData.mainEntity[1].name}
+            a2={schemaData.mainEntity[1].acceptedAnswer.text}
+            q3={schemaData.mainEntity[2].name}
+            a3={schemaData.mainEntity[2].acceptedAnswer.text}
+            q4={schemaData.mainEntity[3].name}
+            a4={schemaData.mainEntity[3].acceptedAnswer.text}
+          />
         </Box>
         <Image quality={100} alt="plener ślubny na Rynku w Krakowie" src={fotograf_slubny_krakow_1} width={1140} height={764} style={{width: '100%', height: 'auto'}} priority />
         <Box sx={{ py: 2 }}>
-        <FaqAccordion q1={schemaData.mainEntity[4].name}
-                            a1={schemaData.mainEntity[4].acceptedAnswer.text} 
-                            q2={schemaData.mainEntity[5].name}
-                            a2={schemaData.mainEntity[5].acceptedAnswer.text}
-                            q3={schemaData.mainEntity[6].name}
-                            a3={schemaData.mainEntity[6].acceptedAnswer.text}
-                            q4=""
-                            a4="" />
+          <FaqAccordion
+            idPrefix="faq2" // Unique prefix for this accordion
+            q1={schemaData.mainEntity[4].name}
+            a1={schemaData.mainEntity[4].acceptedAnswer.text}
+            q2={schemaData.mainEntity[5].name}
+            a2={schemaData.mainEntity[5].acceptedAnswer.text}
+            q3={schemaData.mainEntity[6].name}
+            a3={schemaData.mainEntity[6].acceptedAnswer.text}
+            q4=""
+            a4=""
+          />
         </Box>
         <Image quality={100} alt="fotograf na wesele kraków" src={sesja_plenerowa_kasprowy} width={1140} height={761} style={{width: '100%', height: 'auto'}}  />
 
         <Box sx={{ py: 2 }}>
-        <FaqAccordion q1={schemaData.mainEntity[7].name}
-                            a1={schemaData.mainEntity[7].acceptedAnswer.text} 
-                            q2={schemaData.mainEntity[8].name}
-                            a2={schemaData.mainEntity[8].acceptedAnswer.text}
-                            q3={schemaData.mainEntity[9].name}
-                            a3={schemaData.mainEntity[9].acceptedAnswer.text}
-                            q4=""
-                            a4="" />
+          <FaqAccordion
+            idPrefix="faq3" // Unique prefix for this accordion
+            q1={schemaData.mainEntity[7].name}
+            a1={schemaData.mainEntity[7].acceptedAnswer.text}
+            q2={schemaData.mainEntity[8].name}
+            a2={schemaData.mainEntity[8].acceptedAnswer.text}
+            q3={schemaData.mainEntity[9].name}
+            a3={schemaData.mainEntity[9].acceptedAnswer.text}
+            q4=""
+            a4=""
+          />
         </Box>
 
         <Image quality={100} alt="sesja zdjęciowa w Krakowie" src={sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio} width={1140} height={760} style={{width: '100%', height: 'auto'}}  />

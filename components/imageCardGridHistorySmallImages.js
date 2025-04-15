@@ -57,7 +57,7 @@ const ImageCardGridHistorySmallImages = () => {
               imgsrc={sesja_narzeczenska_krakow_33}
               imgalt="sesja narzeczeńska w Krakowie"
               linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
-              title="SESJA NARZECZEŃSKA W KRAKOWIE"
+              title="SESJA NARZECZEŃSKA KRAKÓW"
               names="WIKTORIA i KONRAD"
             />
           </Grid>

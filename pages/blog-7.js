@@ -21,7 +21,7 @@ const Blog = () => {
       keywords="niezwykłe zdjęcia ślubne, reportaź ślubny, sesja zdjęciowa"
       url="https://99foto.pl/blog-7/"
       leadNames="KAMILA i ADRIAN"
-      leadTitle="FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"
+      leadTitle="FOTOGRAF NA WESELE RABKA ZDRÓJ, KABANOS SPYTKOWICE"
       leadUrl="/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
       leadImage={pageImage}>
       <Container sx={{ pt:8, pb: 5 }}>

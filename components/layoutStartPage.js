@@ -8,6 +8,7 @@ import Meta from "./meta";
 import { initGA, logPageView } from "./analytics.js";
 import Container from "@mui/material/Container";
 import ContactForm from "../components/contactForm";
+import ImageCarouselHeader from "../components/imageCarouselHeader";
 
 const LayoutStartPage = ({ children, title, description, keywords, url, leadNames, leadTitle, leadUrl, leadImage, slide, menuNames, menuTitle, schemaData }) => {
   const scrollToText = React.useRef(null);
@@ -29,7 +30,12 @@ const LayoutStartPage = ({ children, title, description, keywords, url, leadName
       <Meta title={title} description={description} keywords={keywords} url={url} schemaData={schemaData}/>
       <ParallaxProvider>
         <AppBarWithResponsiveMenu action={executeScrollContact}/>
-        <ParallaxImage imgsrc={slide} height="100vh" action={executeScrollText} menuNames={menuNames} menuTitle={menuTitle} />
+        <Box sx={{ pt: { xs: 8, sm: 8, md: 8, lg: 21 } }}> 
+          <ImageCarouselHeader />
+        </Box>
+
+        
+        {/*<ParallaxImage imgsrc={slide} height="100vh" action={executeScrollText} menuNames={menuNames} menuTitle={menuTitle} />*/}
         <Box ref={scrollToText}></Box>
         {children}
         <Box ref={scrollToContact}></Box>

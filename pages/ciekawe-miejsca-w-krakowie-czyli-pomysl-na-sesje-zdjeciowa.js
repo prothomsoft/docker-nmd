@@ -45,11 +45,11 @@ const BlogPageComponent = () => {
                         'Pomysły na sesję zdjęciową można zaczerpnąć oglądając wpisy na blogach, moim własnym czy też innych fotografów. Sesja ślubna plenerowa, gdzie zrobić, jakie gadźety zabrać, te pytania warto zadać znajomym, którzy dzień ślubu i sesję w wybranym dniu po ślubie mają już za sobą. Jestem pewnien, że sobie bez problemu z tym zadaniem poradzicie. Tymczasem zapraszam do oglądania sesji ślubnej Asi i Szymona, których akumulatory na maksa naładowane energią podczas tygodniowej poślubnej wyprawy pod tureckie palmy napędzają ten blogowy wpis. Ciekawe miejsce na plener ślubny w Krakowie, które możecie zobaczyć w tym wpisie to <a href="http://www.mogilany.info/inicjatwy/dwor-w-mogilanach" target="_blank" rel="nofollow">Park w Mogilanach</a> i <a href="https://wawel.krakow.pl/" target="_blank" rel="nofollow">Zamek Królewski na Wawelu</a>. Cisza i spokój tego miejsca, starannie wypielęgnowana zieleń w konfrontacji z energią Asi i Szymona to gwarancja dobrych zdjęć. Serdecznie zapraszam do oglądania i zachęcam do lajkowania na <a href="https://www.facebook.com/99foto" target="_blank" rel="nofollow noopener noreferrer">Facebook</a> lub <a href="https://www.instagram.com/99foto.pl/" target="_blank" rel="nofollow noopener noreferrer">Insta</a>.'
                     }
                     slug={"ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa"}
-                    title={"CIEKAWE MIEJSCA W KRAKOWIE CZYLI POMYSŁ NA SESJĘ ZDJĘCIOWĄ - JOANNA i SZYMON"}
+                    title={"CIEKAWE MIEJSCA W KRAKOWIE, POMYSŁ NA SESJĘ ZDJĘCIOWĄ - JOANNA i SZYMON"}
                     tags={"pomysł na sesję zdjęciową, ciekawe miejsca w krakowie, zdjęcia pary młodej w plenerze"}
                     date={"19 lipca 2019"}
                     menuNames={"JOANNA i SZYMON"}
-                    menuTitle={"CIEKAWE MIEJSCA W KRAKOWIE CZYLI POMYSŁ NA SESJĘ ZDJĘCIOWĄ"}
+                    menuTitle={"CIEKAWE MIEJSCA W KRAKOWIE, POMYSŁ NA SESJĘ ZDJĘCIOWĄ"}
                     leadNames={"PAULINA i KAMIL"}
                     leadTitle={"REPORTAŻ ŚLUBNY SALA WESELNA BABIE LATO GDÓW, CIEPLUTKO"}
                     leadUrl={"/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko"}
