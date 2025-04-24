@@ -275,30 +275,23 @@ const ContactForm = ({scrollToContact}) => {
             </Typography>
           </Grid>
           <Grid item md={6}>
-            <Box sx={{ p: 1 }}>
-              <Typography variant="subtitle2" align="center" color="text.secondary">
+            <Box sx={{ textAlign: "center", p:  1}}>
+              <Typography variant="subtitle2" align="center" color="text.secondary" sx={{ mb: 2 }}>
                 OBSERWUJ MNIE
               </Typography>
+              <Grid container spacing={0} justifyContent="center" alignItems="center">
+                <Grid item xl={1} sx={{ mx: 0 }}>
+                  <Link href="https://www.instagram.com/99foto.pl" rel="noopener noreferrer" target="_blank">
+                    <Image alt="profil na instagramie" src="/icons/instagram_icon.webp" width={40} height={40} />
+                  </Link>
+                </Grid>
+                <Grid item xl={1} sx={{ mx: 0 }}>
+                  <Link href="https://facebook.com/99foto" rel="noopener noreferrer" target="_blank">
+                    <Image alt="profil na instagramie" src="/icons/facebook_icon.webp" width={39} height={39} />
+                  </Link>
+                </Grid>
+              </Grid>
             </Box>
-            <Grid container spacing={1} justifyContent="center" alignItems="center">
-              <Grid item xl={4} />
-              <Grid item xl={1}>
-                <Link href="https://www.instagram.com/99foto.pl" rel="noopener noreferrer" target="_blank">
-                    <Image alt="profil na instagramie" src={instagram_icon} />
-                </Link>
-              </Grid>
-              <Grid item xl={1}>
-                <Link href="https://facebook.com/99foto" rel="noopener noreferrer" target="_blank">
-                    <Image alt="profil na instagramie" src={facebook_icon} />
-                </Link>
-              </Grid>
-              <Grid item xl={1}>
-                <Link href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="noopener noreferrer" target="_blank">
-                    <Image alt="wesele z klasą" src={wesele_z_klasa} />
-                </Link>
-              </Grid>
-              <Grid item xl={4} />
-            </Grid>
           </Grid>
         </Grid>
       </Box>
