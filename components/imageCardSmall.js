@@ -14,7 +14,7 @@ const ImageCardSmall = ({ linkhref, imgsrc, imgalt, title, names }) => {
             <Image
               src={imgsrc}
               alt={imgalt}
-              layout="fill" // Ensures the image fills the parent container
+              fill
               objectFit="cover" // Ensures the image maintains aspect ratio
               quality={100}
             />
