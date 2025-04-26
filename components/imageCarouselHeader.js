@@ -7,13 +7,13 @@ import Image from "next/image";
 import Box from "@mui/material/Box";
 
 const images = [
-  { src: "/slick/slick2.webp", alt: "Fotograf ślubny Kraków" },
-  { src: "/slick/slick8.webp", alt: "Plener ślubny Kraków" },
-  { src: "/slick/slick5.webp", alt: "Sesja narzeńska w Krakowie" },
-  { src: "/slick/slick14.webp", alt: "Fotograf weselny" },
-  { src: "/slick/slick6.webp", alt: "Sesja zdjęciowa w górach" },
-  { src: "/slick/slick4.webp", alt: "Sesja w Pieninach" },
-  { src: "/slick/slick11.webp", alt: "Reporaż śluby w górach" }
+  { src: "/slick/slick2.webp", alt: "fotograf ślubny Kraków" },
+  { src: "/slick/slick8.webp", alt: "plener ślubny w Krakowie" },
+  { src: "/slick/slick5.webp", alt: "sesja narzeczeńska na Starym Mieście" },
+  { src: "/slick/slick14.webp", alt: "fotografia ślubna małopolska" },
+  { src: "/slick/slick6.webp", alt: "sesja ślubna w górach" },
+  { src: "/slick/slick4.webp", alt: "plener ślubny w Ogrodzie Botanicznym" },
+  { src: "/slick/slick11.webp", alt: "reportaż ślubny bez pozowania" }
 ];
 
 export default function ImageCarouselHeader() {
@@ -90,10 +90,10 @@ export default function ImageCarouselHeader() {
           >
             <Image
               src={image.src}
-              alt={`Image ${index + 1}`}
-              layout="responsive" // Makes the image responsive
+              alt={image.alt} // Passes the alt text dynamically
               width={480} // Set the natural width of the image
               height={600} // Set the natural height of the image
+              style={{ width: "100%", height: "auto" }} // Makes the image responsive
               loading="lazy"
             />
           </Box>

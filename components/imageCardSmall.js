@@ -15,7 +15,7 @@ const ImageCardSmall = ({ linkhref, imgsrc, imgalt, title, names }) => {
               src={imgsrc}
               alt={imgalt}
               fill
-              objectFit="cover" // Ensures the image maintains aspect ratio
+              style={{ objectFit: "cover" }}
               quality={100}
             />
           </CardMedia>

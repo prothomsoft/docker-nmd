@@ -20,8 +20,8 @@ const ImageCard = ({ linkhref, imgsrc, imgalt, title, names }) => {
             <Image
               src={imgsrc}
               alt={imgalt}
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={100}
             />
           </CardMedia>
