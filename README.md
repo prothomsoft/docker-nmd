@@ -10,6 +10,8 @@ To run it locally on mac arm follow steps:
 3. if port is busy You need to run lsof -ti :3000 | xargs kill -9
 
 Other commands: 
+'sudo su'
+'cd docker'
 `docker-compose stop`
 `docker-compose down`
 `docker images`
