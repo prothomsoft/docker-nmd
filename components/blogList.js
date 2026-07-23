@@ -82,6 +82,10 @@ const formatPostDate = (date) => {
   return `${postDate.getDate()} ${months[postDate.getMonth()]} ${postDate.getFullYear()}`;
 };
 
-const formatPostTags = (tags) => tags.slice(0, 5).join(", ");
+const formatPostTags = (tags) => {
+  if (!tags) return "";
+  if (typeof tags === "string") return tags;
+  return tags.slice(0, 5).join(", ");
+};
 
 export default BlogList;

@@ -39,6 +39,7 @@ const BlogPageComponentNew = (props) => {
           entryContentP8={props.entryContentP8}
           entryContentP9={props.entryContentP9}
           title={props.title}
+          names={props.menuNames}
           tags={props.tags}
           date={props.date}
           menuNames={props.menuNames}
