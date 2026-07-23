@@ -25,15 +25,18 @@ const MenuTop = () => {
   return (
     <>
       <Button
-        id="demo-customized-button"
+        id="portfolio-menu-button"
         variant="menuButton"
         onClick={handleClick}
+        aria-haspopup="true"
+        aria-expanded={Boolean(anchorEl)}
+        aria-controls={Boolean(anchorEl) ? "portfolio-menu" : undefined}
         endIcon={<KeyboardArrowDownIcon />}
       >
         PORTFOLIO
       </Button>
       <MuiMenu
-        id="basic-menu"
+        id="portfolio-menu"
         anchorEl={anchorEl}
         open={Boolean(anchorEl)}
         onClose={handleClose}

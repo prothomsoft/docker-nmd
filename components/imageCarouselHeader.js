@@ -85,16 +85,16 @@ export default function ImageCarouselHeader() {
             sx={{
               px: 1,
               mx: 1,
-              "&:focus": { outline: "none" }, // Removes the focus frame
+              "&:focus": { outline: "none" },
             }}
           >
             <Image
               src={image.src}
-              alt={image.alt} // Passes the alt text dynamically
-              width={480} // Set the natural width of the image
-              height={600} // Set the natural height of the image
-              style={{ width: "100%", height: "auto" }} // Makes the image responsive
-              loading="lazy"
+              alt={image.alt}
+              width={480}
+              height={600}
+              style={{ width: "100%", height: "auto" }}
+              priority={index < 3}
             />
           </Box>
         ))}

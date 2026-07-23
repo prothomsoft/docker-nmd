@@ -100,7 +100,7 @@ const AppBarWithResponsiveMenu = (props) => {
       <Slide appear={true} direction="down" in={!triggerScrollDown}>
         <MuiAppBar position="absolute" color="transparent" elevation={0}>
           <Container>
-            <Box sx={{ display: { xs: "none", lg: "flex" } }}>
+            <Box component="nav" aria-label="Nawigacja główna" sx={{ display: { xs: "none", lg: "flex" } }}>
               <Grid container direction="row" alignItems="center">
                 <Grid item lg={5}>
                   <Item>
@@ -182,16 +182,18 @@ const AppBarWithResponsiveMenu = (props) => {
                 </Button>
               </Box>
               <Box
+                component="nav"
+                aria-label="Nawigacja mobilna"
                 sx={{
                   display: { xs: "flex", lg: "none" },
                   justifyContent: "center",
                   alignItems: "center",
-                  position: "relative", // Ensure consistent positioning
+                  position: "relative",
                 }}
               >
-                <ClassicHamburgerMenu onClick={handleOpenNavMenu} />
+                <ClassicHamburgerMenu onClick={handleOpenNavMenu} open={Boolean(anchorElNav)} />
                 <MuiMenu
-                  id="basic-menu"
+                  id="mobile-nav-menu"
                   anchorEl={anchorElNav}
                   open={Boolean(anchorElNav)}
                   onClose={handleCloseNavMenu}
