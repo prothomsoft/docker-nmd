@@ -21,7 +21,7 @@ const PostLink = ({ post }) => (
     </Box>
     <Divider sx={{ pt: 1 }} />
     <Typography variant="subtitle2" color="text.secondary" sx={{ textTransform: "uppercase" }}>
-      {formatPostDate(post.date)} - TAGI: {formatPostTags(post.tags)}
+      TAGI: {formatPostTags(post.tags)}
     </Typography>
     <Divider sx={{ mb: 1 }} />
 

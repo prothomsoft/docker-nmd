@@ -31,7 +31,7 @@ const BlogPage = (props) => {
         color="text.secondary"
         sx={{ textTransform: "uppercase" }}
       >
-        {props.date} - TAGI: {props.tags}
+        TAGI: {props.tags}
       </Typography>
       <Divider sx={{ mb: 1 }} />
 
