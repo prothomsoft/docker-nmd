@@ -1,8 +1,13 @@
 1. [Install Docker](https://docs.docker.com/get-docker/) on your machine.
-1. M1 MAC support for linux/amd64 platform `docker buildx build --platform linux/amd64 -t nextjs-docker-dev . --load`
-1. Run your container: `docker run -p 3000:3000 nextjs-docker-dev`
-1. Save image `docker save -o nextjs-docker-dev.tar nextjs-docker-dev`
-1. Load image `docker load -i nextjs-docker-dev.tar`
+2. M1 MAC support for linux/amd64 platform `docker buildx build --platform linux/amd64 -t nextjs-docker-dev . --load`
+3. Run your container: `docker run -p 3000:3000 nextjs-docker-dev`
+4. Save image `docker save -o nextjs-docker-dev.tar nextjs-docker-dev`
+5. Load image `docker load -i nextjs-docker-dev.tar`
+
+To run it locally on mac arm follow steps:
+1. docker buildx build --platform linux/arm64 -t nextjs-docker-arm . --load
+2. docker run -p 3000:3000 nextjs-docker-arm
+3. if port is busy You need to run lsof -ti :3000 | xargs kill -9
 
 Other commands: 
 `docker-compose stop`
