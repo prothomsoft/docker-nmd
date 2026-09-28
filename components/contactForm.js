@@ -124,18 +124,12 @@ const ContactForm = ({scrollToContact}) => {
       return false;
     }
 
-    var esc = encodeURIComponent;
-    var query = Object.keys(formData)
-      .map((k) => esc(k) + "=" + esc(formData[k]))
-      .join("&");
-
-    var sUrlWithParams = "https://moksir.dynow.pl/mtest.php" + "?" + query;
-    fetch(sUrlWithParams, {
-      method: "GET",
+    fetch("/api/contact", {
+      method: "POST",
       headers: {
-        Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
       },
+      body: JSON.stringify(formData),
     });
 
     setSender("");
